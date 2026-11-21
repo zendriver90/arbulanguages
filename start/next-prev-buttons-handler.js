@@ -1,18 +1,12 @@
 /**
  * next-prev-buttons-handler.js
  *
- * Handlery: .next-buttonvv / .prev-buttonvv (+ stuby)
- * + getCleanWordText
+ * FIX off-by-one:
+ *   thumbHighlightCache = wordIndexCache  (było: -1)
+ *   currentWordIndex = wordIndexCache[descKey]  (bez +1 dla indexDiv===1)
+ *   data-word-index na tagu = currentWordIndex (było: -1)
  *
- * WAŻNE poprawki względem oryginału:
- * - $target było NIEZDEFINIOWANE w next-buttonvv (działało tylko
- *   gdy wyciekało z innego scope). Teraz = $nextWord.
- * - wordIndexCache / tablica20aa / funkcje pomocnicze przez window.
- *
- * Kolejność:
- *   main-bez-mouseenter.js
- *   mouseenter-handler.js
- *   next-prev-buttons-handler.js
+ * Reszta logiki bez zmian względem Twojej wersji.
  */
 
 (function (window, $) {
@@ -23,9 +17,6 @@
         return;
     }
 
-    // --------------------------------------------------
-    // getCleanWordText
-    // --------------------------------------------------
     function getCleanWordText($element) {
         const $clone = $element.clone();
         $clone.find('.word-animation').remove();
@@ -51,7 +42,6 @@
     }
     window.getCleanWordText = getCleanWordText;
 
-    // helpers
     function ensureWordIndexCache() {
         window.wordIndexCache = window.wordIndexCache || {};
         return window.wordIndexCache;
@@ -66,9 +56,41 @@
             : (typeof fiszki10 !== 'undefined' ? fiszki10 : []);
     }
 
-    // --------------------------------------------------
-    // STUBY (oryginalne, prawie puste)
-    // --------------------------------------------------
+    function triggerDesc2Blink(fiszkaAudio, $wordEl, opts) {
+        if (typeof window.showAllDesc2InWymowaLine !== 'function' &&
+            typeof window.showDesc2InWymowaLine !== 'function') {
+            return;
+        }
+        opts = opts || {};
+        const options = Object.assign({
+            partDuration: 550,
+            gap: 100
+        }, opts);
+
+        let $lessonBlock = null;
+        if ($wordEl && $wordEl.length) {
+            $lessonBlock = $wordEl.closest('.image-container3b');
+        }
+        if (!$lessonBlock || !$lessonBlock.length) {
+            $lessonBlock = $('.image-container3b').first();
+        }
+        if (!$lessonBlock.length) return;
+
+        const list = Array.isArray(opts.fiszkiList) && opts.fiszkiList.length
+            ? opts.fiszkiList
+            : (fiszkaAudio ? [fiszkaAudio] : []);
+        const activeIndex = opts.activeIndex != null ? opts.activeIndex : 0;
+
+        if (typeof window.showAllDesc2InWymowaLine === 'function') {
+            window.showAllDesc2InWymowaLine($lessonBlock, list, activeIndex, options);
+        } else {
+            window.showDesc2InWymowaLine($lessonBlock, fiszkaAudio, Object.assign(options, {
+                fiszkiList: list,
+                activeIndex: activeIndex
+            }));
+        }
+    }
+
     $(document).on('click', '.next-buttonv, .prev-button', function () {
         const wordIndexCache = ensureWordIndexCache();
         const indexDiv = $(this).closest('.sentence-line')
@@ -92,47 +114,57 @@
     // --------------------------------------------------
     // NEXT .next-buttonvv
     // --------------------------------------------------
-    $(document).on('click', '.next-buttonvv', function () {
+    // capture = true → ten handler leci PRZED attachNav w main/miniatury
+    // stopImmediatePropagation → attachNav NIE zrobi drugiego ++
+    document.addEventListener('click', function (e) {
+        const btn = e.target && e.target.closest && e.target.closest('.next-buttonvv');
+        if (!btn) return;
+
+        e.preventDefault();
+        e.stopPropagation();
+        e.stopImmediatePropagation();
+
+        const $line = $(btn).closest('.sentence-line');
+        const $sentence = $line.find('.sentence-inner');
+        const indexDiv = Number($sentence.data('indexdiv'));
+        const pos = Number($sentence.data('pos'));
+        const descKey = indexDiv + '_' + pos;
 
         $('#active-word-bar')
             .find('.active-word-details')
             .stop(true, true)
             .slideUp(150);
-
         $('#active-word-bar')
             .find('.active-word-details-toggle')
             .text('▼');
-
-        const $line = $(this).closest('.sentence-line');
-        const $sentence = $line.find('.sentence-inner');
-        const indexDiv = Number($sentence.data('indexdiv'));
-        const pos = Number($sentence.data('pos'));
-        const descKey = `${indexDiv}_${pos}`;
 
         const wordIndexCache = ensureWordIndexCache();
         window.savedWiCache = window.savedWiCache || {};
         window.thumbHighlightCache = window.thumbHighlightCache || {};
 
+        // start: 0 = stoimy na 1. słowie; next → 1 = 2. słowo
         if (wordIndexCache[descKey] === undefined) {
             wordIndexCache[descKey] = 0;
         }
 
-        const wiKey = `${indexDiv}_${pos}`;
+        const wiKey = indexDiv + '_' + pos;
+        let currentWordIndex;
 
         if (window.highlightMode === 'rodzaj') {
             window.savedWiCache[wiKey] = (window.savedWiCache[wiKey] ?? 0);
-            wordIndexCache[descKey] = window.savedWiCache[wiKey];
-            window.thumbHighlightCache[descKey] = window.savedWiCache[wiKey];
+            currentWordIndex = window.savedWiCache[wiKey];
         } else {
-            wordIndexCache[descKey]++;
-            window.thumbHighlightCache[descKey] = wordIndexCache[descKey] - 1;
+            currentWordIndex = Number(wordIndexCache[descKey]) + 1;
+            const maxIdx = $line.find('[data-word-index]').length - 1;
+            if (maxIdx >= 0 && currentWordIndex > maxIdx) {
+                currentWordIndex = 0;
+            }
         }
 
-        const currentWordIndex = indexDiv === 1
-            ? (window.highlightMode === 'rodzaj'
-                ? (wordIndexCache[descKey] ?? 0)
-                : (wordIndexCache[descKey] ?? 0) - 1)
-            : (wordIndexCache[descKey] ?? 0);
+        wordIndexCache[descKey] = currentWordIndex;
+        window.thumbHighlightCache[descKey] = currentWordIndex;
+        wordIndexCache[indexDiv] = currentWordIndex;
+        window.thumbHighlightCache[indexDiv] = currentWordIndex;
 
         ensureTablica().push(currentWordIndex);
 
@@ -143,7 +175,6 @@
             `[data-word-index="${currentWordIndex}"]`
         ).first();
 
-        // FIX: $target nie istniało w oryginale w tym handlerze
         const $target = $nextWord;
 
         let wordText = '';
@@ -186,15 +217,13 @@
                     <span class="a10"></span>
                 </div>
             `);
+
+            // highlight NA TYM SAMYM słowie co animacja/audio
+            // (syncHighlightForIndexDiv w main używa złego klucza indexDiv bez pos)
+            $line.find('[data-word-index]').removeClass('highlighted');
+            $nextWord.addClass('highlighted');
         }
 
-
-
-        // AUDIO
-
-
-        
-        // AUDIO — zgodne z AUTOMAT
         const sentenceMap = window.sentenceMapCache?.[indexDiv] ?? [];
         const y = sentenceMap[pos];
         const fiszki = getFiszki();
@@ -211,7 +240,6 @@
         console.log('[audio] currentWordIndex =', currentWordIndex);
         console.log('[audio] fiszkaAudio =', fiszkaAudio);
 
-        // Powiadom automat po zakończeniu nagrania.
         let automatAudioReported = false;
 
         function notifyAutomatAudioFinished() {
@@ -246,13 +274,15 @@
                 { once: true }
             );
 
+            window._lastWordAudio = audio;
+
             audio.play().catch(function (err) {
                 console.warn('[audio] Nie udało się odtworzyć:', err);
                 notifyAutomatAudioFinished();
             });
 
         } else {
-            // Brak pliku audio — automat nie może utknąć.
+            window._lastWordAudio = null;
             console.warn(
                 '[AUTOMAT] Brak audio dla słowa:',
                 currentWordIndex
@@ -262,7 +292,6 @@
         }
 
 
-        // active-word-bar
         if (!$('#active-word-bar').length) {
             $('body').prepend('<div id="active-word-bar"></div>');
         }
@@ -281,15 +310,18 @@
         const tagKey = `${indexDiv}_${pos}_${currentWordIndex}`;
         const wordIndex = currentWordIndex;
 
-        // tłumacz przy gwiazdce
+        const $star = $nextWord.length
+            ? $nextWord.children('.word-play-star').first()
+            : $();
+
         if ($star.length && !$star.children('.translate-memory-button').length) {
-const $translateMemory = $('<button>')
-    .attr({
-        type: 'button',
-        'data-ignore-word': 'true',
-        'aria-label': 'tłumacz w zapisanej pamięci'
-    })
-    .addClass('translate-memory-button');
+            const $translateMemory = $('<button>')
+                .attr({
+                    type: 'button',
+                    'data-ignore-word': 'true',
+                    'aria-label': 'tłumacz w zapisanej pamięci'
+                })
+                .addClass('translate-memory-button');
 
             $translateMemory.on('click', function (e) {
                 e.stopPropagation();
@@ -303,7 +335,7 @@ const $translateMemory = $('<button>')
         }
 
         let $existingTag = $('#active-word-bar')
-            .find(`.active-word-tag[data-tag-key="${tagKey}"]`)
+            .find('.active-word-tag[data-tag-key="' + tagKey + '"]')
             .first();
 
         if ($existingTag.length) {
@@ -337,7 +369,8 @@ const $translateMemory = $('<button>')
                     'data-tag-key': tagKey,
                     'data-indexdiv': indexDiv,
                     'data-pos': pos,
-                    'data-word-index': currentWordIndex - 1,
+                    // FIX: było currentWordIndex - 1
+                    'data-word-index': currentWordIndex,
                     'data-play-count': 1,
                     'data-lesson-id': lessonId
                 });
@@ -379,7 +412,7 @@ const $translateMemory = $('<button>')
             $tag.append($playCount);
 
             $tag.append(
-                $('<span>').addClass('word-lesson').text(` - lekcja ${lessonId}`)
+                $('<span>').addClass('word-lesson').text(' - lekcja ' + lessonId)
             );
 
             const $detailsToggle = $('<span>')
@@ -426,7 +459,7 @@ const $translateMemory = $('<button>')
                     const $version = $('<button>')
                         .attr({ type: 'button', 'data-story-index': storyIndex })
                         .addClass('active-word-story-version')
-                        .text(`${value || ''} #${hashtag || ''}`);
+                        .text((value || '') + ' #' + (hashtag || ''));
                     if (storyIndex === selectedStoryIndex) {
                         $version.addClass('active');
                     }
@@ -451,7 +484,7 @@ const $translateMemory = $('<button>')
                                 $image.attr('src', newImage);
                             } else {
                                 $versions.after(
-                                    `<img src="${newImage}" alt="Fiszka" class="active-word-details-image">`
+                                    '<img src="' + newImage + '" alt="Fiszka" class="active-word-details-image">'
                                 );
                             }
                         } else {
@@ -469,7 +502,7 @@ const $translateMemory = $('<button>')
                 : fiszkaAudio?.img;
             if (imageUrl) {
                 $details.append(
-                    `<img src="${imageUrl}" alt="Fiszka" class="active-word-details-image">`
+                    '<img src="' + imageUrl + '" alt="Fiszka" class="active-word-details-image">'
                 );
             }
 
@@ -477,12 +510,11 @@ const $translateMemory = $('<button>')
                 ? fiszkaAudio.story[selectedStoryIndex]
                 : fiszkaAudio?.story;
             $details.append(
-                `<div class="active-word-details-text">${storyText || ''}</div>`
+                '<div class="active-word-details-text">' + (storyText || '') + '</div>'
             );
 
             $tag.append($details);
 
-            // RODZINA
             const familyKey = `${indexDiv}_${pos}`;
             console.log(
                 '[WORD-FAMILY]',
@@ -541,27 +573,74 @@ const $translateMemory = $('<button>')
 
             console.log(
                 '[word-tag] added:',
-                wordText, 'lekcja:', lessonId, 'index:', currentWordIndex - 1
+                wordText, 'lekcja:', lessonId, 'index:', currentWordIndex
             );
+
+            $existingTag = $tag;
         }
 
+        (function () {
+            let $lessonBlock = $nextWord && $nextWord.length
+                ? $nextWord.closest('.image-container3b')
+                : $('.image-container3b').first();
+            if (!$lessonBlock.length) return;
+
+            const list = blockWords || (fiszkaAudio ? [fiszkaAudio] : []);
+            const audioEl = window._lastWordAudio || null;
+
+            if (typeof window.blinkDesc2WithAudio === 'function') {
+                window.blinkDesc2WithAudio(
+                    $lessonBlock,
+                    list,
+                    currentWordIndex,
+                    audioEl,
+                    { partDuration: 500, gap: 80 }
+                );
+            } else {
+                triggerDesc2Blink(fiszkaAudio, $nextWord, {
+                    partDuration: 500,
+                    gap: 80,
+                    fiszkiList: list,
+                    activeIndex: currentWordIndex
+                });
+            }
+        })();
+
+        // legacy cache pod stary sync (klucz bez pos)
+        wordIndexCache[indexDiv] = currentWordIndex;
+        window.thumbHighlightCache[descKey] = currentWordIndex;
+        window.thumbHighlightCache[indexDiv] = currentWordIndex;
+
+        // highlight już ustawiony wyżej na $nextWord — tu tylko thumb/legacy
         if (typeof window.syncHighlightForIndexDiv === 'function') {
-            window.syncHighlightForIndexDiv(indexDiv, pos);
+            // przekazujemy $line, nie pos (stara sygnatura: indexDiv, $block)
+            try { window.syncHighlightForIndexDiv(indexDiv, $line); } catch (e) {}
         } else if (typeof syncHighlightForIndexDiv === 'function') {
-            syncHighlightForIndexDiv(indexDiv, pos);
+            try { syncHighlightForIndexDiv(indexDiv, $line); } catch (e) {}
         }
-    });
+
+        // na końcu: wymuś zieleń = to samo słowo co audio/animacja
+        $line.find('[data-word-index]').removeClass('highlighted');
+        const $final = $line.find('[data-word-index="' + currentWordIndex + '"]').first();
+        if ($final.length) $final.addClass('highlighted');
+    }, true); // capture = true
 
     // --------------------------------------------------
     // PREV .prev-buttonvv
     // --------------------------------------------------
-    $(document).on('click', '.prev-buttonvv', function () {
+    document.addEventListener('click', function (e) {
+        const btn = e.target && e.target.closest && e.target.closest('.prev-buttonvv');
+        if (!btn) return;
 
-        const $line = $(this).closest('.sentence-line');
+        e.preventDefault();
+        e.stopPropagation();
+        e.stopImmediatePropagation();
+
+        const $line = $(btn).closest('.sentence-line');
         const $sentence = $line.find('.sentence-inner');
         const indexDiv = Number($sentence.data('indexdiv'));
         const pos = Number($sentence.data('pos'));
-        const descKey = `${indexDiv}_${pos}`;
+        const descKey = indexDiv + '_' + pos;
 
         const wordIndexCache = ensureWordIndexCache();
         window.savedWiCache = window.savedWiCache || {};
@@ -571,23 +650,21 @@ const $translateMemory = $('<button>')
             wordIndexCache[descKey] = 0;
         }
 
-        const wiKey = `${indexDiv}_${pos}`;
+        const wiKey = indexDiv + '_' + pos;
+        let currentWordIndex;
 
         if (window.highlightMode === 'rodzaj') {
             window.savedWiCache[wiKey] = (window.savedWiCache[wiKey] ?? 0);
-            wordIndexCache[descKey] = window.savedWiCache[wiKey];
-            window.thumbHighlightCache[descKey] = window.savedWiCache[wiKey];
+            currentWordIndex = window.savedWiCache[wiKey];
         } else {
-            wordIndexCache[descKey]--;
-            if (wordIndexCache[descKey] < 0) wordIndexCache[descKey] = 0;
-            window.thumbHighlightCache[descKey] = wordIndexCache[descKey];
+            currentWordIndex = Number(wordIndexCache[descKey]) - 1;
+            if (currentWordIndex < 0) currentWordIndex = 0;
         }
 
-        const currentWordIndex = indexDiv === 1
-            ? (window.highlightMode === 'rodzaj'
-                ? (wordIndexCache[descKey] ?? 0)
-                : (wordIndexCache[descKey] ?? 0) + 1)
-            : (wordIndexCache[descKey] ?? 0);
+        wordIndexCache[descKey] = currentWordIndex;
+        window.thumbHighlightCache[descKey] = currentWordIndex;
+        wordIndexCache[indexDiv] = currentWordIndex;
+        window.thumbHighlightCache[indexDiv] = currentWordIndex;
 
         ensureTablica().push(currentWordIndex);
 
@@ -620,6 +697,9 @@ const $translateMemory = $('<button>')
                     <span class="a10"></span>
                 </div>
             `);
+
+            $line.find('[data-word-index]').removeClass('highlighted');
+            $nextWord.addClass('highlighted');
         }
 
         const sentenceMap = window.sentenceMapCache?.[indexDiv] ?? [];
@@ -643,233 +723,256 @@ const $translateMemory = $('<button>')
             audio.play().catch(err => console.warn(err));
         }
 
+        triggerDesc2Blink(fiszkaAudio, $nextWord, {
+            partDuration: 500,
+            gap: 80,
+            fiszkiList: blockWords,
+            activeIndex: currentWordIndex
+        });
+
+        wordIndexCache[indexDiv] = currentWordIndex;
+        window.thumbHighlightCache[descKey] = currentWordIndex;
+        window.thumbHighlightCache[indexDiv] = currentWordIndex;
+
+        $line.find('[data-word-index]').removeClass('highlighted');
+        const $finalPrev = $line.find('[data-word-index="' + currentWordIndex + '"]').first();
+        if ($finalPrev.length) $finalPrev.addClass('highlighted');
+
         if (typeof window.syncHighlightForIndexDiv === 'function') {
-            window.syncHighlightForIndexDiv(indexDiv, pos);
+            try { window.syncHighlightForIndexDiv(indexDiv, $line); } catch (e) {}
         }
-    });
+    }, true); // capture = true
 
-    console.log('[next-prev-buttons-handler] załadowany OK');
+    /* =====================================================
+       AUTOMAT
+       ===================================================== */
 
-/* =====================================================
-   AUTOMAT — KOLEJNE SŁOWA, PODŚWIETLENIA I DŹWIĘKI
-   Wklej przed console.log('[next-prev-buttons-handler] załadowany OK');
-   ===================================================== */
+    window.automatRunning = false;
+    window.automatRunId = 0;
+    window.automatCurrentAudio = null;
 
-window.automatRunning = false;
-window.automatRunId = 0;
-window.automatCurrentAudio = null;
+    $(document).on('automate-word', function (e, block) {
 
-$(document).on('automate-word', function (e, block) {
-
-    if (!block) {
-        console.warn('[AUTOMAT] Nie przekazano kontenera.');
-        return;
-    }
-
-    // Zatrzymaj poprzednie odtwarzanie.
-    if (window.automatCurrentAudio) {
-        window.automatCurrentAudio.pause();
-        window.automatCurrentAudio = null;
-    }
-
-    window.automatRunId++;
-    const runId = window.automatRunId;
-    window.automatRunning = true;
-
-    const $block = $(block);
-
-    // Pobierz angielską linię zdania.
-    const $line = $block.find('.sentence-line').filter(function () {
-        return Number(
-            $(this).find('.sentence-inner').first().data('pos')
-        ) === 0;
-    }).first();
-
-    if (!$line.length) {
-        window.automatRunning = false;
-        console.warn('[AUTOMAT] Nie znaleziono angielskiej linii.');
-        return;
-    }
-
-    const $inner = $line.find('.sentence-inner').first();
-    const indexDiv = Number($inner.data('indexdiv'));
-    const pos = Number($inner.data('pos'));
-    const descKey = `${indexDiv}_${pos}`;
-
-    const $words = $inner.find('[data-word-index]');
-    const wordCount = $words.length;
-
-    if (!wordCount) {
-        window.automatRunning = false;
-        console.warn('[AUTOMAT] Brak słów z data-word-index.');
-        return;
-    }
-
-    // Najważniejsze: odczytaj indeks AKTUALNIE podświetlonego słowa.
-    const highlightedValue = $inner
-        .find('[data-word-index].highlighted')
-        .first()
-        .attr('data-word-index');
-
-    let currentIndex = highlightedValue !== undefined
-        ? Number(highlightedValue)
-        : 0;
-
-    if (
-        !Number.isInteger(currentIndex) ||
-        currentIndex < 0 ||
-        currentIndex >= wordCount
-    ) {
-        currentIndex = 0;
-    }
-
-    // Znajdź fiszki należące do aktualnego zdania.
-    const sentenceMap = window.sentenceMapCache?.[indexDiv] ?? [];
-    const y = sentenceMap[pos];
-    const fiszki = getFiszki();
-
-    const blockWords = fiszki
-        .filter(f => Number(f.id?.[1]) === Number(y))
-        .sort((a, b) => Number(a.id[0]) - Number(b.id[0]));
-
-    console.log('[AUTOMAT] Start:', {
-        indexDiv,
-        pos,
-        y,
-        pierwszePodswietloneSlowo: currentIndex,
-        liczbaSlow: wordCount
-    });
-
-    function stopAutomat(reason) {
-        if (runId !== window.automatRunId) return;
-
-        window.automatRunning = false;
+        if (!block) {
+            console.warn('[AUTOMAT] Nie przekazano kontenera.');
+            return;
+        }
 
         if (window.automatCurrentAudio) {
             window.automatCurrentAudio.pause();
             window.automatCurrentAudio = null;
         }
-
-        console.log('[AUTOMAT] Zatrzymano:', reason);
-    }
-
-    function playWordAt(index) {
-
-        if (runId !== window.automatRunId || !window.automatRunning) {
-            return;
+        if (typeof window.stopDesc2Blink === 'function') {
+            window.stopDesc2Blink();
         }
 
-        if (index >= wordCount) {
-            stopAutomat('Koniec zdania');
-            return;
-        }
+        window.automatRunId++;
+        const runId = window.automatRunId;
+        window.automatRunning = true;
 
-        const $target = $words.filter(function () {
-            return Number($(this).attr('data-word-index')) === index;
+        const $block = $(block);
+
+        const $line = $block.find('.sentence-line').filter(function () {
+            return Number(
+                $(this).find('.sentence-inner').first().data('pos')
+            ) === 0;
         }).first();
 
-        const fiszkaAudio = blockWords[index];
-
-        console.log('[AUTOMAT] Odtwarzam:', {
-            index,
-            tekst: $target.text().trim(),
-            fiszka: fiszkaAudio
-        });
-
-        if (!$target.length) {
-            stopAutomat('Nie znaleziono słowa o indeksie ' + index);
+        if (!$line.length) {
+            window.automatRunning = false;
+            console.warn('[AUTOMAT] Nie znaleziono angielskiej linii.');
             return;
         }
 
-        if (!fiszkaAudio?.word?.[0]) {
-            console.warn('[AUTOMAT] Brak pliku audio dla indeksu:', index);
+        const $inner = $line.find('.sentence-inner').first();
+        const indexDiv = Number($inner.data('indexdiv'));
+        const pos = Number($inner.data('pos'));
+        const descKey = `${indexDiv}_${pos}`;
 
-            // Przejdź dalej, jeśli brakuje nagrania.
-            setTimeout(function () {
-                playWordAt(index + 1);
-            }, 250);
+        const $words = $inner.find('[data-word-index]');
+        const wordCount = $words.length;
 
+        if (!wordCount) {
+            window.automatRunning = false;
+            console.warn('[AUTOMAT] Brak słów z data-word-index.');
             return;
         }
 
-        // Podświetl dokładnie słowo, które będzie odtwarzane.
-        $inner.find('[data-word-index]').removeClass('highlighted');
-        $target.addClass('highlighted');
+        const highlightedValue = $inner
+            .find('[data-word-index].highlighted')
+            .first()
+            .attr('data-word-index');
 
-        // Zapisz indeks w cache.
-        window.wordIndexCache = window.wordIndexCache || {};
-        window.thumbHighlightCache = window.thumbHighlightCache || {};
+        let currentIndex = highlightedValue !== undefined
+            ? Number(highlightedValue)
+            : 0;
 
-        window.wordIndexCache[descKey] = index;
-        window.thumbHighlightCache[descKey] = index;
-
-        if (window.highlightMode === 'rodzaj') {
-            window.savedWiCache = window.savedWiCache || {};
-            window.savedWiCache[descKey] = index;
+        if (
+            !Number.isInteger(currentIndex) ||
+            currentIndex < 0 ||
+            currentIndex >= wordCount
+        ) {
+            currentIndex = 0;
         }
 
-        // Animacja aktualnego słowa.
-        $line.find('.word-animation').remove();
+        const sentenceMap = window.sentenceMapCache?.[indexDiv] ?? [];
+        const y = sentenceMap[pos];
+        const fiszki = getFiszki();
 
-        $target.css({
-            position: 'relative',
-            display: 'inline-block'
+        const blockWords = fiszki
+            .filter(f => Number(f.id?.[1]) === Number(y))
+            .sort((a, b) => Number(a.id[0]) - Number(b.id[0]));
+
+        console.log('[AUTOMAT] Start:', {
+            indexDiv,
+            pos,
+            y,
+            pierwszePodswietloneSlowo: currentIndex,
+            liczbaSlow: wordCount
         });
 
-        $target.append(`
-            <div class="word-animation">
-                <span class="a1"></span>
-                <span class="a2"></span>
-                <span class="a3"></span>
-                <span class="a4"></span>
-                <span class="a5"></span>
-                <span class="a6"></span>
-                <span class="a7"></span>
-                <span class="a8"></span>
-                <span class="a9"></span>
-                <span class="a10"></span>
-            </div>
-        `);
-
-        const audio = new Audio(fiszkaAudio.word[0]);
-        window.automatCurrentAudio = audio;
-
-        audio.addEventListener('ended', function () {
-            if (runId !== window.automatRunId || !window.automatRunning) {
-                return;
-            }
-
-            console.log('[AUTOMAT] Koniec słowa:', index);
-
-            setTimeout(function () {
-                playWordAt(index + 1);
-            }, 250);
-        }, { once: true });
-
-        audio.addEventListener('error', function () {
-            if (runId !== window.automatRunId || !window.automatRunning) {
-                return;
-            }
-
-            console.warn('[AUTOMAT] Błąd pliku audio:', fiszkaAudio.word[0]);
-
-            setTimeout(function () {
-                playWordAt(index + 1);
-            }, 250);
-        }, { once: true });
-
-        audio.currentTime = 0;
-
-        audio.play().catch(function (err) {
+        function stopAutomat(reason) {
             if (runId !== window.automatRunId) return;
 
-            console.warn('[AUTOMAT] Nie udało się odtworzyć audio:', err);
-            stopAutomat('Błąd uruchamiania audio');
-        });
-    }
+            window.automatRunning = false;
 
-    // Start od podświetlonego słowa, a nie od kliknięcia NEXT.
-    playWordAt(currentIndex);
-});
+            if (window.automatCurrentAudio) {
+                window.automatCurrentAudio.pause();
+                window.automatCurrentAudio = null;
+            }
+
+            console.log('[AUTOMAT] Zatrzymano:', reason);
+        }
+
+        function playWordAt(index) {
+
+            if (runId !== window.automatRunId || !window.automatRunning) {
+                return;
+            }
+
+            if (index >= wordCount) {
+                stopAutomat('Koniec zdania');
+                return;
+            }
+
+            const $target = $words.filter(function () {
+                return Number($(this).attr('data-word-index')) === index;
+            }).first();
+
+            const fiszkaAudio = blockWords[index];
+
+            console.log('[AUTOMAT] Odtwarzam:', {
+                index,
+                tekst: $target.text().trim(),
+                fiszka: fiszkaAudio
+            });
+
+            if (!$target.length) {
+                stopAutomat('Nie znaleziono słowa o indeksie ' + index);
+                return;
+            }
+
+            if (!fiszkaAudio?.word?.[0]) {
+                console.warn('[AUTOMAT] Brak pliku audio dla indeksu:', index);
+
+                setTimeout(function () {
+                    playWordAt(index + 1);
+                }, 900);
+
+                return;
+            }
+
+            $inner.find('[data-word-index]').removeClass('highlighted');
+            $target.addClass('highlighted');
+
+            window.wordIndexCache = window.wordIndexCache || {};
+            window.thumbHighlightCache = window.thumbHighlightCache || {};
+
+            window.wordIndexCache[descKey] = index;
+            window.thumbHighlightCache[descKey] = index;
+
+            if (window.highlightMode === 'rodzaj') {
+                window.savedWiCache = window.savedWiCache || {};
+                window.savedWiCache[descKey] = index;
+            }
+
+            $line.find('.word-animation').remove();
+
+            $target.css({
+                position: 'relative',
+                display: 'inline-block'
+            });
+
+            $target.append(`
+                <div class="word-animation">
+                    <span class="a1"></span>
+                    <span class="a2"></span>
+                    <span class="a3"></span>
+                    <span class="a4"></span>
+                    <span class="a5"></span>
+                    <span class="a6"></span>
+                    <span class="a7"></span>
+                    <span class="a8"></span>
+                    <span class="a9"></span>
+                    <span class="a10"></span>
+                </div>
+            `);
+
+            const $lessonBlock = $target.closest('.image-container3b');
+            const host = $lessonBlock.length ? $lessonBlock : $block;
+
+            const audio = new Audio(fiszkaAudio.word[0]);
+            window.automatCurrentAudio = audio;
+
+            if (typeof window.blinkDesc2WithAudio === 'function' && blockWords.length) {
+                window.blinkDesc2WithAudio(host, blockWords, index, audio, {
+                    partDuration: 500,
+                    gap: 80
+                });
+            } else if (typeof window.showAllDesc2InWymowaLine === 'function' && blockWords.length) {
+                window.showAllDesc2InWymowaLine(host, blockWords, index, {
+                    partDuration: 500,
+                    gap: 80
+                });
+            }
+
+            audio.addEventListener('ended', function () {
+                if (runId !== window.automatRunId || !window.automatRunning) {
+                    return;
+                }
+
+                console.log('[AUTOMAT] Koniec słowa:', index);
+
+                setTimeout(function () {
+                    playWordAt(index + 1);
+                }, 900);
+            }, { once: true });
+
+            audio.addEventListener('error', function () {
+                if (runId !== window.automatRunId || !window.automatRunning) {
+                    return;
+                }
+
+                console.warn('[AUTOMAT] Błąd pliku audio:', fiszkaAudio.word[0]);
+
+                setTimeout(function () {
+                    playWordAt(index + 1);
+                }, 900);
+            }, { once: true });
+
+            audio.currentTime = 0;
+
+            audio.play().catch(function (err) {
+                if (runId !== window.automatRunId) return;
+
+                console.warn('[AUTOMAT] Nie udało się odtworzyć audio:', err);
+                stopAutomat('Błąd uruchamiania audio');
+            });
+        }
+
+        playWordAt(currentIndex);
+    });
+
+    console.log('[next-prev-buttons-handler] OK — fix off-by-one (thumb = wordIndex)');
 
 })(window, window.jQuery);

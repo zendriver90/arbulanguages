@@ -5188,27 +5188,42 @@ console.log(
 // =====================================
 // POLICZ SŁOWA W WYLOSOWANYCH LEKCJACH
 // =====================================
+// =====================================
+// POLICZ UNIKALNE SŁOWA W WYLOSOWANYCH LEKCJACH
+// =====================================
 
-const selectedLessonIds = [];
+const selectedLessonIds = new Set();
 
 selectedGroups.forEach(group => {
-    selectedLessonIds.push(group.lessonId1);
-    selectedLessonIds.push(group.lessonId2);
-    selectedLessonIds.push(group.lessonId3);
+    selectedLessonIds.add(String(group.lessonId1));
+    selectedLessonIds.add(String(group.lessonId2));
+    selectedLessonIds.add(String(group.lessonId3));
 });
 
-const randomizedWordsCount = fiszki.filter(fiszka => {
-    if (!fiszka.id || !Array.isArray(fiszka.id)) {
-        return false;
+// Pobieramy fiszki tylko z wylosowanych lekcji
+const filteredRandomized = fiszki10.filter(f => {
+
+    return f.id &&
+           selectedLessonIds.has(String(f.id[1]));
+});
+
+// Liczymy unikalne słowa dokładnie według fiszka.key
+const randomizedUniqueWords = new Set();
+
+filteredRandomized.forEach(f => {
+
+    if (f.key) {
+        randomizedUniqueWords.add(f.key);
     }
 
-    const lessonId = fiszka.id[1];
+});
 
-    return selectedLessonIds.some(id => String(id) === String(lessonId));
-}).length;
+const randomizedWordsCount = randomizedUniqueWords.size;
 
-console.log('Wylosowane lekcje:', selectedLessonIds);
-console.log('Liczba wylosowanych słów:', randomizedWordsCount);
+console.log('Wylosowane lekcje:', [...selectedLessonIds]);
+console.log('Liczba fiszek:', filteredRandomized.length);
+console.log('Unikalne słowa:', [...randomizedUniqueWords]);
+console.log('Liczba unikalnych słów:', randomizedWordsCount);
 
 $('.rodzaj-button[data-rodzaj="wylosowany"] span').text(
     `Wylosowane zdania (${randomizedWordsCount} słów)`
@@ -5656,59 +5671,176 @@ setTimeout(() => {
                         }
                     }
                 }
-                const viewedLessons = new Set();
-function updateVisibleLessons() {
+window.randomVisibleContainerCount = 0;
+window.randomCountedWords = 0;
 
-    $('.image-container3b').each(function () {
+function updateRandomVisibleLessons() {
+
+    console.log('');
+    console.log('========================================');
+    console.log('🚀 START updateRandomVisibleLessons()');
+    console.log('========================================');
+
+    const containers = $('.grid-container .image-container3b');
+
+    console.log('📦 Łączna liczba kontenerów:', containers.length);
+
+    let maxVisibleIndex = -1;
+
+    // 1. Wykrywanie widocznych kontenerów
+    containers.each(function (index) {
 
         const rect = this.getBoundingClientRect();
 
-        const isVisibleInViewport =
+        const isVisible =
             rect.bottom > 0 &&
             rect.top < window.innerHeight &&
             rect.width > 0 &&
             rect.height > 0;
 
-        if (!isVisibleInViewport) return;
-
         const lesson = Number($(this).attr('data-lesson'));
 
-        if (!isNaN(lesson)) {
-            viewedLessons.add(lesson);
+        console.log(
+            `👁️ Kontener ${index + 1}`,
+            '| data-lesson:', lesson,
+            '| top:', Math.round(rect.top),
+            '| bottom:', Math.round(rect.bottom),
+            '| widoczny:', isVisible
+        );
+
+        if (isVisible) {
+            maxVisibleIndex = Math.max(maxVisibleIndex, index);
         }
     });
 
-    const visibleLessonsArr = Array.from(viewedLessons);
+    console.log('🔎 Ostatni widoczny indeks:', maxVisibleIndex);
 
-    if (visibleLessonsArr.length === 0) return;
+    if (maxVisibleIndex === -1) {
+        console.warn('⚠️ Nie znaleziono widocznych kontenerów');
+        return;
+    }
 
-    const lastLesson = visibleLessonsArr[visibleLessonsArr.length - 1];
+    // 2. Ustalanie zakresu po 4 kontenery
+    const visibleCount = maxVisibleIndex + 1;
 
-    const endY = lastLesson * 3;
+    const reachedCount = Math.min(
+        Math.ceil(visibleCount / 4) * 4,
+        containers.length
+    );
 
-    const lessonFiszki = fiszki10.filter(f => {
-        const y = f.id[1];
-        return y <= endY;
-    });
+    console.log('📊 Aktualna liczba osiągniętych kontenerów:', visibleCount);
+    console.log('📊 Zakres po zaokrągleniu do czwórki:', reachedCount);
+    console.log('📊 Poprzedni zakres:', window.randomVisibleContainerCount);
 
-    // 🔥 KLUCZOWA CZĘŚĆ
-    const uniqueWords = getUniqueWordArray(lessonFiszki);
-    const x = uniqueWords.length;
+    window.randomVisibleContainerCount = Math.max(
+        window.randomVisibleContainerCount,
+        reachedCount
+    );
 
-    console.log('hej33 x =', x);
+    const countedCount = window.randomVisibleContainerCount;
 
-    $('#wordCounter').text(x);
+    console.log('🎯 OSTATECZNY ZAKRES LICZENIA:', countedCount);
+
+    // 3. Liczenie słówek w każdej czwórce
+    let allFiszki = [];
+
+    for (let start = 0; start < countedCount; start += 4) {
+
+        const end = Math.min(start + 4, countedCount);
+
+        console.log('');
+        console.log('----------------------------------------');
+        console.log(`📚 LICZENIE GRUPY ${start + 1}-${end}`);
+        console.log('----------------------------------------');
+
+        const batchLessons = [];
+
+        for (let i = start; i < end; i++) {
+
+            const lesson = Number(
+                $(containers[i]).attr('data-lesson')
+            );
+
+            batchLessons.push(lesson);
+        }
+
+        console.log('📦 Lekcje w tej grupie:', batchLessons);
+
+        // Zakres numerów lekcji
+        const lessonNumbers = batchLessons.filter(Number.isFinite);
+
+        if (lessonNumbers.length !== batchLessons.length ||
+            lessonNumbers.length === 0) {
+
+            console.warn('⚠️ Nieprawidłowe numery lekcji:', batchLessons);
+            continue;
+        }
+
+        // WAŻNE: wybieramy konkretne lekcje,
+        // a nie wszystkie lekcje pomiędzy nimi.
+        const batchFiszki = fiszki10.filter(f => {
+
+            const y = Number(f.id[1]);
+            const lessonNumber = Math.ceil(y / 3);
+
+            return batchLessons.includes(lessonNumber);
+        });
+
+        console.log('🔢 Liczba pobranych fiszek:', batchFiszki.length);
+
+        console.log(
+            '🔢 Numery y pobranych fiszek:',
+            [...new Set(batchFiszki.map(f => f.id[1]))]
+        );
+
+        const batchUniqueWords = getUniqueWordArray(batchFiszki);
+
+        console.log('🟢 UNIKALNE SŁÓWKA W TEJ CZWÓRCE:', batchUniqueWords.length);
+        console.log('📝 Słówka:', batchUniqueWords);
+
+        allFiszki = allFiszki.concat(batchFiszki);
+    }
+
+    // 4. Łączna liczba unikalnych słówek
+    const uniqueWords = getUniqueWordArray(allFiszki);
+
+    window.randomCountedWords = uniqueWords.length;
+
+    console.log('');
+    console.log('========================================');
+    console.log('🏆 PODSUMOWANIE LICZNIKA');
+    console.log('========================================');
+    console.log('📦 Liczba kontenerów objętych liczeniem:', countedCount);
+    console.log('📝 Łączna liczba pobranych fiszek:', allFiszki.length);
+    console.log('🎯 ŁĄCZNA LICZBA UNIKALNYCH SŁÓWEK:', window.randomCountedWords);
+    console.log('========================================');
+
+    // 5. Aktualizacja HTML
+    $('#wordCounter').text(window.randomCountedWords);
+
+    console.log('✅ Zaktualizowano #wordCounter:', $('#wordCounter').text());
 }
-                        $(window).on('scroll', function () {
-    updateVisibleLessons();
+
+
+// Obsługa przewijania
+$(window).on('scroll', function () {
+
+    if (idpolski === 'losowyuklad') {
+        updateRandomVisibleLessons();
+    }
+
 });
-updateVisibleLessons();
+
+// Pierwsze uruchomienie
+if (idpolski === 'losowyuklad') {
+    updateRandomVisibleLessons();
+}
             }
 
             </script>
 <script src="start/miniatury-prezentacja.js"></script>
 <script src="start/mouseenter-handler.js"></script>
-<script src="start/next-prev-buttons-handler.js"></script>
+<script src="next-prev-buttons-handler2.js"></script>
                                 <script src="displayx3.js"></script>
                                     <script src="nowydzialajacy.js"></script>
         <script src="displayx1.js"></script>

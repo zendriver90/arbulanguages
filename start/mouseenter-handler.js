@@ -44,7 +44,11 @@
 
         const $block = $(this);
 
-
+console.log('MOUSEENTER DZIAŁA:', {
+    id: $block.attr('data-id'),
+    klasa: $block.attr('class'),
+    idpolski: window.idpolski || 'brak'
+});
         // =====================================
         // TEN KONTENER ZOSTAŁ JUŻ NAJECHANY
         // =====================================
@@ -644,7 +648,7 @@
                         type: 'button'
                     })
                     .addClass('active-word-translate-button')
-                    .text('TŁUMACZ');
+                    .text('TRANSLATE');
 
 
 
@@ -2134,6 +2138,7 @@ if (typeof window.addAutomatButtonsAfterThreeTags === 'function') {
 
 
             audio.currentTime = 0;
+            window._lastWordAudio = audio;
 
 
             audio.play()
@@ -2147,6 +2152,43 @@ if (typeof window.addAutomatButtonsAfterThreeTags === 'function') {
                     }
                 );
         }
+
+
+        // =====================================
+        // DESC2: tylko <u><b> na zielono, kolejno przy audio
+        // =====================================
+        (function runDesc2Blink() {
+            let $lessonBlock = null;
+            if (typeof $target !== 'undefined' && $target && $target.length) {
+                $lessonBlock = $target.closest('.image-container3b');
+            }
+            if (!$lessonBlock || !$lessonBlock.length) {
+                $lessonBlock = $('.image-container3b[data-lesson="' + indexDiv + '"]').first();
+            }
+            if (!$lessonBlock.length) {
+                $lessonBlock = $('.image-container3b').first();
+            }
+            if (!$lessonBlock.length) return;
+
+            const list = (typeof blockWords !== 'undefined' && Array.isArray(blockWords) && blockWords.length)
+                ? blockWords
+                : (fiszkaAudio ? [fiszkaAudio] : []);
+
+            const activeIdx = (typeof audioIndex !== 'undefined')
+                ? audioIndex
+                : (typeof currentWordIndex !== 'undefined'
+                    ? Math.max(0, currentWordIndex - 1)
+                    : 0);
+
+            const audioEl = window._lastWordAudio || null;
+            const opts = { partDuration: 500, gap: 80 };
+
+            if (typeof window.blinkDesc2WithAudio === 'function') {
+                window.blinkDesc2WithAudio($lessonBlock, list, activeIdx, audioEl, opts);
+            } else if (typeof window.showAllDesc2InWymowaLine === 'function') {
+                window.showAllDesc2InWymowaLine($lessonBlock, list, activeIdx, opts);
+            }
+        })();
 
 
         // =====================================
@@ -2186,3 +2228,35 @@ if (typeof window.addAutomatButtonsAfterThreeTags === 'function') {
     console.log('[mouseenter-handler] załadowany');
 
 })(window, window.jQuery);
+window.copyGeneratedButtonsToSocialView = function () {
+
+    const $source = $('.image-container3b').filter(function () {
+        return $(this).find(
+            '.start-word-button, .repeat-word-button, .automat-word-button'
+        ).length > 0;
+    });
+
+    const $target = $('.image-container3b');
+
+    $target.each(function (index) {
+
+        const $targetBlock = $(this);
+
+        if ($targetBlock.find(
+            '.start-word-button, .repeat-word-button, .automat-word-button'
+        ).length > 0) {
+            return;
+        }
+
+        const $sourceBlock = $source.eq(index);
+
+        if (!$sourceBlock.length) return;
+
+        $sourceBlock.find(
+            '.start-word-button, .repeat-word-button, .automat-word-button'
+        ).each(function () {
+            $targetBlock.append($(this).clone(true, true));
+        });
+
+    });
+};

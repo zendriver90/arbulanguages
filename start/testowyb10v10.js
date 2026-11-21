@@ -1,58 +1,16 @@
 fiszki10.push(
-{
+
+                                               {
         id: [
             900,
-            159,
-            260
-        ],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
-                "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
-                "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
-                "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
-                "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
-        ],
-                                                                                        word: [
-            "http://localhost/arbulanguage.com/voice/angielski/lekcja121/he.mp3"
-        ],
-        translate: "",
-        translateb: "[]",
-        translateb2: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja/.mp4", ""],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja/.png",
-        story: [
-                'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego',
-                'Samiec czyli <u><b>on</u></b> - <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>popotam',
-                '<u><b>On</b></u> - <span class="adannotation" data-annotation="1"><u><b>Hi</b></u></span>eronim odleciał balonem',
-                'Ma<span class="adannotation" data-annotation="1"><u><b>chi</u></b></span>nę do tortur wymyślił <u><b>on</u></b> - jest <span class="adannotation" data-annotation="1"><u><b>Hi</u></b></span>ndusem',
-                '<u><b>On</u></b> je ciastka <span class="adannotation" data-annotation="1"><u><b>hi</u></b></span>ty'
-        ],
-        desc: "he[hi] - on",
-        sentence1: [
-            "He"
-        ],
-                                                                sentence1b: [
-            "On"
-        ],
-                            sentence1c: [
-            "hi"
-        ],
-        sentence: [
-            "He",
-            "accidentally"
-        ],
-        key: "he",
-        category2: ["osoby"],
-        category3: ["PastPerfect"]
-    },
-                                                                                                                                                                                                                    {
-        id: [
-            901,
             159,
             252
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/800a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/900a.jpg"
+        ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja159/accidentally.mp3"
         ],
         story: [
             "Przypadkowo naukowcy zmienili <u><b>aks</u></b>jomat (czyli dane wejściowe) <u><b>i</u></b> odkryli nowy środek antybakteryjny dla <u><b>dent</u></b>ystów i już <u><b>li</u></b>czą zyski"
@@ -77,12 +35,15 @@ fiszki10.push(
     },
                                                                                                                                                                                                                         {
         id: [
-            902,
+            901,
             159,
             252
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/800a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/901a.jpg"
+        ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja159/broke.mp3"
         ],
         story: [
             "Pułkownik z <u><b>bro</u></b>dą tak długo zawieszał czapkę na k<u><b>ołk</u></b>u aż zepsuł wieszak"
@@ -109,16 +70,16 @@ fiszki10.push(
     },
                                                                                                                                                                                                                         {
         id: [
-            903,
+            902,
             159,
             252
         ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/5a.jpg",
-                "https://www.arbulang.com/img/fiszki1/5b.jpg",
-                "https://www.arbulang.com/img/fiszki1/5c.jpg",
-                "https://www.arbulang.com/img/fiszki1/5d.jpg",
-                "https://www.arbulang.com/img/fiszki1/5e.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg"
         ],
                                                     word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja91/the.mp3"
@@ -152,12 +113,15 @@ fiszki10.push(
     },
                                                                                                                                                                                                                         {
         id: [
-            904,
+            903,
             159,
             252
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/904a.jpg"
+        ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja159/coffe.mp3"
         ],
         story: [
             "KOGNATY - COFFE (ENG - KOFI) - KAWA (PL)"
@@ -184,12 +148,15 @@ fiszki10.push(
     },
                                                                                                                                                                                                                             {
         id: [
-            905,
+            904,
             159,
             252
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/905a.jpg"
+        ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja159/machine.mp3"
         ],
         story: [
             "KOGNATY - MACHINE (MASZIN) - MASZYNA"
@@ -216,7 +183,7 @@ fiszki10.push(
     },
     {
         id: [
-            906,
+            905,
             160,
             260
         ],
@@ -233,8 +200,8 @@ fiszki10.push(
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja/.mp4", ""],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja/.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja54/laptop.mp4", "Jestem Bogiem (2011)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja54/laptop.png",
         story: [
                 'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego',
                 'Samiec czyli <u><b>on</u></b> - <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>popotam',
@@ -262,12 +229,15 @@ fiszki10.push(
     },
                                                                                                                                                                                                                                 {
         id: [
-            907,
+            906,
             160,
             252
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/800a.jpg"
+        ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja160/forgot.mp3"
         ],
         story: [
             "Dałem mu <u><b>for</u></b>y na treningu ale zapomniałem mu wyjaśnić skąd tak wielka moja <u><b>got</u></b>owaść do wysiłku"
@@ -292,12 +262,15 @@ fiszki10.push(
     },
                                                                                                                                                                                                                                     {
         id: [
-            908,
+            907,
             160,
             252
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/800a.jpg"
+        ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja160/tocharge.mp3"
         ],
         story: [
             "Ładuje telefon i nie mogę naładować. Wtedy <u><b>tu<u><b> <u><b>czar</u></b>uje bo jestem elektrykiem i mam urządzenie które mierzy napięcie w <u><b>dż</u></b>ulach"
@@ -323,7 +296,7 @@ fiszki10.push(
     },
                                                                                                                                                                                                                                     {
         id: [
-            909,
+            908,
             160,
             252
         ],
@@ -361,12 +334,15 @@ fiszki10.push(
     },
                                                                                                                                                                                                                                     {
         id: [
-            910,
+            909,
             160,
             252
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/800a.jpg"
+        ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja160/laptop.mp3"
         ],
         story: [
             "KOGNATY - LAPTOP (ENG - LAPTOP) - LAPTOP (PL)"
@@ -392,12 +368,12 @@ fiszki10.push(
     },
         {
         id: [
-            911,
+            910,
             161,
             260
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/131a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/131a.jpg"
         ],
                                                                                                                                         word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja112/we.mp3"
@@ -405,8 +381,8 @@ fiszki10.push(
         translate: "Dzielimy się jedzeniem z naszymi przyjaciółmi",
         translateb: "[Łi szer fud wiz aur friends]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/lekcja38/eats.mp4", "Szybcy i Wściekli 6 (2013)"],
-        srcWordimage: "https://www.arbulang.com/filmy/lekcja38/eats.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja38/eats.mp4", "Szybcy i Wściekli 6 (2013)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja38/eats.png",
         story: "<b><u>Wi</b></u>ll Smith oznajmił, że <b><u>my</b></u> jako ludzkość mamy się dobrze",
         desc: "we[łi] - my",
         sentence1: [
@@ -438,6 +414,9 @@ fiszki10.push(
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/819a.jpg"
+        ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja161/usually.mp3"
         ],
         story: [
             "<b><u>Już</b></u> <b><u>zazwyczaj</b></u> nie widzę <b><u>Eli</b></u> gdy chodzę do sklepu"
@@ -473,6 +452,9 @@ fiszki10.push(
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/913a.jpg"
         ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja161/order.mp3"
+        ],
         story: [
             "Żeby uprawiać ten sp<b><u>or</b></u>t (tenis) trzeba <b><u>zamówić</b></u> na<b><u>der</b></u> dobre rakiety tenisowe"
         ],
@@ -481,10 +463,10 @@ fiszki10.push(
             "order"
         ],
                                                                 sentence1b: [
-            ""
+            "zamawiamy"
         ],
                             sentence1c: [
-            ""
+            "o|u-rder"
         ],
         sentence: [
             "We",
@@ -504,7 +486,7 @@ fiszki10.push(
             161,
             252
         ],
-        img: "https://www.arbulang.com/img/fiszki1/239a.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/239a.jpg",
                                                                                         word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja36/dinner.mp3"
         ],
@@ -514,10 +496,10 @@ fiszki10.push(
             "dinner"
         ],
                                                                 sentence1b: [
-            ""
+            "kolację"
         ],
                             sentence1c: [
-            ""
+            "diner"
         ],
         sentence: [
             "We",
@@ -537,7 +519,7 @@ fiszki10.push(
             161,
             252
         ],
-        img: "https://www.arbulang.com/img/fiszki1/246a.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/246a.jpg",
                                                                                         word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja37/on.mp3"
         ],
@@ -547,10 +529,10 @@ fiszki10.push(
             "on"
         ],
                                                                 sentence1b: [
-            ""
+            "w"
         ],
                             sentence1c: [
-            ""
+            "on"
         ],
         sentence: [
             "We",
@@ -573,6 +555,9 @@ fiszki10.push(
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/916a.jpg"
         ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja161/Fridays.mp3"
+        ],
         story: [
             "Ale to <u><b>fraj</u></b>da w piątki odpoczywać po ciężkim tygodniu bo z<u><b>de</u></b>nerwowania - dużo i hajsu mało"
         ],
@@ -581,10 +566,10 @@ fiszki10.push(
             "Fridays"
         ],
                                                                 sentence1b: [
-            ""
+            "piątek"
         ],
                             sentence1c: [
-            ""
+            "frajdejs"
         ],
         sentence: [
             "We",
@@ -604,7 +589,7 @@ fiszki10.push(
             162,
             260
         ],
-        img: "https://www.arbulang.com/img/fiszki1/207b.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/207b.jpg",
                                                                 word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja128/they.mp3"
         ],
@@ -641,6 +626,9 @@ fiszki10.push(
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/819a.jpg"
         ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja162/werewaiting.mp3"
+        ],
         story: [
             "Ale mam pa<u><b>łer</u></b> bo już kończy się kolejka w czekaniu na koncert wspania<u><b>łej</u></b> gwiazdy S<u><b>ting</u></b>a "
         ],
@@ -670,6 +658,9 @@ fiszki10.push(
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/819a.jpg"
+        ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja162/outside.mp3"
         ],
         story: [
             "Piłka wyleciała na zewnątrz boiska czyli na <u><b>aut</u></b>. <u><b>S</u></b>portowiec czybko zn<u><b>ajd</u></b>uje piłkę"
@@ -701,6 +692,9 @@ fiszki10.push(
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/819a.jpg"
         ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja162/therestaurant.mp3"
+        ],
         story: [
             "KOGNATY - RESTAURANT (ENG: RESTRANT) - RESTAURACJA (PL)"
         ],
@@ -728,18 +722,29 @@ fiszki10.push(
             163,
             260
         ],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg"
+            img: [
+                "http://localhost/arbulanguage.com/img/fiszki1/19a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/19b.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/19c.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/19d.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/19e.jpg"
+            ],
+                                                                                                                    word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja117/I.mp3"
         ],
-        translate: "",
-        translateb: "[Ona ostatnio zmieniła swoje nastawienie]",
+        translate: "Zapraszam cię na moje urodziny",
+        translateb: "[]",
         translateb2: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja46/.mp4", ""],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja46/.png",
-        story: [
-                ''
-        ],
-        desc: "I[aj] - ja",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja39/invite.mp4", "Matrix Reaktywacja (2003)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja39/invite.png",
+            story: [
+                "<u><b>Ja</u></b> jestem Piotrek, mam okulary ochronne, gdy jechałem rowerem wleciała mi mucha do <u><b>oka</u></b>, krzyczałem <u><b>ajjj</u></b> - dlaczego to <u><b>mi</u></b> wleciała mucha do <u><b>oka</u></b>, <u><b>ajjj</u></b>",
+                "M<u><b>aj</u></b>a ma zezowate <u><b>oko</u></b> i mówi, no <u><b>JA</u></b> widzę ciebie podwójnie",
+                "Nauka o mitach, takich jak królowa G</u></b>aj</u></b>a to ten temat, gdzie <u><b>ja</u></b> mam największą wiedze",
+                "Teraz <u><b>ja</u></b> występuję na weselu jako wodzirej i śpiewam <u><b>Aj</u></b>-ja-jaj tak słodko jest tu z wami być..",
+                "Mo<u><b>ja</u></b> babcia idzie do kurnika po jaja, a <u><b>ja</u></b> będę za chwilę jadł jajecznice"
+            ],
+            desc: "I[aj] - ja",
         sentence1: [
             "I"
         ],
@@ -768,6 +773,9 @@ fiszki10.push(
         ],
         img: [
             "http://localhost/arbulanguage.com/img/fiszki1/819a.jpg"
+        ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja163/need.mp3"
         ],
         story: [
             ""
@@ -800,12 +808,15 @@ fiszki10.push(
             252
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/819a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/923a.jpg"
+        ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja163/toreplace.mp3"
         ],
         story: [
-            ""
+            "Twarda <u><b>rip</u></b>osta jest jak k<u><b>lej</u></b>not, ale <u><b>zastąpiłem</u></b> ją też czymś <u><b>s</u></b>uper"
         ],
-        desc: "to replace[] - ",
+        desc: "to replace[tu riplejs] - zastąpić",
         sentence2: [
             "to_replace"
         ],
@@ -898,18 +909,17 @@ fiszki10.push(
             164,
             260
         ],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg"
+        img: "http://localhost/arbulanguage.com/img/fiszki1/95aa.jpg",
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja147/she.mp3"
         ],
         translate: "",
-        translateb: "[Ona ostatnio zmieniła swoje nastawienie]",
+        translateb: "[Ona zdecydowanie nie zgadzała się z jego argumentem]",
         translateb2: "[]",
         srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja46/.mp4", ""],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja46/.png",
-        story: [
-                ''
-        ],
-        desc: "she[aj] - ja",
+        story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
+        desc: "she[szi] - ona",
         sentence1: [
             "She"
         ],
@@ -942,15 +952,15 @@ fiszki10.push(
         story: [
             ""
         ],
-        desc: "has not answered[] - ",
+        desc: "has not answered[hes not anserd] - nie odpowiedziała",
         sentence2: [
             "has_not_answered"
         ],
                                                                 sentence1b: [
-            ""
+            "nie_odpowiedziała"
         ],
                             sentence1c: [
-            ""
+            "hes_not_anserd"
         ],
         sentence: [
             "She",
@@ -969,21 +979,28 @@ fiszki10.push(
             164,
             252
         ],
-        img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/819a.jpg"
+img: [
+                "http://localhost/arbulanguage.com/img/fiszki1/50aa.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/50bb.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/50cc.jpg"
+        ],
+                                                                                                        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja122/my.mp3"
         ],
         story: [
-            ""
+                "W <b><u>maj</b></u>u kwitną <b><u>moje</b></u> ulubione kwiaty",
+                "Przetrzy<b><u>maj</b></u> mi na pare dni <b><u>moje</b></u> auto na placu",
+                "W <b><u>maj</b></u>u na <b><u>moje</b></u> rośliny w ogrodzie pada deszcz"
         ],
-        desc: "my[] - ",
+        desc: "my[maj] - mój",
         sentence2: [
             "my"
         ],
                                                                 sentence1b: [
-            ""
+            "(na)-moje"
         ],
                             sentence1c: [
-            ""
+            "maj"
         ],
         sentence: [
             "She",
@@ -1006,17 +1023,17 @@ fiszki10.push(
             "http://localhost/arbulanguage.com/img/fiszki1/819a.jpg"
         ],
         story: [
-            ""
+            "To s<b><u>kł</b></u>oniło go do <b><u>pytania</b></u>: czy j<b><u>est</b></u> wystarczająco środków aby za<b><u>czyn</b></u>ać nowy biznes?"
         ],
-        desc: "question[] - ",
+        desc: "question[kłestczyn] - pytanie",
         sentence2: [
             "question"
         ],
                                                                 sentence1b: [
-            ""
+            "pytanie"
         ],
                             sentence1c: [
-            ""
+            "kłestczyn"
         ],
         sentence: [
             "She",
@@ -1039,17 +1056,17 @@ fiszki10.push(
             "http://localhost/arbulanguage.com/img/fiszki1/819a.jpg"
         ],
         story: [
-            ""
+            "Jeti jeszcze nie zostało potwierdzone naukowo"
         ],
-        desc: "yet[] - ",
+        desc: "yet[jet] - już/jeszcze",
         sentence2: [
             "yet"
         ],
                                                                 sentence1b: [
-            ""
+            "jeszcze"
         ],
                             sentence1c: [
-            ""
+            "jet"
         ],
         sentence: [
             "She",
@@ -1068,13 +1085,29 @@ fiszki10.push(
             165,
             260
         ],
-        img: "https://www.arbulang.com/img/fiszki1/131a.jpg",
+        
+        img: [
+                "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
+        ],
+                                                                                                                word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja124/he.mp3"
+        ],
         translate: "",
         translateb: "[]",
         translateb2: "[]",
         srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja46/.mp4", ""],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja46/.png",
-        story: "<b><u>Wi</b></u>ll Smith oznajmił, że <b><u>my</b></u> jako ludzkość mamy się dobrze",
+        story: [
+                'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego',
+                'Samiec czyli <u><b>on</u></b> - <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>popotam',
+                '<u><b>On</b></u> - <span class="adannotation" data-annotation="1"><u><b>Hi</b></u></span>eronim odleciał balonem',
+                'Ma<span class="adannotation" data-annotation="1"><u><b>chi</u></b></span>nę do tortur wymyślił <u><b>on</u></b> - jest <span class="adannotation" data-annotation="1"><u><b>Hi</u></b></span>ndusem',
+                '<u><b>On</u></b> je ciastka <span class="adannotation" data-annotation="1"><u><b>hi</u></b></span>ty'
+        ],
         desc: "he[hi] - on",
         sentence1: [
             "He"
@@ -1108,15 +1141,15 @@ fiszki10.push(
         story: [
             ""
         ],
-        desc: "carried[] - ",
+        desc: "carried[karid] - nosić/wnosić",
         sentence2: [
             "carried"
         ],
                                                                 sentence1b: [
-            ""
+            "wniósł"
         ],
                             sentence1c: [
-            ""
+            "karid"
         ],
         sentence: [
             "He",
@@ -1136,20 +1169,31 @@ fiszki10.push(
             252
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/819a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg"
+        ],
+                                                    word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja91/the.mp3"
         ],
         story: [
-            ""
+                'Piłki do gry w kosza są twar<span class="adannotation" data-annotation="1"><u><b>de</u></b></span>. Sam ten sport <u><b>to</u></b> twarda gra',
+                'Na tym <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>ptaku jest sporo drzewek, <u><b>to</u></b> urocze miejsce',
+                '<u><b>To</u></b> ten <span class="adannotation" data-annotation="1"><u><b>De</u></b></span>partament Stanu prowadzi badania nad społecznym problemem',
+                'Czasami politycy stosują <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>magogię. Czyli co stosują? <u><b>Tę</u></b> <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>magogię',
+                '<u><b>To</u></b> co w naszej rodzinie istnieje to <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>mokracja'
         ],
-        desc: "the[] - ",
+        desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
         sentence2: [
             "the"
         ],
                                                                 sentence1b: [
-            ""
+            "(te)"
         ],
                             sentence1c: [
-            ""
+            "de"
         ],
         sentence: [
             "He",
@@ -1169,23 +1213,23 @@ fiszki10.push(
             252
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/32aa.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/32aa.jpg"
         ],
                                                                                                                                                 word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja112/our.mp3"
         ],
         story: [
-            "<u><b>Aur</u></b>a zawodnika z <u><b>naszego</u></b> zespołu jest niesamowita"
+            "<u><b>Gro</u></b> z tych metod nauczania jest z czasów Pr<u><b>us</u></b>kich. Stworzyliśmy <u><b>ser</u></b>ię produktów jak wychować m<u><b>is</u></b>trzów. Czas aby ktoś zrobił <u><b>zakupy</u></b>"
         ],
-        desc: "groceries[] - ",
+        desc: "groceries[grouseris] - zakupy",
         sentence2: [
             "groceries"
         ],
                                                                 sentence1b: [
-            ""
+            "zakupy"
         ],
                             sentence1c: [
-            ""
+            "grouseris"
         ],
         sentence: [
             "He",
@@ -1208,17 +1252,17 @@ fiszki10.push(
             "http://localhost/arbulanguage.com/img/fiszki1/819a.jpg"
         ],
         story: [
-            ""
+            "<u><b>In</u></b>strukcja złożenia mebli jest <u><b>w środku</u></b> pudła. Najpierw zna<u><b>jd</u></b>e instrukcję, bo muszę złożyć te meble <u><b>sa</u></b>m"
         ],
-        desc: "inside[] - ",
+        desc: "inside[insajd] - w środku",
         sentence2: [
             "inside"
         ],
                                                                 sentence1b: [
-            ""
+            "wewnątrz"
         ],
                             sentence1c: [
-            ""
+            "insajd"
         ],
         sentence: [
             "He",
@@ -1238,17 +1282,28 @@ fiszki10.push(
             260
         ],
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
         ],
-        translate: "",
-        translateb: "[Ona ostatnio zmieniła swoje nastawienie]",
+                                                                                                                            word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja102/he.mp3"
+        ],
+        translate: "On twierdził, że się mylił",
+        translateb: "[Hi kleimt he wos rong]",
         translateb2: "[]",
         srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja46/.mp4", ""],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja46/.png",
         story: [
-                ''
+                'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego',
+                'Samiec czyli <u><b>on</u></b> - <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>popotam',
+                '<u><b>On</b></u> - <span class="adannotation" data-annotation="1"><u><b>Hi</b></u></span>eronim odleciał balonem',
+                'Ma<span class="adannotation" data-annotation="1"><u><b>chi</u></b></span>nę do tortur wymyślił <u><b>on</u></b> - jest <span class="adannotation" data-annotation="1"><u><b>Hi</u></b></span>ndusem',
+                '<u><b>On</u></b> je ciastka <span class="adannotation" data-annotation="1"><u><b>hi</u></b></span>ty'
         ],
-        desc: "he[aj] - ja",
+        desc: "he[hi] - on",
         sentence1: [
             "He"
         ],
@@ -1280,15 +1335,15 @@ fiszki10.push(
         story: [
             ""
         ],
-        desc: "was looking for[] - ",
+        desc: "was looking for[łos luking for] - szukał",
         sentence2: [
             "was_looking_for"
         ],
                                                                 sentence1b: [
-            ""
+            "szukał"
         ],
                             sentence1c: [
-            ""
+            "łos_luking_for"
         ],
         sentence: [
             "He",
@@ -1307,20 +1362,31 @@ fiszki10.push(
             252
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/819a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/48aa1.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/48aa2.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/48aa.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/106b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/48aa5.jpg"
+        ],
+                                                                                                                        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja124/his.mp3"
         ],
         story: [
-            ""
+            "Pre<b><u>his</b></u>toryczny dinozaur z <b><u>jego</b></u> sprawnością mógłby spokojnie pokonać niedźwiedzia",
+            "Lew nie wpada w <b><u>his</b></u>terię - polegają na instynkcie. Za to <b><u>jego</b></u> natura jest bardzo niebezpieczna dla czowieka",
+            "<b><u>Jego</b></u> <b><u>his</b></u>toria jest bardzo atrakcyjna i bujna",
+            "Jego ma<b><u>chi</b></u>na jest bardzo <b><u>s</b></u>prawna",
+            "<b><u>Jego</b></u> dziewczyna wpadła w <b><u>his</b></u>terię"
         ],
-        desc: "his[] - ",
+        desc: "his[his] -jego",
         sentence2: [
             "his"
         ],
                                                                 sentence1b: [
-            ""
+            "swojego"
         ],
                             sentence1c: [
-            ""
+            "his"
         ],
         sentence: [
             "He",
@@ -1344,15 +1410,15 @@ fiszki10.push(
         story: [
             ""
         ],
-        desc: "wallet[] - ",
+        desc: "wallet[łolet] - portfel",
         sentence2: [
             "wallet"
         ],
                                                                 sentence1b: [
-            ""
+            "portfela"
         ],
                             sentence1c: [
-            ""
+            "łolet"
         ],
         sentence: [
             "He",
@@ -1371,15 +1437,26 @@ fiszki10.push(
             260
         ],
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/19a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/19b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/19c.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/19d.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/19e.jpg"
         ],
-        translate: "",
-        translateb: "[Ona ostatnio zmieniła swoje nastawienie]",
+                                                word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja127/I.mp3"
+        ],
+        translate: "Zamykam drzwi przed snem",
+        translateb: "[]",
         translateb2: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja46/.mp4", ""],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja46/.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja43/door.mp4", "Matrix Reaktywacja (2003)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja43/door.png",
         story: [
-                ''
+            "<u><b>Ja</u></b> jestem Piotrek, mam okulary ochronne, gdy jechałem rowerem wleciała mi mucha do <u><b>oka</u></b>, krzyczałem <u><b>ajjj</u></b> - dlaczego to <u><b>mi</u></b> wleciała mucha do <u><b>oka</u></b>, <u><b>ajjj</u></b>",
+            "M<u><b>aj</u></b>a ma zezowate <u><b>oko</u></b> i mówi, no <u><b>JA</u></b> widzę ciebie podwójnie",
+            "Nauka o mitach, takich jak królowa G</u></b>aj</u></b>a to ten temat, gdzie <u><b>ja</u></b> mam największą wiedze",
+            "Teraz <u><b>ja</u></b> występuję na weselu jako wodzirej i śpiewam <u><b>Aj</u></b>-ja-jaj tak słodko jest tu z wami być..",
+            "Mo<u><b>ja</u></b> babcia idzie do kurnika po jaja, a <u><b>ja</u></b> będę za chwilę jadł jajecznice"
         ],
         desc: "I[aj] - ja",
         sentence1: [
@@ -1413,15 +1490,15 @@ fiszki10.push(
         story: [
             ""
         ],
-        desc: "will probably stay[] - ",
+        desc: "will probably stay[łil_probabli_stej] - prawdopodobnie zostanę",
         sentence2: [
             "will_probably_stay"
         ],
                                                                 sentence1b: [
-            ""
+            "prawdopodobnie_zostanę"
         ],
                             sentence1c: [
-            ""
+            "łil_probabli_stej"
         ],
         sentence: [
             "I",
@@ -1440,20 +1517,23 @@ fiszki10.push(
             252
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/819a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/401a.jpg"
+        ],
+                                                                                                                                                 word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja64/athome.mp3"
         ],
         story: [
-            ""
+            "Ktoś mówi po wiejsku: 'ja mu ma<u><b>choł</u></b> z <u><b>domu</u></b>, o <u><b>m</u></b>nie nie widział'"
         ],
-        desc: "home[] - ",
+        desc: "home[hołm] - dom",
         sentence2: [
             "home"
         ],
                                                                 sentence1b: [
-            ""
+            "w_domu"
         ],
                             sentence1c: [
-            ""
+            "hołm"
         ],
         sentence: [
             "I",
@@ -1477,15 +1557,15 @@ fiszki10.push(
         story: [
             ""
         ],
-        desc: "tonight[] - ",
+        desc: "tonight[tunajt] - wieczór",
         sentence2: [
             "tonight"
         ],
                                                                 sentence1b: [
-            ""
+            "dziś_wieczorem"
         ],
                             sentence1c: [
-            ""
+            "tunajt"
         ],
         sentence: [
             "I",
@@ -1503,18 +1583,17 @@ fiszki10.push(
             168,
             260
         ],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg"
+        img: "http://localhost/arbulanguage.com/img/fiszki1/95aa.jpg",
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja147/she.mp3"
         ],
         translate: "",
-        translateb: "[Ona ostatnio zmieniła swoje nastawienie]",
+        translateb: "[Ona zdecydowanie nie zgadzała się z jego argumentem]",
         translateb2: "[]",
         srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja46/.mp4", ""],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja46/.png",
-        story: [
-                ''
-        ],
-        desc: "she[aj] - ja",
+        story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
+        desc: "she[szi] - ona",
         sentence1: [
             "She"
         ],
@@ -1534,7 +1613,7 @@ fiszki10.push(
         ],
         key: "she",
         category2: ["osoby"],
-        category3: ["PresentPefect"]
+        category3: ["PastSimple"]
     },
                                                         {
         id: [
@@ -1546,17 +1625,17 @@ fiszki10.push(
             "http://localhost/arbulanguage.com/img/fiszki1/819a.jpg"
         ],
         story: [
-            ""
+            "<u><b>Pożyczyłem</u></b> piniędze aby <u><b>boro</u></b>wać zęba. Zepsuł się bo jadłem za dużo sera Go<u><b>łd</u></b>a"
         ],
-        desc: "borrowed[] - ",
+        desc: "borrowed[borołd] - pożyczyła/pożyczył",
         sentence2: [
             "borrowed"
         ],
                                                                 sentence1b: [
-            ""
+            "pożyczyła"
         ],
                             sentence1c: [
-            ""
+            "borołd"
         ],
         sentence: [
             "She",
@@ -1582,15 +1661,15 @@ fiszki10.push(
         story: [
             ""
         ],
-        desc: "some[] - ",
+        desc: "some[sam] - trochę",
         sentence2: [
             "some"
         ],
                                                                 sentence1b: [
-            ""
+            "trochę"
         ],
                             sentence1c: [
-            ""
+            "sam"
         ],
         sentence: [
             "She",
@@ -1611,20 +1690,23 @@ fiszki10.push(
             252
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/819a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/817a.jpg"
+        ],
+                                                                                                                                word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja143/money.mp3"
         ],
         story: [
-            ""
+            "Za dobre <b><u>pieniądze</b></u> Jessica zrobiła sobie <b><u>mani</b></u>cure"
         ],
-        desc: "money[] - ",
+        desc: "money[mani] - pieniadze",
         sentence2: [
             "money"
         ],
                                                                 sentence1b: [
-            ""
+            "pieniędzy"
         ],
                             sentence1c: [
-            ""
+            "mani"
         ],
         sentence: [
             "She",
@@ -1650,15 +1732,15 @@ fiszki10.push(
         story: [
             ""
         ],
-        desc: "from[] - ",
+        desc: "from[from] - ode",
         sentence2: [
             "from"
         ],
                                                                 sentence1b: [
-            ""
+            "ode"
         ],
                             sentence1c: [
-            ""
+            "from"
         ],
         sentence: [
             "She",
@@ -1684,15 +1766,15 @@ fiszki10.push(
         story: [
             ""
         ],
-        desc: "me[] - ",
+        desc: "me[mi] - mnie",
         sentence2: [
             "me"
         ],
                                                                 sentence1b: [
-            ""
+            "mnie"
         ],
                             sentence1c: [
-            ""
+            "mi"
         ],
         sentence: [
             "She",
@@ -1712,7 +1794,7 @@ fiszki10.push(
             169,
             260
         ],
-        img: "https://www.arbulang.com/img/fiszki1/207b.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/207b.jpg",
         translate: "",
         translateb: "[Ona ostatnio zmieniła swoje nastawienie]",
         translateb2: "[]",
@@ -1777,13 +1859,13 @@ fiszki10.push(
             169,
             252
         ],
-        img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/819a.jpg"
+
+        img: "http://localhost/arbulanguage.com/img/fiszki1/54aa.jpg",
+                                                                                word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja9/their.mp3"
         ],
-        story: [
-            ""
-        ],
-        desc: "their[] - ",
+        story: "<b><u>W</b></u> ten <b><u>de</b></u>seń jest <b><u>i</b></u>ch <b><u>r</b></u>obota",
+        desc: "their[deir] - ich",
         sentence2: [
             "their"
         ],
@@ -1815,7 +1897,7 @@ fiszki10.push(
         story: [
             ""
         ],
-        desc: "kitchen[] - ",
+        desc: "kitchen[kiczen] - kuchnia",
         sentence2: [
             "kitchen"
         ],
@@ -1823,7 +1905,7 @@ fiszki10.push(
             "kuchnię"
         ],
                             sentence1c: [
-            ""
+            "kiczen"
         ],
         sentence: [
             "They",
@@ -1885,7 +1967,7 @@ fiszki10.push(
         story: [
             ""
         ],
-        desc: "should[] - ",
+        desc: "should[szud] - ",
         sentence2: [
             "should"
         ],
@@ -1893,7 +1975,7 @@ fiszki10.push(
             "powinniśmy"
         ],
                             sentence1c: [
-            ""
+            "szud"
         ],
         sentence: [
             "We",
@@ -1912,21 +1994,32 @@ fiszki10.push(
             170,
             252
         ],
-        img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/819a.jpg"
+        entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/870a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Czek</u></b>am na potwierdzenie mojej transakcji. Produkt jest super i zaraz go <u><b>sprawdzę</u></b>",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+            ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja153/checks.mp3"
         ],
-        story: [
-            ""
-        ],
-        desc: "check[] - ",
+        desc: "check[czek] - sprawdzić",
         sentence2: [
             "check"
         ],
                                                                 sentence1b: [
-            ""
+            "sprawdzić"
         ],
                             sentence1c: [
-            ""
+            "czek"
         ],
         sentence: [
             "We",
@@ -1951,57 +2044,23 @@ fiszki10.push(
         story: [
             ""
         ],
-        desc: "the train[] - ",
+        desc: "the train schedule[de trein skedźul] - rozkład jazdy pociągów",
         sentence2: [
             "the_train"
         ],
                                                                 sentence1b: [
-            ""
+            "rozkład_jazdy_pociągów"
         ],
                             sentence1c: [
-            ""
+            "de_trein_"
         ],
         sentence: [
             "We",
             "should",
             "check",
-            "the train",
-            "schedule"
+            "the train schedule"
         ],
         key: "train",
-        category1: "nauka",
-        category2: ["rzecz", "kognaty"]
-    },
-                                                                            {
-        id: [
-            958,
-            170,
-            252
-        ],
-        img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/819a.jpg"
-        ],
-        story: [
-            ""
-        ],
-        desc: "schedule[] - ",
-        sentence2: [
-            "schedule"
-        ],
-                                                                sentence1b: [
-            ""
-        ],
-                            sentence1c: [
-            ""
-        ],
-        sentence: [
-            "We",
-            "should",
-            "check",
-            "the train",
-            "schedule"
-        ],
-        key: "schedule",
         category1: "nauka",
         category2: ["rzecz", "kognaty"]
     },
@@ -2011,18 +2070,29 @@ fiszki10.push(
             171,
             260
         ],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg"
+            img: [
+                "http://localhost/arbulanguage.com/img/fiszki1/19a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/19b.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/19c.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/19d.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/19e.jpg"
+            ],
+                                                                                                                    word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja117/I.mp3"
         ],
-        translate: "",
-        translateb: "[Ona ostatnio zmieniła swoje nastawienie]",
+        translate: "Zapraszam cię na moje urodziny",
+        translateb: "[]",
         translateb2: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja46/.mp4", ""],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja46/.png",
-        story: [
-                ''
-        ],
-        desc: "I[aj] - ja",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja39/approach.mp4", "Matrix (1999)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja39/approach.png",
+            story: [
+                "<u><b>Ja</u></b> jestem Piotrek, mam okulary ochronne, gdy jechałem rowerem wleciała mi mucha do <u><b>oka</u></b>, krzyczałem <u><b>ajjj</u></b> - dlaczego to <u><b>mi</u></b> wleciała mucha do <u><b>oka</u></b>, <u><b>ajjj</u></b>",
+                "M<u><b>aj</u></b>a ma zezowate <u><b>oko</u></b> i mówi, no <u><b>JA</u></b> widzę ciebie podwójnie",
+                "Nauka o mitach, takich jak królowa G</u></b>aj</u></b>a to ten temat, gdzie <u><b>ja</u></b> mam największą wiedze",
+                "Teraz <u><b>ja</u></b> występuję na weselu jako wodzirej i śpiewam <u><b>Aj</u></b>-ja-jaj tak słodko jest tu z wami być..",
+                "Mo<u><b>ja</u></b> babcia idzie do kurnika po jaja, a <u><b>ja</u></b> będę za chwilę jadł jajecznice"
+            ],
+            desc: "I[aj] - ja",
         sentence1: [
             "I"
         ],
@@ -2181,18 +2251,17 @@ fiszki10.push(
             172,
             260
         ],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg"
+        img: "http://localhost/arbulanguage.com/img/fiszki1/95aa.jpg",
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja147/she.mp3"
         ],
         translate: "",
-        translateb: "[Ona ostatnio zmieniła swoje nastawienie]",
+        translateb: "[Ona zdecydowanie nie zgadzała się z jego argumentem]",
         translateb2: "[]",
         srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja46/.mp4", ""],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja46/.png",
-        story: [
-                ''
-        ],
-        desc: "she[aj] - ja",
+        story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
+        desc: "she[szi] - ona",
         sentence1: [
             "She"
         ],
@@ -2209,7 +2278,7 @@ fiszki10.push(
         ],
         key: "she",
         category2: ["osoby"],
-        category3: ["PastSimple"]
+        category3: ["PresentContinuous"]
     },
                                                                                             {
         id: [
@@ -2223,15 +2292,15 @@ fiszki10.push(
         story: [
             ""
         ],
-        desc: "is[] - ",
+        desc: "is[is] - jest",
         sentence2: [
             "is"
         ],
                                                                 sentence1b: [
-            ""
+            "jest_w_trakcie(czasownik_to_be)"
         ],
                             sentence1c: [
-            ""
+            "is"
         ],
         sentence: [
             "She",
@@ -2254,15 +2323,15 @@ fiszki10.push(
         story: [
             ""
         ],
-        desc: "learning[] - ",
+        desc: "learning[lerning] - uczyć się",
         sentence2: [
             "learning"
         ],
                                                                 sentence1b: [
-            ""
+            "uczy_się"
         ],
                             sentence1c: [
-            ""
+            "learning"
         ],
         sentence: [
             "She",
@@ -2285,15 +2354,15 @@ fiszki10.push(
         story: [
             ""
         ],
-        desc: "how[] - ",
+        desc: "how[hał] - jak",
         sentence2: [
             "how"
         ],
                                                                 sentence1b: [
-            ""
+            "jak"
         ],
                             sentence1c: [
-            ""
+            "hał"
         ],
         sentence: [
             "how",
@@ -2315,15 +2384,15 @@ fiszki10.push(
         story: [
             ""
         ],
-        desc: "to drive[] - ",
+        desc: "to drive[tu drajw] - prowadzić",
         sentence2: [
-            "to drive"
+            "to_drive"
         ],
                                                                 sentence1b: [
-            ""
+            "prowadzić(samochód)"
         ],
                             sentence1c: [
-            ""
+            "tu_drajw"
         ],
         sentence: [
             "how",
@@ -2387,10 +2456,10 @@ fiszki10.push(
             "have_known"
         ],
                                                                 sentence1b: [
-            ""
+            "znamy_się"
         ],
                             sentence1c: [
-            ""
+            "hew_nołn"
         ],
         sentence: [
             "We",
@@ -2414,15 +2483,15 @@ fiszki10.push(
         story: [
             ""
         ],
-        desc: "each other[] - ",
+        desc: "each other[icz oder] - wzajemnie/nawzajem",
         sentence2: [
             "each_other"
         ],
                                                                 sentence1b: [
-            ""
+            "wzajemnie"
         ],
                             sentence1c: [
-            ""
+            "icz_oder"
         ],
         sentence: [
             "We",
@@ -2446,15 +2515,15 @@ fiszki10.push(
         story: [
             ""
         ],
-        desc: "forever[] - ",
+        desc: "forever[forewer] - od zawsze",
         sentence2: [
             "forever"
         ],
                                                                 sentence1b: [
-            ""
+            "od_zawsze(na_zawsze)"
         ],
                             sentence1c: [
-            ""
+            "forewer"
         ],
         sentence: [
             "We",
@@ -2513,15 +2582,15 @@ fiszki10.push(
         story: [
             ""
         ],
-        desc: "promised[] - ",
+        desc: "promised[promist] - obiecał",
         sentence2: [
             "promised"
         ],
                                                                 sentence1b: [
-            ""
+            "obiecał"
         ],
                             sentence1c: [
-            ""
+            "promist"
         ],
         sentence: [
             "He",
@@ -2548,7 +2617,7 @@ fiszki10.push(
             "to_keep"
         ],
                                                                 sentence1b: [
-            ""
+            "zachować"
         ],
                             sentence1c: [
             ""
@@ -2574,15 +2643,15 @@ fiszki10.push(
         story: [
             ""
         ],
-        desc: "to keep[] - ",
+        desc: "everything[ewryting] - wszystko",
         sentence2: [
-            "to_keep"
+            "everything"
         ],
                                                                 sentence1b: [
-            ""
+            "wszystko"
         ],
                             sentence1c: [
-            ""
+            "ewryting"
         ],
         sentence: [
             "to keep",
@@ -2605,15 +2674,15 @@ fiszki10.push(
         story: [
             ""
         ],
-        desc: "secret[] - ",
+        desc: "secret[sikret] - sekret",
         sentence2: [
             "secret"
         ],
                                                                 sentence1b: [
-            ""
+            "w_sekrecie"
         ],
                             sentence1c: [
-            ""
+            "sikret"
         ],
         sentence: [
             "to keep",
@@ -2630,18 +2699,29 @@ fiszki10.push(
             175,
             260
         ],
-        img: [
-                "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg"
+            img: [
+                "http://localhost/arbulanguage.com/img/fiszki1/19a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/19b.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/19c.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/19d.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/19e.jpg"
+            ],
+                                                                                                                    word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja117/I.mp3"
         ],
-        translate: "",
-        translateb: "[Ona ostatnio zmieniła swoje nastawienie]",
+        translate: "Zapraszam cię na moje urodziny",
+        translateb: "[]",
         translateb2: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja46/.mp4", ""],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja46/.png",
-        story: [
-                ''
-        ],
-        desc: "I[hi] - on",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja39/invite.mp4", "Matrix Reaktywacja (2003)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja39/invite.png",
+            story: [
+                "<u><b>Ja</u></b> jestem Piotrek, mam okulary ochronne, gdy jechałem rowerem wleciała mi mucha do <u><b>oka</u></b>, krzyczałem <u><b>ajjj</u></b> - dlaczego to <u><b>mi</u></b> wleciała mucha do <u><b>oka</u></b>, <u><b>ajjj</u></b>",
+                "M<u><b>aj</u></b>a ma zezowate <u><b>oko</u></b> i mówi, no <u><b>JA</u></b> widzę ciebie podwójnie",
+                "Nauka o mitach, takich jak królowa G</u></b>aj</u></b>a to ten temat, gdzie <u><b>ja</u></b> mam największą wiedze",
+                "Teraz <u><b>ja</u></b> występuję na weselu jako wodzirej i śpiewam <u><b>Aj</u></b>-ja-jaj tak słodko jest tu z wami być..",
+                "Mo<u><b>ja</u></b> babcia idzie do kurnika po jaja, a <u><b>ja</u></b> będę za chwilę jadł jajecznice"
+            ],
+            desc: "I[aj] - ja",
         sentence1: [
             "I"
         ],
@@ -2671,15 +2751,15 @@ fiszki10.push(
         story: [
             ""
         ],
-        desc: "would rather[] - ",
+        desc: "would rather[łud rader] - wolałbym",
         sentence2: [
             "would_rather"
         ],
                                                                 sentence1b: [
-            ""
+            "wolałbym"
         ],
                             sentence1c: [
-            ""
+            "łud_rader"
         ],
         sentence: [
             "I",
@@ -2701,15 +2781,15 @@ fiszki10.push(
         story: [
             ""
         ],
-        desc: "stay[] - ",
+        desc: "stay[stej] - zostać",
         sentence2: [
             "stay"
         ],
                                                                 sentence1b: [
-            ""
+            "zostać"
         ],
                             sentence1c: [
-            ""
+            "stej"
         ],
         sentence: [
             "stay",
@@ -2732,15 +2812,15 @@ fiszki10.push(
         story: [
             ""
         ],
-        desc: "here[] - ",
+        desc: "here[hia] - tutaj",
         sentence2: [
             "here"
         ],
                                                                 sentence1b: [
-            ""
+            "tutaj"
         ],
                             sentence1c: [
-            ""
+            "hia"
         ],
         sentence: [
             "stay",
@@ -2758,20 +2838,20 @@ fiszki10.push(
             252
         ],
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/819a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/242a.jpg"
         ],
         story: [
-            ""
+            "F<b><u>ajt</b></u>łapa ogląda wieczorem zwias<b><u>tun</b></u> najnowszego filmu"
         ],
-        desc: "tonight[] - ",
+        desc: "tonight[tunajt] - wieczór",
         sentence2: [
             "tonight"
         ],
                                                                 sentence1b: [
-            ""
+            "dziś_wieczorem"
         ],
                             sentence1c: [
-            ""
+            "tunajt"
         ],
         sentence: [
             "stay",
@@ -2799,12 +2879,12 @@ fiszki10.push(
         story: [
                 ''
         ],
-        desc: "I[hi] - on",
+        desc: "they[dej] - oni",
         sentence1: [
             "They"
         ],
                                                                 sentence1b: [
-            "Oni"
+            "Im"
         ],
                             sentence1c: [
             "dej"
@@ -2834,7 +2914,7 @@ fiszki10.push(
             "managed"
         ],
                                                                 sentence1b: [
-            ""
+            "udało_się"
         ],
                             sentence1c: [
             ""
@@ -2864,7 +2944,7 @@ fiszki10.push(
             "to_finish"
         ],
                                                                 sentence1b: [
-            "kończy"
+            "skończyć"
         ],
                             sentence1c: [
             "tu_finisz"
@@ -2895,7 +2975,7 @@ fiszki10.push(
             "everything"
         ],
                                                                 sentence1b: [
-            ""
+            "wszystko"
         ],
                             sentence1c: [
             ""
@@ -2926,10 +3006,10 @@ fiszki10.push(
             "early"
         ],
                                                                 sentence1b: [
-            ""
+            "wcześniej"
         ],
                             sentence1c: [
-            ""
+            "erli"
         ],
         sentence: [
             "to finish",
@@ -2990,7 +3070,7 @@ fiszki10.push(
             252
         ],
             img: [
-                "https://www.arbulang.com/img/fiszki1/479a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/479a.jpg"
             ],
                                                                                                                                                                         word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja79/sister.mp3"
@@ -3003,10 +3083,10 @@ fiszki10.push(
             "sister"
         ],
                                                                 sentence1b: [
-            ""
+            "siostra"
         ],
                             sentence1c: [
-            ""
+            "sister"
         ],
         sentence: [
             "My",
@@ -3024,7 +3104,7 @@ fiszki10.push(
             252
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/678a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/678a.jpg"
         ],
                                                                     word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja115/bought.mp3"
@@ -3037,10 +3117,10 @@ fiszki10.push(
             "bought"
         ],
                                                                 sentence1b: [
-            ""
+            "kupiła"
         ],
                             sentence1c: [
-            ""
+            "bout"
         ],
         sentence: [
             "My",
@@ -3068,10 +3148,10 @@ fiszki10.push(
             "a_comfortable"
         ],
                                                                 sentence1b: [
-            ""
+            "komfortową"
         ],
                             sentence1c: [
-            ""
+            "komftybl"
         ],
         sentence: [
             "a comfortable",
@@ -3098,10 +3178,10 @@ fiszki10.push(
             "sofa"
         ],
                                                                 sentence1b: [
-            ""
+            "sofę"
         ],
                             sentence1c: [
-            ""
+            "soufa"
         ],
         sentence: [
             "a comfortable",
@@ -3118,17 +3198,17 @@ fiszki10.push(
             260
         ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/7a.jpg",
-                "https://www.arbulang.com/img/fiszki1/7b.jpg",
-                "https://www.arbulang.com/img/fiszki1/7c.jpg",
-                "https://www.arbulang.com/img/fiszki1/7d.jpg",
-                "https://www.arbulang.com/img/fiszki1/7e.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
         ],
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja46/.mp4", ""],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja46/.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja60/umbrella.mp4", "Kingsman: Tajne służby (2014)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja60/umbrella.png",
         story: [
                 'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego',
                 'Samiec czyli <u><b>on</u></b> - <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>popotam',
@@ -3155,7 +3235,7 @@ fiszki10.push(
         ],
         key: "he",
         category2: ["osoby"],
-        category3: ["Past Simple"]
+        category3: ["PastSimple"]
     },
 {
         id: [
@@ -3174,10 +3254,10 @@ fiszki10.push(
             "left"
         ],
                                                                 sentence1b: [
-            ""
+            "zostawił"
         ],
                             sentence1c: [
-            ""
+            "left"
         ],
         sentence: [
             "He",
@@ -3218,10 +3298,10 @@ fiszki10.push(
             "his"
         ],
                                                                 sentence1b: [
-            ""
+            "jego"
         ],
                             sentence1c: [
-            ""
+            "his"
         ],
         sentence: [
             "He",
@@ -3251,10 +3331,10 @@ fiszki10.push(
             "umbrella"
         ],
                                                                 sentence1b: [
-            ""
+            "parasol"
         ],
                             sentence1c: [
-            ""
+            "ambrela"
         ],
         sentence: [
             "He",
@@ -3277,17 +3357,17 @@ fiszki10.push(
             "http://localhost/arbulanguage.com/img/fiszki1/819a.jpg"
         ],
         story: [
-            ""
+            "<b><u>Na dole</b></u> budynku dał gospodarz dał kolorowy pasek i jest w tym se<b><u>ns</b></u> bo łatwiej było namalować. <b><u>Ter</b></u>az budynek ładnie wygląda, <b><u>s</b></u>uper widok"
         ],
-        desc: "downstairs[] - ",
+        desc: "downstairs[dałnsters] - na dole",
         sentence2: [
             "downstairs"
         ],
                                                                 sentence1b: [
-            ""
+            "na_dole"
         ],
                             sentence1c: [
-            ""
+            "dałnsters"
         ],
         sentence: [
             "He",
@@ -3366,10 +3446,10 @@ fiszki10.push(
             "found"
         ],
                                                                 sentence1b: [
-            ""
+            "znalazłem"
         ],
                             sentence1c: [
-            ""
+            "faund"
         ],
         sentence: [
             "I",

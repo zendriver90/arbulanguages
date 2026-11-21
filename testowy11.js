@@ -7,21 +7,22 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/1a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/1a.jpg"
         ],
         translate: "I want to learn Spanish very quickly",
         translateb: "[yoh kee-eh-roh ah-pren-dehr es-pah-nyol moo-ee rah-pee-doh]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/eng-esp/language2.mp4", 'Crank 2 (2009)'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/eng-esp/language2.png",
+        srcWord: ["https://www.arbulang.com/filmy/eng-esp/language2.mp4", 'Crank 2 (2009)'],
+        srcWordimage: "https://www.arbulang.com/filmy/eng-esp/language2.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence1/yo.mp3"
         ],
         // historia
         story: [
-                "I am from New <u><b>Yo</u></b>rk, so wherever <u><b>I</u></b> am, <u><b>I</u></b> represent New <u><b>Yo</u></b>rk"
+                "I am from New <u><b>Yo</u></b>rk, so wherever <u><b>I</u></b> am, <u><b>I</u></b> represent New <u><b>Yo</u></b>rk. New York is lar<u><b>ge</u></b> and in summer is very h<u><b>o(ɑ)</u></b>t"
         ],
         // opis
-        desc: "yo[yoh] - I",
+        desc: "yo - I",
+        desc2: "New <u><b>Yo</u></b>rk",
         //zdanie
         sentence1: [
                 "Yo"
@@ -30,7 +31,7 @@ id: [
             "I"
         ],
                 sentence1c: [
-            "Yoh"
+            "/ʝo/ or /dʒoʊ/"
         ],
         sentence: [
                 "Yo",
@@ -54,17 +55,18 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/2a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/2a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence1/quiero.mp3"
         ],
         // historia
         story: [
-                "I <u><b>want</u></b> to bake cookies and find a <u><b>key</u></b>, which is the recipe, but the oven has an <u><b>er</u></b>ror, so I need to buy an oven <u><b>ro</u></b>bot"
+                "I <u><b>want</u></b> to bake cookies and find a <u><b>key</u></b>, which is the recipe, but the inteligent oven has an <u><b>er</u></b>ror. I need to make oven less h<u><b>o</u></b>t"
         ],
         // opis
-        desc: "quiero[kee-eh-roh] - want",
+        desc: "quiero - want",
+                desc2: "<u><b>ke</u></b>y <u><b>err</u></b>or h<u><b>o</u></b>t",
         //zdanie
         sentence1: [
                 "quiero"
@@ -73,7 +75,7 @@ id: [
             "want"
         ],
                 sentence1c: [
-            "kee-eh-roh"
+            "kjero"
         ],
         sentence: [
                 "Yo",
@@ -96,17 +98,18 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/3a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/3a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence1/aprender.mp3"
         ],
         // historia
         story: [
-                "I bought an <u><b>app</u></b>lication to <u><b>ren</u></b>t a house, and I am <u><b>learning</u></b> how to use it. I'm old, but I still <u><b>dare</u></b> to use new technologies"
+                "I bought an <u><b>app</u></b>lication to <u><b>ren</u></b>t a house, and I am <u><b>learning</u></b> how to use it. I have solme tentative t<u><b>er</u></b>ms and <u><b>d</u></b>ates for viewing apartments"
         ],
         // opis
-        desc: "aprender[ah-pren-dehr] - learn",
+        desc: "aprender - learn",
+                        desc2: "<u><b>app</u></b>lication <u><b>ren</u></b>t t<u><b>er</u></b>ms",
         //zdanie
                 sentence1: [
                 "aprender"
@@ -115,7 +118,7 @@ id: [
             "to_learn"
         ],
                 sentence1c: [
-            "ah-pren-dehr"
+            "/əˈprɛn.dɚ/"
         ],
                 sentence: [
                 "Yo",
@@ -138,17 +141,18 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/4a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/4a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence1/espanol.mp3"
         ],
         // historia
         story: [
-                "I have a <u><b>Spanish</u></b> girlfriend, her presence is <u><b>ess</u></b>ential and a part of my life. I like her as a compa<u><b>nio</u></b>n, and <u><b>all</u></b> of it makes me happy"
+                "I have a <u><b>Spanish</u></b> girlfriend, her presence is <u><b>ess</u></b>ential and a <u><b>pa</u></b>rt of my life. I like her as a com<u><b>panio</u></b>n, and <u><b>all</u></b> of it makes me happy"
         ],
         // opis
-        desc: "espanol[es-pah-nyol] - spanish",
+        desc: "espanol - spanish",
+        desc2: "<u><b>ess</u></b>ential com<u><b>panio</u></b>n <u><b>all</u></b>",
         //zdanie
                 sentence1: [
                 "espanol"
@@ -180,17 +184,18 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/5a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/5a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence1/muy.mp3"
         ],
         // historia
         story: [
                 "The cow ate a lot of <u><b>very</u></b> good chocolate and made a lot of <u><b>'moo'</u></b> sounds in the b<u><b>ui</u></b>lding"
         ],
         // opis
-        desc: "muy[moo-ee] - very",
+        desc: "muy - very",
+        desc2: "<u><b>moo</u></b> b<u><b>ui</u></b>lding",
         //zdanie
         sentence2: [
                 "muy"
@@ -220,17 +225,18 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/6a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/6a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence1/rapido.mp3"
         ],
         // historia
         story: [
                 "<u><b>Ra</u></b>mses in the <u><b>pi</u></b>cture is going through the bathroom <u><b>doo</u></b>r very <u><b>fast</u></b> because he needs to pee"
         ],
         // opis
-        desc: "rapido[rah-pee-doh] - fast",
+        desc: "rapido - fast",
+                desc2: "<u><b>Ra</u></b>mses <u><b>pi</u></b>cture <u><b>doo</u></b>r",
         //zdanie
         sentence2: [
                 "rapido"
@@ -260,21 +266,22 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/7a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/7a.jpg"
         ],
         translate: "A plan is a method or way of doing something",
         translateb: "[oon plahn es oon meh-toh-doh oh mah-neh-rah deh ah-ser ahl-goh]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/eng-esp/planning.mp4", 'A Beautiful Mind (2001)'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/eng-esp/planning.png",
+        srcWord: ["https://www.arbulang.com/filmy/eng-esp/planning.mp4", 'A Beautiful Mind (2001)'],
+        srcWordimage: "https://www.arbulang.com/filmy/eng-esp/planning.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence2/un_plan.mp3"
         ],
         // historia
         story: [
                 "The gr<u><b>ou</u></b>nd is a good <u><b>plan</u></b>"
         ],
         // opis
-        desc: "un plan[oon plahn] - plan",
+        desc: "un plan - plan",
+        desc2: "gr<u><b>ou</u></b>nd <u><b>plan</u></b>",
         //zdanie
         sentence1: [
                 "Un_plan"
@@ -310,11 +317,11 @@ id: [
 ],
         // obrazek
         img: [
-                            "http://localhost/arbulanguage.com/img/fiszki1en-esp/22a.jpg",
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/8a.jpg"
+                            "https://www.arbulang.com/img/fiszki1en-esp/22a.jpg",
+                "https://www.arbulang.com/img/fiszki1en-esp/8a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence2/es.mp3"
         ],
         // historia
         story: [
@@ -322,7 +329,8 @@ id: [
                 "Style of dr<b><u>ess</b></u>ing is a way of expr<b><u>ess</b></u>ing personality"
         ],
         // opis
-        desc: "es[es] - is",
+        desc: "es - is",
+        desc2: "Y<u><b>es</u></b>",
         //zdanie
         sentence1: [
                 "es"
@@ -358,17 +366,19 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/9a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/9a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence2/un_metodo.mp3"
         ],
         // historia
         story: [
                 "Listening to so<b><u>un</b></u>ds is a <b><u>method</b></u> of staying calm, so dont w<b><u>o</b></u>rry"
         ],
         // opis
-        desc: "un metodo[oon meh-toh-doh] - method",
+        desc: "un metodo - method",
+                desc2: "so<u><b>un</u></b>ds <u><b>method</u></b> w<b><u>o</b></u>rry",
+
         //zdanie
         sentence1: [
                 "un_metodo"
@@ -403,17 +413,18 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/10a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/10a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence2/o_manera.mp3"
         ],
         // historia
         story: [
-                "A <b><u>way</b></u> to <b><u>man</b></u>ifest skills is to work hard without being int<b><u>err</b></u>upted, <b><u>or</b></u> to just sit on the sof<b><u>a</b></u>"
+                "A <b><u>way</b></u> to <b><u>man</b></u>ifest skills is to work hard without being int<b><u>err</b></u>upted, <b><u>o</b></u>r to just sit on the s<b><u>o</b></u>fa"
         ],
         // opis
-        desc: "o manera[oh mah-neh-rah] - or way",
+        desc: "o manera - or way",
+        desc2: "<b><u>o</b></u>r <b><u>man</b></u>ifest int<b><u>err</b></u>upted sof<b><u>a</b></u>",
         //zdanie
         sentence1: [
                 "o_manera"
@@ -448,10 +459,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/11a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/11a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence2/de.mp3"
         ],
         // historia
         story: [
@@ -459,6 +470,7 @@ id: [
         ],
         // opis
         desc: "de[deh] - of",
+        desc2: "<b><u>The</b></u>",
         //zdanie
         sentence1: [
                 "de"
@@ -493,17 +505,18 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/12a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/12a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence2/hacer.mp3"
         ],
         // historia
         story: [
-                "<b><u>As</b></u> i learned from <b><u>Sir</b></u> Robert, I <b><u>make</b></u> the same effort"
+                " i learned from <b><u>Sir</b></u> Robert, I <b><u>make</b></u> the same effort"
         ],
         // opis
-        desc: "hacer[ah-ser] - do/make",
+        desc: "hacer - do/make",
+        desc2: "<b><u>As</b></u> <b><u>Sir</b></u>",
         //zdanie
         sentence1: [
                 "hacer"
@@ -538,17 +551,18 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/13a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/13a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence2/algo.mp3"
         ],
         // historia
         story: [
                 "<b><u>A</b></u>nn uses <b><u>something</b></u> like the element g<b><u>all</b></u>ium to prepare for <b><u>go</b></u>ing to space"
         ],
         // opis
-        desc: "algo[ahl-goh] - something",
+        desc: "algo - something",
+        desc2: "<b><u>A</b></u>nn g<b><u>all</b></u>ium <b><u>go</b></u>ing",
         //zdanie
         sentence1: [
                 "algo"
@@ -583,21 +597,22 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/14a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/14a.jpg"
         ],
         translate: "She is reading an interesting book now",
         translateb: "[eh-yah es-tah leh-yen-doh oon lee-broh in-teh-reh-sahn-teh ah-oh-rah]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/eng-esp/interestingbook.mp4", 'The Book of Eli (2010)'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/eng-esp/interestingbook.png",
+        srcWord: ["https://www.arbulang.com/filmy/eng-esp/interestingbook.mp4", 'The Book of Eli (2010)'],
+        srcWordimage: "https://www.arbulang.com/filmy/eng-esp/interestingbook.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence3/ella.mp3"
         ],
         // historia
         story: [
                 "Sens<b><u>ei</b></u> s<b><u>o</b></u>mehow manages to meet a beautiful girl. <b><u>She</b></u> is happy"
         ],
         // opis
-        desc: "Ella[eh-yah] - she",
+        desc: "Ella - she",
+        desc2: "Sens<b><u>ei</b></u> s<b><u>o</b></u>mehow",
         //zdanie
         sentence1: [
                 "Ella"
@@ -632,17 +647,18 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/15a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/15a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/lee.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence3/esta.mp3"
         ],
         // historia
         story: [
                 "The <b><u>esta</b></u>blishment <b><u>is</b></u> planning a new order for the people."
         ],
         // opis
-        desc: "está[es-tah] - is",
+        desc: "está - is",
+        desc2: "<b><u>esta</b></u>blishment",
         //zdanie
         sentence1: [
                 "está"
@@ -676,17 +692,18 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/16a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/16a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/lee.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence3/leyendo.mp3"
         ],
         // historia
         story: [
                 "I'm p<b><u>lay</b></u>ing a movie-game, and I'm at the <b><u>end</b></u> of the game... <b><u>O</b></u>h, it was great!"
         ],
         // opis
-        desc: "leyendo[leh-yen-doh] - read",
+        desc: "leyendo - read",
+        desc2: "p<b><u>lay</b></u>ing <b><u>end</b></u> <b><u>O</b></u>h",
         //zdanie
         sentence1: [
                 "leyendo"
@@ -720,17 +737,18 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/17a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/17a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/lee.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence3/un_libro.mp4"
         ],
         // historia
         story: [
-                "On a moon<b><u>ly</b></u> Saturday, I read a great <b><u>book</b></u> about it. I recommended it to my <b><u>bro</b></u>ther"
+                "On a m<b><u>oon</b></u>|s<b><u>ly</b></u> Saturday, I read a great <b><u>book</b></u> about it. I recommended it to my <b><u>bro</b></u>ther"
         ],
         // opis
-        desc: "un libro[oon lee-broh] - book",
+        desc: "un libro - book",
+                desc2: "m<b><u>oon</b></u>ly moon<b><u>ly</b></u> <b><u>bro</b></u>ther",
         //zdanie
         sentence1: [
                 "un_libro"
@@ -764,10 +782,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/18a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/18a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/lee.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence3/interesante.mp3"
         ],
         // historia
         story: [
@@ -775,6 +793,7 @@ id: [
         ],
         // opis
         desc: "interesante[in-teh-reh-sahn-teh] - interesting",
+                        desc2: "m<b><u>interesante</b></u>",
         //zdanie
         sentence1: [
                 "interestante"
@@ -808,17 +827,18 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/19a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/19a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/lee.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence3/ahora.mp3"
         ],
         // historia
         story: [
-                "And <b><u>now</u></b> we have <b><u>flora</u></b> that gives us food"
+                "And <b><u>now</u></b> we have <b><u>flora</u></b> that gives us food. It was very hard to do this"
         ],
         // opis
         desc: "ahora[ah-oh-rah] - now",
+                                desc2: "h<b><u>a</b></u>rd fl<b><u>ora</b></u>",
         //zdanie
         sentence1: [
                 "ahora"
@@ -852,14 +872,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/20a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/20a.jpg"
         ],
         translate: "My coffee is so lazy, it walks to the cup",
         translateb: "[mee kah-feh es tahn peh-reh-soh, kah-mee-nah ah lah tah-sah]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/eng-esp/coffe2.mp4", 'Series: Dexter(2006-)'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/eng-esp/coffe2.png",
+        srcWord: ["https://www.arbulang.com/filmy/eng-esp/coffe2.mp4", 'Series: Dexter(2006-)'],
+        srcWordimage: "https://www.arbulang.com/filmy/eng-esp/coffe2.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence4/mi.mp3"
         ],
         // historia
         story: [
@@ -867,6 +887,7 @@ id: [
         ],
         // opis
         desc: "Mi[mee] - my",
+                desc2: "<u><b>Mi</u></b>ni Cooper",
         //zdanie
         sentence1: [
                 "Mi"
@@ -900,10 +921,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/21a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/21a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/lee.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence4/cafe.mp3"
         ],
         // historia
         story: [
@@ -911,6 +932,7 @@ id: [
         ],
         // opis
         desc: "café[kah-feh] - coffee",
+                        desc2: "<u><b>café</u></b>",
         //zdanie
         sentence1: [
                 "café"
@@ -943,11 +965,11 @@ id: [
 ],
         // obrazek
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1en-esp/22a.jpg",
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/8a.jpg"
+            "https://www.arbulang.com/img/fiszki1en-esp/22a.jpg",
+                "https://www.arbulang.com/img/fiszki1en-esp/8a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/lee.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence4/es.mp3"
         ],
         // historia
         story: [
@@ -956,6 +978,7 @@ id: [
         ],
         // opis
         desc: "es[es] - is",
+        desc2: "Y<u><b>es</u></b>",
         //zdanie
         sentence1: [
                 "es"
@@ -989,10 +1012,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/23a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/23a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/lee.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence4/tan.mp3"
         ],
         // historia
         story: [
@@ -1000,6 +1023,7 @@ id: [
         ],
         // opis
         desc: "tan[tahn] - so",
+                desc2: "Na<u><b>tan</u></b>",
         //zdanie
         sentence1: [
                 "tan"
@@ -1032,17 +1056,18 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/24a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/24a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/lee.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence4/perezoso.mp3"
         ],
         // historia
         story: [
-                "I'm not <b><u>lazy</b></u>. I do <b><u>so</b></u> much work <b><u>per</b></u> hour. I use my secr<b><u>et</b></u> to it. Less <b><u>ta</b></u>lk"
+                "I'm not <b><u>lazy</b></u>. I do <b><u>so</b></u> much work <b><u>per</b></u> hour. I use my secr<b><u>et</b></u> to it. <b><u>OOO</b></u>h, less <b><u>ta</b></u>lk"
         ],
         // opis
         desc: "perezoso[peh-reh-TOH-soh] - lazy",
+        desc2: "<u><b>per</u></b> secr<u><b>et</u></b> <b><u>OOO</b></u>hhh <u><b>so</u></b>",
         //zdanie
         sentence1: [
                 "perezoso"
@@ -1075,17 +1100,18 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/25a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/25a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/lee.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence4/camina.mp3"
         ],
         // historia
         story: [
-                "My <b><u>cam</u></b>era in the phone had internal damage. After the repair, I can <b><u>walk</u></b> and talk with my friend"
+                "My <b><u>cam</u></b>era <b><u>in</b></u> the phone had internal damage. <b><u>A</b></u>fter the repair, I can <b><u>walk</u></b> and talk with my friend"
         ],
         // opis
         desc: "camina[kah-mee-nah] - walk",
+        desc2: "<u><b>cam</u></b>era <u><b>in</u></b> <u><b>a</u></b>fter",
         //zdanie
         sentence2: [
                 "camina"
@@ -1116,17 +1142,18 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/26a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/26a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/lee.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence4/a.mp3"
         ],
         // historia
         story: [
-                "<b><u>A</b></u> car is to travel"
+                "My c<b><u>a</b></u>r is to travel"
         ],
         // opis
         desc: "a[a] - to",
+                desc2: "c<u><b>a</u></b>r",
         //zdanie
         sentence2: [
                 "a"
@@ -1157,10 +1184,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/27a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/27a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/lee.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence4/la_taza.mp3"
         ],
         // historia
         story: [
@@ -1168,6 +1195,7 @@ id: [
         ],
         // opis
         desc: "la taza[lah tah-sah] - the cup",
+                        desc2: "P<u><b>la</u></b>n <u><b>tas</u></b>k <u><b>a</u></b>fter",
         //zdanie
         sentence2: [
                 "la_taza"
@@ -1198,14 +1226,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/28a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/28a.jpg"
         ],
         translate: "The sun shines in the blue sky",
         translateb: "[El sohl bree-yah en el see-eh-loh ah-sool]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/eng-esp/sky.mp4", 'Matrix (1997)'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/eng-esp/sky.png",
+        srcWord: ["https://www.arbulang.com/filmy/eng-esp/sky.mp4", 'Matrix (1997)'],
+        srcWordimage: "https://www.arbulang.com/filmy/eng-esp/sky.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence5/el_sol.mp3"
         ],
         // historia
         story: [
@@ -1213,6 +1241,7 @@ id: [
         ],
         // opis
         desc: "El sol[el sohl] - sun",
+                desc2: "b<u><b>ell</u></b>y <u><b>sol</u></b>o",
         //zdanie
         sentence1: [
                 "El_sol"
@@ -1243,10 +1272,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/29a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/29a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/lee.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence5/brilla.mp3"
         ],
         // historia
         story: [
@@ -1254,6 +1283,7 @@ id: [
         ],
         // opis
         desc: "brilla[bree-yah] - shines",
+                        desc2: "<u><b>bree</b></u>ze <u><b>ya</u></b>",
         //zdanie
         sentence1: [
                 "brilla"
@@ -1283,10 +1313,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/30a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/30a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/lee.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence5/en.mp3"
         ],
         // historia
         story: [
@@ -1294,6 +1324,7 @@ id: [
         ],
         // opis
         desc: "en[en] - on/in",
+                                desc2: "m<u><b>en</u></b>",
         //zdanie
         sentence2: [
                 "en"
@@ -1324,10 +1355,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/31a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/31a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/lee.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence5/el_cielo.mp3"
         ],
         // historia
         story: [
@@ -1335,6 +1366,7 @@ id: [
         ],
         // opis
         desc: "el cielo[el see-eh-loh] - sky",
+        desc2: "S<b><u>ell</b></u> <u><b>s</u></b>kills <u><b>yello</u></b>w",
         //zdanie
         sentence2: [
                 "el_cielo"
@@ -1365,10 +1397,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/32a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/32a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/lee.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence5/azul.mp3"
         ],
         // historia
         story: [
@@ -1376,6 +1408,7 @@ id: [
         ],
         // opis
         desc: "azul[ah-sool] - blue",
+                desc2: "<b><u>as</b></u> t<u><b>ool</u></b>",
         //zdanie
         sentence2: [
                 "azul"
@@ -1406,21 +1439,22 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/33a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/33a.jpg"
         ],
         translate: "The house is big, and it has a beautiful garden",
         translateb: "[lah kah-sah es grahn-deh ee tee-eh-neh oon har-deen boh-nee-toh]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/eng-esp/garden.mp4", 'Elylsium (2013)'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/eng-esp/garden.png",
+        srcWord: ["https://www.arbulang.com/filmy/eng-esp/garden.mp4", 'Elylsium (2013)'],
+        srcWordimage: "https://www.arbulang.com/filmy/eng-esp/garden.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence6/la_casa.mp3"
         ],
         // historia
         story: [
-                "P<b><u>la</b></u>ns for my doughter Cassandra birthday (which will happen in our <b><u>house</b></u>) are so unbelivable"
+                "P<b><u>la</b></u>ns for my doughter <u><b>Cass</u></b>andra birthday (which will happen in our <b><u>house</b></u>) are so unbelivable"
         ],
-        // opis
+        // opisa
         desc: "La casa[lah kah-sah] - house",
+                        desc2: "P<b><u>la</b></u>ns <u><b>Cass</u></b>andra",
         //zdanie
         sentence1: [
                 "La_casa"
@@ -1452,11 +1486,11 @@ id: [
 ],
         // obrazek
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1en-esp/22a.jpg",
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/8a.jpg"
+            "https://www.arbulang.com/img/fiszki1en-esp/22a.jpg",
+                "https://www.arbulang.com/img/fiszki1en-esp/8a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/lee.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence6/es.mp3"
         ],
         // historia
         story: [
@@ -1465,6 +1499,7 @@ id: [
         ],
         // opis
         desc: "es[es] - is",
+        desc2: "Y<b><u>es</b></u>",
         //zdanie
         sentence1: [
                 "es"
@@ -1496,10 +1531,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/35a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/35a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/lee.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence6/grande.mp3"
         ],
         // historia
         story: [
@@ -1507,6 +1542,7 @@ id: [
         ],
         // opis
         desc: "grande[grahn-deh] - big",
+                desc2: "<b><u>gr</b></u>eat <b><u>Ande</b></u>s",
         //zdanie
         sentence1: [
                 "grande"
@@ -1537,11 +1573,11 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/65a.jpg",
-                 "http://localhost/arbulanguage.com/img/fiszki1en-esp/36a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/65a.jpg",
+                 "https://www.arbulang.com/img/fiszki1en-esp/36a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence6/y.mp3"
         ],
         // historia
         story: [
@@ -1550,6 +1586,7 @@ id: [
         ],
         // opis
         desc: "y[ee] - and",
+        desc2: "<b><u>i</b></u>t",
         //zdanie
         sentence2: [
                 "y"
@@ -1582,10 +1619,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/37a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/37a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/lee.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence6/tiene.mp3"
         ],
         // historia
         story: [
@@ -1593,6 +1630,7 @@ id: [
         ],
         // opis
         desc: "tiene[tee-eh-neh] - has",
+                desc2: "<b><u>ti</b></u>er S<b><u>ene</b></u>ca",
         //zdanie
         sentence2: [
                 "tiene"
@@ -1624,10 +1662,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/38a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/38a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/lee.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence6/un_jardin.mp3"
         ],
         // historia
         story: [
@@ -1635,6 +1673,7 @@ id: [
         ],
         // opis
         desc: "un jardin[oon har-deen] - garden",
+                        desc2: "m<b><u>oon</b></u> <b><u>har</b></u>d <b><u>dinn</b></u>er",
         //zdanie
         sentence2: [
                 "un_jardin"
@@ -1666,10 +1705,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/39a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/39a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/lee.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence6/bonito.mp3"
         ],
         // historia
         story: [
@@ -1677,6 +1716,7 @@ id: [
         ],
         // opis
         desc: "bonito[boh-nee-toh] - beautiful",
+        desc2: "Ro<b><u>bo</b></u>cop ma<b><u>ni</b></u>cure <b><u>to</b></u>p",
         //zdanie
         sentence2: [
                 "bonito"
@@ -1708,14 +1748,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/40a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/40a.jpg"
         ],
         translate: "To draw a flower in the notebook.",
         translateb: "[dee-boo-har oo-nah flor ehn el kwah-dehr-noh]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/drawing.mp4", 'Titanic (1997)'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/drawing.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/drawing.mp4", 'Titanic (1997)'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/drawing.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence7/dibujar.mp3"
         ],
         // historia
         story: [
@@ -1723,6 +1763,7 @@ id: [
         ],
         // opis
         desc: "dibujar[dee-boo-har] - draw",
+        desc2: "Ban<b><u>di</b></u> <b><u>bu</b></u>ild <b><u>har</b></u>d",
         //zdanie
         sentence1: [
                 "Dibujar"
@@ -1753,10 +1794,10 @@ id: [
 ],
         // obrazek
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1en-esp/41a.jpg"
+            "https://www.arbulang.com/img/fiszki1en-esp/41a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence7/una_flor.mp3"
         ],
         // historia
         story: [
@@ -1764,6 +1805,7 @@ id: [
         ],
         // opis
         desc: "una flor[oo-nah flor] - flower",
+                desc2: "L<b><u>una</b></u> <b><u>floor</b></u>",
         //zdanie
         sentence1: [
                 "una_flor"
@@ -1793,10 +1835,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/42a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/42a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence7/en.mp3"
         ],
         // historia
         story: [
@@ -1804,6 +1846,7 @@ id: [
         ],
         // opis
         desc: "en[ehn] - in",
+                        desc2: "M<b><u>en</b></u>",
         //zdanie
         sentence2: [
                 "en"
@@ -1833,23 +1876,24 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/43a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/43a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence7/el_cuaderno.mp3"
         ],
         // historia
         story: [
-                "Scott h<b><u>as</b></u> a d<b><u>ua</b></u>l drive in his car and <b><u>Derr</b></u>eck has <b><u>no</b></u> dual drive but Derreck counts gasoline consumption in his <b><u>notebook</b></u>"
+                "My <u><b>qua</u></b>d bike has dual drive in his car and <b><u>Derr</b></u>eck has <b><u>no</b></u> dual drive but Derreck counts gasoline consumption in his <b><u>notebook</b></u>"
         ],
         // opis
-        desc: "el cuaderno[el kwah-dehr-noh] - the notebook",
+        desc: "el cuaderno - the notebook",
+        desc2: "<u><b>qua</u></b>d <b><u>Derr</b></u>eck <b><u>no</b></u>",
         //zdanie
         sentence2: [
                 "el_cuaderno"
         ],
                                                                                             sentence2b: [
-            "the_notebbok"
+            "the_notebook"
         ],
                 sentence2c: [
             "el_kwah-dehr-noh"
@@ -1873,14 +1917,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/44a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/44a.jpg"
         ],
         translate: "To wait alone inside the house",
         translateb: "[es-peh-rahr soh-loh den-troh deh lah kah-sah]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/home.mp4", 'Mechanic: Resurrection (2016)'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/home.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/home.mp4", 'Mechanic: Resurrection (2016)'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/home.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence8/esperar.mp3"
         ],
         // historia
         story: [
@@ -1888,6 +1932,7 @@ id: [
         ],
         // opis
         desc: "esperar[es-peh-rahr] - to wait",
+        desc2: "h<b><u>as</b></u> <b><u>per</b></u>iscope r<b><u>ar</b></u>e",
         //zdanie
         sentence1: [
                 "Esperar"
@@ -1918,17 +1963,18 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszkiespanol/6a.jpg"
+                "https://www.arbulang.com/img/fiszkiespanol/6a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence8/solo.mp3"
         ],
         // historia
         story: [
                 "COGNATS: solo - solo"
         ],
         // opis
-        desc: "solo[soh-loh] - alone",
+        desc: "solo - alone",
+                desc2: "<u><b>solo</u></b>",
         //zdanie
         sentence1: [
                 "solo"
@@ -1958,17 +2004,18 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/46a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/46a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence8/dentro_de.mp3"
         ],
         // historia
         story: [
                 "My <b><u>dent</b></u>ist found hole <b><u>in</b></u> my teeth and i have <b><u>tr</b></u>ouble, <b><u>o</b></u>hhhhhh"
         ],
         // opis
-        desc: "dentro de[den-troh deh] - inside",
+        desc: "dentro de - inside",
+                        desc2: "<b><u>dent</b></u>ist <b><u>tr</b></u>ouble <b><u>o</b></u>hhhhhh",
         //zdanie
         sentence2: [
                 "dentro_de"
@@ -1998,10 +2045,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/fiszki1en-esp/47a.jpg"
+                "https://www.arbulang.com/fiszki1en-esp/47a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence8/la_casa.mp3"
         ],
         // historia
         story: [
@@ -2009,6 +2056,7 @@ id: [
         ],
         // opis
         desc: "la casa[lah kah-sah] - the house",
+        desc2: "c<b><u>la</b></u>ssmate <b><u>Cassa</b></u>ndra",
         //zdanie
         sentence2: [
                 "la_casa"
@@ -2038,14 +2086,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/48a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/48a.jpg"
         ],
         translate: "To talk without tension while we walk together",
         translateb: "[ah-blar seen ten-syohn myen-trahs kah-mee-nah-mos hoon-tos]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/conversation.mp4", 'Inception (2010)'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/conversation.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/conversation.mp4", 'Inception (2010)'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/conversation.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence9/hablar.mp3"
         ],
         // historia
         story: [
@@ -2053,6 +2101,7 @@ id: [
         ],
         // opis
         desc: "hablar[ah-blar] - to talk",
+                desc2: "<b><u>Ab</b></u>igail <b><u>La</b></u>na h<b><u>ar</b></u>d",
         //zdanie
         sentence1: [
                 "Hablar"
@@ -2084,17 +2133,18 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/49a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/49a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence9/sin.mp3"
         ],
         // historia
         story: [
                 "They are <b><u>sin</b></u>king, though they are <b><u>without</b></u> a lifeboat"
         ],
         // opis
-        desc: "sin[seen] - without",
+        desc: "sin - without",
+        desc2: "<b><u>sin</b></u>king",
         //zdanie
         sentence1: [
                 "sin"
@@ -2125,17 +2175,18 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/50a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/50a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence9/tension.mp3"
         ],
         // historia
         story: [
                 "COGNATS: tension - tension"
         ],
         // opis
-        desc: "tension[ten-syohn] - napięcie",
+        desc: "tension - napięcie",
+        desc2: "<b><u>tension</b></u>",
         //zdanie
         sentence1: [
                 "tension"
@@ -2166,10 +2217,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/51a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/51a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence9/mientras.mp3"
         ],
         // historia
         story: [
@@ -2177,6 +2228,7 @@ id: [
         ],
         // opis
         desc: "mientras[myen-trahs] - while",
+                desc2: "<b><u>m</b></u>y <b><u>Yen</b></u> <b><u>trou</b></u>ble <b><u>s</b></u>uper",
         //zdanie
         sentence2: [
                 "mientras"
@@ -2207,17 +2259,18 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/52a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/52a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence9/caminamos.mp3"
         ],
         // historia
         story: [
-                "My <b><u>ca</b></u>t and i, <b><u>we walked</b></u> through the <b><u>mi</b></u>nt. We singing word of the song 'me <b><u>amo</b></u>' and thats the <b><u>s</b></u>tory"
+                "My <b><u>ca</b></u>t and i, <b><u>we walked</b></u> through the <b><u>min</b></u>t. We singing word of the song 'me <b><u>amo</b></u>' and thats the <b><u>s</b></u>tory"
         ],
         // opis
         desc: "caminamos[kah-mee-nah-mos] - we walk",
+        desc2: "<b><u>ca</b></u>t <b><u>min</b></u>t <b><u>amo</b></u> <b><u>s</b></u>tory",
         //zdanie
         sentence2: [
                 "caminamos"
@@ -2248,17 +2301,18 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/53a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/53a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence9/juntos.mp3"
         ],
         // historia
         story: [
-                "They <b><u>hun</b></u>t <b><u>to</b></u>gether like a b<b><u>oss</b></u>"
+            "<b><u>H</b></u>enry plays the game <b><u>together</b></u> with friend <b><u>unt</b></u>il they win... They are <b><u>toss</b></u>ing the ball in basketball"
         ],
         // opis
-        desc: "juntos[hoon-tos] - together",
+        desc: "juntos - together",
+        desc2: "<b><u>hun</b></u>ters <b><u>to</b></u>p b<b><u>oss</b></u>",
         //zdanie
         sentence2: [
                 "juntos"
@@ -2289,14 +2343,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/54a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/54a.jpg"
         ],
         translate: "To break the silence with beautiful words",
         translateb: "[rom-pehr el see-len-syoh kohn pah-lah-brahs boh-nee-tahs]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/beautiful-words.mp4", '300 (2006)'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/beautiful-words.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/beautiful-words.mp4", '300 (2006)'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/beautiful-words.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence10/romper.mp3"
         ],
         // historia
         story: [
@@ -2304,6 +2358,7 @@ id: [
         ],
         // opis
         desc: "romper[rom-pehr] - break",
+                desc2: "b<b><u>ro</b></u> CD-<b><u>ROM</b></u> <b><u>Per</b></u>",
         //zdanie
         sentence1: [
                 "Romper"
@@ -2335,18 +2390,19 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/55a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/55a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence10/el_silencio.mp3"
         ],
         // historia
         story: [
                 "COGNATS: silence - el silencio",
-                "We are in Africa and seeing an <b><u>el</b></u>efant. There is a big <b><u>silence</b></u> and <b><u>siiiii</b></u> there are a p<b><u>len</b></u>ty of other elephants there.. so everybody says <b><u>Ooooo</b></u>"
+                "We are in Africa and seeing an <b><u>el</b></u>efant. There is a big <b><u>silence</b></u> and <b><u>siiiii</b></u> there are a p<b><u>lenty</b></u>t of other elephants there.. so everybody says <b><u>Ooooo</b></u>"
         ],
         // opis
         desc: "el silencio[el see-len-syoh] - the silence",
+                        desc2: "<b><u>el</b></u>efant <b><u>siiiii</b></u> p<b><u>lenty</b></u> <b><u>Ooooo</b></u>",
         //zdanie
         sentence1: [
                 "el_silencio"
@@ -2378,10 +2434,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/56a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/56a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence10/con.mp3"
         ],
         // historia
         story: [
@@ -2389,6 +2445,7 @@ id: [
         ],
         // opis
         desc: "con[kohn] - with",
+        desc2: "<b><u>con</b></u>trol",
         //zdanie
         sentence1: [
                 "con"
@@ -2419,10 +2476,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/57a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/57a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence10/palabras.mp3"
         ],
         // historia
         story: [
@@ -2430,6 +2487,7 @@ id: [
         ],
         // opis
         desc: "palabras[pah-lah-brahs] - words",
+                desc2: "<b><u>po</b></u>wer <b><u>la la la</b></u> <b><u>wra wra wra</b></u> <b><u>s</b></u>uper",
         //zdanie
         sentence2: [
                 "palabras"
@@ -2459,10 +2517,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/58a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/58a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence10/bonitas.mp3"
         ],
         // historia
         story: [
@@ -2470,6 +2528,7 @@ id: [
         ],
         // opis
         desc: "bonitas[boh-nee-tahs] - beautiful",
+                        desc2: "<b><u>Bon</b></u>d <b><u>It</b></u> <b><u>as</b></u>",
         //zdanie
         sentence2: [
                 "bonitas"
@@ -2499,21 +2558,22 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/59a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/59a.jpg"
         ],
         translate: "To secure the doors before sleeping",
         translateb: "[ah-seh-goo-rahr lahs pwer-tSecureahs ahn-tes de dor-meer]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/door.mp4", 'The Matrix Reloaded (2003)'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/door.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/door.mp4", 'The Matrix Reloaded (2003)'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/door.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence11/asegurar.mp3"
         ],
         // historia
         story: [
-                "<b><u>As</b></u> always i <b><u>protect</b></u> my computer with a firewall, it's a <b><u>goo</b></u>d practice and it should be so <b><u>rar</b></u>ely"
+                "<b><u>As</b></u> always i <b><u>protect</b></u> my computer with a firewall, it's <b><u>a</b></u> <b><u>goo</b></u>d practice and it should be so <b><u>rar</b></u>ely"
         ],
         // opis
         desc: "asegurar[ah-seh-goo-rahr] - secure",
+        desc2: "<b><u>As</b></u> <b><u>a</b></u> <b><u>goo</b></u>d <b><u>rar</b></u>ely",
         //zdanie
         sentence1: [
                 "Asegurar"
@@ -2544,10 +2604,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/60a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/60a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence110/las_puertas.mp3"
         ],
         // historia
         story: [
@@ -2555,6 +2615,7 @@ id: [
         ],
         // opis
         desc: "la puerta[pwer-tahs] - door",
+                desc2: "c<b><u>la</b></u>ss <b><u>pu</b></u>rchase v<b><u>er</b></u>y <b><u>tas</b></u>k",
         //zdanie
         sentence1: [
                 "las_puertas"
@@ -2584,17 +2645,19 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/61a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/61a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence11/antes_de.mp3"
         ],
         // historia
         story: [
-                "The P<b><u>anthe</b></u>on was a Greek building a very artistic style <b><u>es</b></u>pecially when it terms of decorations. It was build <b><u>before</b></u> tjhe time of Jesus"
+            "The P<b><u>anthe</b></u>on was a Greek building a very artistic style <b><u>es</b></u>pecially when it terms of decorations. It was build <b><u>before</b></u> the time of Jesus",
+                "<b><u>An</b></u>atoli read a book <b><u>before</b></u> breakfast and <b><u>tes</b></u>ted <b><u>the</b></u> possibilities to earn."
         ],
         // opis
-        desc: "antes de[ahn-tes de] - before",
+        desc: "antes de[AHN-tehs deh] - before",
+        desc2: "<b><u>An</b></u>atoli <b><u>tes</b></u>ted <b><u>the</b></u>",
         //zdanie
         sentence2: [
                 "antes_de"
@@ -2624,10 +2687,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/62a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/62a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence11/dormir.mp3"
         ],
         // historia
         story: [
@@ -2635,6 +2698,7 @@ id: [
         ],
         // opis
         desc: "dormir[dor-meer] - sleep",
+                desc2: "<b><u>door</b></u> <b><u>mir</b></u>acles",
         //zdanie
         sentence2: [
                 "dormir"
@@ -2664,21 +2728,22 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/63a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/63a.jpg"
         ],
         translate: "To stay calm and enjoy together",
         translateb: "[mahn-teh-nehr lah kahl-mah ee dees-froo-tahr hoon-tohs]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/smiling.mp4", '300 (2006)'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/smiling.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/smiling.mp4", '300 (2006)'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/smiling.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence12/mantener.mp3"
         ],
         // historia
         story: [
-                "This <b><u>comm</b></u>and <b><u>keeps</b></u> the whole group in check... <b><u>Ten</b></u>sion is high, p<b><u>er</b></u> hour everybody trains at the gym with a train<b><u>er</b></u>"
+                "This co<b><u>mman</b></u>d <b><u>keeps</b></u> the whole group in check... <b><u>Ten</b></u>sion is high, p<b><u>er</b></u> hour everybody trains at the gym with a train<b><u>er</b></u>"
         ],
         // opis
         desc: "mantener[mahn-teh-nehr] - keep",
+        desc2: "co<b><u>mman</b></u>d <b><u>Ten</b></u>sion p<b><u>er</b></u>",
         //zdanie
         sentence1: [
                 "Mantener"
@@ -2709,10 +2774,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/64a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/64a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence12/la_calma.mp3"
         ],
         // historia
         story: [
@@ -2720,6 +2785,7 @@ id: [
         ],
         // opis
         desc: "la calma[lah kahl-mah] - calm",
+                desc2: "c<b><u>la</b></u>ss <b><u>calm</b></u>ness <b><u>mo</b></u>ther",
         //zdanie
         sentence1: [
                 "la_calma"
@@ -2749,11 +2815,11 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/65a.jpg",
-                 "http://localhost/arbulanguage.com/img/fiszki1en-esp/36a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/65a.jpg",
+                 "https://www.arbulang.com/img/fiszki1en-esp/36a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence12/y.mp3"
         ],
         // historia
         story: [
@@ -2762,6 +2828,7 @@ id: [
         ],
         // opis
         desc: "y[ee] - and",
+        desc2: "<b><u>i</b></u>t",
         //zdanie
         sentence2: [
                 "y"
@@ -2793,10 +2860,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/66a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/66a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence12/disfrutar.mp3"
         ],
         // historia
         story: [
@@ -2804,6 +2871,7 @@ id: [
         ],
         // opis
         desc: "disfrutar[dees-froo-tahr] - enjoy",
+        desc2: "Ma<b><u>dis</b></u>on <b><u>fru</b></u>strated <b><u>tar</b></u>get",
         //zdanie
         sentence2: [
                 "disfrutar"
@@ -2834,17 +2902,18 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/67a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/53a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence9/juntos.mp3"
         ],
         // historia
         story: [
-                "<b><u>H</b></u>enry plays the game <b><u>together</b></u> with friend <b><u>unt</b></u>il they win... They are <b><u>toss</b></u>ing the ball in basketball"
+            "<b><u>H</b></u>enry plays the game <b><u>together</b></u> with friend <b><u>unt</b></u>il they win... They are <b><u>toss</b></u>ing the ball in basketball"
         ],
         // opis
-        desc: "juntos[hoon-tohs] - together",
+        desc: "juntos - together",
+        desc2: "<b><u>hun</b></u>ters <b><u>to</b></u>p b<b><u>oss</b></u>",
         //zdanie
         sentence2: [
                 "juntos"
@@ -2875,14 +2944,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/68a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/68a.jpg"
         ],
         translate: "To achieve dreams through effort and dedication",
         translateb: "[loh-grahr sweh-nyos kohn ehs-fwehr-soh ee deh-dee-kah-syohn]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/dreams.mp4", 'Pain And Gain (2013)'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/dreams.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/dreams.mp4", 'Pain And Gain (2013)'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/dreams.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence13/lograr.mp3"
         ],
         // historia
         story: [
@@ -2890,6 +2959,7 @@ id: [
         ],
         // opis
         desc: "lograr[loh-grahr] - to achieve",
+        desc2: "<b><u>logg</b></u>ed <b><u>rar</b></u>e",
         //zdanie
         sentence1: [
                 "Lograr"
@@ -2921,10 +2991,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/69a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/69a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence13/suenos.mp3"
         ],
         // historia
         story: [
@@ -2932,6 +3002,7 @@ id: [
         ],
         // opis
         desc: "sueños[sweh-nyos] - dreams",
+        desc2: "<b><u>swa</b></u>yed bec<b><u>ause</b></u>",
         //zdanie
         sentence1: [
                 "sueños"
@@ -2962,10 +3033,10 @@ id: [
 ],
         // obrazek
         img: [
-            "http://localhost/arbulanguage.com/img/fiszki1en-esp/56a.jpg"
+            "https://www.arbulang.com/img/fiszki1en-esp/56a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence13/con2.mp3"
         ],
         // historia
         story: [
@@ -2973,6 +3044,7 @@ id: [
         ],
         // opis
         desc: "con[kohn] - with, through",
+        desc2: "<b><u>con</b></u>trol",
         //zdanie
         sentence1: [
                 "con"
@@ -3003,17 +3075,18 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/71a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/71a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence13/esfuerzo.mp3"
         ],
         // historia
         story: [
-              "The l<b><u>ess</b></u> <b><u>eff</b></u>ort you put in, the less you gain <b><u>fu</b></u>rther. Sometimes you encounter <b><u>err</b></u>ors, but don’t give and focus <b><u>to</b></u> progress",
+              "The l<b><u>ess</b></u> effort you put in, the less you gain <b><u>fu</b></u>rther. Sometimes you encounter <b><u>err</b></u>ors, but don’t give and focus on <u><b>to</u></b>p <u><b>s</u></b>uper goals",
         ],
         // opis
         desc: "esfuerzo[ehs-fwehr-soh] - effort",
+        desc2: "l<b><u>ess</b></u> <b><u>fu</b></u>rther <b><u>err</b></u>ors <u><b>to</u></b>p <u><b>s</u></b>uper",
         //zdanie
         sentence2: [
                 "esfuerzo"
@@ -3044,11 +3117,11 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/65a.jpg",
-                 "http://localhost/arbulanguage.com/img/fiszki1en-esp/36a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/65a.jpg",
+                 "https://www.arbulang.com/img/fiszki1en-esp/36a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence13/y.mp3"
         ],
         // historia
         story: [
@@ -3057,6 +3130,7 @@ id: [
         ],
         // opis
         desc: "y[ee] - and",
+                desc2: "<b><u>i</b></u>t",
         //zdanie
         sentence2: [
                 "y"
@@ -3088,10 +3162,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/73a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/73a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence13/dedication.mp3"
         ],
         // historia
         story: [
@@ -3099,6 +3173,7 @@ id: [
         ],
         // opis
         desc: "dedication[deh-dee-kah-syohn] - dedication",
+                        desc2: "<b><u>dedication</b></u>",
         //zdanie
         sentence2: [
                 "dedication"
@@ -3129,14 +3204,14 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/74a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/74a.jpg"
         ],
         translate: "To remember happy moments with family",
         translateb: "[reh-kor-dahr mo-men-tohs feh-lee-sehs kohn lah fah-mee-lyah]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/timewithfamily.mp4", 'Fast and Furious'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/timewithfamily.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/timewithfamily.mp4", 'Fast and Furious'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/timewithfamily.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence14/recordar.mp3"
         ],
         // historia
         story: [
@@ -3144,6 +3219,7 @@ id: [
         ],
         // opis
         desc: "recordar[reh-kor-dahr] - to remember",
+                                desc2: "<b><u>record</b></u>s sal<b><u>ar</b></u>y",
         //zdanie
         sentence1: [
                 "Recordar"
@@ -3175,10 +3251,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/75a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/75a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence14/momentos.mp3"
         ],
         // historia
         story: [
@@ -3186,6 +3262,7 @@ id: [
         ],
         // opis
         desc: "momentos[mo-men-tohs] - moments",
+                                        desc2: "<b><u>moments</b></u>",
         //zdanie
         sentence1: [
                 "momentos"
@@ -3216,17 +3293,18 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/76a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/76a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence14/felices.mp3"
         ],
         // historia
         story: [
-                "He <b><u>fel</b></u>t <b><u>happy</b></u> couse of Kserk<b><u>ses</b></u>"
+                "He <b><u>fel</b></u>t <b><u>happy</b></u> a little b<u><b>i</u></b>t couse of Kserk<b><u>ses</b></u>"
         ],
         // opis
         desc: "felices[feh-lee-sehs] - happy",
+        desc2: "<b><u>fel</b></u>t b<u><b>i</u></b>t Kserk<b><u>ses</b></u>",
         //zdanie
         sentence1: [
                 "felices"
@@ -3257,10 +3335,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/56a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/56a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence14/con2.mp3"
         ],
         // historia
         story: [
@@ -3268,6 +3346,7 @@ id: [
         ],
         // opis
         desc: "con[kohn] - with",
+                desc2: "<b><u>con</b></u>trol",
         //zdanie
         sentence2: [
                 "con"
@@ -3297,10 +3376,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/78a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/78a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence14/la_familia.mp3"
         ],
         // historia
         story: [
@@ -3308,6 +3387,7 @@ id: [
         ],
         // opis
         desc: "la familia[lah fah-mee-lyah] - family",
+                        desc2: "<b><ufamily</b></u>",
         //zdanie
         sentence2: [
                 "la familia"
@@ -3337,21 +3417,22 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/79a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/79a.jpg"
         ],
         translate: "To enjoy makeup before going out",
         translateb: "[dees-froo-TAHR del mah-kee-YAH-heh AHN-tehs deh sah-LEER]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/make-up.mp4", 'Song: 10 minutes - Inna'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/make-up.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/make-up.mp4", 'Song: 10 minutes - Inna'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/make-up.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence15/disfrutar.mp3"
         ],
         // historia
         story: [
-              "This <b><u>dis</b></u>trict is <b><u>to enjoy</b></u> every <b><u>fru</b></u>it and we have every fruit as a <b><u>tar</b></u>get"
+                "Ma<b><u>dis</b></u>on <b><u>enjoys</b></u> the show but she is <b><u>fru</b></u>strated becouse she can't find her <b><u>tar</b></u>get"
         ],
         // opis
-        desc: "disfrutar[deh-seh-froo-TAHR] - to enjoy",
+        desc: "disfrutar[dees-froo-tahr] - enjoy",
+        desc2: "Ma<b><u>dis</b></u>on <b><u>fru</b></u>strated <b><u>tar</b></u>get",
         //zdanie
         //zdanie
         sentence1: [
@@ -3383,10 +3464,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/80a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/80a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence15/del_maquillaje.mp3"
         ],
         // historia
         story: [
@@ -3394,6 +3475,7 @@ id: [
         ],
         // opis
         desc: "maquillaje[del mah-kee-YAH-heh] - make up",
+                desc2: "<b><u>Maci</b></u>ntosh <b><u>ja</b></u>rd <b><u>ha</b></u>s",
         //zdanie
         sentence1: [
                 "del_maquillaje"
@@ -3423,17 +3505,19 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/81a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/81a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence15/antes_de.mp3"
         ],
         // historia
         story: [
+            "The P<b><u>anthe</b></u>on was a Greek building a very artistic style <b><u>es</b></u>pecially when it terms of decorations. It was build <b><u>before</b></u> the time of Jesus",
                 "<b><u>An</b></u>atoli read a book <b><u>before</b></u> breakfast and <b><u>tes</b></u>ted <b><u>the</b></u> possibilities to earn."
         ],
         // opis
         desc: "antes de[AHN-tehs deh] - before",
+        desc2: "<b><u>An</b></u>atoli <b><u>tes</b></u>ted <b><u>the</b></u>",
         //zdanie
         //zdanie
         sentence2: [
@@ -3464,10 +3548,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/82a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/82a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence15/salir.mp3"
         ],
         // historia
         story: [
@@ -3475,6 +3559,7 @@ id: [
         ],
         // opis
         desc: "salir[sah-LEER] - going out",
+                desc2: "<b><u>sal</b></u>ary b<b><u>eer</b></u>",
         //zdanie
         sentence2: [
                 "salir"
@@ -3504,21 +3589,22 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/83a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/83a.jpg"
         ],
         translate: "To forget anxiety by looking at the stars",
-        translateb: "[ohl-vee-DAR lah ahn-syeh-DAHD mee-RAHN-doh lahs es-TRAY-yahs]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/gwiazdy.mp4", 'Passengers (2016)'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/gwiazdy.png",
+        translateb: "[]",
+        srcWord: ["https://www.arbulang.com/filmy/esp/gwiazdy.mp4", 'Passengers (2016)'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/gwiazdy.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence16/olvidar.mp3"
         ],
         // historia
         story: [
-                "<b><u>All</u></b> I do for my mar<b><u>ve</u></b>llous company is <b><u>forget</u></b> everything — and that makes me start again"
+                "<b><u>All</u></b> I do for my mar<b><u>ve</u></b>llous company is <b><u>forget</u></b> everything — and <b><u>th</b></u>at makes me st<b><u>ar</b></u>t again"
         ],
         // opis
-        desc: "olvidar[ohl-vee-DAR] - zapomnieć",
+        desc: "olvidar - forget",
+                        desc2: "<b><u>All</u></b> mar<b><u>ve</u></b>llous <b><u>th</b></u>at st<b><u>ar</b></u>t",
         //zdanie
         sentence1: [
                 "Olvidar"
@@ -3549,17 +3635,18 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/84a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/84a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence16/la_ansiedad.mp3"
         ],
         // historia
         story: [
-            "The plan for a rom<b><u>anc</u></b>e with <b><u>Pietro</u></b> caused a little <b><u>anxiety</u></b> in me, and my dad was nervous"
+            "The p<b><u>la</b></u>n for a rom<b><u>anc</u></b>e with P<b><u>ie</b></u>tro caused a little <b><u>anxiety</u></b> in me, and my <u><b>dad</u></b> was nervous"
         ],
         // opis
-        desc: "la ansiedad[lah ahn-syeh-DAHD] - anxiety",
+        desc: "la ansiedad - anxiety",
+        desc2: "p<b><u>la</b></u>n rom<b><u>anc</u></b>e P<b><u>ie</b></u>tro <u><b>dad</u></b>",
         //zdanie
         sentence1: [
                 "la ansiedad"
@@ -3589,17 +3676,18 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/85a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/85a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence16/mirando.mp3"
         ],
         // historia
         story: [
-            "Im <b><u>looking</b></u> for a <b><u>mirr</b></u>acle. I'm r<b><u>unn</b></u>ing aroung the whole room, praying for pure energy to work, when i pass the door i need to get to work"
+            "Im <b><u>looking</b></u> for a <b><u>mirr</b></u>acle. I'm r<b><u>unn</b></u>ing aroung the whole room, praying for pure energy to work, when i pass the <u><b>doo</u></b>r i need to get to work"
         ],
         // opis
-        desc: "mirando[mee-RAHN-doh] - looking",
+        desc: "mirando - looking",
+                desc2: "<b><u>mirr</b></u>acle r<b><u>unn</b></u>ing <u><b>doo</u></b>r",
         //zdanie
         sentence2: [
                 "mirando"
@@ -3629,17 +3717,18 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/86a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/86a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence16/las_estrellas.mp3"
         ],
         // historia
         story: [
-            "In art c<b><u>lass</b></u>, I draw the night sky and <b><u>stars</b></u>. Y<b><u>es</b></u>, it's my <b><u>tra</b></u>ining. In every <b><u>ya</b></u>rd, the ground connects with the sky"
+            "In art c<b><u>lass</b></u>, I draw the night sky and <b><u>stars</b></u>. Y<b><u>es</b></u>, it's my <b><u>tra</b></u>ining. In every <b><u>ya</b></u>rd, the ground connects with the <u><b>s</u></b>ky"
         ],
         // opis
-        desc: "las estrellas[lahs es-TRAY-yahs] - stars",
+        desc: "las estrellas - stars",
+        desc2: "c<b><u>lass</b></u> Y<b><u>es</b></u> <b><u>tra</b></u>ining <b><u>ya</b></u>rd <u><b>s</u></b>ky",
         //zdanie
         sentence2: [
                 "las estrellas"
@@ -3669,21 +3758,22 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/87a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/87a.jpg"
         ],
         translate: "To stretch arms toward the blue sky",
         translateb: "[ehks-tehn-DAIR lohs BRAH-sohs ahl SYEH-loh ah-SOOL]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/niebo.mp4", 'The Shawshank Redemption (1994)'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/niebo.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/niebo.mp4", 'The Shawshank Redemption (1994)'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/niebo.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence17/extender.mp3"
         ],
         // historia
         story: [
             "My <b><u>ex</u></b> used to sing 'Love Me <b><u>Tender</u></b>', so my memory <b><u>extends</u></b> to that song"
         ],
         // opis
-        desc: "extender[ehks-tehn-DAIR] - extend",
+        desc: "extender - extend",
+        desc2: "<b><u>ex</u></b> <b><u>Tender</u></b>",
         //zdanie
         sentence1: [
                 "Extender"
@@ -3715,17 +3805,18 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/88a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/88a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence17/los_brazos.mp3"
         ],
         // historia
         story: [
             "I <b><u>los</b></u>t my mind when i saw <b><u>Braz</b></u>ilian girl, she looked like a Kate M<b><u>oss</b></u>. Her <b><u>arms</b></u> were so delicious"
         ],
         // opis
-        desc: "los brazos[lohs BRAH-sohs] - the arms",
+        desc: "los brazos - the arms",
+        desc2: "<b><u>los</b></u>t <b><u>Braz</b></u>ilian M<b><u>oss</b></u>",
         //zdanie
         sentence1: [
                 "los brazos"
@@ -3756,17 +3847,18 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/89a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/89a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence17/al.mp3"
         ],
         // historia
         story: [
-            "We're <b><u>all</b></u> going <b><u>to</b></u> the heaven or hell, after death"
+            "We're <b><u>all</b></u> going <b><u>to</b></u> the heaven or hell, after death so its hard to be c<b><u>al</b></u>m"
         ],
         // opis
-        desc: "al[ahl] - to the",
+        desc: "al - to the",
+        desc2: "c<b><u>al</b></u>m",
         //zdanie
         sentence1: [
                 "al"
@@ -3797,17 +3889,18 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/90a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/90a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence17/cielo.mp3"
         ],
         // historia
         story: [
             "<b><u>Siii</b></u> we have whole sky for us, and sky pl<b><u>ay</b></u>s a beautiful me<b><u>lo</b></u>dy for us"
         ],
         // opis
-        desc: "cielo[SYEH-loh] - sky",
+        desc: "cielo - sky",
+                desc2: "c<b><u>siii</b></u> pl<b><u>ay</b></u>s me<b><u>lo</b></u>dy",
         //zdanie
         sentence2: [
                 "cielo"
@@ -3837,17 +3930,18 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/91a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/91a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence17/azul.mp3"
         ],
         // historia
         story: [
             "Here we have <b><u>blue</b></u> color, just like the sky, and I p<b><u>ull</b></u> the brush across the canv<b><u>as</b></u>"
         ],
         // opis
-        desc: "azul[ah-SOOL] - blue",
+        desc: "azul - blue",
+                        desc2: "canv<b><u>as</b></u> p<b><u>ull</b></u>",
         //zdanie
         sentence2: [
                 "azul"
@@ -3877,21 +3971,22 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/92a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/92a.jpg"
         ],
         translate: "To cover the car before the rain",
         translateb: "[koo-BREER el KO-cheh AHN-tehs deh lah YOO-byah]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/showingcar.mp4", 'Faster (2010)'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/showingcar.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/showingcar.mp4", 'Faster (2010)'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/showingcar.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence18/cubrir.mp3"
         ],
         // historia
         story: [
             "My new car has <b><u>coo</b></u>l <b><u>cover</b></u>. Sir Brayan told me a <b><u>bri</u></b>lliant deal was waiting for me. My deal can’t be <b><u>irr</u></b>ational!"
         ],
         // opis
-        desc: "cubrir[koo-BREER] - cover",
+        desc: "cubrir - cover",
+                                desc2: "<b><u>coo</b></u>l <b><u>bri</b></u>lliant <b><u>irr</u></b>ational!",
         //zdanie
         sentence1: [
                 "Cubrir"
@@ -3923,17 +4018,18 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/93a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/93a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence18/el_coche.mp3"
         ],
         // historia
         story: [
             "<b><u>El</u></b>iot <b><u>co</u></b>pied his keys to the <b><u>car</u></b> and <b><u>che</b></u>cked if they really worked"
         ],
         // opis
-        desc: "el coche[el KO-cheh] - car",
+        desc: "el coche - car",
+        desc2: "<b><u>el</b></u>iot <b><u>co</b></u>pied <b><u>che</u></b>cked",
         //zdanie
         sentence1: [
                 "el coche"
@@ -3964,17 +4060,19 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/81a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/81a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence18/antes_de.mp3"
         ],
         // historia
         story: [
+            "The P<b><u>anthe</b></u>on was a Greek building a very artistic style <b><u>es</b></u>pecially when it terms of decorations. It was build <b><u>before</b></u> the time of Jesus",
                 "<b><u>An</b></u>atoli read a book <b><u>before</b></u> breakfast and <b><u>tes</b></u>ted <b><u>the</b></u> possibilities to earn."
         ],
         // opis
         desc: "antes de[AHN-tehs deh] - before",
+        desc2: "<b><u>An</b></u>atoli <b><u>tes</b></u>ted <b><u>the</b></u>",
         //zdanie
         sentence1: [
                 "antes de"
@@ -4005,17 +4103,18 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/95a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/95a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence18/la_lluvia.mp3"
         ],
         // historia
         story: [
             "It <b><u>rained</u></b> the <b><u>la</u></b>st day when I went to <b><u>ju</u></b>do with my <b><u>juv</u></b>enile son, full of g<b><u>ia</u></b>nt hope"
         ],
         // opis
-        desc: "la lluvia[lah YOO-byah] - the rain",
+        desc: "la lluvia - the rain",
+                desc2: "<b><u>la</b></u>st <b><u>ju</b></u>do <b><u>juv</b></u>enile g<b><u>ia</b></u>nt",
         //zdanie
         sentence1: [
                 "la lluvia"
@@ -4046,21 +4145,22 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/96a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/96a.jpg"
         ],
         translate: "To change the mind with new ideas",
         translateb: "[kahm-BYAR lah MEN-teh kon NWAY-bahs ee-DEH-ahs]",
-        srcWord: ["http://localhost/arbulanguage.com/filmy/esp/planning.mp4", 'A Beautiful Mind (2001)'],
-        srcWordimage: "http://localhost/arbulanguage.com/filmy/esp/planning.png",
+        srcWord: ["https://www.arbulang.com/filmy/esp/planning.mp4", 'A Beautiful Mind (2001)'],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/planning.png",
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence19/cambiar.mp3"
         ],
         // historia
         story: [
             "I need to <b><u>change</u></b> the settings in my Face<b><u>b</u></b>ook <b><u>cam</u></b>paign about cleaning a grave in the grave<b><u>yar</u></b>d"
         ],
         // opis
-        desc: "cambiar[kahm-BYAR] - change",
+        desc: "cambiar - change",
+                        desc2: "<b><u>cam</b></u>paign face<b><u>b</b></u>ook grave<b><u>yar</b></u>d",
         //zdanie
         sentence1: [
                 "Cambiar"
@@ -4090,17 +4190,18 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/97a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/97a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence19/la_mentos.mp3"
         ],
         // historia
         story: [
             "G<b><u>la</u></b>mour in his <b><u>mind</u></b> depends on his <b><u>ment</u></b>ality, <b><u>te</u></b>chnique, and analytical skills"
         ],
         // opis
-        desc: "la mente[lah MEN-teh] - mind",
+        desc: "la mente - mind",
+                                desc2: "g<b><u>la</b></u>mour ment<b><u>b</b></u>ality <b><u>te</b></u>chnique",
         //zdanie
         sentence1: [
                 "la mente"
@@ -4129,10 +4230,10 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/56a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/56a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence19/con2.mp3"
         ],
         // historia
         story: [
@@ -4140,6 +4241,7 @@ id: [
         ],
         // opis
         desc: "con[kohn] - with",
+                desc2: "<b><u>con</b></u>trol",
         //zdanie
         sentence2: [
                 "con"
@@ -4169,17 +4271,18 @@ id: [
 ],
         // obrazek
         img: [
-                "http://localhost/arbulanguage.com/img/fiszki1en-esp/99a.jpg"
+                "https://www.arbulang.com/img/fiszki1en-esp/99a.jpg"
         ],
         word: [
-                "http://localhost/arbulanguage.com/voice/music.mp4"
+                "https://www.arbulang.com/voice/espanol/sentence19/nuevas.mp3"
         ],
         // historia
         story: [
             "A <b><u>new</u></b> <b><u>nu</u></b>trition plan in a sportsman's life gives him energy. <b><u>Ev</u></b>entually, he p<b><u>ass</u></b>es his personal record."
         ],
         // opis
-        desc: "nuevas[NWAY-bahs] - new(nuevas/nuevos)",
+        desc: "nuevas - new(nuevas/nuevos)",
+                desc2: "<b><u>nu</b></u>trition <b><u>ev</b></u>entually p<b><u></b>ass</u>es",
         //zdanie
         sentence2: [
                 "nuevas"

@@ -2,6 +2,84 @@ fiszki10.push(
         {
 id: [
         200,
+        39
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/198a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "Ta specjalistyczna <u><b>pens</u></b>eta służy do obrabiania k<u><b>amien</u></b>ia i często ją stosuję i mam bardzo kreatywne <u><b>myśli</u></b> podczas pracy z nią"
+        ],
+        // opis
+        desc: "pensamientos[pensamientos] - myśli",
+        //zdanie
+        sentence1: [
+                "pensamientos"
+        ],
+                                    sentence2b: [
+            "myślami"
+        ],
+                sentence2c: [
+            "pensamientos"
+        ],
+        sentence: [
+                "con",
+                "pensamientos",
+                "positivos"
+        ],
+        //  slowo do nauki
+        key: "pensamientos",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        201,
+        39
+],
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/199a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "KOGNATY - POSITYWNY - POSITIVOS"
+        ],
+        // opis
+        desc: "positivos[positiwos] - pozytywne/pozytywny",
+        //zdanie
+        sentence1: [
+                "positivos"
+        ],
+                                            sentence2b: [
+            "pozytywnymi"
+        ],
+                sentence2c: [
+            "positiwos"
+        ],
+        sentence: [
+                "con",
+                "pensamientos",
+                "positivos"
+        ],
+        //  slowo do nauki
+        key: "positivos",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+        {
+id: [
+        202,
         40
 ],
         // obrazek
@@ -44,7 +122,7 @@ id: [
 },
 {
 id: [
-        201,
+        203,
         40
 ],
         img: [
@@ -82,7 +160,7 @@ id: [
 },
 {
 id: [
-        202,
+        204,
         40
 ],
         // obrazek
@@ -122,7 +200,7 @@ id: [
 },
 {
 id: [
-        203,
+        205,
         40
 ],
         // obrazek
@@ -162,7 +240,7 @@ id: [
 },
 {
 id: [
-        204,
+        206,
         40
 ],
         img: [
@@ -201,7 +279,7 @@ id: [
 },
 {
 id: [
-        205,
+        207,
         41
 ],
         // obrazek
@@ -245,7 +323,7 @@ id: [
 },
 {
 id: [
-        206,
+        208,
         41
 ],
         img: [
@@ -284,7 +362,7 @@ id: [
 },
 {
 id: [
-        207,
+        209,
         41
 ],
         img: [
@@ -323,7 +401,7 @@ id: [
 },
 {
 id: [
-        208,
+        210,
         41
 ],
         img: [
@@ -361,7 +439,7 @@ id: [
 },
 {
 id: [
-        209,
+        211,
         41
 ],
         img: [
@@ -399,7 +477,7 @@ id: [
 },
 {
 id: [
-        210,
+        212,
         42
 ],
         // obrazek
@@ -442,7 +520,7 @@ id: [
 },
 {
 id: [
-        211,
+        213,
         42
 ],
         // obrazek
@@ -481,7 +559,7 @@ id: [
 },
 {
 id: [
-        212,
+        214,
         42
 ],
         img: [
@@ -520,7 +598,7 @@ id: [
 },
 {
 id: [
-        213,
+        215,
         42
 ],
         img: [
@@ -559,7 +637,7 @@ id: [
 },
 {
 id: [
-        214,
+        216,
         42
 ],
         // obrazek
@@ -599,7 +677,7 @@ id: [
 },
 {
 id: [
-        215,
+        217,
         43
 ],
         // obrazek
@@ -644,7 +722,7 @@ id: [
 },
 {
 id: [
-        216,
+        218,
         43
 ],
         // obrazek
@@ -685,7 +763,7 @@ id: [
 },
 {
 id: [
-        217,
+        219,
         43
 ],
         // obrazek
@@ -726,7 +804,7 @@ id: [
 },
 {
 id: [
-        218,
+        220,
         43
 ],
         // obrazek
@@ -767,7 +845,7 @@ id: [
 },
 {
 id: [
-        219,
+        221,
         43
 ],
         // obrazek
@@ -806,7 +884,7 @@ id: [
 },
 {
 id: [
-        220,
+        222,
         43
 ],
         // obrazek
@@ -848,7 +926,7 @@ id: [
 },
 {
 id: [
-        221,
+        223,
         44
 ],
         // obrazek
@@ -892,7 +970,7 @@ id: [
 },
 {
 id: [
-        222,
+        224,
         44
 ],
         // obrazek
@@ -932,7 +1010,7 @@ id: [
 },
 {
 id: [
-        223,
+        225,
         44
 ],
         // obrazek
@@ -972,7 +1050,7 @@ id: [
 },
 {
 id: [
-        224,
+        226,
         44
 ],
         // obrazek
@@ -1012,7 +1090,7 @@ id: [
 },
 {
 id: [
-        225,
+        227,
         44
 ],
         // obrazek
@@ -1052,7 +1130,7 @@ id: [
 },
 {
 id: [
-        226,
+        228,
         44
 ],
         // obrazek
@@ -1092,7 +1170,7 @@ id: [
 },
 {
 id: [
-        227,
+        229,
         45
 ],
         // obrazek
@@ -1136,7 +1214,7 @@ id: [
 },
 {
 id: [
-        228,
+        230,
         45
 ],
         // obrazek
@@ -1176,7 +1254,7 @@ id: [
 },
 {
 id: [
-        229,
+        231,
         45
 ],
         // obrazek
@@ -1216,7 +1294,7 @@ id: [
 },
 {
 id: [
-        230,
+        232,
         45
 ],
         // obrazek
@@ -1255,7 +1333,7 @@ id: [
 },
 {
 id: [
-        231,
+        233,
         45
 ],
         // obrazek
@@ -1294,7 +1372,7 @@ id: [
 },
 {
 id: [
-        232,
+        234,
         46
 ],
         // obrazek
@@ -1337,7 +1415,7 @@ id: [
 },
 {
 id: [
-        233,
+        235,
         46
 ],
         // obrazek
@@ -1376,7 +1454,7 @@ id: [
 },
 {
 id: [
-        234,
+        236,
         46
 ],
         // obrazek
@@ -1415,7 +1493,7 @@ id: [
 },
 {
 id: [
-        235,
+        237,
         46
 ],
         // obrazek
@@ -1454,7 +1532,7 @@ id: [
 },
 {
 id: [
-        236,
+        238,
         47
 ],
         // obrazek
@@ -1497,7 +1575,7 @@ id: [
 },
 {
 id: [
-        237,
+        239,
         47
 ],
         // obrazek
@@ -1536,7 +1614,7 @@ id: [
 },
 {
 id: [
-        238,
+        240,
         47
 ],
         // obrazek
@@ -1576,7 +1654,7 @@ id: [
 },
 {
 id: [
-        239,
+        241,
         47
 ],
         // obrazek
@@ -1616,7 +1694,7 @@ id: [
 },
 {
 id: [
-        240,
+        242,
         47
 ],
         // obrazek
@@ -1656,7 +1734,7 @@ id: [
 },
 {
 id: [
-        241,
+        243,
         48
 ],
         // obrazek
@@ -1700,7 +1778,7 @@ id: [
 },
 {
 id: [
-        242,
+        244,
         48
 ],
         // obrazek
@@ -1740,7 +1818,7 @@ id: [
 },
 {
 id: [
-        243,
+        245,
         48
 ],
         // obrazek
@@ -1780,7 +1858,7 @@ id: [
 },
 {
 id: [
-        244,
+        246,
         49
 ],
         // obrazek
@@ -1823,7 +1901,7 @@ id: [
 },
 {
 id: [
-        245,
+        247,
         49
 ],
         // obrazek
@@ -1862,7 +1940,7 @@ id: [
 },
 {
 id: [
-        246,
+        248,
         49
 ],
         // obrazek
@@ -1901,7 +1979,7 @@ id: [
 },
 {
 id: [
-        247,
+        249,
         49
 ],
         // obrazek
@@ -1940,7 +2018,7 @@ id: [
 },
 {
 id: [
-        248,
+        250,
         50
 ],
         // obrazek
@@ -1983,7 +2061,7 @@ id: [
 },
 {
 id: [
-        249,
+        251,
         50
 ],
         // obrazek
@@ -2022,7 +2100,7 @@ id: [
 },
 {
 id: [
-        250,
+        252,
         50
 ],
         // obrazek
@@ -2061,7 +2139,7 @@ id: [
 },
 {
 id: [
-        251,
+        253,
         50
 ],
         // obrazek
@@ -2100,7 +2178,7 @@ id: [
 },
 {
 id: [
-        252,
+        254,
         51
 ],
         // obrazek
@@ -2144,7 +2222,7 @@ id: [
 },
 {
 id: [
-        253,
+        255,
         51
 ],
         // obrazek
@@ -2184,7 +2262,7 @@ id: [
 },
 {
 id: [
-        254,
+        256,
         51
 ],
         // obrazek
@@ -2224,7 +2302,7 @@ id: [
 },
 {
 id: [
-        255,
+        257,
         52
 ],
         // obrazek
@@ -2269,7 +2347,7 @@ id: [
 },
 {
 id: [
-        256,
+        258,
         52
 ],
         // obrazek
@@ -2310,7 +2388,7 @@ id: [
 },
 {
 id: [
-        257,
+        259,
         52
 ],
         // obrazek
@@ -2351,7 +2429,7 @@ id: [
 },
 {
 id: [
-        258,
+        260,
         52
 ],
         // obrazek
@@ -2392,7 +2470,7 @@ id: [
 },
 {
 id: [
-        259,
+        261,
         53
 ],
         // obrazek
@@ -2437,7 +2515,7 @@ id: [
 },
 {
 id: [
-        260,
+        262,
         53
 ],
         // obrazek
@@ -2478,7 +2556,7 @@ id: [
 },
 {
 id: [
-        261,
+        263,
         53
 ],
         // obrazek
@@ -2519,7 +2597,7 @@ id: [
 },
 {
 id: [
-        262,
+        264,
         53
 ],
         // obrazek
@@ -2560,7 +2638,7 @@ id: [
 },
 {
 id: [
-        263,
+        265,
         54
 ],
         // obrazek
@@ -2605,7 +2683,7 @@ id: [
 },
 {
 id: [
-        264,
+        266,
         54
 ],
         // obrazek
@@ -2646,7 +2724,7 @@ id: [
 },
 {
 id: [
-        265,
+        267,
         54
 ],
         // obrazek
@@ -2687,7 +2765,7 @@ id: [
 },
 {
 id: [
-        266,
+        268,
         54
 ],
         // obrazek
@@ -2728,7 +2806,7 @@ id: [
 },
 {
 id: [
-        267,
+        269,
         55
 ],
         // obrazek
@@ -2773,7 +2851,7 @@ id: [
 },
 {
 id: [
-        268,
+        270,
         55
 ],
         // obrazek
@@ -2814,7 +2892,7 @@ id: [
 },
 {
 id: [
-        269,
+        271,
         55
 ],
         // obrazek
@@ -2855,7 +2933,7 @@ id: [
 },
 {
 id: [
-        270,
+        272,
         55
 ],
         // obrazek
@@ -2896,7 +2974,7 @@ id: [
 },
 {
 id: [
-        271,
+        273,
         56
 ],
         // obrazek
@@ -2938,7 +3016,7 @@ id: [
 },
 {
 id: [
-        272,
+        274,
         56
 ],
         // obrazek
@@ -2976,7 +3054,7 @@ id: [
 },
 {
 id: [
-        273,
+        275,
         56
 ],
         // obrazek
@@ -3020,7 +3098,7 @@ id: [
 },
 {
 id: [
-        274,
+        276,
         56
 ],
         // obrazek
@@ -3058,7 +3136,7 @@ id: [
 },
 {
 id: [
-        275,
+        277,
         57
 ],
         // obrazek
@@ -3100,7 +3178,7 @@ id: [
 },
 {
 id: [
-        276,
+        278,
         57
 ],
         // obrazek
@@ -3138,7 +3216,7 @@ id: [
 },
 {
 id: [
-        277,
+        279,
         57
 ],
         // obrazek
@@ -3176,7 +3254,7 @@ id: [
 },
 {
 id: [
-        278,
+        280,
         57
 ],
         // obrazek
@@ -3216,7 +3294,7 @@ id: [
 },
 {
 id: [
-        279,
+        281,
         58
 ],
         // obrazek
@@ -3258,7 +3336,7 @@ id: [
 },
 {
 id: [
-        280,
+        282,
         58
 ],
         // obrazek
@@ -3296,7 +3374,7 @@ id: [
 },
 {
 id: [
-        281,
+        283,
         58
 ],
         // obrazek
@@ -3340,7 +3418,7 @@ id: [
 },
 {
 id: [
-        282,
+        284,
         58
 ],
         // obrazek
@@ -3378,7 +3456,7 @@ id: [
 },
 {
 id: [
-        283,
+        285,
         59
 ],
         // obrazek
@@ -3419,7 +3497,7 @@ id: [
 },
 {
 id: [
-        284,
+        286,
         59
 ],
         // obrazek
@@ -3456,7 +3534,7 @@ id: [
 },
 {
 id: [
-        285,
+        287,
         59
 ],
         // obrazek
@@ -3495,7 +3573,7 @@ id: [
 },
 {
 id: [
-        287,
+        288,
         60
 ],
         // obrazek
@@ -3532,7 +3610,7 @@ id: [
 },
 {
 id: [
-        288,
+        289,
         60
 ],
         // obrazek
@@ -3565,7 +3643,7 @@ id: [
 },
 {
 id: [
-        289,
+        290,
         60
 ],
         // obrazek
@@ -3599,7 +3677,7 @@ id: [
 },
 {
 id: [
-        290,
+        291,
         60
 ],
         // obrazek
@@ -3633,7 +3711,7 @@ id: [
 },
 {
 id: [
-        291,
+        292,
         60
 ],
         // obrazek
@@ -3667,7 +3745,7 @@ id: [
 },
 {
 id: [
-        292,
+        293,
         61
 ],
         // obrazek
@@ -3704,7 +3782,7 @@ id: [
 },
 {
 id: [
-        293,
+        294,
         61
 ],
         // obrazek
@@ -3737,7 +3815,7 @@ id: [
 },
 {
 id: [
-        294,
+        295,
         61
 ],
         // obrazek
@@ -3770,7 +3848,7 @@ id: [
 },
 {
 id: [
-        295,
+        296,
         61
 ],
         // obrazek
@@ -3803,7 +3881,7 @@ id: [
 },
 {
 id: [
-        296,
+        297,
         62
 ],
         // obrazek
@@ -3842,7 +3920,7 @@ id: [
 },
 {
 id: [
-        297,
+        298,
         62
 ],
         // obrazek
@@ -3877,7 +3955,7 @@ id: [
 },
 {
 id: [
-        298,
+        299,
         62
 ],
         // obrazek
@@ -3905,41 +3983,6 @@ id: [
         ],
         //  slowo do nauki
         key: "a",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        299,
-        62
-],
-        // obrazek
-        img: [
-                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
-        ],
-        word: [
-                "https://www.arbulang.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
-        ],
-        // opis
-        desc: "la empresa[] - ",
-        //zdanie
-        sentence1: [
-                "la empresa"
-        ],
-        sentence: [
-                "El acuerdo",
-                "beneficiará",
-                "a",
-                "la empresa"
-        ],
-        //  slowo do nauki
-        key: "empresa",
         category1: [
         ],
         category2: ["osoby", "osoby+czas"],

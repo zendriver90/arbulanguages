@@ -5,7 +5,7 @@ fiszki10.push(
             84,
             150
         ],
-        img: "https://www.arbulang.com/img/fiszki1/207b.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/207b.jpg",
                                                                                         word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja84/they.mp3"
         ],
@@ -13,8 +13,8 @@ fiszki10.push(
         translateb: "[Dej łork tugeder in de sejm ofis]",
         translateb2: "[Dej łork tugeder]",
         translateb3: "They work together in the same office",
-        srcWord: ["https://www.arbulang.com/filmy/lekcja28/office.mp4", "Yes Man (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/lekcja28/office.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja28/office.mp4", "Yes Man (2005)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja28/office.png",
         story: "<u><b>Oni</u></b> z<u><b>dej</u></b>mują jabłka z jabłoni",
         desc: "they[dej] - oni",
         sentence1: [
@@ -42,7 +42,7 @@ fiszki10.push(
             150
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/508a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/508a.jpg"
         ],
                                                                                                 word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja84/work.mp3"
@@ -75,7 +75,7 @@ fiszki10.push(
             84,
             150
         ],
-        img: "https://www.arbulang.com/img/fiszki1/272a.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/272a.jpg",
                                                                                                 word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja84/together.mp3"
         ],
@@ -106,7 +106,7 @@ fiszki10.push(
             151
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/510a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/510a.jpg"
         ],
                                                                                                 word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja84/inthesameoffice.mp3"
@@ -138,11 +138,11 @@ fiszki10.push(
             152
         ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/7a.jpg",
-                "https://www.arbulang.com/img/fiszki1/7b.jpg",
-                "https://www.arbulang.com/img/fiszki1/7c.jpg",
-                "https://www.arbulang.com/img/fiszki1/7d.jpg",
-                "https://www.arbulang.com/img/fiszki1/7e.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
         ],
                                                                                                         word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja85/he.mp3"
@@ -151,8 +151,8 @@ fiszki10.push(
         translateb: "[Hi wizits lajbrery ewry łik]",
         translateb2: "[Hi wizits lajbrery]",
         translateb3: "He visits library every week",
-        srcWord: ["https://www.arbulang.com/filmy/lekcja29/library.mp4", "Harry Potter i Kamień Filozoficzny (2001)"],
-        srcWordimage: "https://www.arbulang.com/filmy/lekcja29/library.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja29/library.mp4", "Harry Potter i Kamień Filozoficzny (2001)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja29/library.png",
         story: [
                 'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego',
                 'Samiec czyli <u><b>on</u></b> - <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>popotam',
@@ -186,7 +186,7 @@ fiszki10.push(
             152
         ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/512a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/512a.jpg"
         ],
                                                                                                                 word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja85/visits.mp3"
@@ -220,7 +220,7 @@ fiszki10.push(
             152
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/513a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/513a.jpg"
         ],
                                                                                                                 word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja85/library.mp3"
@@ -254,7 +254,7 @@ fiszki10.push(
             153
         ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/324a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/324a.jpg"
         ],
                                                                                                                 word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja85/every.mp3"
@@ -286,7 +286,7 @@ fiszki10.push(
             85,
             153
         ],
-        img: "https://www.arbulang.com/img/fiszki1/84a.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/84a.jpg",
                                                                                                                 word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja85/week.mp3"
         ],
@@ -316,11 +316,11 @@ fiszki10.push(
             154
         ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/7a.jpg",
-                "https://www.arbulang.com/img/fiszki1/7b.jpg",
-                "https://www.arbulang.com/img/fiszki1/7c.jpg",
-                "https://www.arbulang.com/img/fiszki1/7d.jpg",
-                "https://www.arbulang.com/img/fiszki1/7e.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
         ],
                                                                                                                 word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja86/he.mp3"
@@ -329,10 +329,10 @@ fiszki10.push(
         translateb: "[Hi plants wedźtybels in his gardyn]",
         translateb2: "[Hi plants wedźtybels]",
         translateb3: "He plants vegetables in his garden",
-        srcWord: ["https://www.arbulang.com/filmy/lekcja29/newspaper.mp4", "Kevin sam w domu (1990)"],
-        srcWordimage: "https://www.arbulang.com/filmy/lekcja29/newspaper.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja29/newspaper.mp4", "Kevin sam w domu (1990)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja29/newspaper.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         story: [
                 'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego',
@@ -367,7 +367,7 @@ fiszki10.push(
             154
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/517a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/517a.jpg"
         ],
                                                                                                                 word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja86/plants.mp3"
@@ -401,7 +401,7 @@ fiszki10.push(
             154
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/518a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/518a.jpg"
         ],
                                                                                                                 word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja86/vegetables.mp3"
@@ -435,7 +435,7 @@ fiszki10.push(
             155
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/254a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/254a.jpg"
         ],
                                                                                                                 word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja86/in.mp3"
@@ -469,11 +469,11 @@ fiszki10.push(
             155
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/48aa1.jpg",
-            "https://www.arbulang.com/img/fiszki1/48aa2.jpg",
-            "https://www.arbulang.com/img/fiszki1/48aa.jpg",
-            "https://www.arbulang.com/img/fiszki1/106b.jpg",
-            "https://www.arbulang.com/img/fiszki1/48aa5.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/48aa1.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/48aa2.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/48aa.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/106b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/48aa5.jpg"
         ],
                                                                                                                 word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja86/his.mp3"
@@ -511,7 +511,7 @@ fiszki10.push(
             155
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
                                                                                                                 word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja86/garden.mp3"
@@ -544,7 +544,7 @@ fiszki10.push(
             87,
             156
         ],
-        img: "https://www.arbulang.com/img/fiszki1/131a.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/131a.jpg",
                                                                                                                 word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja87/we.mp3"
         ],
@@ -552,8 +552,8 @@ fiszki10.push(
         translateb: "[Łi iksplor nju sitiz ewry jer]",
         translateb2: "[Łi iksplor nju sitiz]",
         translateb3: "We explore new cities every year",
-        srcWord: ["https://www.arbulang.com/filmy/lekcja29/explore.mp4", "Eurotrip (2004)"],
-        srcWordimage: "https://www.arbulang.com/filmy/lekcja29/explore.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja29/explore.mp4", "Eurotrip (2004)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja29/explore.png",
         opis: "Zapowiedź filmu",
         story: "<b><u>Wi</b></u>ll Smith oznajmił, że <b><u>my</b></u> jako ludzkość mamy się dobrze",
         desc: "we[łi] - my",
@@ -583,7 +583,7 @@ fiszki10.push(
             156
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/523a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/523a.jpg"
         ],
                                                                                                                         word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja87/explore.mp3"
@@ -618,7 +618,7 @@ fiszki10.push(
             156
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/524a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/524a.jpg"
         ],
                                                                                                                         word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja87/new.mp3"
@@ -653,7 +653,7 @@ fiszki10.push(
             156
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/525a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/525a.jpg"
         ],
                                                                                                                         word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja87/cities.mp3"
@@ -688,7 +688,7 @@ fiszki10.push(
             157
         ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/324a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/324a.jpg"
         ],
                                                                                                                         word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja87/every.mp3"
@@ -721,7 +721,7 @@ fiszki10.push(
             157
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/527a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/527a.jpg"
         ],
                                                                                                                         word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja87/year.mp3"
@@ -754,7 +754,7 @@ fiszki10.push(
             158
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/7a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg"
         ],
                                                                                                                         word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja88/do.mp3"
@@ -763,8 +763,8 @@ fiszki10.push(
         translateb: "[Du ju lajk dis red kar?]",
         translateb2: "[Du ju lajk dis red kar?]",
         translateb3: "Do you like this red car?",
-        srcWord: ["https://www.arbulang.com/filmy/lekcja30/redcar.mp4", "Baby driver (2017)"],
-        srcWordimage: "https://www.arbulang.com/filmy/lekcja30/redcar.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja30/redcar.mp4", "Baby driver (2017)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja30/redcar.png",
         story: "",
         desc: "do[du] - zrobić, robić, wykonać",
         sentence1: [
@@ -795,7 +795,7 @@ fiszki10.push(
             158
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/529a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/529a.jpg"
         ],
             word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja88/you.mp3"
@@ -832,7 +832,7 @@ fiszki10.push(
             158
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/530a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/530a.jpg"
         ],
                     word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja88/like.mp3"
@@ -869,11 +869,11 @@ fiszki10.push(
             158
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/44b.jpg",
-            "https://www.arbulang.com/img/fiszki1/44a.jpg",
-            "https://www.arbulang.com/img/fiszki1/83c.jpg",
-            "https://www.arbulang.com/img/fiszki1/83b.jpg",
-            "https://www.arbulang.com/img/fiszki1/108d.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/44b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/44a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/83c.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/83b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/108d.jpg"
         ],
                     word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja88/this.mp3"
@@ -914,8 +914,8 @@ fiszki10.push(
             158
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/532a.jpg",
-            "https://www.arbulang.com/img/fiszki1/532b.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/532a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/532b.jpg"
         ],
                     word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja88/red.mp3"
@@ -953,7 +953,7 @@ fiszki10.push(
             158
         ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/359a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/359a.jpg"
         ],
                     word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja88/car.mp3"
@@ -991,7 +991,7 @@ fiszki10.push(
             159
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/534a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/534a.jpg"
         ],
                             word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja89/does.mp3"
@@ -1000,8 +1000,8 @@ fiszki10.push(
         translateb: "[Doz jor fader rid ewry ivnin]",
         translateb2: "[Doz jor fader]",
         translateb3: "Does your father read every evening?",
-        srcWord: ["https://www.arbulang.com/filmy/lekcja30/fatherbook.mp4", "Finding Forrester (2000)"],
-        srcWordimage: "https://www.arbulang.com/filmy/lekcja30/fatherbook.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja30/fatherbook.mp4", "Finding Forrester (2000)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja30/fatherbook.png",
         story: "<u><b>Czy</u></b> ty <u><b>doz</u></b>ujesz dobrze ilość dodawanego proszku do pralki?",
         desc: "does[doz, daz] - robi, wykonuje (3. os. l. poj. od 'do') /// tworzy pytania w 3. os. l. poj. (np. 'Does he eat?' - ale nie oznacza if)",
         sentence1: [
@@ -1029,17 +1029,17 @@ fiszki10.push(
             159
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/17a.jpg",
-            "https://www.arbulang.com/img/fiszki1/17b.jpg",
-            "https://www.arbulang.com/img/fiszki1/17c.jpg",
-            "https://www.arbulang.com/img/fiszki1/17d.jpg",
-            "https://www.arbulang.com/img/fiszki1/17e.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/17a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/17b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/17c.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/17d.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/17e.jpg"
         ],
                                     word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja89/your.mp3"
         ],
         word: [
-            "https://www.arbulang.com/src/your.wav"
+            "http://localhost/arbulanguage.com/src/your.wav"
         ],
         story: [
             "W wojsku ma<u><b>jor</u></b> to <u><b>twój</u></b> szef od musztry",
@@ -1074,7 +1074,7 @@ fiszki10.push(
             89,
             159
         ],
-        img: "https://www.arbulang.com/img/fiszki1/536a.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/536a.jpg",
                                     word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja89/father.mp3"
         ],
@@ -1105,7 +1105,7 @@ fiszki10.push(
             160
         ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/371a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/371a.jpg"
         ],
                                     word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja89/read.mp3"
@@ -1139,7 +1139,7 @@ fiszki10.push(
             160
         ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/324a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/324a.jpg"
         ],
                                     word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja89/every.mp3"
@@ -1173,7 +1173,7 @@ fiszki10.push(
             160
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/539a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/539a.jpg"
         ],
                                     word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja89/evening.mp3"
@@ -1206,7 +1206,7 @@ fiszki10.push(
             90,
             161
         ],
-        img: "https://www.arbulang.com/img/fiszki1/76a.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/76a.jpg",
                                     word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja90/can.mp3"
         ],
@@ -1214,8 +1214,8 @@ fiszki10.push(
         translateb: "[Ken jor frend słim wery fast]",
         translateb2: "[Ken jor frend]",
         translateb3: "Can your friend swim very fast?",
-        srcWord: ["https://www.arbulang.com/filmy/lekcja30/swim.mp4", "The Swimmers (2022)"],
-        srcWordimage: "https://www.arbulang.com/filmy/lekcja30/swim.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja30/swim.mp4", "The Swimmers (2022)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja30/swim.png",
         story: "W <b><u>Ken</b></u>ii każdy <b><u>może</b></u> ubierać się na ciepłą pogodę",
         desc: "can[ken] - może",
         sentence1: [
@@ -1243,11 +1243,11 @@ fiszki10.push(
             161
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/17a.jpg",
-            "https://www.arbulang.com/img/fiszki1/17b.jpg",
-            "https://www.arbulang.com/img/fiszki1/17c.jpg",
-            "https://www.arbulang.com/img/fiszki1/17d.jpg",
-            "https://www.arbulang.com/img/fiszki1/17e.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/17a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/17b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/17c.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/17d.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/17e.jpg"
         ],
                                             word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja90/your.mp3"
@@ -1284,7 +1284,7 @@ fiszki10.push(
             90,
             161
         ],
-        img: "https://www.arbulang.com/img/fiszki1/62aa.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/62aa.jpg",
                                             word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja90/friend.mp3"
         ],
@@ -1315,8 +1315,8 @@ fiszki10.push(
             162
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/458a.jpg",
-            "https://www.arbulang.com/img/fiszki1/458b.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/458a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/458b.jpg"
         ],
                                             word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja90/swim.mp3"
@@ -1350,7 +1350,7 @@ fiszki10.push(
             90,
             162
         ],
-        img: "https://www.arbulang.com/img/fiszki1/118a.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/118a.jpg",
                                             word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja90/very.mp3"
         ],
@@ -1380,7 +1380,7 @@ fiszki10.push(
             90,
             162
         ],
-        img: "https://www.arbulang.com/img/fiszki1/79a.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/79a.jpg",
                                             word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja90/fast.mp3"
         ],
@@ -1411,11 +1411,9 @@ fiszki10.push(
             163
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/7a.jpg",
-            "https://www.arbulang.com/img/fiszki1/7b.jpg",
-            "https://www.arbulang.com/img/fiszki1/7c.jpg",
-            "https://www.arbulang.com/img/fiszki1/7d.jpg",
-            "https://www.arbulang.com/img/fiszki1/7e.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/.jpg"
         ],
                                             word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja91/are.mp3"
@@ -1424,9 +1422,13 @@ fiszki10.push(
         translateb: "[Ar łi lejt for de lesyn]",
         translateb2: "[Ar łi lejt]",
         translateb3: "Are we late for the lesson?",
-        srcWord: ["https://www.arbulang.com/filmy/lekcja31/late.mp4", "Mean Girls (2004)"],
-        srcWordimage: "https://www.arbulang.com/filmy/lekcja31/late.png",
-        story: "<b><u>Czy</b></u> <b><u>Ar</b></u>nold i <b><u>Ar</b></u>ek <b><u>są</b></u> gotowi do zawodów",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja31/late.mp4", "Mean Girls (2004)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja31/late.png",
+        story: [
+            "<b><u>Twoje</b></u> <b><u>ar</b></u>gumenty są bardzo przemawiające",
+            "Papuga <u><b>ar</u></b>a i skowronek <u><b>są</u></b> zaprzyjaźnieni. Mam nadzieję, że ty <u><b>jesteś</u></b> z tego powodu w dobrym nastroju",
+            "<b><u>Czy</b></u> <b><u>Ar</b></u>nold i <b><u>Ar</b></u>ek <b><u>są</b></u> gotowi do zawodów"
+        ],
         desc: "are[ar] - czy (2. i 3. osoba l. p. i liczba mnoga)",
         sentence1: [
             "Are"
@@ -1452,7 +1454,7 @@ fiszki10.push(
             91,
             163
         ],
-        img: "https://www.arbulang.com/img/fiszki1/131a.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/131a.jpg",
                                             word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja91/we.mp3"
         ],
@@ -1483,7 +1485,7 @@ fiszki10.push(
             163
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/548a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/548a.jpg"
         ],
                                             word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja91/late.mp3"
@@ -1516,7 +1518,7 @@ fiszki10.push(
             91,
             164
         ],
-        img: "https://www.arbulang.com/img/fiszki1/139a.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/139a.jpg",
                                                     word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja91/for.mp3"
         ],
@@ -1547,11 +1549,11 @@ fiszki10.push(
             164
         ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/5a.jpg",
-                "https://www.arbulang.com/img/fiszki1/5b.jpg",
-                "https://www.arbulang.com/img/fiszki1/5c.jpg",
-                "https://www.arbulang.com/img/fiszki1/5d.jpg",
-                "https://www.arbulang.com/img/fiszki1/5e.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg"
         ],
                                                     word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja91/the.mp3"
@@ -1589,7 +1591,7 @@ fiszki10.push(
             164
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/551a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/551a.jpg"
         ],
                                                     word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja91/lesson.mp3"
@@ -1623,12 +1625,12 @@ fiszki10.push(
             165
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/32aa.jpg",
-            "https://www.arbulang.com/img/fiszki1/32bb.jpg",
-            "https://www.arbulang.com/img/fiszki1/32cc.jpg",
-            "https://www.arbulang.com/img/fiszki1/32dd.jpg",
-            "https://www.arbulang.com/img/fiszki1/32ee.jpg",
-            "https://www.arbulang.com/img/fiszki1/32ff.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/32aa.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/32bb.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/32cc.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/32dd.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/32ee.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/32ff.jpg"
         ],
                                                     word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja92/our.mp3"
@@ -1637,8 +1639,8 @@ fiszki10.push(
         translateb: "[Aur grandma mejk sup for de lanch]",
         translateb2: "[Aur grandma mejk sup for de lanch]",
         translateb3: "Our grandma make soup for the lunch",
-        srcWord: ["https://www.arbulang.com/filmy/lekcja31/grandma.mp4", "Julie & Julia (2009)"],
-        srcWordimage: "https://www.arbulang.com/filmy/lekcja31/grandma.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja31/grandma.mp4", "Julie & Julia (2009)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja31/grandma.png",
         story: [
             "<u><b>Aur</u></b>a zawodnika z <u><b>naszego</u></b> zespołu jest niesamowita",
             "M<u><b>aur</u></b>ycy to jest <u><b>nasz</u></b> ogrodnik",
@@ -1676,7 +1678,7 @@ fiszki10.push(
             165
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/553.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/553.jpg"
         ],
                                                     word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja92/grandma.mp3"
@@ -1714,7 +1716,7 @@ fiszki10.push(
             165
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/554a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/554a.jpg"
         ],
                                                     word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja92/make.mp3"
@@ -1752,7 +1754,7 @@ fiszki10.push(
             165
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/555a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/555a.jpg"
         ],
                                                     word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja92/soup.mp3"
@@ -1790,7 +1792,7 @@ fiszki10.push(
             165
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
                                                     word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja92/for.mp3"
@@ -1828,11 +1830,11 @@ fiszki10.push(
             165
         ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/5a.jpg",
-                "https://www.arbulang.com/img/fiszki1/5b.jpg",
-                "https://www.arbulang.com/img/fiszki1/5c.jpg",
-                "https://www.arbulang.com/img/fiszki1/5d.jpg",
-                "https://www.arbulang.com/img/fiszki1/5e.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg"
         ],
                                                     word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja92/the.mp3"
@@ -1874,7 +1876,7 @@ fiszki10.push(
             165
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/558a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/558a.jpg"
         ],
                                                     word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja92/lunch.mp3"
@@ -1911,7 +1913,7 @@ fiszki10.push(
             93,
             166
         ],
-        img: "https://www.arbulang.com/img/fiszki1/207b.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/207b.jpg",
                                                     word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja93/they.mp3"
         ],
@@ -1919,8 +1921,8 @@ fiszki10.push(
         translateb: "[Dej łok elong de kłajet strit]",
         translateb2: "[Dej łok elong]",
         translateb3: "They walk along the quiet street",
-        srcWord: ["https://www.arbulang.com/filmy/lekcja31/street.mp4", "The Notebook (2004)"],
-        srcWordimage: "https://www.arbulang.com/filmy/lekcja31/street.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja31/street.mp4", "The Notebook (2004)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja31/street.png",
         story: "<u><b>Oni</u></b> z<u><b>dej</u></b>mują jabłka z jabłoni",
         desc: "they[dej] - oni",
         sentence1: [
@@ -1948,7 +1950,7 @@ fiszki10.push(
             166
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/560a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/560a.jpg"
         ],
                                                             word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja93/walk.mp3"
@@ -1982,7 +1984,7 @@ fiszki10.push(
             166
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/561a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/561a.jpg"
         ],
                                                             word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja93/along.mp3"
@@ -2016,11 +2018,11 @@ fiszki10.push(
             167
         ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/5a.jpg",
-                "https://www.arbulang.com/img/fiszki1/5b.jpg",
-                "https://www.arbulang.com/img/fiszki1/5c.jpg",
-                "https://www.arbulang.com/img/fiszki1/5d.jpg",
-                "https://www.arbulang.com/img/fiszki1/5e.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg"
         ],
                                                             word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja93/the.mp3"
@@ -2057,7 +2059,7 @@ fiszki10.push(
             167
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/563a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/563a.jpg"
         ],
                                                             word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja93/quiet.mp3"
@@ -2090,7 +2092,7 @@ fiszki10.push(
             167
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/564a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/564a.jpg"
         ],
                                                             word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja93/street.mp3"
@@ -2124,9 +2126,9 @@ fiszki10.push(
             168
         ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/50aa.jpg",
-                "https://www.arbulang.com/img/fiszki1/50bb.jpg",
-                "https://www.arbulang.com/img/fiszki1/50cc.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/50aa.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/50bb.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/50cc.jpg"
         ],
                                                             word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja94/my.mp3"
@@ -2135,8 +2137,8 @@ fiszki10.push(
         translateb: "[Maj bed is nir de łindoł]",
         translateb2: "[Maj bed is]",
         translateb3: "My bed is near the window",
-        srcWord: ["https://www.arbulang.com/filmy/lekcja32/bed.mp4", "Duma i uprzedzenie (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/lekcja32/bed.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja32/bed.mp4", "Duma i uprzedzenie (2005)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja32/bed.png",
         story: [
                 "W <b><u>maj</b></u>u kwitną <b><u>moje</b></u> ulubione kwiaty",
                 "Przetrzy<b><u>maj</b></u> mi na pare dni <b><u>moje</b></u> auto na placu",
@@ -2168,7 +2170,7 @@ fiszki10.push(
             168
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/566a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/566a.jpg"
         ],
                                                                     word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja94/bed.mp3"
@@ -2202,13 +2204,13 @@ fiszki10.push(
             168
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/8a.jpg",
-            "https://www.arbulang.com/img/fiszki1/8b.jpg",
-            "https://www.arbulang.com/img/fiszki1/8c.jpg",
-            "https://www.arbulang.com/img/fiszki1/8d.jpg",
-            "https://www.arbulang.com/img/fiszki1/8e.jpg",
-            "https://www.arbulang.com/img/fiszki1/8f.jpg",
-            "https://www.arbulang.com/img/fiszki1/8g.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/8a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/8b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/8c.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/8d.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/8e.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/8f.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/8g.jpg"
         ],
                                                                     word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja94/is.mp3"
@@ -2248,7 +2250,7 @@ fiszki10.push(
             169
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/568a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/568a.jpg"
         ],
                                                                     word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja94/near.mp3"
@@ -2283,11 +2285,11 @@ fiszki10.push(
             169
         ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/5a.jpg",
-                "https://www.arbulang.com/img/fiszki1/5b.jpg",
-                "https://www.arbulang.com/img/fiszki1/5c.jpg",
-                "https://www.arbulang.com/img/fiszki1/5d.jpg",
-                "https://www.arbulang.com/img/fiszki1/5e.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg"
         ],
                                                                     word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja94/the.mp3"
@@ -2325,9 +2327,9 @@ fiszki10.push(
             169
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/570a.jpg",
-            "https://www.arbulang.com/img/fiszki1/570b.jpg",
-            "https://www.arbulang.com/img/fiszki1/570c.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/570a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/570b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/570c.jpg"
         ],
                                                                     word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja94/window.mp3"
@@ -2365,7 +2367,7 @@ fiszki10.push(
             170
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/131a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/131a.jpg"
         ],
                                                                     word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja95/we.mp3"
@@ -2374,8 +2376,8 @@ fiszki10.push(
         translateb: "[Łi it fud tugeder ewry morning]",
         translateb2: "[Łi it fud tugeder]",
         translateb3: "We eat food together every morning",
-        srcWord: ["https://www.arbulang.com/filmy/lekcja32/eating.mp4", "Mrówki w gaciach (2000)"],
-        srcWordimage: "https://www.arbulang.com/filmy/lekcja32/eating.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja32/eating.mp4", "Mrówki w gaciach (2000)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja32/eating.png",
                 story: "<b><u>Wi</b></u>ll Smith oznajmił, że <b><u>my</b></u> jako ludzkość mamy się dobrze",
         desc: "we[łi] - nasz/nasze",
         sentence1: [
@@ -2404,7 +2406,7 @@ fiszki10.push(
             170
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/572a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/572a.jpg"
         ],
                                                                             word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja95/eat.mp3"
@@ -2439,7 +2441,7 @@ fiszki10.push(
             170
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/573a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/573a.jpg"
         ],
                                                                             word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja95/food.mp3"
@@ -2473,7 +2475,7 @@ fiszki10.push(
             95,
             170
         ],
-        img: "https://www.arbulang.com/img/fiszki1/272a.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/272a.jpg",
                                                                             word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja95/together.mp3"
         ],
@@ -2505,7 +2507,7 @@ fiszki10.push(
             171
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg"
         ],
                                                                             word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja95/every.mp3"
@@ -2538,7 +2540,7 @@ fiszki10.push(
             171
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/332a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/332a.jpg"
         ],
                                                                             word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja95/morning.mp3"
@@ -2571,11 +2573,11 @@ fiszki10.push(
             172
         ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/5a.jpg",
-                "https://www.arbulang.com/img/fiszki1/5b.jpg",
-                "https://www.arbulang.com/img/fiszki1/5c.jpg",
-                "https://www.arbulang.com/img/fiszki1/5d.jpg",
-                "https://www.arbulang.com/img/fiszki1/5e.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg"
         ],
                                                                             word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja96/the.mp3"
@@ -2584,8 +2586,8 @@ fiszki10.push(
         translateb: "[De mun rajzes ołwer de hil]",
         translateb2: "[De mun rajzes]",
         translateb3: "The moon rises over the hill",
-        srcWord: ["https://www.arbulang.com/filmy/lekcja32/moon.mp4", ""],
-        srcWordimage: "https://www.arbulang.com/filmy/lekcja32/moon.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja32/moon.mp4", ""],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja32/moon.png",
         story: [
                 'Piłki do gry w kosza są twar<span class="adannotation" data-annotation="1"><u><b>de</u></b></span>. Sam ten sport <u><b>to</u></b> twarda gra',
                 'Na tym <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>ptaku jest sporo drzewek, <u><b>to</u></b> urocze miejsce',
@@ -2619,7 +2621,7 @@ fiszki10.push(
             172
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/578a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/578a.jpg"
         ],
                                                                                     word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja96/moon.mp3"
@@ -2653,7 +2655,7 @@ fiszki10.push(
             172
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/579a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/579a.jpg"
         ],
                                                                                     word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja96/rises.mp3"
@@ -2687,7 +2689,7 @@ fiszki10.push(
             173
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/580a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/580a.jpg"
         ],
                                                                                     word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja96/over.mp3"
@@ -2720,11 +2722,11 @@ fiszki10.push(
             173
         ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/5a.jpg",
-                "https://www.arbulang.com/img/fiszki1/5b.jpg",
-                "https://www.arbulang.com/img/fiszki1/5c.jpg",
-                "https://www.arbulang.com/img/fiszki1/5d.jpg",
-                "https://www.arbulang.com/img/fiszki1/5e.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg"
         ],
                                                                                     word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja96/the.mp3"
@@ -2762,7 +2764,7 @@ fiszki10.push(
             173
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/582a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/582a.jpg"
         ],
                                                                                     word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja96/hill.mp3"
@@ -2796,7 +2798,7 @@ fiszki10.push(
             174
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/76a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/76a.jpg"
         ],
                                                                                     word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja97/can.mp3"
@@ -2805,8 +2807,8 @@ fiszki10.push(
         translateb: "[Ken szi ołpen de smol windoł]",
         translateb2: "[Ken szi ołpen]",
         translateb3: "Can she open the small window",
-        srcWord: ["https://www.arbulang.com/filmy/lekcja33/openwindow.mp4", "Dwunastu gniewnych ludzi (1957)"],
-        srcWordimage: "https://www.arbulang.com/filmy/lekcja33/openwindow.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja33/openwindow.mp4", "Dwunastu gniewnych ludzi (1957)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja33/openwindow.png",
         story: "W <b><u>Ken</b></u>ii każdy <b><u>może</b></u> ubierać się na ciepłą pogodę",
         desc: "can[ken] - może, móc",
         sentence1: [
@@ -2834,11 +2836,11 @@ fiszki10.push(
             174
         ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/7a.jpg",
-                "https://www.arbulang.com/img/fiszki1/7b.jpg",
-                "https://www.arbulang.com/img/fiszki1/7c.jpg",
-                "https://www.arbulang.com/img/fiszki1/7d.jpg",
-                "https://www.arbulang.com/img/fiszki1/7e.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg"
         ],
                                                                                             word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja97/he.mp3"
@@ -2877,7 +2879,7 @@ fiszki10.push(
             174
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/585a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/585a.jpg"
         ],
                                                                                             word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja97/open.mp3"
@@ -2911,11 +2913,11 @@ fiszki10.push(
             175
         ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/5a.jpg",
-                "https://www.arbulang.com/img/fiszki1/5b.jpg",
-                "https://www.arbulang.com/img/fiszki1/5c.jpg",
-                "https://www.arbulang.com/img/fiszki1/5d.jpg",
-                "https://www.arbulang.com/img/fiszki1/5e.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg"
         ],
                                                                                             word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja97/the.mp3"
@@ -2953,7 +2955,7 @@ fiszki10.push(
             175
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/587a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/587a.jpg"
         ],
                                                                                             word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja97/small.mp3"
@@ -2987,9 +2989,9 @@ fiszki10.push(
             175
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/570a.jpg",
-            "https://www.arbulang.com/img/fiszki1/570b.jpg",
-            "https://www.arbulang.com/img/fiszki1/570c.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/570a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/570b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/570c.jpg"
         ],
                                                                                             word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja97/window.mp3"
@@ -3027,11 +3029,11 @@ fiszki10.push(
             176
         ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/28aa.jpg",
-                "https://www.arbulang.com/img/fiszki1/28bb.jpg",
-                "https://www.arbulang.com/img/fiszki1/28cc.jpg",
-                "https://www.arbulang.com/img/fiszki1/28dd.jpg",
-                "https://www.arbulang.com/img/fiszki1/28ee.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/28aa.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/28bb.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/28cc.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/28dd.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/28ee.jpg"
         ],
                                                                                             word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja98/thecat.mp3"
@@ -3040,8 +3042,8 @@ fiszki10.push(
         translateb: "[De kat ken dżamp haj]",
         translateb2: "[De kat ken]",
         translateb3: "The cat can jump high",
-        srcWord: ["https://www.arbulang.com/filmy/lekcja33/two-cats.mp4", "Matrix Reaktywacja (2003)"],
-        srcWordimage: "https://www.arbulang.com/filmy/lekcja33/two-cats.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja33/two-cats.mp4", "Matrix Reaktywacja (2003)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja33/two-cats.png",
         story: [
                 "Na mojej łodzi <u><b>kat</u></b>amaran <u><b>kot</u></b> pomaga mi wiosłować",
                 "<u><b>Kat</u></b>arzyna idzie na spacer z <u><b>kotem</u></b>",
@@ -3074,7 +3076,7 @@ fiszki10.push(
             176
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/76a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/76a.jpg"
         ],
                                                                                                     word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja98/can.mp3"
@@ -3107,7 +3109,7 @@ fiszki10.push(
             177
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/591a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/591a.jpg"
         ],
                                                                                                     word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja98/jump.mp3"
@@ -3140,7 +3142,7 @@ fiszki10.push(
             177
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/144a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/144a.jpg"
         ],
                                                                                                     word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja98/high.mp3"
@@ -3173,7 +3175,7 @@ fiszki10.push(
             178
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/207b.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/207b.jpg"
         ],
                                                                                                     word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja99/they.mp3"
@@ -3182,8 +3184,8 @@ fiszki10.push(
         translateb: "[Dej kleim de story is true]",
         translateb2: "[Dej kleim]",
         translateb3: "They claim the story is true",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
         story: "<u><b>Oni</u></b> z<u><b>dej</u></b>mują jabłka z jabłoni",
         desc: "they[dej] - oni",
         sentence1: [
@@ -3210,7 +3212,7 @@ fiszki10.push(
             178
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/594a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/594a.jpg"
         ],
                                                                                                             word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja99/claim.mp3"
@@ -3243,7 +3245,7 @@ fiszki10.push(
             179
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/595a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/595a.jpg"
         ],
                                                                                                             word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja99/thestory.mp3"
@@ -3277,13 +3279,13 @@ fiszki10.push(
             179
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/8a.jpg",
-            "https://www.arbulang.com/img/fiszki1/8b.jpg",
-            "https://www.arbulang.com/img/fiszki1/8c.jpg",
-            "https://www.arbulang.com/img/fiszki1/8d.jpg",
-            "https://www.arbulang.com/img/fiszki1/8e.jpg",
-            "https://www.arbulang.com/img/fiszki1/8f.jpg",
-            "https://www.arbulang.com/img/fiszki1/8g.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/8a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/8b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/8c.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/8d.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/8e.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/8f.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/8g.jpg"
         ],
                                                                                                             word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja99/is.mp3"
@@ -3323,7 +3325,7 @@ fiszki10.push(
             179
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/597a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/597a.jpg"
         ],
                                                                                                             word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja99/true.mp3"
@@ -3357,11 +3359,11 @@ fiszki10.push(
             180
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/44b.jpg",
-            "https://www.arbulang.com/img/fiszki1/44a.jpg",
-            "https://www.arbulang.com/img/fiszki1/83c.jpg",
-            "https://www.arbulang.com/img/fiszki1/83b.jpg",
-            "https://www.arbulang.com/img/fiszki1/108d.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/44b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/44a.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/83c.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/83b.jpg",
+            "http://localhost/arbulanguage.com/img/fiszki1/108d.jpg"
         ],
                                                                                                             word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja100/this.mp3"
@@ -3369,8 +3371,8 @@ fiszki10.push(
         translate: "To pudełko zawiera stare książki",
         translateb: "[Dis boks kenteins old buks]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/lekcja34/shebook.mp4", "Harry Potter i Komnata Tajemnic (2002)"],
-        srcWordimage: "https://www.arbulang.com/filmy/lekcja34/shebook.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja34/shebook.mp4", "Harry Potter i Komnata Tajemnic (2002)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja34/shebook.png",
         story: [
             "Ma<b><u>dis</b></u>on jest świetnym sportowcem a to jej trener",
             "Quo va<b><u>dis</b></u> <b><u>to</b></u> cytat bardzo znany",
@@ -3403,7 +3405,7 @@ fiszki10.push(
             180
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/599a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/599a.jpg"
         ],
                                                                                                             word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja100/box.mp3"
@@ -3436,7 +3438,7 @@ fiszki10.push(
             181
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/600a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/600a.jpg"
         ],
                                                                                                             word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja100/contains.mp3"
@@ -3470,7 +3472,7 @@ fiszki10.push(
             181
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/601a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/601a.jpg"
         ],
                                                                                                                     word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja100/old.mp3"
@@ -3504,7 +3506,7 @@ fiszki10.push(
             181
         ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/365a.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/365a.jpg"
         ],
                                                                                                                     word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja100/books.mp3"
@@ -3536,9 +3538,9 @@ fiszki10.push(
             182
         ],
         img: [
-                "https://www.arbulang.com/img/fiszki1/50aa.jpg",
-                "https://www.arbulang.com/img/fiszki1/50bb.jpg",
-                "https://www.arbulang.com/img/fiszki1/50cc.jpg"
+                "http://localhost/arbulanguage.com/img/fiszki1/50aa.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/50bb.jpg",
+                "http://localhost/arbulanguage.com/img/fiszki1/50cc.jpg"
         ],
                                                                                                                     word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja101/my.mp3"
@@ -3579,7 +3581,7 @@ fiszki10.push(
             182
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/604a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/604a.jpg"
         ],
                                                                                                                             word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja101/leg.mp3"
@@ -3613,7 +3615,7 @@ fiszki10.push(
             182
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/605a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/605a.jpg"
         ],
                                                                                                                             word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja101/hurts.mp3"
@@ -3647,7 +3649,7 @@ fiszki10.push(
             183
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/606a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/606a.jpg"
         ],
                                                                                                                             word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja101/alittle.mp3"

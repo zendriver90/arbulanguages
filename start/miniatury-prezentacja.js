@@ -6636,6 +6636,23 @@ if (window.highlightMode === 'rodzaj') {
 
     });
 }
+if (indexDiv < 55) {
+
+    // dodaj napis tylko jeĹli jeszcze go nie ma
+    if (!$container.find('.dynamic-div').length) {
+const $dynamicDiv = $('<div>')
+    .addClass('dynamic-div')
+    .text('Lekcja dostępna - otwórz link poniźej')
+    .css({
+        display: 'block'
+    });
+
+$container.append($dynamicDiv);
+
+        $container.append($dynamicDiv);
+    }
+}
+
 // --- Sprawdzenie cache ---
             if (!sentenceCache[indexDiv][currentPos]) {
 if (currentPos === 0 && typeof addBackgroundToText1b === 'function') {
@@ -7865,11 +7882,7 @@ startGuardObserver.observe(
 // PIERWSZE CZYSZCZENIE
 // =====================================
 
-$(function () {
 
-    removeStartButtonsBeforeThreeTags();
-
-});
 
 // =====================================
 // START / POWTÓRZ
@@ -8292,9 +8305,138 @@ function createRememberedWordsCounter() {
 
         window.expandRandomLayoutAfterSixWords();
     }
-}
+};
 
+window.randomLayoutExpanded = false;
 
+window.expandRandomLayoutAfterSixWords = function () {
+
+    console.log('========================================');
+    console.log('🎯 ROZSZERZAM LOSOWY UKŁAD PO 6 SŁOWACH');
+    console.log('========================================');
+
+    if (window.randomLayoutExpanded) {
+        console.log('⚠️ Układ został już rozszerzony.');
+        return;
+    }
+
+    const STORAGE_KEY_RANDOM_LAYOUT = 'losowyuklad_selectedGroups';
+    const STORAGE_KEY_ALL_GROUPS = 'losowyuklad_allGroups';
+
+    const savedSelected = localStorage.getItem(STORAGE_KEY_RANDOM_LAYOUT);
+    const savedAll = localStorage.getItem(STORAGE_KEY_ALL_GROUPS);
+
+    if (!savedSelected || !savedAll) {
+        console.error('❌ Brak zapisanych grup losowego układu.');
+        return;
+    }
+
+    let selectedGroups;
+    let allGroups;
+
+    try {
+        selectedGroups = JSON.parse(savedSelected);
+        allGroups = JSON.parse(savedAll);
+    } catch (e) {
+        console.error('❌ Błąd JSON:', e);
+        return;
+    }
+
+    if (!Array.isArray(selectedGroups) || !Array.isArray(allGroups)) {
+        console.error('❌ Nieprawidłowe dane grup.');
+        return;
+    }
+
+    const existingKeys = new Set(
+        selectedGroups.map(g =>
+            `${g.lessonId1}_${g.lessonId2}_${g.lessonId3}`
+        )
+    );
+
+    const remainingGroups = allGroups.filter(g => {
+        const key = `${g.lessonId1}_${g.lessonId2}_${g.lessonId3}`;
+        return !existingKeys.has(key);
+    });
+
+    console.log('📌 Obecnie:', selectedGroups.length, '| Pozostałe:', remainingGroups.length);
+
+    if (!remainingGroups.length) {
+        console.log('ℹ️ Brak dodatkowych lekcji.');
+        window.randomLayoutExpanded = true;
+        return;
+    }
+
+    // Rozszerz zapisany układ o wszystkie pozostałe grupy
+    const oldLength = selectedGroups.length;
+    selectedGroups = [...selectedGroups, ...remainingGroups];
+
+    localStorage.setItem(
+        STORAGE_KEY_RANDOM_LAYOUT,
+        JSON.stringify(selectedGroups)
+    );
+
+    window.randomLayoutExpanded = true;
+
+    console.log(`✅ Układ rozszerzony: ${oldLength} → ${selectedGroups.length} grup`);
+
+    // Aktualizacja licznika na przycisku (opcjonalnie)
+    try {
+        const selectedLessonIds = [];
+        selectedGroups.forEach(g => {
+            selectedLessonIds.push(g.lessonId1, g.lessonId2, g.lessonId3);
+        });
+
+        const randomizedWordsCount = (typeof fiszki !== 'undefined' ? fiszki : (window.fiszki10 || []))
+            .filter(f => f.id && selectedLessonIds.some(id => String(id) === String(f.id[1])))
+            .length;
+
+        $('.rodzaj-button[data-rodzaj="wylosowany"] span').text(
+            `Wylosowane zdania (${randomizedWordsCount} słów)`
+        );
+    } catch (e) {
+        console.warn('Nie udało się zaktualizować licznika słów:', e);
+    }
+
+    // ========================================================
+    // AUTOMATYCZNE PRZEŁADOWANIE WIDOKU LOSOWEGO UKŁADU
+    // ========================================================
+    console.log('🔄 Przeładowuję widok losowego układu…');
+
+    // Krótka pauza, żeby użytkownik zobaczył 6/6
+    setTimeout(function () {
+
+        // Czyścimy kontenery (na wszelki wypadek)
+        $('.grid-container .image-container3b').remove();
+        $('.grid-container .image-container4').remove();
+        $('.grid-container .image-container5').remove();
+
+        // Ponowne wywołanie trybu losowyuklad —
+        // localStorage ma już pełną listę grup, więc render pokaże wszystko
+        if (typeof przekazArgument0 === 'function') {
+            // Dopasuj argumenty do Twojego wywołania (jak przy starcie strony)
+            przekazArgument0(
+                '', '', '', '', '',
+                'losowyuklad',
+                '',
+                (typeof tablica3 !== 'undefined' ? tablica3[1] : ''),
+                'other',
+                false,
+                '', '', '', '',
+                '100'
+            );
+        } else {
+            // Fallback – pełne odświeżenie strony
+            console.warn('przekazArgument0 niedostępne – reload strony');
+            location.reload();
+        }
+
+        // Zaktualizuj licznik 6/6 (żeby nie pokazywał już „Dodaj 6/6…”)
+        if (typeof window.updateRememberedWordsCounter === 'function') {
+            window.updateRememberedWordsCounter();
+        }
+
+    }, 400);
+};
 // =====================================
 // URUCHOM LICZNIK
 // =====================================

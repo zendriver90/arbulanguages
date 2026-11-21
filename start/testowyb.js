@@ -9,7 +9,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/1a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/1a.jpg",
                 alt: "Gra na komputerze lub playstation. Wygenerowane przez AI."
             },
             story: {
@@ -21,7 +21,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/1b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/1b.jpg",
                 alt: "Przygotowanie obiadu. Wygenerowane przez AI."
             },
             story: {
@@ -33,7 +33,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/1c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/1c.jpg",
                 alt: "Proces badania krwi. Wygenerowane przez AI."
             },
             story: {
@@ -45,7 +45,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/1d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/1d.jpg",
                 alt: "Zawody modelarzy samolotów. Wygenerowane przez AI."
             },
             story: {
@@ -57,7 +57,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/1e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/1e.jpg",
                 alt: "Wychowanie dziecka.. Wygenerowane przez AI."
             },
             story: {
@@ -70,15 +70,15 @@ const fiszki10 = [
         translate: "Wszyscy mają ubaw na zabawie",
         translateb: "[Ewrybody hes fan at de party]",
         translateb2: "[Ewrybody hes fan]",
-        srcWord: ["https://www.arbulang.com/filmy/party.mp4", "The Matrix Reloaded"],
-        srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
-        srcWordimage: "https://www.arbulang.com/filmy/party.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/party.mp4", "The Matrix Reloaded"],
+        srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/party.png",
         word: [
-            "https://www.arbulang.com/src/everybody.wav"
+            "http://localhost/arbulanguage.com/src/everybody.wav"
         ],
-                word2: [ '<span class="adannotation2">Everybody</span> wie, że to prawda', "https://www.arbulang.com/voice/espanol/sentence1/dibujar1.mp3"],
-                word3: [ '<span class="adannotation2">Everybody</span> chce być szczęśliwy', "https://www.arbulang.com/voice/espanol/sentence1/dibujar2.mp3"],
-                word4: [ 'Czasami <span class="adannotation2">everybody</span> popełnia błędy', "https://www.arbulang.com/voice/espanol/sentence1/dibujar3.mp3"],
+                word2: [ '<span class="adannotation2">Everybody</span> wie, że to prawda', "http://localhost/arbulanguage.com/voice/espanol/sentence1/dibujar1.mp3"],
+                word3: [ '<span class="adannotation2">Everybody</span> chce być szczęśliwy', "http://localhost/arbulanguage.com/voice/espanol/sentence1/dibujar2.mp3"],
+                word4: [ 'Czasami <span class="adannotation2">everybody</span> popełnia błędy', "http://localhost/arbulanguage.com/voice/espanol/sentence1/dibujar3.mp3"],
         // opis
         desc: "everybody[e-wry-bo-dy] - wszyscy",
 
@@ -108,7 +108,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/2a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg",
                 alt: "Kupowanie biletu, zdjęcie z biletem. Wygenerowane przez AI."
             },
             story: {
@@ -120,7 +120,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/2b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/2b.jpg",
                 alt: "Hipopotam podczas przedstawienia cyrkowego. Wygenerowane przez AI."
             },
             story: {
@@ -132,7 +132,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/2c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/2c.jpg",
                 alt: "Naukowcy podczas pracy. Wygenerowane przez AI."
             },
             story: {
@@ -144,7 +144,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/2d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/2d.jpg",
                 alt: "Życie jako polityk. Scena. Wygenerowane przez AI."
             },
             story: {
@@ -156,7 +156,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/2e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/2e.jpg",
                 alt: "Muzycy z klarnetami. Wygenerowane przez AI."
             },
             story: {
@@ -167,7 +167,7 @@ const fiszki10 = [
         }
     ],
         word: [
-            "https://www.arbulang.com/src/has.wav"
+            "http://localhost/arbulanguage.com/src/has.wav"
         ],
         desc: "has[hes]/have[hew] - mieć(on/ona/oni)/mieć(ja/ty)",
         sentence1: [
@@ -193,7 +193,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/3a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/3a.jpg",
                 alt: "Kibice na meczu. Wygenerowane przez AI."
             },
             story: {
@@ -205,7 +205,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/3b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/3b.jpg",
                 alt: "Łono przyrody, polana. Wygenerowane przez AI."
             },
             story: {
@@ -217,7 +217,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/3c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/3c.jpg",
                 alt: "Niesamowite budowle. Wygenerowane przez AI."
             },
             story: {
@@ -229,7 +229,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/3d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/3d.jpg",
                 alt: "Arystokracja. Wygenerowane przez AI."
             },
             story: {
@@ -241,7 +241,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/3e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/3e.jpg",
                 alt: "Zdjęcie na koncercie. Wygenerowane przez AI."
             },
             story: {
@@ -252,7 +252,7 @@ const fiszki10 = [
         }
     ],
         word: [
-            "https://www.arbulang.com/src/fun.wav"
+            "http://localhost/arbulanguage.com/src/fun.wav"
         ],
         desc: "fun[fan] - zabawa",
         sentence1: [
@@ -277,7 +277,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/4a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/4a.jpg",
                 alt: "Wysportowana sylwetka. Wygenerowane przez AI."
             },
             story: {
@@ -289,7 +289,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/4b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/4b.jpg",
                 alt: "Aktor w lesie. Wygenerowane przez AI."
             },
             story: {
@@ -301,7 +301,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/4c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/4c.jpg",
                 alt: "Pióro na biurku. Wygenerowane przez AI."
             },
             story: {
@@ -313,7 +313,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/4d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/4d.jpg",
                 alt: "Atrapa Królowej. Wygenerowane przez AI."
             },
             story: {
@@ -325,7 +325,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/4e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/4e.jpg",
                 alt: "Złodziej podczas rabunku. Wygenerowane przez AI."
             },
             story: {
@@ -336,9 +336,9 @@ const fiszki10 = [
         }
     ],
         word: [
-            "https://www.arbulang.com/src/at.wav"
+            "http://localhost/arbulanguage.com/src/at.wav"
         ],
-        srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
+        srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
         translateb2: "[at de party]",
         desc: "at[at] - w tym",
         sentence2: [
@@ -363,7 +363,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
                 alt: "Piłki koszykarskie. Wygenerowane przez AI."
             },
             story: {
@@ -375,7 +375,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
                 alt: "Deptak dla mieszkańców. Wygenerowane przez AI."
             },
             story: {
@@ -387,7 +387,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
                 alt: "Politycy na posiedzeniu. Wygenerowane przez AI."
             },
             story: {
@@ -399,7 +399,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
                 alt: "Wystąpienia polityków. Wygenerowane przez AI."
             },
             story: {
@@ -411,7 +411,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg",
                 alt: "Zasady w rodzinie. Wygenerowane przez AI."
             },
             story: {
@@ -422,7 +422,7 @@ const fiszki10 = [
         }
     ],
         word: [
-            "https://www.arbulang.com/src/the.wav"
+            "http://localhost/arbulanguage.com/src/the.wav"
         ],
         desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
         sentence2: [
@@ -447,7 +447,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/6a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/6a.jpg",
                 alt: "Popisy piłkarza. Wygenerowane przez AI."
             },
             story: {
@@ -459,7 +459,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/6b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/6b.jpg",
                 alt: "Lwy na sawannie. Wygenerowane przez AI."
             },
             story: {
@@ -471,7 +471,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/6c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/6c.jpg",
                 alt: "Zebranie grupy naukowców. Wygenerowane przez AI."
             },
             story: {
@@ -483,7 +483,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/6d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/6d.jpg",
                 alt: "Gra w karty. Wygenerowane przez AI."
             },
             story: {
@@ -495,7 +495,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/6e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/6e.jpg",
                 alt: "Fotograf na imprezie. Wygenerowane przez AI."
             },
             story: {
@@ -506,7 +506,7 @@ const fiszki10 = [
         }
     ],
         word: [
-            "https://www.arbulang.com/src/party.wav"
+            "http://localhost/arbulanguage.com/src/party.wav"
         ],
         desc: "party[party] - przyjęcie, bawić się",
         sentence2: [
@@ -531,7 +531,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
                 alt: "Gracz Rugby. Wygenerowane przez AI."
             },
             story: {
@@ -543,7 +543,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
                 alt: "Hipopotam w wodzie. Wygenerowane przez AI."
             },
             story: {
@@ -555,7 +555,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
                 alt: "Loty balonowe. Wygenerowane przez AI."
             },
             story: {
@@ -567,7 +567,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -579,7 +579,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg",
                 alt: "Smakowanie przysmaków. Wygenerowane przez AI."
             },
             story: {
@@ -592,11 +592,11 @@ const fiszki10 = [
         translate: "On jest posłuszny wobec naukowych procedur",
         translateb: "[Hi is obidient to sajens prosidżer]",
         translateb2: "[Hi is obidient]",
-        srcWord: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
-        srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
-        srcWordimage: "https://www.arbulang.com/filmy/procedure.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
+        srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/procedure.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "he[hi] - on",
         sentence1: [
@@ -622,7 +622,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8a.jpg",
                 alt: "Biegacze w biegu. Wygenerowane przez AI."
             },
             story: {
@@ -634,7 +634,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8b.jpg",
                 alt: "Karykatura lisa jako listonosza. Wygenerowane przez AI."
             },
             story: {
@@ -646,7 +646,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8c.jpg",
                 alt: "Wystąpienie przed klasą. Wygenerowane przez AI."
             },
             story: {
@@ -658,7 +658,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8d.jpg",
                 alt: "Bawiące się ze sobą lisy. Wygenerowane przez AI."
             },
             story: {
@@ -670,7 +670,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8e.jpg",
                 alt: "Johny Bravo z kreskówki. Wygenerowane przez AI."
             },
             story: {
@@ -682,7 +682,7 @@ const fiszki10 = [
                 {
             id: 6,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8f.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8f.jpg",
                 alt: "Chwalenie się dyplomem uczestnictwa w szkoleniu. Wygenerowane przez AI."
             },
             story: {
@@ -694,7 +694,7 @@ const fiszki10 = [
         {
             id: 7,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8g.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8g.jpg",
                 alt: "Widok z brzegu ze statkami. Wygenerowane przez AI."
             },
             story: {
@@ -705,7 +705,7 @@ const fiszki10 = [
         }
     ],
         word: [
-            "https://www.arbulang.com/src/is.wav"
+            "http://localhost/arbulanguage.com/src/is.wav"
         ],
         desc: "is[is] - jest",
         sentence1: [
@@ -731,7 +731,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/9a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/9a.jpg",
                 alt: "Ćwiczenia na rozruch. Wygenerowane przez AI."
             },
             story: {
@@ -743,7 +743,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/9b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/9b.jpg",
                 alt: "Dinozaury. Wygenerowane przez AI."
             },
             story: {
@@ -755,7 +755,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/9c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/9c.jpg",
                 alt: "Sterowanie statkiem. Wygenerowane przez AI."
             },
             story: {
@@ -767,7 +767,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/9d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/9d.jpg",
                 alt: "Obieranie ziemniaków. Wygenerowane przez AI."
             },
             story: {
@@ -779,7 +779,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/9e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/9e.jpg",
                 alt: "Wizyta u dentysty. Wygenerowane przez AI."
             },
             story: {
@@ -790,7 +790,7 @@ const fiszki10 = [
         }
     ],
         word: [
-            "https://www.arbulang.com/src/obedient.wav"
+            "http://localhost/arbulanguage.com/src/obedient.wav"
         ],
         desc: "obedient[obidient] - posłuszny",
         sentence1: [
@@ -815,7 +815,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/10a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/10a.jpg",
                 alt: "Spacer po mieście. Wygenerowane przez AI."
             },
             story: {
@@ -827,7 +827,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/10b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/10b.jpg",
                 alt: "Wąż. Wygenerowane przez AI."
             },
             story: {
@@ -839,7 +839,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/10c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/10c.jpg",
                 alt: "Totem Faraona. Wygenerowane przez AI."
             },
             story: {
@@ -851,7 +851,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/10d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/10d.jpg",
                 alt: "Trzymanie kciuków za wyniki sportowe. Wygenerowane przez AI."
             },
             story: {
@@ -863,7 +863,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/10e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/10e.jpg",
                 alt: "Prezent okolicznościowy. Wygenerowane przez AI."
             },
             story: {
@@ -874,9 +874,9 @@ const fiszki10 = [
         }
     ],
         word: [
-            "https://www.arbulang.com/src/to.wav"
+            "http://localhost/arbulanguage.com/src/to.wav"
         ],
-        srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
+        srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
         translateb2: "[to sajentifik prosidżer]",
         desc: "to[tu] - do, ku",
         sentence2: [
@@ -901,7 +901,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/11a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/11a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -913,7 +913,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/11b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/11b.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -925,7 +925,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/11c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/11c.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -937,7 +937,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/11d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/11d.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -949,7 +949,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/11e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/11e.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -960,7 +960,7 @@ const fiszki10 = [
         }
     ],
         word: [
-            "https://www.arbulang.com/src/science.wav"
+            "http://localhost/arbulanguage.com/src/science.wav"
         ],
         desc: "scientific[sajentifik] - naukowy/naukowa)",
         sentence2: [
@@ -985,7 +985,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/12a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/12a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -997,7 +997,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/12b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/12b.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -1009,7 +1009,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/12c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/12c.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -1021,7 +1021,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/12d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/12d.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -1033,7 +1033,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/12e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/12e.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -1044,7 +1044,7 @@ const fiszki10 = [
         }
     ],
         word: [
-            "https://www.arbulang.com/src/procedure.wav"
+            "http://localhost/arbulanguage.com/src/procedure.wav"
         ],
         desc: "procedures[prosidzers] - procedury(liczba mnoga)",
         sentence2: [
@@ -1069,7 +1069,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/13a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/13a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -1081,7 +1081,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/13b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/13b.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -1093,7 +1093,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/13c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/13c.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -1105,7 +1105,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/13d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/13d.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -1117,7 +1117,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/13e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/13e.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -1130,11 +1130,11 @@ const fiszki10 = [
         translate: "Bądź bardziej obecny wobec swoich emocji",
         translateb: "[Bi mor prezent łiz jor imołszyns]",
         translateb2: "[Bi mor prezent]",
-        srcWord: ["https://www.arbulang.com/filmy/emotions.mp4", "The Dark Knight(2008)"],
-        srcWordimage: "https://www.arbulang.com/filmy/emotions.png",
-        srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
+        srcWord: ["http://localhost/arbulanguage.com/filmy/emotions.mp4", "The Dark Knight(2008)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/emotions.png",
+        srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
         word: [
-            "https://www.arbulang.com/src/be.wav"
+            "http://localhost/arbulanguage.com/src/be.wav"
         ],
         desc: "be[bi] - być",
         sentence1: [
@@ -1160,7 +1160,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/14a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/14a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -1172,7 +1172,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/14b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/14b.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -1184,7 +1184,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/14c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/14c.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -1196,7 +1196,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/14d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/14d.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -1208,7 +1208,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/14e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/14e.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -1219,7 +1219,7 @@ const fiszki10 = [
         }
     ],
         word: [
-            "https://www.arbulang.com/src/more.wav"
+            "http://localhost/arbulanguage.com/src/more.wav"
         ],
         desc: "more[mor] - więcej",
         sentence1: [
@@ -1244,7 +1244,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/15a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/15a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -1256,7 +1256,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/15b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/15b.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -1268,7 +1268,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/15c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/15c.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -1280,7 +1280,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/15d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/15d.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -1292,7 +1292,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/15e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/15e.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -1303,7 +1303,7 @@ const fiszki10 = [
         }
     ],
         word: [
-            "https://www.arbulang.com/src/present.wav"
+            "http://localhost/arbulanguage.com/src/present.wav"
         ],
         desc: "present[prezent] - obecny",
         sentence1: [
@@ -1329,7 +1329,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/16a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/16a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -1341,7 +1341,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/16b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/16b.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -1353,7 +1353,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/16c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/16c.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -1365,7 +1365,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/16d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/16d.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -1377,7 +1377,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/16e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/16e.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -1389,7 +1389,7 @@ const fiszki10 = [
         {
             id: 6,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/190a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/190a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -1400,9 +1400,9 @@ const fiszki10 = [
         }
             ],
         word: [
-            "https://www.arbulang.com/src/with.wav"
+            "http://localhost/arbulanguage.com/src/with.wav"
         ],
-        srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
+        srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
         translateb2: "[łiz jour imołszyns]",
         desc: "with[łiz] - z",
         sentence2: [
@@ -1427,7 +1427,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/17a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/17a.jpg",
                 alt: "Portret majora w wojsu. Wygenerowane przez AI."
             },
             story: {
@@ -1439,7 +1439,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/17b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/17b.jpg",
                 alt: "Zdjęcie Fjordu. Wygenerowane przez AI."
             },
             story: {
@@ -1451,7 +1451,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/17c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/17c.jpg",
                 alt: "Kobieta w Jordanii. Wygenerowane przez AI."
             },
             story: {
@@ -1463,7 +1463,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/17d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/17d.jpg",
                 alt: "Dziecko podczas zabawy w kałuży. Wygenerowane przez AI."
             },
             story: {
@@ -1475,7 +1475,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/17e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/17e.jpg",
                 alt: "Pies - York. Wygenerowane przez AI."
             },
             story: {
@@ -1486,7 +1486,7 @@ const fiszki10 = [
         }
     ],
         word: [
-            "https://www.arbulang.com/src/your.wav"
+            "http://localhost/arbulanguage.com/src/your.wav"
         ],
         desc: "your[jor] - twój",
         sentence2: [
@@ -1510,7 +1510,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/18a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/18a.jpg",
                 alt: "Jazda rowerem w deszcz. Wygenerowane przez AI."
             },
             story: {
@@ -1522,7 +1522,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/18b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/18b.jpg",
                 alt: "Wspinaczka grupowa po górach. Wygenerowane przez AI."
             },
             story: {
@@ -1534,7 +1534,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/18c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/18c.jpg",
                 alt: "Pisanie pracy naukowej. Wygenerowane przez AI."
             },
             story: {
@@ -1546,7 +1546,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/18d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/18d.jpg",
                 alt: "Małpa, która nauczyła się nowego zachowania. Wygenerowane przez AI."
             },
             story: {
@@ -1558,7 +1558,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/18e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/18e.jpg",
                 alt: "Dwóch pasterzy świętuje imieniny. Wygenerowane przez AI."
             },
             story: {
@@ -1569,7 +1569,7 @@ const fiszki10 = [
         }
     ],
         word: [
-            "https://www.arbulang.com/src/emotions.wav"
+            "http://localhost/arbulanguage.com/src/emotions.wav"
         ],
         desc: "emotions[imołszyns] - emocje",
         sentence2: [
@@ -1593,7 +1593,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19a.jpg",
                 alt: "Odzież ochronna dla jazdy rowerem. Wygenerowane przez AI."
             },
             story: {
@@ -1605,7 +1605,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19b.jpg",
                 alt: "Portret kobiety. Wygenerowane przez AI."
             },
             story: {
@@ -1617,7 +1617,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19c.jpg",
                 alt: "Boginii Gaja. Wygenerowane przez AI."
             },
             story: {
@@ -1629,7 +1629,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19d.jpg",
                 alt: "Wesele pary młodej. Wygenerowane przez AI."
             },
             story: {
@@ -1641,7 +1641,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19e.jpg",
                 alt: "Zajmowanie się kurami. Wygenerowane przez AI."
             },
             story: {
@@ -1654,11 +1654,11 @@ const fiszki10 = [
         translate: "Ja jestem nieśmiały, ale czasami bywam odważny",
         translateb: "[Aj em szaj bat samtajms dering]",
         translateb2: "[Aj em szaj]",
-        srcWord: ["https://www.arbulang.com/filmy/shy.mp4", 'The Matrix Reloaded (2003)'],
-        srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
-        srcWordimage: "https://www.arbulang.com/filmy/shy.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/shy.mp4", 'The Matrix Reloaded (2003)'],
+        srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/shy.png",
         word: [
-            "https://www.arbulang.com/voice/music.mp4"
+            "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         desc: "I[aj] - ja",
         sentence1: [
@@ -1683,7 +1683,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/20a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/20a.jpg",
                 alt: "Wysportowany mężczyzna. Wygenerowane przez AI."
             },
             story: {
@@ -1695,7 +1695,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/20b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/20b.jpg",
                 alt: "Jemioła. Wygenerowane przez AI."
             },
             story: {
@@ -1707,7 +1707,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/20c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/20c.jpg",
                 alt: "Kobieta w pracy biurowej. Wygenerowane przez AI."
             },
             story: {
@@ -1719,7 +1719,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/20d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/20d.jpg",
                 alt: "Biegnące psy. Wygenerowane przez AI."
             },
             story: {
@@ -1731,7 +1731,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/20e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/20e.jpg",
                 alt: "Znany raper. Wygenerowane przez AI."
             },
             story: {
@@ -1764,7 +1764,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/21a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/21a.jpg",
                 alt: "Charakterny sportowiec. Wygenerowane przez AI."
             },
             story: {
@@ -1776,7 +1776,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/21b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/21b.jpg",
                 alt: "Małpy na drzewie. Wygenerowane przez AI."
             },
             story: {
@@ -1788,7 +1788,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/21c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/21c.jpg",
                 alt: "Zażeniowanie studentów. Wygenerowane przez AI."
             },
             story: {
@@ -1800,7 +1800,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/21d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/21d.jpg",
                 alt: "Oglądanie meczu w telewizji. Wygenerowane przez AI."
             },
             story: {
@@ -1812,7 +1812,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/21e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/21e.jpg",
                 alt: "Wystąpienie w telewizji. Wygenerowane przez AI."
             },
             story: {
@@ -1844,7 +1844,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/22a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/22a.jpg",
                 alt: "Przebranie za bohatera filmu. Wygenerowane przez AI."
             },
             story: {
@@ -1856,7 +1856,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/22b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/22b.jpg",
                 alt: "Nurek pod wodą. Wygenerowane przez AI."
             },
             story: {
@@ -1868,7 +1868,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/22c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/22c.jpg",
                 alt: "Bateria. Wygenerowane przez AI."
             },
             story: {
@@ -1880,7 +1880,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/22d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/22d.jpg",
                 alt: "Ziemniak batat. Wygenerowane przez AI."
             },
             story: {
@@ -1890,7 +1890,7 @@ const fiszki10 = [
             category: ["czarny humor", "zakupy"]
         }
     ],
-        srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
+        srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
         translateb2: "[bat samtajms dering]",
         desc: "but[bat] - ale",
         sentence2: [
@@ -1914,7 +1914,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/23a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/23a.jpg",
                 alt: "Zawodnik Muay Thai. Wygenerowane przez AI."
             },
             story: {
@@ -1926,7 +1926,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/23b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/23b.jpg",
                 alt: "W dżungli z psem. Wygenerowane przez AI."
             },
             story: {
@@ -1938,7 +1938,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/23c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/23c.jpg",
                 alt: "Cytowanie naukowca w gazecie. Wygenerowane przez AI."
             },
             story: {
@@ -1950,7 +1950,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/23d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/23d.jpg",
                 alt: "Samuraj jako polityk. Wygenerowane przez AI."
             },
             story: {
@@ -1962,7 +1962,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/23e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/23e.jpg",
                 alt: "Grupa biegaczy. Wygenerowane przez AI."
             },
             story: {
@@ -1994,7 +1994,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/24a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/24a.jpg",
                 alt: "Mężczyzna tańczy Swing. Wygenerowane przez AI."
             },
             story: {
@@ -2006,7 +2006,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/24b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/24b.jpg",
                 alt: "Naukowiec w dżungli. Wygenerowane przez AI."
             },
             story: {
@@ -2018,7 +2018,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/24c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/24c.jpg",
                 alt: "Naukowiec przy przyżądach badawczych. Wygenerowane przez AI."
             },
             story: {
@@ -2030,7 +2030,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/24d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/24d.jpg",
                 alt: "Doping kibiców. Wygenerowane przez AI."
             },
             story: {
@@ -2042,7 +2042,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/24e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/24e.jpg",
                 alt: "Tańczący mężczyzna na imprezie. Wygenerowane przez AI."
             },
             story: {
@@ -2074,7 +2074,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
                 alt: "Piłki koszykarskie. Wygenerowane przez AI."
             },
             story: {
@@ -2086,7 +2086,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
                 alt: "Deptak dla mieszkańców. Wygenerowane przez AI."
             },
             story: {
@@ -2098,7 +2098,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
                 alt: "Politycy na posiedzeniu. Wygenerowane przez AI."
             },
             story: {
@@ -2110,7 +2110,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
                 alt: "Wystąpienia polityków. Wygenerowane przez AI."
             },
             story: {
@@ -2122,7 +2122,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg",
                 alt: "Zasady w rodzinie. Wygenerowane przez AI."
             },
             story: {
@@ -2132,11 +2132,11 @@ const fiszki10 = [
             category: ["związki", "rodzina"]
         }
     ],
-        srcWord: ["https://www.arbulang.com/filmy/cat.mp4", "Superman (1978)"],
-        srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
-        srcWordimage: "https://www.arbulang.com/filmy/cat.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/cat.mp4", "Superman (1978)"],
+        srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/cat.png",
         word: [
-            "https://www.arbulang.com/voice/party.mp4"
+            "http://localhost/arbulanguage.com/voice/party.mp4"
         ],
         translate: "Chłopak złapał kota i przytulił go",
         translateb: "[De gaj kaczes (de) kat end hags it]",
@@ -2165,7 +2165,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/26aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/26aa.jpg",
                 alt: "Kaczki w jeziorze. Wygenerowane przez AI."
             },
             story: {
@@ -2177,7 +2177,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/26bb.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/26bb.jpg",
                 alt: "Leśny gaj. Wygenerowane przez AI."
             },
             story: {
@@ -2189,7 +2189,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/26cc.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/26cc.jpg",
                 alt: "Para, która rozmawia. Wygenerowane przez AI."
             },
             story: {
@@ -2201,7 +2201,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/26dd.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/26dd.jpg",
                 alt: "Chłopak, który biegnie. Wygenerowane przez AI."
             },
             story: {
@@ -2213,7 +2213,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/26ee.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/26ee.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -2247,7 +2247,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/27aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/27aa.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -2259,7 +2259,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/27bb.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/27bb.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -2271,7 +2271,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/27cc.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/27cc.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -2283,7 +2283,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/27dd.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/27dd.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -2295,7 +2295,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/26ee.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/26ee.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -2330,7 +2330,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/28aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/28aa.jpg",
                 alt: "Kot na łodzi. Wygenerowane przez AI."
             },
             story: {
@@ -2342,7 +2342,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/28bb.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/28bb.jpg",
                 alt: "Kot na spacerze. Wygenerowane przez AI."
             },
             story: {
@@ -2354,7 +2354,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/28cc.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/28cc.jpg",
                 alt: "Kot w egzotycznym kraju. Wygenerowane przez AI."
             },
             story: {
@@ -2366,7 +2366,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/28dd.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/28dd.jpg",
                 alt: "Kot rozciągający się. Wygenerowane przez AI."
             },
             story: {
@@ -2378,7 +2378,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/28ee.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/28ee.jpg",
                 alt: "Moje zdjęcie z kotem. Wygenerowane przez AI."
             },
             story: {
@@ -2411,7 +2411,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/29aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/29aa.jpg",
                 alt: "Długi trening. Wygenerowane przez AI."
             },
             story: {
@@ -2423,7 +2423,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/29bb.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/29bb.jpg",
                 alt: "Prace ogrodowe. Wygenerowane przez AI."
             },
             story: {
@@ -2435,7 +2435,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/29cc.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/29cc.jpg",
                 alt: "Impreza na wielką skalę. Wygenerowane przez AI."
             },
             story: {
@@ -2447,11 +2447,11 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/29dd.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/29dd.jpg",
                 alt: "Motor enduro. Wygenerowane przez AI."
             },
             story: {
-                text: "<u><b>End</u></b>riu jeździ motorem enduro i miał wypadek, to <u><b>koniec</u></b> jego kariery. Pyta: <u><b>i</u></b> co dalej?",
+                text: "<u><b>End</u></b>riu jeździ motorem enduro <u><b>i</u></b> miał wypadek, to <u><b>koniec</u></b> jego kariery. Pyta: <u><b>i</u></b> co dalej?",
                 alt: ""
             },
             category: ["czarny humor", "kariera"]
@@ -2459,7 +2459,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/29ee.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/29ee.jpg",
                 alt: "Zakochana para. Wygenerowane przez AI."
             },
             story: {
@@ -2469,9 +2469,9 @@ const fiszki10 = [
             category: ["związki", "podryw"]
         }
     ],
-        srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
+        srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
         translateb2: "[end hags it]",
-        desc: "and, end[end] - i(and)/koniec(end)",
+        desc: "and, (end)[end] - i(and)/koniec(end)",
         sentence2: [
             "and"
         ],
@@ -2493,7 +2493,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/30aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/30aa.jpg",
                 alt: "Trening sportowy a życie. Wygenerowane przez AI."
             },
             story: {
@@ -2505,7 +2505,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/30bb.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/30bb.jpg",
                 alt: "Ludzie w parku. Wygenerowane przez AI."
             },
             story: {
@@ -2517,7 +2517,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/30cc.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/30cc.jpg",
                 alt: "Mistrz samurajski. Wygenerowane przez AI."
             },
             story: {
@@ -2529,7 +2529,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/30dd.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/30dd.jpg",
                 alt: "Świętowanie po zawodach. Wygenerowane przez AI."
             },
             story: {
@@ -2541,7 +2541,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/30ee.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/30ee.jpg",
                 alt: "Duże miasto. Wygenerowane przez AI."
             },
             story: {
@@ -2573,7 +2573,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/31a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/31a.jpg",
                 alt: "Telefon w ręce. Wygenerowane przez AI."
             },
             story: {
@@ -2612,7 +2612,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/32aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/32aa.jpg",
                 alt: "Zawodnik na meczu. Wygenerowane przez AI."
             },
             story: {
@@ -2624,7 +2624,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/32bb.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/32bb.jpg",
                 alt: "Ogrodnik w ogrodzie. Wygenerowane przez AI."
             },
             story: {
@@ -2636,7 +2636,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/32cc.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/32cc.jpg",
                 alt: "Sieć wysokiego napięcia. Wygenerowane przez AI."
             },
             story: {
@@ -2648,7 +2648,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/32dd.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/32dd.jpg",
                 alt: "Oko Saurona. Wygenerowane przez AI."
             },
             story: {
@@ -2660,7 +2660,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/32ee.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/32ee.jpg",
                 alt: "Laurka dla mamy. Wygenerowane przez AI."
             },
             story: {
@@ -2673,9 +2673,9 @@ const fiszki10 = [
         translate: "Nasza szkoła organizuje całkiem ciekawe wydarzenia",
         translateb: "[Aur skul organajz kłajt interesting iwents]",
         translateb2: "[Aur skul organajz]",
-        srcWord: ["https://www.arbulang.com/filmy/school.mp4", "American Pie: The Wedding (2003)"],
-        srcWordimage: "https://www.arbulang.com/filmy/school.png",
-        word: "https://www.arbulang.com/voice/party.mp4",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/school.mp4", "American Pie: The Wedding (2003)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/school.png",
+        word: "http://localhost/arbulanguage.com/voice/party.mp4",
         desc: "our[aur] - nasz",
         sentence1: [
             "Our"
@@ -2699,7 +2699,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/33aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/33aa.jpg",
                 alt: "Oglądanie meczu w telewizji. Wygenerowane przez AI."
             },
             story: {
@@ -2711,7 +2711,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/33bb.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/33bb.jpg",
                 alt: "Łabądź w stawie. Wygenerowane przez AI."
             },
             story: {
@@ -2723,7 +2723,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/33cc.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/33cc.jpg",
                 alt: "Remont szkoły. Wygenerowane przez AI."
             },
             story: {
@@ -2735,7 +2735,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/33dd.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/33dd.jpg",
                 alt: "Uczeń w szkole. Wygenerowane przez AI."
             },
             story: {
@@ -2747,7 +2747,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/33ee.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/33ee.jpg",
                 alt: "Zamek na piasku. Wygenerowane przez AI."
             },
             story: {
@@ -2780,7 +2780,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/34aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/34aa.jpg",
                 alt: "Zdjęcie pracowników organizacji. Wygenerowane przez AI."
             },
             story: {
@@ -2813,7 +2813,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/35aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/35aa.jpg",
                 alt: "Twardy dysk w komputerze. Wygenerowane przez AI."
             },
             story: {
@@ -2847,7 +2847,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/36aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/36aa.jpg",
                 alt: "Bijący się bokserzy. Wygenerowane przez AI."
             },
             story: {
@@ -2880,7 +2880,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/37aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/37aa.jpg",
                 alt: "Przedstawiciel ustawowy. Wygenerowane przez AI."
             },
             story: {
@@ -2913,7 +2913,7 @@ const fiszki10 = [
                         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa1.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa1.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -2925,7 +2925,7 @@ const fiszki10 = [
                 {
                             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50cc.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50cc.jpg",
                 alt: "Zroszona przez deszcz - roślina. Wygenerowane przez AI."
             },
             story: {
@@ -2937,7 +2937,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa.jpg",
                 alt: "Ogród kwiatowy. Wygenerowane przez AI."
             },
             story: {
@@ -2949,7 +2949,7 @@ const fiszki10 = [
                 {
                     id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50bb4.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50bb4.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -2961,7 +2961,7 @@ const fiszki10 = [
         {
                     id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50bb.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50bb.jpg",
                 alt: "Auto na parkingu. Wygenerowane przez AI."
             },
             story: {
@@ -2973,7 +2973,7 @@ const fiszki10 = [
                         {
                     id: 6,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa6.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa6.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -2985,7 +2985,7 @@ const fiszki10 = [
         {
                             id: 7,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa7.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa7.jpg",
                 alt: "Auto na parkingu. Wygenerowane przez AI."
             },
             story: {
@@ -2995,10 +2995,10 @@ const fiszki10 = [
             category: ["czarny humor 2", "majątek"]
         }
             ],
-        srcWord: ["https://www.arbulang.com/filmy/company.mp4", "Rampage (2018)"],
-        srcWordimage: "https://www.arbulang.com/filmy/company.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/company.mp4", "Rampage (2018)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/company.png",
         word: [
-            "https://www.arbulang.com/voice/music.mp4"
+            "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         translate: "Moja firma zaczyna rozwijać się bardzo intensywnie",
         translateb: "[Maj kampani is deweloping wery intensiwli]",
@@ -3026,7 +3026,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/39aa1.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/39aa1.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -3038,7 +3038,7 @@ const fiszki10 = [
                                 {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/39aa2.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/39aa2.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -3050,7 +3050,7 @@ const fiszki10 = [
                 {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/39aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/39aa.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -3062,7 +3062,7 @@ const fiszki10 = [
                         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/39aa4.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/39aa4.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -3074,7 +3074,7 @@ const fiszki10 = [
                                 {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/39aa5.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/39aa5.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -3107,7 +3107,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8a.jpg",
                 alt: "Biegacze w biegu. Wygenerowane przez AI."
             },
             story: {
@@ -3119,7 +3119,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8b.jpg",
                 alt: "Karykatura lisa jako listonosza. Wygenerowane przez AI."
             },
             story: {
@@ -3131,7 +3131,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8c.jpg",
                 alt: "Wystąpienie przed klasą. Wygenerowane przez AI."
             },
             story: {
@@ -3143,7 +3143,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8d.jpg",
                 alt: "Bawiące się ze sobą lisy. Wygenerowane przez AI."
             },
             story: {
@@ -3155,7 +3155,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8e.jpg",
                 alt: "Johny Bravo z kreskówki. Wygenerowane przez AI."
             },
             story: {
@@ -3167,7 +3167,7 @@ const fiszki10 = [
                 {
             id: 6,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8f.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8f.jpg",
                 alt: "Chwalenie się dyplomem uczestnictwa w szkoleniu. Wygenerowane przez AI."
             },
             story: {
@@ -3179,7 +3179,7 @@ const fiszki10 = [
         {
             id: 7,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8g.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8g.jpg",
                 alt: "Widok z brzegu ze statkami. Wygenerowane przez AI."
             },
             story: {
@@ -3213,7 +3213,7 @@ const fiszki10 = [
                         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/41aa1.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/41aa1.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -3225,7 +3225,7 @@ const fiszki10 = [
                 {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/41aa2.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/41aa2.jpg",
                 alt: "Granie w ping-ponga. Wygenerowane przez AI."
             },
             story: {
@@ -3237,7 +3237,7 @@ const fiszki10 = [
                         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/41aa4.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/41aa4.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -3249,7 +3249,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/41aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/41aa.jpg",
                 alt: "Granie w ping-ponga. Wygenerowane przez AI."
             },
             story: {
@@ -3261,7 +3261,7 @@ const fiszki10 = [
                 {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/41aa5.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/41aa5.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -3295,7 +3295,7 @@ const fiszki10 = [
                         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/42aa1.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/42aa1.jpg",
                 alt: " Wygenerowane przez AI."
             },
             story: {
@@ -3307,7 +3307,7 @@ const fiszki10 = [
                 {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/42aa2.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/42aa2.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -3319,7 +3319,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/42aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/42aa.jpg",
                 alt: "Zadowolony petent. Wygenerowane przez AI."
             },
             story: {
@@ -3331,7 +3331,7 @@ const fiszki10 = [
                 {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/42aa4.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/42aa4.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -3343,7 +3343,7 @@ const fiszki10 = [
                         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/42a5.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/42a5.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -3376,7 +3376,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/43aa1.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/43aa1.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -3388,7 +3388,7 @@ const fiszki10 = [
                             {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/43aa2.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/43aa2.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -3400,7 +3400,7 @@ const fiszki10 = [
                 {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/43aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/43aa.jpg",
                 alt: "Para z dyplomem. Wygenerowane przez AI."
             },
             story: {
@@ -3412,7 +3412,7 @@ const fiszki10 = [
                         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/43aa4.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/43aa4.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -3424,7 +3424,7 @@ const fiszki10 = [
                     {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/43aa5.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/43aa5.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -3457,7 +3457,7 @@ const fiszki10 = [
                         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/44b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/44b.jpg",
                 alt: "Kraina w starożytności. Wygenerowane przez AI."
             },
             story: {
@@ -3469,7 +3469,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/44a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/44a.jpg",
                 alt: "Kraina w starożytności. Wygenerowane przez AI."
             },
             story: {
@@ -3481,7 +3481,7 @@ const fiszki10 = [
         {
                             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/83c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/83c.jpg",
                 alt: "Dawny geniusz. Wygenerowane przez AI."
             },
             story: {
@@ -3493,7 +3493,7 @@ const fiszki10 = [
                 {
                     id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/80b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/80b.jpg",
                 alt: "Układanka słowna. Wygenerowane przez AI."
             },
             story: {
@@ -3505,7 +3505,7 @@ const fiszki10 = [
                 {
                             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/108d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/108d.jpg",
                 alt: "Diva operowa. Wygenerowane przez AI."
             },
             story: {
@@ -3515,10 +3515,10 @@ const fiszki10 = [
             category: ["związki", "muzyka klasyczna"]
         }
             ],
-        srcWord: ["https://www.arbulang.com/filmy/book.mp4", "Inception (2010)"],
-        srcWordimage: "https://www.arbulang.com/filmy/book.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/book.mp4", "Inception (2010)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/book.png",
         word: [
-            "https://www.arbulang.com/voice/music.mp4"
+            "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         translate: "Ta książka należy do jego dziadka",
         translateb: "[Dis buk belongs tu his grandfader]",
@@ -3546,7 +3546,7 @@ const fiszki10 = [
                         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/45aa1.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/45aa1.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -3558,7 +3558,7 @@ const fiszki10 = [
                                 {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/45aa2.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/45aa2.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -3570,7 +3570,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/45aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/45aa.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -3582,7 +3582,7 @@ const fiszki10 = [
                                         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/45aa4.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/45aa4.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -3594,7 +3594,7 @@ const fiszki10 = [
                                                 {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/45aa5.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/45aa5.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -3627,7 +3627,7 @@ const fiszki10 = [
                         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/46aa1.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/46aa1.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -3639,7 +3639,7 @@ const fiszki10 = [
                 {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/46aa2.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/46aa2.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -3651,7 +3651,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/46aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/46aa.jpg",
                 alt: "Historia architektury. Wygenerowane przez AI."
             },
             story: {
@@ -3663,7 +3663,7 @@ const fiszki10 = [
                 {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/46aa4.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/46aa4.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -3675,7 +3675,7 @@ const fiszki10 = [
                         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/46aa5.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/46aa5.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -3710,7 +3710,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/10a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/10a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -3722,7 +3722,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/10b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/10b.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -3734,7 +3734,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/10c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/10c.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -3746,7 +3746,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/10d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/10d.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -3758,7 +3758,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/10e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/10e.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -3799,7 +3799,7 @@ const fiszki10 = [
                         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/48aa1.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/48aa1.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -3811,7 +3811,7 @@ const fiszki10 = [
                 {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/48aa2.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/48aa2.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -3823,7 +3823,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/48aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/48aa.jpg",
                 alt: "Historia człowieka w muzeum. Wygenerowane przez AI."
             },
             story: {
@@ -3835,7 +3835,7 @@ const fiszki10 = [
                 {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/106b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/106b.jpg",
                 alt: "Wynalazek nowoczesności. Wygenerowane przez AI."
             },
             story: {
@@ -3847,7 +3847,7 @@ const fiszki10 = [
                         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/48aa5.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/48aa5.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -3882,7 +3882,7 @@ const fiszki10 = [
                         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/49aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/49aa.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -3894,7 +3894,7 @@ const fiszki10 = [
                                 {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/49bb.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/49bb.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -3906,7 +3906,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/49cc.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/49cc.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -3938,7 +3938,7 @@ const fiszki10 = [
                         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa1.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa1.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -3950,7 +3950,7 @@ const fiszki10 = [
                 {
                             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50cc.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50cc.jpg",
                 alt: "Zroszona przez deszcz - roślina. Wygenerowane przez AI."
             },
             story: {
@@ -3962,7 +3962,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa.jpg",
                 alt: "Ogród kwiatowy. Wygenerowane przez AI."
             },
             story: {
@@ -3974,7 +3974,7 @@ const fiszki10 = [
                 {
                     id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50bb4.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50bb4.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -3986,7 +3986,7 @@ const fiszki10 = [
         {
                     id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50bb.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50bb.jpg",
                 alt: "Auto na parkingu. Wygenerowane przez AI."
             },
             story: {
@@ -3998,7 +3998,7 @@ const fiszki10 = [
                         {
                     id: 6,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa6.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa6.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -4010,7 +4010,7 @@ const fiszki10 = [
         {
                             id: 7,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa7.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa7.jpg",
                 alt: "Auto na parkingu. Wygenerowane przez AI."
             },
             story: {
@@ -4023,9 +4023,9 @@ const fiszki10 = [
         translate: "Moi sąsiedzi sprzedali ich duży dom",
         translateb: "[Maj nejburs ar seling deir big hałs]",
         translateb2: "[Maj nejburs ar seling]",
-        srcWord: ["https://www.arbulang.com/filmy/bighouse.mp4", "Mechanik: Konfrontacja (2013)"],
-        srcWordimage: "https://www.arbulang.com/filmy/bighouse.png",
-        srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
+        srcWord: ["http://localhost/arbulanguage.com/filmy/bighouse.mp4", "Mechanik: Konfrontacja (2013)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/bighouse.png",
+        srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
         desc: "My[maj] - moje",
         sentence1: [
             "My"
@@ -4050,7 +4050,7 @@ const fiszki10 = [
                         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/51aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/51aa.jpg",
                 alt: "Wierszyk na urodziny. Wygenerowane przez AI."
             },
             story: {
@@ -4062,7 +4062,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/51aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/51aa.jpg",
                 alt: "Wierszyk na urodziny. Wygenerowane przez AI."
             },
             story: {
@@ -4096,7 +4096,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/52aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/52aa.jpg",
                 alt: "Burzliwa rozmowa. Wygenerowane przez AI."
             },
             story: {
@@ -4108,7 +4108,7 @@ const fiszki10 = [
         {
                     id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/220a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/220a.jpg",
                 alt: "Papuga w klatce. Wygenerowane przez AI."
             },
             story: {
@@ -4116,7 +4116,19 @@ const fiszki10 = [
                 alt: "Życie zwierząt. Czy poszczególne gatunki zwierząt ze sobą rozmawiają?"
             },
             category: ["zwierzęta", "przyjaźń"]
-        }
+        },
+        {
+                    id: 3,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/220c.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Czy</b></u> <b><u>Ar</b></u>nold i <b><u>Ar</b></u>ek <b><u>są</b></u> gotowi do zawodów",
+                alt: ""
+            },
+            category: ["sport", "zawody"]
+        },
             ],
         desc: "are[ar] - jest/są - gramatyka",
         sentence1: [
@@ -4141,7 +4153,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/53aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/53aa.jpg",
                 alt: "Seler na straganie. Wygenerowane przez AI."
             },
             story: {
@@ -4174,7 +4186,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/54aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/54aa.jpg",
                 alt: "Heblarka automatyczna. Wygenerowane przez AI."
             },
             story: {
@@ -4185,7 +4197,7 @@ const fiszki10 = [
         }
             ],
         translateb2: "[deir big hałs]",
-        srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
+        srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
         desc: "their[deir] - ich",
         sentence2: [
             "their"
@@ -4208,7 +4220,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/55aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/55aa.jpg",
                 alt: "Samolot Mig. Wygenerowane przez AI."
             },
             story: {
@@ -4220,7 +4232,7 @@ const fiszki10 = [
                 {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/170a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/170a.jpg",
                 alt: "Ładna dziewczyna. Wygenerowane przez AI."
             },
             story: {
@@ -4252,7 +4264,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/56aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/56aa.jpg",
                 alt: "Pies w gospodarstwie. Wygenerowane przez AI."
             },
             story: {
@@ -4285,7 +4297,7 @@ const fiszki10 = [
                         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa1.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa1.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -4297,7 +4309,7 @@ const fiszki10 = [
                 {
                             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50cc.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50cc.jpg",
                 alt: "Zroszona przez deszcz - roślina. Wygenerowane przez AI."
             },
             story: {
@@ -4309,7 +4321,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa.jpg",
                 alt: "Ogród kwiatowy. Wygenerowane przez AI."
             },
             story: {
@@ -4321,7 +4333,7 @@ const fiszki10 = [
                 {
                     id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50bb4.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50bb4.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -4333,7 +4345,7 @@ const fiszki10 = [
         {
                     id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50bb.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50bb.jpg",
                 alt: "Auto na parkingu. Wygenerowane przez AI."
             },
             story: {
@@ -4345,7 +4357,7 @@ const fiszki10 = [
                         {
                     id: 6,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa6.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa6.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -4357,7 +4369,7 @@ const fiszki10 = [
         {
                             id: 7,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa7.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa7.jpg",
                 alt: "Auto na parkingu. Wygenerowane przez AI."
             },
             story: {
@@ -4370,10 +4382,10 @@ const fiszki10 = [
         translate: "Mój pies jest dobrym przyjacielem",
         translateb: "[Maj dog is a gud frend]",
         translateb2: "[Maj dog is]",
-        srcWord: ["https://www.arbulang.com/filmy/dog.mp4", "Sztanga i cash (2013)"],
-        srcWordimage: "https://www.arbulang.com/filmy/dog.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/dog.mp4", "Sztanga i cash (2013)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/dog.png",
         word: [
-            "https://www.arbulang.com/voice/music.mp4"
+            "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         desc: "my[maj] - moje",
         sentence1: [
@@ -4398,7 +4410,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/58aa1.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/58aa1.jpg",
                 alt: "Mały piesek. Wygenerowane przez AI."
             },
             story: {
@@ -4410,7 +4422,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/58aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/58aa.jpg",
                 alt: "Mały piesek. Wygenerowane przez AI."
             },
             story: {
@@ -4443,7 +4455,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8a.jpg",
                 alt: "Biegacze w biegu. Wygenerowane przez AI."
             },
             story: {
@@ -4455,7 +4467,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8b.jpg",
                 alt: "Karykatura lisa jako listonosza. Wygenerowane przez AI."
             },
             story: {
@@ -4467,7 +4479,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8c.jpg",
                 alt: "Wystąpienie przed klasą. Wygenerowane przez AI."
             },
             story: {
@@ -4479,7 +4491,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8d.jpg",
                 alt: "Bawiące się ze sobą lisy. Wygenerowane przez AI."
             },
             story: {
@@ -4491,7 +4503,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8e.jpg",
                 alt: "Johny Bravo z kreskówki. Wygenerowane przez AI."
             },
             story: {
@@ -4503,7 +4515,7 @@ const fiszki10 = [
                 {
             id: 6,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8f.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8f.jpg",
                 alt: "Chwalenie się dyplomem uczestnictwa w szkoleniu. Wygenerowane przez AI."
             },
             story: {
@@ -4515,7 +4527,7 @@ const fiszki10 = [
         {
             id: 7,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8g.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8g.jpg",
                 alt: "Widok z brzegu ze statkami. Wygenerowane przez AI."
             },
             story: {
@@ -4548,7 +4560,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/60aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/60aa.jpg",
                 alt: "Moja wypłata. Wygenerowane przez AI."
             },
             story: {
@@ -4582,7 +4594,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/61aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/61aa.jpg",
                 alt: "Wygodne siedzenie na kanapie. Wygenerowane przez AI."
             },
             story: {
@@ -4614,7 +4626,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/62aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/62aa.jpg",
                 alt: "Mężczyzna we fraku. Wygenerowane przez AI."
             },
             story: {
@@ -4626,7 +4638,7 @@ const fiszki10 = [
                         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/382a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/382a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -4658,7 +4670,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
                 alt: "Piłki koszykarskie. Wygenerowane przez AI."
             },
             story: {
@@ -4670,7 +4682,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
                 alt: "Deptak dla mieszkańców. Wygenerowane przez AI."
             },
             story: {
@@ -4682,7 +4694,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
                 alt: "Politycy na posiedzeniu. Wygenerowane przez AI."
             },
             story: {
@@ -4694,7 +4706,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
                 alt: "Wystąpienia polityków. Wygenerowane przez AI."
             },
             story: {
@@ -4706,7 +4718,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg",
                 alt: "Zasady w rodzinie. Wygenerowane przez AI."
             },
             story: {
@@ -4719,10 +4731,10 @@ const fiszki10 = [
         translate: "Nauczyciel stara się pomóc nam",
         translateb: "[De ticzer trajs tu help as]",
         translateb2: "[De ticzer trajs]",
-        srcWord: ["https://www.arbulang.com/filmy/teacher.mp4", "Yes Man (2008)"],
-        srcWordimage: "https://www.arbulang.com/filmy/teacher.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/teacher.mp4", "Yes Man (2008)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/teacher.png",
         word: [
-            "https://www.arbulang.com/voice/music.mp4"
+            "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
         sentence1: [
@@ -4747,7 +4759,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/64aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/64aa.jpg",
                 alt: "Nauczyciel w czerwonej koszuli. Wygenerowane przez AI."
             },
             story: {
@@ -4780,7 +4792,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/65aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/65aa.jpg",
                 alt: "Satelita. Wygenerowane przez AI."
             },
             story: {
@@ -4813,7 +4825,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/67aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/67aa.jpg",
                 alt: "Mówienie pod wpływem gazu - helu. Wygenerowane przez AI."
             },
             story: {
@@ -4845,7 +4857,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/68aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/68aa.jpg",
                 alt: "Układ planetarny. Wygenerowane przez AI."
             },
             story: {
@@ -4877,7 +4889,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/17a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/17a.jpg",
                 alt: "Portret majora w wojsu. Wygenerowane przez AI."
             },
             story: {
@@ -4889,7 +4901,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/17b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/17b.jpg",
                 alt: "Zdjęcie Fjordu. Wygenerowane przez AI."
             },
             story: {
@@ -4901,7 +4913,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/17c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/17c.jpg",
                 alt: "Kobieta w Jordanii. Wygenerowane przez AI."
             },
             story: {
@@ -4913,7 +4925,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/17d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/17d.jpg",
                 alt: "Dziecko podczas zabawy w kałuży. Wygenerowane przez AI."
             },
             story: {
@@ -4925,7 +4937,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/17e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/17e.jpg",
                 alt: "Pies - York. Wygenerowane przez AI."
             },
             story: {
@@ -4938,10 +4950,10 @@ const fiszki10 = [
         translate: "Twoi rodzice wydają się być przyjaźni",
         translateb: "[Jor parents sim tu bi frendli]",
         translateb2: "[Jor parents sim]",
-        srcWord: ["https://www.arbulang.com/filmy/parents.mp4", "Serial: Rodzinka.pl"],
-        srcWordimage: "https://www.arbulang.com/filmy/parents.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/parents.mp4", "Serial: Rodzinka.pl"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/parents.png",
         word: [
-            "https://www.arbulang.com/voice/music.mp4"
+            "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         desc: "your[jor] - twój",
         sentence1: [
@@ -4966,7 +4978,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/70aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/70aa.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -4999,7 +5011,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/71aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/71aa.jpg",
                 alt: "Sentymentalne zdjęcie rodziny. Wygenerowane przez AI."
             },
             story: {
@@ -5033,7 +5045,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/13a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/13a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -5045,7 +5057,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/13b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/13b.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -5057,7 +5069,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/13c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/13c.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -5069,7 +5081,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/13d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/13d.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -5081,7 +5093,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/13e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/13e.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -5126,7 +5138,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/73a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/73a.jpg",
                 alt: "Bohaterzy bajki. Wygenerowane przez AI."
             },
             story: {
@@ -5158,7 +5170,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
                 alt: "Piłki koszykarskie. Wygenerowane przez AI."
             },
             story: {
@@ -5170,7 +5182,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
                 alt: "Deptak dla mieszkańców. Wygenerowane przez AI."
             },
             story: {
@@ -5182,7 +5194,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
                 alt: "Politycy na posiedzeniu. Wygenerowane przez AI."
             },
             story: {
@@ -5194,7 +5206,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
                 alt: "Wystąpienia polityków. Wygenerowane przez AI."
             },
             story: {
@@ -5206,7 +5218,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg",
                 alt: "Zasady w rodzinie. Wygenerowane przez AI."
             },
             story: {
@@ -5218,7 +5230,7 @@ const fiszki10 = [
         {
             id: 6,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5f.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5f.jpg",
                 alt: "Przekrój społeczeństwa. Wygenerowane przez AI."
             },
             story: {
@@ -5231,8 +5243,8 @@ const fiszki10 = [
         translate: "Psy mogą biec naprawdę szybko",
         translateb: "[De dogs ken ran rili fast]",
         translateb2: "[De dogs ken]",
-        srcWord: ["https://www.arbulang.com/filmy/dogs.mp4", "The Dark Knight(2008)"],
-        srcWordimage: "https://www.arbulang.com/filmy/dogs.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/dogs.mp4", "The Dark Knight(2008)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/dogs.png",
         desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
         sentence1: [
             "The"
@@ -5256,7 +5268,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/75a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/75a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -5268,7 +5280,7 @@ const fiszki10 = [
                 {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/75b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/75b.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -5305,7 +5317,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/76a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/76a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -5339,7 +5351,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/77a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/77a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -5373,7 +5385,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/78a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/78a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -5406,7 +5418,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/79a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/79a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -5439,7 +5451,7 @@ const fiszki10 = [
                         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/44b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/44b.jpg",
                 alt: "Kraina w starożytności. Wygenerowane przez AI."
             },
             story: {
@@ -5451,7 +5463,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/44a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/44a.jpg",
                 alt: "Kraina w starożytności. Wygenerowane przez AI."
             },
             story: {
@@ -5463,7 +5475,7 @@ const fiszki10 = [
         {
                             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/83c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/83c.jpg",
                 alt: "Dawny geniusz. Wygenerowane przez AI."
             },
             story: {
@@ -5475,7 +5487,7 @@ const fiszki10 = [
                 {
                     id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/80b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/80b.jpg",
                 alt: "Układanka słowna. Wygenerowane przez AI."
             },
             story: {
@@ -5487,7 +5499,7 @@ const fiszki10 = [
                 {
                             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/108d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/108d.jpg",
                 alt: "Diva operowa. Wygenerowane przez AI."
             },
             story: {
@@ -5500,10 +5512,10 @@ const fiszki10 = [
         translate: "Ta edycja traci ważność w tym tygodniu",
         translateb: "[Dis ediszyn ikspajers dis łik]",
         translateb2: "[Dis ediszyn ikspajers]",
-        srcWord: ["https://www.arbulang.com/filmy/counting.mp4", "The Dark Knight(2008)"],
-        srcWordimage: "https://www.arbulang.com/filmy/counting.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/counting.mp4", "The Dark Knight(2008)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/counting.png",
         word: [
-            "https://www.arbulang.com/voice/music.mp4"
+            "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         desc: "this[dis] - ta rzecz/osoba",
         sentence1: [
@@ -5534,7 +5546,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/81a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/81a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -5568,7 +5580,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/82a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/82a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -5601,7 +5613,7 @@ const fiszki10 = [
                         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/44b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/44b.jpg",
                 alt: "Kraina w starożytności. Wygenerowane przez AI."
             },
             story: {
@@ -5613,7 +5625,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/44a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/44a.jpg",
                 alt: "Kraina w starożytności. Wygenerowane przez AI."
             },
             story: {
@@ -5625,7 +5637,7 @@ const fiszki10 = [
         {
                             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/83c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/83c.jpg",
                 alt: "Dawny geniusz. Wygenerowane przez AI."
             },
             story: {
@@ -5637,7 +5649,7 @@ const fiszki10 = [
                 {
                     id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/80b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/80b.jpg",
                 alt: "Układanka słowna. Wygenerowane przez AI."
             },
             story: {
@@ -5649,7 +5661,7 @@ const fiszki10 = [
                 {
                             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/108d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/108d.jpg",
                 alt: "Diva operowa. Wygenerowane przez AI."
             },
             story: {
@@ -5681,7 +5693,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/84a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/84a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -5713,7 +5725,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
                 alt: "Gracz Rugby. Wygenerowane przez AI."
             },
             story: {
@@ -5725,7 +5737,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
                 alt: "Hipopotam w wodzie. Wygenerowane przez AI."
             },
             story: {
@@ -5737,7 +5749,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
                 alt: "Loty balonowe. Wygenerowane przez AI."
             },
             story: {
@@ -5749,7 +5761,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -5761,7 +5773,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg",
                 alt: "Smakowanie przysmaków. Wygenerowane przez AI."
             },
             story: {
@@ -5773,8 +5785,8 @@ const fiszki10 = [
     ],
         translate: "On ma szeroki zasób słów",
         translateb: "[Hi hes łajd reindź of łords]",
-        srcWord: ["https://www.arbulang.com/filmy/rangewords.mp4", "Jestem Bogiem(2011)"],
-        srcWordimage: "https://www.arbulang.com/filmy/rangewords.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/rangewords.mp4", "Jestem Bogiem(2011)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/rangewords.png",
         desc: "he[hi] - on",
         sentence1: [
             "He"
@@ -5798,7 +5810,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/2a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg",
                 alt: "Kupowanie biletu, zdjęcie z biletem. Wygenerowane przez AI."
             },
             story: {
@@ -5810,7 +5822,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/2b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/2b.jpg",
                 alt: "Hipopotam podczas przedstawienia cyrkowego. Wygenerowane przez AI."
             },
             story: {
@@ -5822,7 +5834,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/2c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/2c.jpg",
                 alt: "Naukowcy podczas pracy. Wygenerowane przez AI."
             },
             story: {
@@ -5834,7 +5846,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/2d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/2d.jpg",
                 alt: "Życie jako polityk. Scena. Wygenerowane przez AI."
             },
             story: {
@@ -5846,7 +5858,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/2e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/2e.jpg",
                 alt: "Muzycy z klarnetami. Wygenerowane przez AI."
             },
             story: {
@@ -5886,7 +5898,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/87a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/87a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -5919,7 +5931,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/88a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/88a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -5952,7 +5964,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/89a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/89a.jpg",
                 alt: "Żołnierze w walce. Wygenerowane przez AI."
             },
             story: {
@@ -5964,7 +5976,7 @@ const fiszki10 = [
                 {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/112b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/112b.jpg",
                 alt: "Dezedorant na komary. Wygenerowane przez AI."
             },
             story: {
@@ -5996,7 +6008,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/90a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/90a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -6028,7 +6040,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
                 alt: "Gracz Rugby. Wygenerowane przez AI."
             },
             story: {
@@ -6040,7 +6052,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
                 alt: "Hipopotam w wodzie. Wygenerowane przez AI."
             },
             story: {
@@ -6052,7 +6064,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
                 alt: "Loty balonowe. Wygenerowane przez AI."
             },
             story: {
@@ -6064,7 +6076,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -6076,7 +6088,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg",
                 alt: "Smakowanie przysmaków. Wygenerowane przez AI."
             },
             story: {
@@ -6088,10 +6100,10 @@ const fiszki10 = [
     ],
         translate: "On odważył się podejść do niej",
         translateb: "[Hi ders tu mejk eprołcz tu her]",
-        srcWord: ["https://www.arbulang.com/filmy/approach.mp4", "Matrix(1999)"],
-        srcWordimage: "https://www.arbulang.com/filmy/approach.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/approach.mp4", "Matrix(1999)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/approach.png",
         word: [
-            "https://www.arbulang.com/voice/music.mp4"
+            "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         desc: "he[hi] - on",
         sentence1: [
@@ -6115,7 +6127,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/92a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/92a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -6127,7 +6139,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/92b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/92b.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -6159,7 +6171,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/93aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/93aa.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -6190,7 +6202,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/94aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/94aa.jpg",
                 alt: "Picie herbaty. Wygenerowane przez AI."
             },
             story: {
@@ -6222,7 +6234,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/95aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/95aa.jpg",
                 alt: "Opakowanie suplementów grzyba riszi. Wygenerowane przez AI."
             },
             story: {
@@ -6234,8 +6246,8 @@ const fiszki10 = [
             ],
         translate: "Ona jest przywiązana do swojego łuku",
         translateb: "[Szi is etaczd to her boł]",
-        srcWord: ["https://www.arbulang.com/filmy/bow.mp4", "Igrzyska śmierci: Kosogłos. Część 2(2015)"],
-        srcWordimage: "https://www.arbulang.com/filmy/bow.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/bow.mp4", "Igrzyska śmierci: Kosogłos. Część 2(2015)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/bow.png",
         desc: "she[szi] - ona",
         sentence1: [
             "She"
@@ -6260,7 +6272,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8a.jpg",
                 alt: "Biegacze w biegu. Wygenerowane przez AI."
             },
             story: {
@@ -6272,7 +6284,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8b.jpg",
                 alt: "Karykatura lisa jako listonosza. Wygenerowane przez AI."
             },
             story: {
@@ -6284,7 +6296,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8c.jpg",
                 alt: "Wystąpienie przed klasą. Wygenerowane przez AI."
             },
             story: {
@@ -6296,7 +6308,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8d.jpg",
                 alt: "Bawiące się ze sobą lisy. Wygenerowane przez AI."
             },
             story: {
@@ -6308,7 +6320,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8e.jpg",
                 alt: "Johny Bravo z kreskówki. Wygenerowane przez AI."
             },
             story: {
@@ -6320,7 +6332,7 @@ const fiszki10 = [
                 {
             id: 6,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8f.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8f.jpg",
                 alt: "Chwalenie się dyplomem uczestnictwa w szkoleniu. Wygenerowane przez AI."
             },
             story: {
@@ -6332,7 +6344,7 @@ const fiszki10 = [
         {
             id: 7,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8g.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8g.jpg",
                 alt: "Widok z brzegu ze statkami. Wygenerowane przez AI."
             },
             story: {
@@ -6365,7 +6377,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/97a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/97a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -6399,7 +6411,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/10a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/10a.jpg",
                 alt: "Spacer po mieście. Wygenerowane przez AI."
             },
             story: {
@@ -6411,7 +6423,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/10b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/10b.jpg",
                 alt: "Wąż. Wygenerowane przez AI."
             },
             story: {
@@ -6423,7 +6435,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/10c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/10c.jpg",
                 alt: "Totem Faraona. Wygenerowane przez AI."
             },
             story: {
@@ -6435,7 +6447,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/10d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/10d.jpg",
                 alt: "Trzymanie kciuków za wyniki sportowe. Wygenerowane przez AI."
             },
             story: {
@@ -6447,7 +6459,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/10e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/10e.jpg",
                 alt: "Prezent okolicznościowy. Wygenerowane przez AI."
             },
             story: {
@@ -6486,7 +6498,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/94aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/94aa.jpg",
                 alt: "Picie herbaty. Wygenerowane przez AI."
             },
             story: {
@@ -6518,7 +6530,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/100a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/100a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -6550,7 +6562,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
                 alt: "Gracz Rugby. Wygenerowane przez AI."
             },
             story: {
@@ -6562,7 +6574,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
                 alt: "Hipopotam w wodzie. Wygenerowane przez AI."
             },
             story: {
@@ -6574,7 +6586,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
                 alt: "Loty balonowe. Wygenerowane przez AI."
             },
             story: {
@@ -6586,7 +6598,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -6598,7 +6610,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg",
                 alt: "Smakowanie przysmaków. Wygenerowane przez AI."
             },
             story: {
@@ -6610,8 +6622,8 @@ const fiszki10 = [
     ],
         translate: "On nie jest posłuszny swojemu trenerowi",
         translateb: "[Hi das not obej to his trajner]",
-        srcWord: ["https://www.arbulang.com/filmy/training.mp4", "Matrix(1999)", "Akcja"],
-        srcWordimage: "https://www.arbulang.com/filmy/training.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/training.mp4", "Matrix(1999)", "Akcja"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/training.png",
         desc: "he[hi] - on",
         sentence1: [
             "He"
@@ -6636,7 +6648,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/103a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/103a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -6670,7 +6682,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/103a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/103a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -6706,7 +6718,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/104a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/104a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -6740,7 +6752,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/10a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/10a.jpg",
                 alt: "Spacer po mieście. Wygenerowane przez AI."
             },
             story: {
@@ -6752,7 +6764,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/10b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/10b.jpg",
                 alt: "Wąż. Wygenerowane przez AI."
             },
             story: {
@@ -6764,7 +6776,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/10c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/10c.jpg",
                 alt: "Totem Faraona. Wygenerowane przez AI."
             },
             story: {
@@ -6776,7 +6788,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/10d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/10d.jpg",
                 alt: "Trzymanie kciuków za wyniki sportowe. Wygenerowane przez AI."
             },
             story: {
@@ -6788,7 +6800,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/10e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/10e.jpg",
                 alt: "Prezent okolicznościowy. Wygenerowane przez AI."
             },
             story: {
@@ -6820,7 +6832,7 @@ const fiszki10 = [
                         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/48aa1.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/48aa1.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -6832,7 +6844,7 @@ const fiszki10 = [
                 {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/48aa2.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/48aa2.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -6844,7 +6856,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/48aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/48aa.jpg",
                 alt: "Historia człowieka w muzeum. Wygenerowane przez AI."
             },
             story: {
@@ -6856,7 +6868,7 @@ const fiszki10 = [
                 {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/106b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/106b.jpg",
                 alt: "Wynalazek nowoczesności. Wygenerowane przez AI."
             },
             story: {
@@ -6868,7 +6880,7 @@ const fiszki10 = [
                         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/48aa5.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/48aa5.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -6900,7 +6912,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/107a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/107a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -6932,7 +6944,7 @@ const fiszki10 = [
                         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/44b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/44b.jpg",
                 alt: "Kraina w starożytności. Wygenerowane przez AI."
             },
             story: {
@@ -6944,7 +6956,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/44a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/44a.jpg",
                 alt: "Kraina w starożytności. Wygenerowane przez AI."
             },
             story: {
@@ -6956,7 +6968,7 @@ const fiszki10 = [
         {
                             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/83c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/83c.jpg",
                 alt: "Dawny geniusz. Wygenerowane przez AI."
             },
             story: {
@@ -6968,7 +6980,7 @@ const fiszki10 = [
                 {
                     id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/80b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/80b.jpg",
                 alt: "Układanka słowna. Wygenerowane przez AI."
             },
             story: {
@@ -6980,7 +6992,7 @@ const fiszki10 = [
                 {
                             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/108d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/108d.jpg",
                 alt: "Diva operowa. Wygenerowane przez AI."
             },
             story: {
@@ -6992,8 +7004,8 @@ const fiszki10 = [
             ],
         translate: "To miasto jest pełne ludzi",
         translateb: "[Dis siti is ful of pipul]",
-        srcWord: ["https://www.arbulang.com/filmy/city.mp4", "Resident Evil: Afterlife(2010)", "Akcja"],
-        srcWordimage: "https://www.arbulang.com/filmy/city.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/city.mp4", "Resident Evil: Afterlife(2010)", "Akcja"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/city.png",
         desc: "this[dis] - ta rzecz/osoba",
         sentence1: [
             "This"
@@ -7017,7 +7029,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/109a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/109a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -7051,7 +7063,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8a.jpg",
                 alt: "Biegacze w biegu. Wygenerowane przez AI."
             },
             story: {
@@ -7063,7 +7075,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8b.jpg",
                 alt: "Karykatura lisa jako listonosza. Wygenerowane przez AI."
             },
             story: {
@@ -7075,7 +7087,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8c.jpg",
                 alt: "Wystąpienie przed klasą. Wygenerowane przez AI."
             },
             story: {
@@ -7087,7 +7099,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8d.jpg",
                 alt: "Bawiące się ze sobą lisy. Wygenerowane przez AI."
             },
             story: {
@@ -7099,7 +7111,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8e.jpg",
                 alt: "Johny Bravo z kreskówki. Wygenerowane przez AI."
             },
             story: {
@@ -7111,7 +7123,7 @@ const fiszki10 = [
                 {
             id: 6,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8f.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8f.jpg",
                 alt: "Chwalenie się dyplomem uczestnictwa w szkoleniu. Wygenerowane przez AI."
             },
             story: {
@@ -7123,7 +7135,7 @@ const fiszki10 = [
         {
             id: 7,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8g.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8g.jpg",
                 alt: "Widok z brzegu ze statkami. Wygenerowane przez AI."
             },
             story: {
@@ -7165,7 +7177,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/111a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/111a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -7198,7 +7210,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/89a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/89a.jpg",
                 alt: "Żołnierze w walce. Wygenerowane przez AI."
             },
             story: {
@@ -7210,7 +7222,7 @@ const fiszki10 = [
                 {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/112b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/112b.jpg",
                 alt: "Dezedorant na komary. Wygenerowane przez AI."
             },
             story: {
@@ -7246,7 +7258,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/113a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/113a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -7279,7 +7291,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/32aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/32aa.jpg",
                 alt: "Zawodnik na meczu. Wygenerowane przez AI."
             },
             story: {
@@ -7291,7 +7303,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/32bb.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/32bb.jpg",
                 alt: "Ogrodnik w ogrodzie. Wygenerowane przez AI."
             },
             story: {
@@ -7303,7 +7315,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/32cc.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/32cc.jpg",
                 alt: "Sieć wysokiego napięcia. Wygenerowane przez AI."
             },
             story: {
@@ -7315,7 +7327,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/32dd.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/32dd.jpg",
                 alt: "Oko Saurona. Wygenerowane przez AI."
             },
             story: {
@@ -7327,7 +7339,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/32ee.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/32ee.jpg",
                 alt: "Laurka dla mamy. Wygenerowane przez AI."
             },
             story: {
@@ -7339,8 +7351,8 @@ const fiszki10 = [
     ],
         translate: "Nasi studenci muszą uczyć się bardzo ciężko",
         translateb: "[Aur stjudents hew tu stadi weri hard]",
-        srcWord: ["https://www.arbulang.com/filmy/studyhard.mp4", "Marsjanin(2015)", "Akcja"],
-        srcWordimage: "https://www.arbulang.com/filmy/studyhard.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/studyhard.mp4", "Marsjanin(2015)", "Akcja"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/studyhard.png",
         desc: "our[aur] - nasze/nasi",
         sentence1: [
             "Our"
@@ -7364,7 +7376,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/115a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/115a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -7397,7 +7409,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/116a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/116a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -7430,7 +7442,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/117a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/117a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -7462,7 +7474,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/118a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/118a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -7494,7 +7506,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/119a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/119a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -7526,7 +7538,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19a.jpg",
                 alt: "Odzież ochronna dla jazdy rowerem. Wygenerowane przez AI."
             },
             story: {
@@ -7538,7 +7550,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19b.jpg",
                 alt: "Portret kobiety. Wygenerowane przez AI."
             },
             story: {
@@ -7550,7 +7562,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19c.jpg",
                 alt: "Boginii Gaja. Wygenerowane przez AI."
             },
             story: {
@@ -7562,7 +7574,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19d.jpg",
                 alt: "Wesele pary młodej. Wygenerowane przez AI."
             },
             story: {
@@ -7574,7 +7586,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19e.jpg",
                 alt: "Zajmowanie się kurami. Wygenerowane przez AI."
             },
             story: {
@@ -7586,8 +7598,8 @@ const fiszki10 = [
     ],
         translate: "Nie mam czasu na czytanie",
         translateb: "[Aj dont hew tajm tu rid]",
-        srcWord: ["https://www.arbulang.com/filmy/read.mp4", "Księgowy(2016)", "Akcja"],
-        srcWordimage: "https://www.arbulang.com/filmy/read.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/read.mp4", "Księgowy(2016)", "Akcja"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/read.png",
         desc: "I[aj] - ja",
         sentence1: [
             "I"
@@ -7611,7 +7623,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/121a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/121a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -7644,7 +7656,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/122a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/122a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -7677,7 +7689,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/123a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/123a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -7709,7 +7721,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/10a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/10a.jpg",
                 alt: "Spacer po mieście. Wygenerowane przez AI."
             },
             story: {
@@ -7721,7 +7733,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/10b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/10b.jpg",
                 alt: "Wąż. Wygenerowane przez AI."
             },
             story: {
@@ -7733,7 +7745,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/10c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/10c.jpg",
                 alt: "Totem Faraona. Wygenerowane przez AI."
             },
             story: {
@@ -7745,7 +7757,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/10d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/10d.jpg",
                 alt: "Trzymanie kciuków za wyniki sportowe. Wygenerowane przez AI."
             },
             story: {
@@ -7757,7 +7769,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/10e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/10e.jpg",
                 alt: "Prezent okolicznościowy. Wygenerowane przez AI."
             },
             story: {
@@ -7789,7 +7801,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/125a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/125a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -7821,7 +7833,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/113a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/113a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -7833,8 +7845,8 @@ const fiszki10 = [
             ],
         translate: "Ludzie myślą, że on ma racje",
         translateb: "[Pipul fink dat hi is rajt]",
-        srcWord: ["https://www.arbulang.com/filmy/right.mp4", "Klub Dyskusyjny(2007)", "Biograficzny"],
-        srcWordimage: "https://www.arbulang.com/filmy/right.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/right.mp4", "Klub Dyskusyjny(2007)", "Biograficzny"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/right.png",
         desc: "people[pipul] - ludzie",
         sentence1: [
             "People"
@@ -7858,7 +7870,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/127a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/127a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -7891,7 +7903,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/128a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/128a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -7901,7 +7913,7 @@ const fiszki10 = [
             category: ["wydarzenia", "realizacja"]
         }
             ],
-        desc: "that[dat] - że",
+        desc: "that[dat] - że/(to)",
         sentence1: [
             "that"
         ],
@@ -7923,7 +7935,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/129a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/129a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -7955,7 +7967,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/130a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/130a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -7967,7 +7979,7 @@ const fiszki10 = [
                 {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/130b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/130b.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -7998,7 +8010,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/131a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/131a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -8010,8 +8022,8 @@ const fiszki10 = [
             ],
         translate: "My powinniśmy dbać o naszą przyszłość",
         translateb: "[Łi szud ker ebaut aur fjuczer]",
-        srcWord: ["https://www.arbulang.com/filmy/future.mp4", "Titanic(1997)", "Romantyczny"],
-        srcWordimage: "https://www.arbulang.com/filmy/future.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/future.mp4", "Titanic(1997)", "Romantyczny"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/future.png",
         desc: "we[łi] - my",
         sentence1: [
             "We"
@@ -8035,7 +8047,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/132a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/132a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -8067,7 +8079,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/133a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/133a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -8100,7 +8112,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/134a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/134a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -8132,7 +8144,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/32aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/32aa.jpg",
                 alt: "Zawodnik na meczu. Wygenerowane przez AI."
             },
             story: {
@@ -8144,7 +8156,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/32bb.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/32bb.jpg",
                 alt: "Ogrodnik w ogrodzie. Wygenerowane przez AI."
             },
             story: {
@@ -8156,7 +8168,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/32cc.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/32cc.jpg",
                 alt: "Sieć wysokiego napięcia. Wygenerowane przez AI."
             },
             story: {
@@ -8168,7 +8180,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/32dd.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/32dd.jpg",
                 alt: "Oko Saurona. Wygenerowane przez AI."
             },
             story: {
@@ -8180,7 +8192,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/32ee.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/32ee.jpg",
                 alt: "Laurka dla mamy. Wygenerowane przez AI."
             },
             story: {
@@ -8192,7 +8204,7 @@ const fiszki10 = [
         {
             id: 6,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/32ff.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/32ff.jpg",
                 alt: "Spartanie. Wygenerowane przez AI."
             },
             story: {
@@ -8224,7 +8236,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/136a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/136a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -8256,7 +8268,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
                 alt: "Piłki koszykarskie. Wygenerowane przez AI."
             },
             story: {
@@ -8268,7 +8280,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
                 alt: "Deptak dla mieszkańców. Wygenerowane przez AI."
             },
             story: {
@@ -8280,7 +8292,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
                 alt: "Politycy na posiedzeniu. Wygenerowane przez AI."
             },
             story: {
@@ -8292,7 +8304,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
                 alt: "Wystąpienia polityków. Wygenerowane przez AI."
             },
             story: {
@@ -8304,7 +8316,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg",
                 alt: "Zasady w rodzinie. Wygenerowane przez AI."
             },
             story: {
@@ -8316,8 +8328,8 @@ const fiszki10 = [
     ],
         translate: "Cena za złamanie zasad jest wysoka",
         translateb: "[De prajs for brejkin de ruls is haj]",
-        srcWord: ["https://www.arbulang.com/filmy/humanface.mp4", "Yes Man(2008)", "Komedia"],
-        srcWordimage: "https://www.arbulang.com/filmy/humanface.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/humanface.mp4", "Yes Man(2008)", "Komedia"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/humanface.png",
         desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
         sentence1: [
             "The"
@@ -8344,7 +8356,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/138a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/138a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -8380,7 +8392,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/139a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/139a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -8416,7 +8428,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/140a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/140a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -8452,7 +8464,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
                 alt: "Piłki koszykarskie. Wygenerowane przez AI."
             },
             story: {
@@ -8464,7 +8476,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
                 alt: "Deptak dla mieszkańców. Wygenerowane przez AI."
             },
             story: {
@@ -8476,7 +8488,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
                 alt: "Politycy na posiedzeniu. Wygenerowane przez AI."
             },
             story: {
@@ -8488,7 +8500,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
                 alt: "Wystąpienia polityków. Wygenerowane przez AI."
             },
             story: {
@@ -8500,7 +8512,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg",
                 alt: "Zasady w rodzinie. Wygenerowane przez AI."
             },
             story: {
@@ -8535,7 +8547,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/142a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/142a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -8570,7 +8582,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8a.jpg",
                 alt: "Biegacze w biegu. Wygenerowane przez AI."
             },
             story: {
@@ -8582,7 +8594,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8b.jpg",
                 alt: "Karykatura lisa jako listonosza. Wygenerowane przez AI."
             },
             story: {
@@ -8594,7 +8606,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8c.jpg",
                 alt: "Wystąpienie przed klasą. Wygenerowane przez AI."
             },
             story: {
@@ -8606,7 +8618,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8d.jpg",
                 alt: "Bawiące się ze sobą lisy. Wygenerowane przez AI."
             },
             story: {
@@ -8618,7 +8630,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8e.jpg",
                 alt: "Johny Bravo z kreskówki. Wygenerowane przez AI."
             },
             story: {
@@ -8630,7 +8642,7 @@ const fiszki10 = [
                 {
             id: 6,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8f.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8f.jpg",
                 alt: "Chwalenie się dyplomem uczestnictwa w szkoleniu. Wygenerowane przez AI."
             },
             story: {
@@ -8642,7 +8654,7 @@ const fiszki10 = [
         {
             id: 7,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8g.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8g.jpg",
                 alt: "Widok z brzegu ze statkami. Wygenerowane przez AI."
             },
             story: {
@@ -8653,7 +8665,7 @@ const fiszki10 = [
         }
     ],
         word: [
-            "https://www.arbulang.com/src/is.wav"
+            "http://localhost/arbulanguage.com/src/is.wav"
         ],
         desc: "is[is] - jest",
         sentence2: [
@@ -8677,7 +8689,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/144a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/144a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -8709,7 +8721,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
                 alt: "Gracz Rugby. Wygenerowane przez AI."
             },
             story: {
@@ -8721,7 +8733,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
                 alt: "Hipopotam w wodzie. Wygenerowane przez AI."
             },
             story: {
@@ -8733,7 +8745,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
                 alt: "Loty balonowe. Wygenerowane przez AI."
             },
             story: {
@@ -8745,7 +8757,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -8757,7 +8769,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg",
                 alt: "Smakowanie przysmaków. Wygenerowane przez AI."
             },
             story: {
@@ -8769,8 +8781,8 @@ const fiszki10 = [
     ],
         translate: "On myśli że to jedyna droga, żeby uniknąć następnej wojny",
         translateb: "[Hi finks dat its onli łej to ewojd enader łor]",
-        srcWord: ["https://www.arbulang.com/filmy/war.mp4", "Gladiator(2000)", "Akcja"],
-        srcWordimage: "https://www.arbulang.com/filmy/war.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/war.mp4", "Gladiator(2000)", "Akcja"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/war.png",
         desc: "he[hi] - on",
         sentence1: [
             "He"
@@ -8796,7 +8808,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/127a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/127a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -8831,7 +8843,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/147a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/147a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -8865,7 +8877,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/148a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/148a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -8899,7 +8911,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/149a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/149a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -8934,7 +8946,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/10a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/10a.jpg",
                 alt: "Spacer po mieście. Wygenerowane przez AI."
             },
             story: {
@@ -8946,7 +8958,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/10b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/10b.jpg",
                 alt: "Wąż. Wygenerowane przez AI."
             },
             story: {
@@ -8958,7 +8970,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/10c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/10c.jpg",
                 alt: "Totem Faraona. Wygenerowane przez AI."
             },
             story: {
@@ -8970,7 +8982,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/10d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/10d.jpg",
                 alt: "Trzymanie kciuków za wyniki sportowe. Wygenerowane przez AI."
             },
             story: {
@@ -8982,7 +8994,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/10e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/10e.jpg",
                 alt: "Prezent okolicznościowy. Wygenerowane przez AI."
             },
             story: {
@@ -9015,7 +9027,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/151a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/151a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -9048,7 +9060,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/152a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/152a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -9081,7 +9093,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/153a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/153a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -9114,7 +9126,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
                 alt: "Piłki koszykarskie. Wygenerowane przez AI."
             },
             story: {
@@ -9126,7 +9138,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
                 alt: "Deptak dla mieszkańców. Wygenerowane przez AI."
             },
             story: {
@@ -9138,7 +9150,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
                 alt: "Politycy na posiedzeniu. Wygenerowane przez AI."
             },
             story: {
@@ -9150,7 +9162,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
                 alt: "Wystąpienia polityków. Wygenerowane przez AI."
             },
             story: {
@@ -9162,7 +9174,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg",
                 alt: "Zasady w rodzinie. Wygenerowane przez AI."
             },
             story: {
@@ -9174,8 +9186,8 @@ const fiszki10 = [
     ],
         translate: "Idea opuszczenia jego szkoły była także bardzo bolesna",
         translateb: "[De ajdia of liwing his skul łos olso wery pejnful]",
-        srcWord: ["https://www.arbulang.com/filmy/leavingschool.mp4", "Openhaymer(2023)", "Biograficzny"],
-        srcWordimage: "https://www.arbulang.com/filmy/leavingschool.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/leavingschool.mp4", "Openhaymer(2023)", "Biograficzny"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/leavingschool.png",
         desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
         sentence1: [
             "The"
@@ -9202,7 +9214,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/155a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/155a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -9237,7 +9249,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/89a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/89a.jpg",
                 alt: "Żołnierze w walce. Wygenerowane przez AI."
             },
             story: {
@@ -9249,7 +9261,7 @@ const fiszki10 = [
                 {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/112b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/112b.jpg",
                 alt: "Dezedorant na komary. Wygenerowane przez AI."
             },
             story: {
@@ -9284,7 +9296,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/157a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/157a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -9320,7 +9332,7 @@ const fiszki10 = [
                         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/48aa1.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/48aa1.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -9332,7 +9344,7 @@ const fiszki10 = [
                 {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/48aa2.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/48aa2.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -9344,7 +9356,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/48aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/48aa.jpg",
                 alt: "Historia człowieka w muzeum. Wygenerowane przez AI."
             },
             story: {
@@ -9356,7 +9368,7 @@ const fiszki10 = [
                 {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/106b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/106b.jpg",
                 alt: "Wynalazek nowoczesności. Wygenerowane przez AI."
             },
             story: {
@@ -9368,7 +9380,7 @@ const fiszki10 = [
                         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/48aa5.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/48aa5.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -9403,7 +9415,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/33aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/33aa.jpg",
                 alt: "Oglądanie meczu w telewizji. Wygenerowane przez AI."
             },
             story: {
@@ -9415,7 +9427,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/33bb.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/33bb.jpg",
                 alt: "Łabądź w stawie. Wygenerowane przez AI."
             },
             story: {
@@ -9427,7 +9439,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/33cc.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/33cc.jpg",
                 alt: "Remont szkoły. Wygenerowane przez AI."
             },
             story: {
@@ -9439,7 +9451,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/33dd.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/33dd.jpg",
                 alt: "Uczeń w szkole. Wygenerowane przez AI."
             },
             story: {
@@ -9451,7 +9463,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/33ee.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/33ee.jpg",
                 alt: "Zamek na piasku. Wygenerowane przez AI."
             },
             story: {
@@ -9486,7 +9498,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/160a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/160a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -9519,7 +9531,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/161a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/161a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -9552,7 +9564,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/42aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/42aa.jpg",
                 alt: "Zadowolony petent. Wygenerowane przez AI."
             },
             story: {
@@ -9586,7 +9598,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/163a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/163a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -9620,7 +9632,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
                 alt: "Piłki koszykarskie. Wygenerowane przez AI."
             },
             story: {
@@ -9632,7 +9644,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
                 alt: "Deptak dla mieszkańców. Wygenerowane przez AI."
             },
             story: {
@@ -9644,7 +9656,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
                 alt: "Politycy na posiedzeniu. Wygenerowane przez AI."
             },
             story: {
@@ -9656,7 +9668,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
                 alt: "Wystąpienia polityków. Wygenerowane przez AI."
             },
             story: {
@@ -9668,7 +9680,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg",
                 alt: "Zasady w rodzinie. Wygenerowane przez AI."
             },
             story: {
@@ -9680,8 +9692,8 @@ const fiszki10 = [
     ],
         translate: "Wynalazek koła był wielkim krokiem naprzód",
         translateb: "[De inwenszyn of de łil łos a big step fołard]",
-        srcWord: ["https://www.arbulang.com/filmy/weel.mp4", "Szybcy i Wściekli(2001)", "Akcja"],
-        srcWordimage: "https://www.arbulang.com/filmy/weel.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/weel.mp4", "Szybcy i Wściekli(2001)", "Akcja"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/weel.png",
         desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
         sentence1: [
             "The"
@@ -9715,7 +9727,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/165a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/165a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -9751,7 +9763,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/89a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/89a.jpg",
                 alt: "Żołnierze w walce. Wygenerowane przez AI."
             },
             story: {
@@ -9763,7 +9775,7 @@ const fiszki10 = [
                 {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/112b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/112b.jpg",
                 alt: "Dezedorant na komary. Wygenerowane przez AI."
             },
             story: {
@@ -9802,7 +9814,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
                 alt: "Piłki koszykarskie. Wygenerowane przez AI."
             },
             story: {
@@ -9814,7 +9826,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
                 alt: "Deptak dla mieszkańców. Wygenerowane przez AI."
             },
             story: {
@@ -9826,7 +9838,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
                 alt: "Politycy na posiedzeniu. Wygenerowane przez AI."
             },
             story: {
@@ -9838,7 +9850,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
                 alt: "Wystąpienia polityków. Wygenerowane przez AI."
             },
             story: {
@@ -9850,7 +9862,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg",
                 alt: "Zasady w rodzinie. Wygenerowane przez AI."
             },
             story: {
@@ -9892,7 +9904,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/168a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/168a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -9928,7 +9940,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/160a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/160a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -9964,7 +9976,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/55aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/55aa.jpg",
                 alt: "Samolot Mig. Wygenerowane przez AI."
             },
             story: {
@@ -9976,7 +9988,7 @@ const fiszki10 = [
                 {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/170a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/170a.jpg",
                 alt: "Ładna dziewczyna. Wygenerowane przez AI."
             },
             story: {
@@ -10009,7 +10021,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/171a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/171a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -10041,7 +10053,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/172a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/172a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -10073,7 +10085,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/173a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/173a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -10085,8 +10097,8 @@ const fiszki10 = [
             ],
         translate: "Powiedz mi dlaczego ten most jest tak ważny dla ciebie",
         translateb: "[Tel mi łaj dis bridż is soł important tu ju]",
-        srcWord: ["https://www.arbulang.com/filmy/bridge.mp4", "Szybcy i Wściekli 5(2011)", "Akcja"],
-        srcWordimage: "https://www.arbulang.com/filmy/bridge.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/bridge.mp4", "Szybcy i Wściekli 5(2011)", "Akcja"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/bridge.png",
         desc: "tell[tel] - powiedz/powiedzieć",
         sentence1: [
             "Tell"
@@ -10113,7 +10125,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/174a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/174a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -10121,6 +10133,18 @@ const fiszki10 = [
                 alt: ""
             },
             category: ["relaks", "masaż"]
+        },
+                {
+            id: 2,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/804a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Te <u><b>mi</u></b>strzostwo jest przeze <u><b>mnie</u></b> dokładnie opisane",
+                alt: ""
+            },
+            category: ["", ""]
         }
             ],
         desc: "me[mi] - ja/mnie",
@@ -10148,7 +10172,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/175a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/175a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -10182,7 +10206,7 @@ const fiszki10 = [
                         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/44b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/44b.jpg",
                 alt: "Kraina w starożytności. Wygenerowane przez AI."
             },
             story: {
@@ -10194,7 +10218,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/44a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/44a.jpg",
                 alt: "Kraina w starożytności. Wygenerowane przez AI."
             },
             story: {
@@ -10206,7 +10230,7 @@ const fiszki10 = [
         {
                             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/83c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/83c.jpg",
                 alt: "Dawny geniusz. Wygenerowane przez AI."
             },
             story: {
@@ -10218,7 +10242,7 @@ const fiszki10 = [
                 {
                     id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/80b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/80b.jpg",
                 alt: "Układanka słowna. Wygenerowane przez AI."
             },
             story: {
@@ -10230,7 +10254,7 @@ const fiszki10 = [
                 {
                             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/108d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/108d.jpg",
                 alt: "Diva operowa. Wygenerowane przez AI."
             },
             story: {
@@ -10264,7 +10288,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/177a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/177a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -10299,7 +10323,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8a.jpg",
                 alt: "Biegacze w biegu. Wygenerowane przez AI."
             },
             story: {
@@ -10311,7 +10335,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8b.jpg",
                 alt: "Karykatura lisa jako listonosza. Wygenerowane przez AI."
             },
             story: {
@@ -10323,7 +10347,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8c.jpg",
                 alt: "Wystąpienie przed klasą. Wygenerowane przez AI."
             },
             story: {
@@ -10335,7 +10359,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8d.jpg",
                 alt: "Bawiące się ze sobą lisy. Wygenerowane przez AI."
             },
             story: {
@@ -10347,7 +10371,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8e.jpg",
                 alt: "Johny Bravo z kreskówki. Wygenerowane przez AI."
             },
             story: {
@@ -10359,7 +10383,7 @@ const fiszki10 = [
                 {
             id: 6,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8f.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8f.jpg",
                 alt: "Chwalenie się dyplomem uczestnictwa w szkoleniu. Wygenerowane przez AI."
             },
             story: {
@@ -10371,7 +10395,7 @@ const fiszki10 = [
         {
             id: 7,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8g.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8g.jpg",
                 alt: "Widok z brzegu ze statkami. Wygenerowane przez AI."
             },
             story: {
@@ -10382,7 +10406,7 @@ const fiszki10 = [
         }
     ],
         word: [
-            "https://www.arbulang.com/src/is.wav"
+            "http://localhost/arbulanguage.com/src/is.wav"
         ],
         desc: "is[is] - jest",
         sentence2: [
@@ -10408,7 +10432,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/179a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/179a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -10443,7 +10467,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/180a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/180a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -10478,7 +10502,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/10a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/10a.jpg",
                 alt: "Spacer po mieście. Wygenerowane przez AI."
             },
             story: {
@@ -10490,7 +10514,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/10b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/10b.jpg",
                 alt: "Wąż. Wygenerowane przez AI."
             },
             story: {
@@ -10502,7 +10526,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/10c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/10c.jpg",
                 alt: "Totem Faraona. Wygenerowane przez AI."
             },
             story: {
@@ -10514,7 +10538,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/10d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/10d.jpg",
                 alt: "Trzymanie kciuków za wyniki sportowe. Wygenerowane przez AI."
             },
             story: {
@@ -10526,7 +10550,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/10e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/10e.jpg",
                 alt: "Prezent okolicznościowy. Wygenerowane przez AI."
             },
             story: {
@@ -10560,7 +10584,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/182a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/182a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -10595,7 +10619,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/183a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/183a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -10607,8 +10631,8 @@ const fiszki10 = [
             ],
         translate: "Użytkownik może dodać lub usunąć te konta bardzo łatwo",
         translateb: "[E juzer mej ad or remuw dis ekaunts łiz iz]",
-        srcWord: ["https://www.arbulang.com/filmy/accounts.mp4", "Matrix(1999)", "Akcja"],
-        srcWordimage: "https://www.arbulang.com/filmy/accounts.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/accounts.mp4", "Matrix(1999)", "Akcja"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/accounts.png",
         desc: "user[juzer] - użytkownik",
         sentence1: [
             "(A) user"
@@ -10637,7 +10661,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/184a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/184a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -10673,7 +10697,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/185a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/185a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -10710,7 +10734,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/186a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/186a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -10746,7 +10770,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/187a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/187a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -10783,7 +10807,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/188a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/188a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -10820,7 +10844,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/189a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/189a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -10857,7 +10881,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/16a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/16a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -10869,7 +10893,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/16b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/16b.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -10881,7 +10905,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/16c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/16c.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -10893,7 +10917,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/16d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/16d.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -10905,7 +10929,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/16e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/16e.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -10917,7 +10941,7 @@ const fiszki10 = [
         {
             id: 6,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/190a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/190a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -10948,7 +10972,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/191a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/191a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -10980,7 +11004,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/95aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/95aa.jpg",
                 alt: "Opakowanie suplementów grzyba riszi. Wygenerowane przez AI."
             },
             story: {
@@ -10992,8 +11016,8 @@ const fiszki10 = [
             ],
         translate: "Ona oferuje jakąś radę na temat jak pomóc twojemu dziecku",
         translateb: "[Szi ofers sam edwajs ebaut hał tu help jor czaild]",
-        srcWord: ["https://www.arbulang.com/filmy/child.mp4", "Matrix(1999)", "Akcja"],
-        srcWordimage: "https://www.arbulang.com/filmy/child.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/child.mp4", "Matrix(1999)", "Akcja"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/child.png",
         desc: "she[szi] - ona",
         sentence1: [
             "She"
@@ -11020,7 +11044,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/193a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/193a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -11055,7 +11079,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/194a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/194a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -11090,7 +11114,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/195a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/195a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -11125,7 +11149,7 @@ const fiszki10 = [
                 {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/196b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/196b.jpg",
                 alt: "Wesele. Wygenerowane przez AI."
             },
             story: {
@@ -11159,7 +11183,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/197a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/197a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -11193,7 +11217,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/199a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/199a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -11227,7 +11251,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/17a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/17a.jpg",
                 alt: "Portret majora w wojsu. Wygenerowane przez AI."
             },
             story: {
@@ -11239,7 +11263,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/17b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/17b.jpg",
                 alt: "Zdjęcie Fjordu. Wygenerowane przez AI."
             },
             story: {
@@ -11251,7 +11275,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/17c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/17c.jpg",
                 alt: "Kobieta w Jordanii. Wygenerowane przez AI."
             },
             story: {
@@ -11263,7 +11287,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/17d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/17d.jpg",
                 alt: "Dziecko podczas zabawy w kałuży. Wygenerowane przez AI."
             },
             story: {
@@ -11275,7 +11299,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/17e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/17e.jpg",
                 alt: "Pies - York. Wygenerowane przez AI."
             },
             story: {
@@ -11309,7 +11333,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/201a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/201a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -11343,7 +11367,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/17a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/17a.jpg",
                 alt: "Portret majora w wojsu. Wygenerowane przez AI."
             },
             story: {
@@ -11355,7 +11379,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/17b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/17b.jpg",
                 alt: "Zdjęcie Fjordu. Wygenerowane przez AI."
             },
             story: {
@@ -11367,7 +11391,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/17c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/17c.jpg",
                 alt: "Kobieta w Jordanii. Wygenerowane przez AI."
             },
             story: {
@@ -11379,7 +11403,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/17d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/17d.jpg",
                 alt: "Dziecko podczas zabawy w kałuży. Wygenerowane przez AI."
             },
             story: {
@@ -11391,7 +11415,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/17e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/17e.jpg",
                 alt: "Pies - York. Wygenerowane przez AI."
             },
             story: {
@@ -11403,8 +11427,8 @@ const fiszki10 = [
     ],
         translate: "Twoje miłe słowa zrobiły mi dzień",
         translateb: "[Jor kaind łerds mejd maj dej]",
-        srcWord: ["https://www.arbulang.com/filmy/words.mp4", "Matrix(1999)", "Akcja"],
-        srcWordimage: "https://www.arbulang.com/filmy/words.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/words.mp4", "Matrix(1999)", "Akcja"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/words.png",
         desc: "your[jor] - twoja",
         sentence1: [
             "Your"
@@ -11428,7 +11452,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/203a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/203a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -11461,7 +11485,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/204a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/204a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -11494,7 +11518,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/205a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/205a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -11527,7 +11551,7 @@ const fiszki10 = [
                         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa1.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa1.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -11539,7 +11563,7 @@ const fiszki10 = [
                 {
                             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50cc.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50cc.jpg",
                 alt: "Zroszona przez deszcz - roślina. Wygenerowane przez AI."
             },
             story: {
@@ -11551,7 +11575,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa.jpg",
                 alt: "Ogród kwiatowy. Wygenerowane przez AI."
             },
             story: {
@@ -11563,7 +11587,7 @@ const fiszki10 = [
                 {
                     id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50bb4.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50bb4.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -11575,7 +11599,7 @@ const fiszki10 = [
         {
                     id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50bb.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50bb.jpg",
                 alt: "Auto na parkingu. Wygenerowane przez AI."
             },
             story: {
@@ -11587,7 +11611,7 @@ const fiszki10 = [
                         {
                     id: 6,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa6.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa6.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -11599,7 +11623,7 @@ const fiszki10 = [
         {
                             id: 7,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa7.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa7.jpg",
                 alt: "Auto na parkingu. Wygenerowane przez AI."
             },
             story: {
@@ -11631,7 +11655,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/207b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/207b.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -11664,7 +11688,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19a.jpg",
                 alt: "Odzież ochronna dla jazdy rowerem. Wygenerowane przez AI."
             },
             story: {
@@ -11676,7 +11700,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19b.jpg",
                 alt: "Portret kobiety. Wygenerowane przez AI."
             },
             story: {
@@ -11688,7 +11712,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19c.jpg",
                 alt: "Boginii Gaja. Wygenerowane przez AI."
             },
             story: {
@@ -11700,7 +11724,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19d.jpg",
                 alt: "Wesele pary młodej. Wygenerowane przez AI."
             },
             story: {
@@ -11712,7 +11736,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19e.jpg",
                 alt: "Zajmowanie się kurami. Wygenerowane przez AI."
             },
             story: {
@@ -11724,8 +11748,8 @@ const fiszki10 = [
     ],
         translate: "I appreciate your assistance today",
         translateb: "[Aj eprisziejt jor esistens tudej]",
-        srcWord: ["https://www.arbulang.com/filmy/assistance.mp4", "Avatar(2022)", "Sci-fi"],
-        srcWordimage: "https://www.arbulang.com/filmy/assistance.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/assistance.mp4", "Avatar(2022)", "Sci-fi"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/assistance.png",
         desc: "i[aj] - ja",
         sentence1: [
             "I"
@@ -11748,7 +11772,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/209a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/209a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -11781,7 +11805,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/17a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/17a.jpg",
                 alt: "Portret majora w wojsu. Wygenerowane przez AI."
             },
             story: {
@@ -11793,7 +11817,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/17b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/17b.jpg",
                 alt: "Zdjęcie Fjordu. Wygenerowane przez AI."
             },
             story: {
@@ -11805,7 +11829,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/17c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/17c.jpg",
                 alt: "Kobieta w Jordanii. Wygenerowane przez AI."
             },
             story: {
@@ -11817,7 +11841,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/17d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/17d.jpg",
                 alt: "Dziecko podczas zabawy w kałuży. Wygenerowane przez AI."
             },
             story: {
@@ -11829,7 +11853,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/17e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/17e.jpg",
                 alt: "Pies - York. Wygenerowane przez AI."
             },
             story: {
@@ -11861,7 +11885,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/211a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/211a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -11894,7 +11918,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/212a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/212a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -11927,7 +11951,7 @@ const fiszki10 = [
                         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/44b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/44b.jpg",
                 alt: "Kraina w starożytności. Wygenerowane przez AI."
             },
             story: {
@@ -11939,7 +11963,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/44a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/44a.jpg",
                 alt: "Kraina w starożytności. Wygenerowane przez AI."
             },
             story: {
@@ -11951,7 +11975,7 @@ const fiszki10 = [
         {
                             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/83c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/83c.jpg",
                 alt: "Dawny geniusz. Wygenerowane przez AI."
             },
             story: {
@@ -11963,7 +11987,7 @@ const fiszki10 = [
                 {
                     id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/80b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/80b.jpg",
                 alt: "Układanka słowna. Wygenerowane przez AI."
             },
             story: {
@@ -11975,7 +11999,7 @@ const fiszki10 = [
                 {
                             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/108d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/108d.jpg",
                 alt: "Diva operowa. Wygenerowane przez AI."
             },
             story: {
@@ -11987,8 +12011,8 @@ const fiszki10 = [
             ],
         translate: "Ten kwiat jest żółty, ale wszystkie pozostałe są niebieskie",
         translateb: "[Dis flałer is jelow bat ol de aders ar blu]",
-        srcWord: ["https://www.arbulang.com/filmy/kwiaty.mp4", "Klan", "Serial"],
-        srcWordimage: "https://www.arbulang.com/filmy/kwiaty.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/kwiaty.mp4", "Klan", "Serial"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/kwiaty.png",
         desc: "this[dis] - ta rzecz/osoba",
         sentence1: [
             "This"
@@ -12013,7 +12037,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/214a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/214a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -12048,7 +12072,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8a.jpg",
                 alt: "Biegacze w biegu. Wygenerowane przez AI."
             },
             story: {
@@ -12060,7 +12084,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8b.jpg",
                 alt: "Karykatura lisa jako listonosza. Wygenerowane przez AI."
             },
             story: {
@@ -12072,7 +12096,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8c.jpg",
                 alt: "Wystąpienie przed klasą. Wygenerowane przez AI."
             },
             story: {
@@ -12084,7 +12108,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8d.jpg",
                 alt: "Bawiące się ze sobą lisy. Wygenerowane przez AI."
             },
             story: {
@@ -12096,7 +12120,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8e.jpg",
                 alt: "Johny Bravo z kreskówki. Wygenerowane przez AI."
             },
             story: {
@@ -12108,7 +12132,7 @@ const fiszki10 = [
                 {
             id: 6,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8f.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8f.jpg",
                 alt: "Chwalenie się dyplomem uczestnictwa w szkoleniu. Wygenerowane przez AI."
             },
             story: {
@@ -12120,7 +12144,7 @@ const fiszki10 = [
         {
             id: 7,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8g.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8g.jpg",
                 alt: "Widok z brzegu ze statkami. Wygenerowane przez AI."
             },
             story: {
@@ -12154,7 +12178,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/216a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/216a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -12188,7 +12212,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/22a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/22a.jpg",
                 alt: "Przebranie za bohatera filmu. Wygenerowane przez AI."
             },
             story: {
@@ -12200,7 +12224,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/22b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/22b.jpg",
                 alt: "Nurek pod wodą. Wygenerowane przez AI."
             },
             story: {
@@ -12212,7 +12236,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/22c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/22c.jpg",
                 alt: "Bateria. Wygenerowane przez AI."
             },
             story: {
@@ -12224,7 +12248,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/22d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/22d.jpg",
                 alt: "Ziemniak batat. Wygenerowane przez AI."
             },
             story: {
@@ -12258,7 +12282,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/218a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/218a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -12293,7 +12317,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/219a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/219a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -12328,7 +12352,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/52aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/52aa.jpg",
                 alt: "Burzliwa rozmowa. Wygenerowane przez AI."
             },
             story: {
@@ -12340,7 +12364,7 @@ const fiszki10 = [
         {
                     id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/220a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/220a.jpg",
                 alt: "Papuga w klatce. Wygenerowane przez AI."
             },
             story: {
@@ -12348,7 +12372,19 @@ const fiszki10 = [
                 alt: "Życie zwierząt. Czy poszczególne gatunki zwierząt ze sobą rozmawiają?"
             },
             category: ["zwierzęta", "przyjaźń"]
-        }
+        },
+        {
+                    id: 3,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/220c.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Czy</b></u> <b><u>Ar</b></u>nold i <b><u>Ar</b></u>ek <b><u>są</b></u> gotowi do zawodów",
+                alt: ""
+            },
+            category: ["sport", "zawody"]
+        },
             ],
         desc: "are[ar] - jest/są - gramatyka",
         sentence2: [
@@ -12375,7 +12411,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/221a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/221a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -12410,7 +12446,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/95aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/95aa.jpg",
                 alt: "Opakowanie suplementów grzyba riszi. Wygenerowane przez AI."
             },
             story: {
@@ -12423,8 +12459,8 @@ const fiszki10 = [
         translate: "Ona teraz czyta nową książkę",
         translateb: "[Szi is riding e nju buk nał]",
         translateb2: "[Ewrybody hes fan]",
-        srcWord: ["https://www.arbulang.com/filmy/shebook.mp4", "Harry Potter i Komnata Tajemnic (2002)"],
-        srcWordimage: "https://www.arbulang.com/filmy/shebook.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/shebook.mp4", "Harry Potter i Komnata Tajemnic (2002)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/shebook.png",
         desc: "she[szi] - ona",
         sentence1: [
             "She"
@@ -12449,7 +12485,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8a.jpg",
                 alt: "Biegacze w biegu. Wygenerowane przez AI."
             },
             story: {
@@ -12461,7 +12497,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8b.jpg",
                 alt: "Karykatura lisa jako listonosza. Wygenerowane przez AI."
             },
             story: {
@@ -12473,7 +12509,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8c.jpg",
                 alt: "Wystąpienie przed klasą. Wygenerowane przez AI."
             },
             story: {
@@ -12485,7 +12521,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8d.jpg",
                 alt: "Bawiące się ze sobą lisy. Wygenerowane przez AI."
             },
             story: {
@@ -12497,7 +12533,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8e.jpg",
                 alt: "Johny Bravo z kreskówki. Wygenerowane przez AI."
             },
             story: {
@@ -12509,7 +12545,7 @@ const fiszki10 = [
                 {
             id: 6,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8f.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8f.jpg",
                 alt: "Chwalenie się dyplomem uczestnictwa w szkoleniu. Wygenerowane przez AI."
             },
             story: {
@@ -12521,7 +12557,7 @@ const fiszki10 = [
         {
             id: 7,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8g.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8g.jpg",
                 alt: "Widok z brzegu ze statkami. Wygenerowane przez AI."
             },
             story: {
@@ -12532,7 +12568,7 @@ const fiszki10 = [
         }
     ],
         word: [
-            "https://www.arbulang.com/src/is.wav"
+            "http://localhost/arbulanguage.com/src/is.wav"
         ],
         desc: "is[is] - niebieski/niebieskie",
         sentence1: [
@@ -12556,7 +12592,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/224a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/224a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -12589,7 +12625,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/247a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/247a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -12623,7 +12659,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/226a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/226a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -12656,7 +12692,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/227a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/227a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -12690,7 +12726,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/228a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/228a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -12724,7 +12760,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/207b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/207b.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -12737,8 +12773,8 @@ const fiszki10 = [
         translate: "Oni grają w piłkę nożną w tym momencie",
         translateb: "[Dej ar pleing futbol at de moment]",
         translateb2: "[Ewrybody hes fan]",
-        srcWord: ["https://www.arbulang.com/filmy/football.mp4", "Pelé. Narodziny legendy (2016)"],
-        srcWordimage: "https://www.arbulang.com/filmy/football.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/football.mp4", "Pelé. Narodziny legendy (2016)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/football.png",
         desc: "they[dej] - oni",
         sentence1: [
             "They"
@@ -12760,11 +12796,11 @@ const fiszki10 = [
             35,
             69
         ],
-            entries: [
+    entries: [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/52aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/52aa.jpg",
                 alt: "Burzliwa rozmowa. Wygenerowane przez AI."
             },
             story: {
@@ -12776,7 +12812,7 @@ const fiszki10 = [
         {
                     id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/220a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/220a.jpg",
                 alt: "Papuga w klatce. Wygenerowane przez AI."
             },
             story: {
@@ -12784,7 +12820,19 @@ const fiszki10 = [
                 alt: "Życie zwierząt. Czy poszczególne gatunki zwierząt ze sobą rozmawiają?"
             },
             category: ["zwierzęta", "przyjaźń"]
-        }
+        },
+        {
+                    id: 3,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/220c.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Czy</b></u> <b><u>Ar</b></u>nold i <b><u>Ar</b></u>ek <b><u>są</b></u> gotowi do zawodów",
+                alt: ""
+            },
+            category: ["sport", "zawody"]
+        },
             ],
         desc: "are[ar] - (są) operator/czasownik posiłkowy (Present Continuous)",
         sentence1: [
@@ -12809,7 +12857,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/231a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/231a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -12843,7 +12891,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/232a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/232a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -12876,7 +12924,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/4a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/4a.jpg",
                 alt: "Wysportowana sylwetka. Wygenerowane przez AI."
             },
             story: {
@@ -12888,7 +12936,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/4b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/4b.jpg",
                 alt: "Aktor w lesie. Wygenerowane przez AI."
             },
             story: {
@@ -12900,7 +12948,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/4c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/4c.jpg",
                 alt: "Pióro na biurku. Wygenerowane przez AI."
             },
             story: {
@@ -12912,7 +12960,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/4d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/4d.jpg",
                 alt: "Atrapa Królowej. Wygenerowane przez AI."
             },
             story: {
@@ -12924,7 +12972,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/4e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/4e.jpg",
                 alt: "Złodziej podczas rabunku. Wygenerowane przez AI."
             },
             story: {
@@ -12935,9 +12983,9 @@ const fiszki10 = [
         }
     ],
         word: [
-            "https://www.arbulang.com/src/at.wav"
+            "http://localhost/arbulanguage.com/src/at.wav"
         ],
-        srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
+        srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
         translateb2: "[at de party]",
         desc: "at[at] - w tym",
         sentence2: [
@@ -12962,7 +13010,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
                 alt: "Piłki koszykarskie. Wygenerowane przez AI."
             },
             story: {
@@ -12974,7 +13022,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
                 alt: "Deptak dla mieszkańców. Wygenerowane przez AI."
             },
             story: {
@@ -12986,7 +13034,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
                 alt: "Politycy na posiedzeniu. Wygenerowane przez AI."
             },
             story: {
@@ -12998,7 +13046,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
                 alt: "Wystąpienia polityków. Wygenerowane przez AI."
             },
             story: {
@@ -13010,7 +13058,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg",
                 alt: "Zasady w rodzinie. Wygenerowane przez AI."
             },
             story: {
@@ -13021,7 +13069,7 @@ const fiszki10 = [
         }
     ],
         word: [
-            "https://www.arbulang.com/src/the.wav"
+            "http://localhost/arbulanguage.com/src/the.wav"
         ],
         desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
         sentence2: [
@@ -13045,7 +13093,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/235a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/235a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -13078,7 +13126,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
                 alt: "Gracz Rugby. Wygenerowane przez AI."
             },
             story: {
@@ -13090,7 +13138,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
                 alt: "Hipopotam w wodzie. Wygenerowane przez AI."
             },
             story: {
@@ -13102,7 +13150,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
                 alt: "Loty balonowe. Wygenerowane przez AI."
             },
             story: {
@@ -13114,7 +13162,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -13126,7 +13174,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg",
                 alt: "Smakowanie przysmaków. Wygenerowane przez AI."
             },
             story: {
@@ -13139,10 +13187,10 @@ const fiszki10 = [
         translate: "On gotuje kolację dla nas dzisiaj wieczorem",
         translateb: "[Hi is kuking diner at de mołment]",
         translateb2: "[Ewrybody hes fan]",
-        srcWord: ["https://www.arbulang.com/filmy/dinner.mp4", "Rodzinka.pl"],
-        srcWordimage: "https://www.arbulang.com/filmy/dinner.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/dinner.mp4", "Rodzinka.pl"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/dinner.png",
         word: [
-            "https://www.arbulang.com/voice/music.mp4"
+            "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         desc: "he[hi] - on",
         sentence1: [
@@ -13168,7 +13216,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8a.jpg",
                 alt: "Biegacze w biegu. Wygenerowane przez AI."
             },
             story: {
@@ -13180,7 +13228,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8b.jpg",
                 alt: "Karykatura lisa jako listonosza. Wygenerowane przez AI."
             },
             story: {
@@ -13192,7 +13240,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8c.jpg",
                 alt: "Wystąpienie przed klasą. Wygenerowane przez AI."
             },
             story: {
@@ -13204,7 +13252,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8d.jpg",
                 alt: "Bawiące się ze sobą lisy. Wygenerowane przez AI."
             },
             story: {
@@ -13216,7 +13264,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8e.jpg",
                 alt: "Johny Bravo z kreskówki. Wygenerowane przez AI."
             },
             story: {
@@ -13228,7 +13276,7 @@ const fiszki10 = [
                 {
             id: 6,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8f.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8f.jpg",
                 alt: "Chwalenie się dyplomem uczestnictwa w szkoleniu. Wygenerowane przez AI."
             },
             story: {
@@ -13240,7 +13288,7 @@ const fiszki10 = [
         {
             id: 7,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8g.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8g.jpg",
                 alt: "Widok z brzegu ze statkami. Wygenerowane przez AI."
             },
             story: {
@@ -13251,7 +13299,7 @@ const fiszki10 = [
         }
     ],
         word: [
-            "https://www.arbulang.com/src/is.wav"
+            "http://localhost/arbulanguage.com/src/is.wav"
         ],
         desc: "is[is] - jest",
         sentence1: [
@@ -13276,7 +13324,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/238a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/238a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -13310,7 +13358,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/239a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/239a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -13344,7 +13392,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/139a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/139a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -13376,7 +13424,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/68aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/68aa.jpg",
                 alt: "Układ planetarny. Wygenerowane przez AI."
             },
             story: {
@@ -13409,7 +13457,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/242a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/242a.jpg",
                 alt: "Układ planetarny. Wygenerowane przez AI."
             },
             story: {
@@ -13441,7 +13489,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19a.jpg",
                 alt: "Odzież ochronna dla jazdy rowerem. Wygenerowane przez AI."
             },
             story: {
@@ -13453,7 +13501,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19b.jpg",
                 alt: "Portret kobiety. Wygenerowane przez AI."
             },
             story: {
@@ -13465,7 +13513,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19c.jpg",
                 alt: "Boginii Gaja. Wygenerowane przez AI."
             },
             story: {
@@ -13477,7 +13525,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19d.jpg",
                 alt: "Wesele pary młodej. Wygenerowane przez AI."
             },
             story: {
@@ -13489,7 +13537,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19e.jpg",
                 alt: "Zajmowanie się kurami. Wygenerowane przez AI."
             },
             story: {
@@ -13501,10 +13549,10 @@ const fiszki10 = [
     ],
         translate: "Pracuję dziś nad dużym projektem",
         translateb: "[Aj em łorking on e big prodźekt tudej]",
-        srcWord: ["https://www.arbulang.com/filmy/project.mp4", "Matrix(1999)"],
-        srcWordimage: "https://www.arbulang.com/filmy/project.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/project.mp4", "Matrix(1999)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/project.png",
         word: [
-            "https://www.arbulang.com/voice/music.mp4"
+            "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         desc: "i[aj] - ja",
         sentence1: [
@@ -13529,7 +13577,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/20a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/20a.jpg",
                 alt: "Wysportowany mężczyzna. Wygenerowane przez AI."
             },
             story: {
@@ -13541,7 +13589,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/20b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/20b.jpg",
                 alt: "Jemioła. Wygenerowane przez AI."
             },
             story: {
@@ -13553,7 +13601,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/20c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/20c.jpg",
                 alt: "Kobieta w pracy biurowej. Wygenerowane przez AI."
             },
             story: {
@@ -13565,7 +13613,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/20d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/20d.jpg",
                 alt: "Biegnące psy. Wygenerowane przez AI."
             },
             story: {
@@ -13577,7 +13625,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/20e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/20e.jpg",
                 alt: "Znany raper. Wygenerowane przez AI."
             },
             story: {
@@ -13609,7 +13657,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/245a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/245a.jpg",
                 alt: "Układ planetarny. Wygenerowane przez AI."
             },
             story: {
@@ -13642,7 +13690,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/246a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/246a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -13677,7 +13725,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/247a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/247a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -13712,7 +13760,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/55aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/55aa.jpg",
                 alt: "Samolot Mig. Wygenerowane przez AI."
             },
             story: {
@@ -13724,7 +13772,7 @@ const fiszki10 = [
                 {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/170a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/170a.jpg",
                 alt: "Ładna dziewczyna. Wygenerowane przez AI."
             },
             story: {
@@ -13758,7 +13806,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/249a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/249a.jpg",
                 alt: "Układ planetarny. Wygenerowane przez AI."
             },
             story: {
@@ -13792,7 +13840,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/212a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/212a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -13826,7 +13874,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/251a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/251a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -13838,10 +13886,10 @@ const fiszki10 = [
             ],
         translate: "Dorośli pływają w basenie",
         translateb: "[De tinejdźers ar słiming]",
-        srcWord: ["https://www.arbulang.com/filmy/swimmingpool.mp4", "The Middle(amerykański serial)"],
-        srcWordimage: "https://www.arbulang.com/filmy/swimmingpool.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/swimmingpool.mp4", "The Middle(amerykański serial)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/swimmingpool.png",
         word: [
-            "https://www.arbulang.com/voice/music.mp4"
+            "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         desc: "the teenagers[de tinejdźers] - nastolatkowie",
         sentence1: [
@@ -13862,11 +13910,11 @@ const fiszki10 = [
             38,
             75
         ],
-            entries: [
+        entries: [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/52aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/52aa.jpg",
                 alt: "Burzliwa rozmowa. Wygenerowane przez AI."
             },
             story: {
@@ -13878,7 +13926,7 @@ const fiszki10 = [
         {
                     id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/220a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/220a.jpg",
                 alt: "Papuga w klatce. Wygenerowane przez AI."
             },
             story: {
@@ -13886,9 +13934,20 @@ const fiszki10 = [
                 alt: "Życie zwierząt. Czy poszczególne gatunki zwierząt ze sobą rozmawiają?"
             },
             category: ["zwierzęta", "przyjaźń"]
-        }
+        },
+        {
+                    id: 3,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/220c.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Czy</b></u> <b><u>Ar</b></u>nold i <b><u>Ar</b></u>ek <b><u>są</b></u> gotowi do zawodów",
+                alt: ""
+            },
+            category: ["sport", "zawody"]
+        },
             ],
-        desc: "are[ar] - jest/są - gramatyka",
         sentence1: [
             "are"
         ],
@@ -13911,7 +13970,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/253a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/253a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -13943,7 +14002,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/254a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/254a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -13975,7 +14034,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/255a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/255a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -14007,7 +14066,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/131a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/131a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -14019,10 +14078,10 @@ const fiszki10 = [
             ],
         translate: " Oglądamy teraz film",
         translateb: "[Łi ar łoczing e muwi rajt nał]",
-        srcWord: ["https://www.arbulang.com/filmy/television.mp4", "Pan życia i śmierci(2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/television.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/television.mp4", "Pan życia i śmierci(2005)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/television.png",
         word: [
-            "https://www.arbulang.com/voice/music.mp4"
+            "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         desc: "we[łi] - my",
         sentence1: [
@@ -14047,11 +14106,11 @@ const fiszki10 = [
             39,
             77
         ],
-            entries: [
+        entries: [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/52aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/52aa.jpg",
                 alt: "Burzliwa rozmowa. Wygenerowane przez AI."
             },
             story: {
@@ -14063,7 +14122,7 @@ const fiszki10 = [
         {
                     id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/220a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/220a.jpg",
                 alt: "Papuga w klatce. Wygenerowane przez AI."
             },
             story: {
@@ -14071,9 +14130,20 @@ const fiszki10 = [
                 alt: "Życie zwierząt. Czy poszczególne gatunki zwierząt ze sobą rozmawiają?"
             },
             category: ["zwierzęta", "przyjaźń"]
-        }
+        },
+        {
+                    id: 3,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/220c.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Czy</b></u> <b><u>Ar</b></u>nold i <b><u>Ar</b></u>ek <b><u>są</b></u> gotowi do zawodów",
+                alt: ""
+            },
+            category: ["sport", "zawody"]
+        },
             ],
-        desc: "are[ar] - jest/są - gramatyka",
         sentence1: [
             "are"
         ],
@@ -14099,7 +14169,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/258a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/258a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -14135,7 +14205,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/259a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/259a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -14171,7 +14241,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/130a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/130a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -14183,7 +14253,7 @@ const fiszki10 = [
                 {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/130b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/130b.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -14218,7 +14288,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/228a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/228a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -14254,7 +14324,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
                 alt: "Gracz Rugby. Wygenerowane przez AI."
             },
             story: {
@@ -14266,7 +14336,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
                 alt: "Hipopotam w wodzie. Wygenerowane przez AI."
             },
             story: {
@@ -14278,7 +14348,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
                 alt: "Loty balonowe. Wygenerowane przez AI."
             },
             story: {
@@ -14290,7 +14360,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -14302,7 +14372,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg",
                 alt: "Smakowanie przysmaków. Wygenerowane przez AI."
             },
             story: {
@@ -14315,11 +14385,11 @@ const fiszki10 = [
         translate: "On biega dziś w parku",
         translateb: "[Hi is raning in de park tudej]",
         translateb2: "[Hi is raning]",
-        srcWord: ["https://www.arbulang.com/filmy/running.mp4", "Forrest Gump (1994)"],
-        srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
-        srcWordimage: "https://www.arbulang.com/filmy/running.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/running.mp4", "Forrest Gump (1994)"],
+        srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/running.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "he[hi] - on",
         sentence1: [
@@ -14344,7 +14414,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8a.jpg",
                 alt: "Biegacze w biegu. Wygenerowane przez AI."
             },
             story: {
@@ -14356,7 +14426,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8b.jpg",
                 alt: "Karykatura lisa jako listonosza. Wygenerowane przez AI."
             },
             story: {
@@ -14368,7 +14438,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8c.jpg",
                 alt: "Wystąpienie przed klasą. Wygenerowane przez AI."
             },
             story: {
@@ -14380,7 +14450,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8d.jpg",
                 alt: "Bawiące się ze sobą lisy. Wygenerowane przez AI."
             },
             story: {
@@ -14392,7 +14462,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8e.jpg",
                 alt: "Johny Bravo z kreskówki. Wygenerowane przez AI."
             },
             story: {
@@ -14404,7 +14474,7 @@ const fiszki10 = [
                 {
             id: 6,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8f.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8f.jpg",
                 alt: "Chwalenie się dyplomem uczestnictwa w szkoleniu. Wygenerowane przez AI."
             },
             story: {
@@ -14416,7 +14486,7 @@ const fiszki10 = [
         {
             id: 7,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8g.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8g.jpg",
                 alt: "Widok z brzegu ze statkami. Wygenerowane przez AI."
             },
             story: {
@@ -14427,7 +14497,7 @@ const fiszki10 = [
         }
     ],
         word: [
-            "https://www.arbulang.com/src/is.wav"
+            "http://localhost/arbulanguage.com/src/is.wav"
         ],
         desc: "is[is] - jest",
         sentence1: [
@@ -14451,7 +14521,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/264a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/264a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -14484,7 +14554,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/254a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/254a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -14517,7 +14587,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/266a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/266a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -14550,7 +14620,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/212a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/212a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -14583,7 +14653,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/207b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/207b.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -14596,11 +14666,11 @@ const fiszki10 = [
         translate: "",
         translateb: "[Dej ar hewing diner tugeder nał]",
         translateb2: "[Dej ar hewing diner tugeder nał]",
-        srcWord: ["https://www.arbulang.com/filmy/morning.mp4", "Fast and Furious: Hobbs and Shaw(2019)"],
-                srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
-        srcWordimage: "https://www.arbulang.com/filmy/morning.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/morning.mp4", "Fast and Furious: Hobbs and Shaw(2019)"],
+                srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/morning.png",
         word: [
-            "https://www.arbulang.com/src/is.wav"
+            "http://localhost/arbulanguage.com/src/is.wav"
         ],
         desc: "they[dej] - oni",
         sentence1: [
@@ -14624,11 +14694,11 @@ const fiszki10 = [
             41,
             80
         ],
-            entries: [
+        entries: [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/52aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/52aa.jpg",
                 alt: "Burzliwa rozmowa. Wygenerowane przez AI."
             },
             story: {
@@ -14640,7 +14710,7 @@ const fiszki10 = [
         {
                     id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/220a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/220a.jpg",
                 alt: "Papuga w klatce. Wygenerowane przez AI."
             },
             story: {
@@ -14648,9 +14718,20 @@ const fiszki10 = [
                 alt: "Życie zwierząt. Czy poszczególne gatunki zwierząt ze sobą rozmawiają?"
             },
             category: ["zwierzęta", "przyjaźń"]
-        }
+        },
+        {
+                    id: 3,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/220c.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Czy</b></u> <b><u>Ar</b></u>nold i <b><u>Ar</b></u>ek <b><u>są</b></u> gotowi do zawodów",
+                alt: ""
+            },
+            category: ["sport", "zawody"]
+        },
             ],
-        desc: "are[ar] - jest/są - gramatyka",
         sentence1: [
             "are"
         ],
@@ -14677,7 +14758,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/270a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/270a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -14714,7 +14795,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/239a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/239a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -14750,7 +14831,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/272a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/272a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -14785,7 +14866,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/228a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/228a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -14821,7 +14902,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19a.jpg",
                 alt: "Odzież ochronna dla jazdy rowerem. Wygenerowane przez AI."
             },
             story: {
@@ -14833,7 +14914,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19b.jpg",
                 alt: "Portret kobiety. Wygenerowane przez AI."
             },
             story: {
@@ -14845,7 +14926,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19c.jpg",
                 alt: "Boginii Gaja. Wygenerowane przez AI."
             },
             story: {
@@ -14857,7 +14938,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19d.jpg",
                 alt: "Wesele pary młodej. Wygenerowane przez AI."
             },
             story: {
@@ -14869,7 +14950,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19e.jpg",
                 alt: "Zajmowanie się kurami. Wygenerowane przez AI."
             },
             story: {
@@ -14882,11 +14963,11 @@ const fiszki10 = [
         translate: "",
         translateb: "[Aj em lerning Inglisz dis jer]",
         translateb2: "[Aj em lerning Inglisz]",
-        srcWord: ["https://www.arbulang.com/filmy/learning-english.mp4", "Klik: I robisz, co chcesz (2006)"],
-        srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
-        srcWordimage: "https://www.arbulang.com/filmy/learning-english.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/learning-english.mp4", "Klik: I robisz, co chcesz (2006)"],
+        srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/learning-english.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "I[aj] - ja",
         sentence1: [
@@ -14912,7 +14993,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/20a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/20a.jpg",
                 alt: "Wysportowany mężczyzna. Wygenerowane przez AI."
             },
             story: {
@@ -14924,7 +15005,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/20b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/20b.jpg",
                 alt: "Jemioła. Wygenerowane przez AI."
             },
             story: {
@@ -14936,7 +15017,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/20c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/20c.jpg",
                 alt: "Kobieta w pracy biurowej. Wygenerowane przez AI."
             },
             story: {
@@ -14948,7 +15029,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/20d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/20d.jpg",
                 alt: "Biegnące psy. Wygenerowane przez AI."
             },
             story: {
@@ -14960,7 +15041,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/20e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/20e.jpg",
                 alt: "Znany raper. Wygenerowane przez AI."
             },
             story: {
@@ -14994,7 +15075,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/276a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/276a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -15028,7 +15109,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/277a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/277a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -15062,7 +15143,7 @@ const fiszki10 = [
                         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/44b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/44b.jpg",
                 alt: "Zawodniczka i trener. Wygenerowane przez AI."
             },
             story: {
@@ -15074,7 +15155,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/44a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/44a.jpg",
                 alt: "Kraina w starożytności. Wygenerowane przez AI."
             },
             story: {
@@ -15086,7 +15167,7 @@ const fiszki10 = [
         {
                             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/83c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/83c.jpg",
                 alt: "Dawny geniusz. Wygenerowane przez AI."
             },
             story: {
@@ -15098,7 +15179,7 @@ const fiszki10 = [
                 {
                     id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/80b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/80b.jpg",
                 alt: "Układanka słowna. Wygenerowane przez AI."
             },
             story: {
@@ -15110,7 +15191,7 @@ const fiszki10 = [
                 {
                             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/108d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/108d.jpg",
                 alt: "Diva operowa. Wygenerowane przez AI."
             },
             story: {
@@ -15121,7 +15202,7 @@ const fiszki10 = [
         }
             ],
         word: [
-            "https://www.arbulang.com/voice/music.mp4"
+            "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         desc: "this[dis] - ta rzecz/osoba",
         sentence2: [
@@ -15144,7 +15225,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/279a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/279a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -15176,7 +15257,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/95aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/95aa.jpg",
                 alt: "Opakowanie suplementów grzyba riszi. Wygenerowane przez AI."
             },
             story: {
@@ -15189,11 +15270,11 @@ const fiszki10 = [
         translate: "",
         translateb: "[Szi hes wizitid Paris meny tajms]",
         translateb2: "[Szi hes wizitid Paris]",
-        srcWord: ["https://www.arbulang.com/filmy/Paris.mp4", "Północ w Paryżu"],
-        srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", ""],
-        srcWordimage: "https://www.arbulang.com/filmy/Paris.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/Paris.mp4", "Północ w Paryżu"],
+        srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", ""],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/Paris.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "she[szi] - ona",
         sentence1: [
@@ -15220,7 +15301,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/282a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/282a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -15253,7 +15334,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/283a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/283a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -15286,7 +15367,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/284a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/284a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -15317,7 +15398,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/285a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/285a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -15348,7 +15429,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19a.jpg",
                 alt: "Odzież ochronna dla jazdy rowerem. Wygenerowane przez AI."
             },
             story: {
@@ -15360,7 +15441,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19b.jpg",
                 alt: "Portret kobiety. Wygenerowane przez AI."
             },
             story: {
@@ -15372,7 +15453,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19c.jpg",
                 alt: "Boginii Gaja. Wygenerowane przez AI."
             },
             story: {
@@ -15384,7 +15465,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19d.jpg",
                 alt: "Wesele pary młodej. Wygenerowane przez AI."
             },
             story: {
@@ -15396,7 +15477,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19e.jpg",
                 alt: "Zajmowanie się kurami. Wygenerowane przez AI."
             },
             story: {
@@ -15409,11 +15490,11 @@ const fiszki10 = [
         translate: "",
         translateb: "[Aj hew finiszt maj hołmłork]",
         translateb2: "[Aj hew finiszt maj hołmłork]",
-        srcWord: ["https://www.arbulang.com/filmy/homework.mp4", "Prison Break"],
-        srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", ""],
-        srcWordimage: "https://www.arbulang.com/filmy/homework.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/homework.mp4", "Prison Break"],
+        srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", ""],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/homework.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "I[aj] - ja",
         sentence1: [
@@ -15440,7 +15521,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/288a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/288a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -15474,7 +15555,7 @@ const fiszki10 = [
                         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa1.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa1.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -15486,7 +15567,7 @@ const fiszki10 = [
                 {
                             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50cc.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50cc.jpg",
                 alt: "Zroszona przez deszcz - roślina. Wygenerowane przez AI."
             },
             story: {
@@ -15498,7 +15579,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa.jpg",
                 alt: "Ogród kwiatowy. Wygenerowane przez AI."
             },
             story: {
@@ -15510,7 +15591,7 @@ const fiszki10 = [
                 {
                     id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50bb4.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50bb4.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -15522,7 +15603,7 @@ const fiszki10 = [
         {
                     id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50bb.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50bb.jpg",
                 alt: "Auto na parkingu. Wygenerowane przez AI."
             },
             story: {
@@ -15534,7 +15615,7 @@ const fiszki10 = [
                         {
                     id: 6,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa6.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa6.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -15546,7 +15627,7 @@ const fiszki10 = [
         {
                             id: 7,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa7.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa7.jpg",
                 alt: "Auto na parkingu. Wygenerowane przez AI."
             },
             story: {
@@ -15583,7 +15664,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/288a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/288a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -15617,7 +15698,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/207b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/207b.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -15630,11 +15711,11 @@ const fiszki10 = [
         translate: "",
         translateb: "[Dej hew liwd in dis hałs for jers]",
         translateb2: "[Dej hew liwd in dis hałs]",
-        srcWord: ["https://www.arbulang.com/filmy/house.mp4", "Breaking Bad"],
-        srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", ""],
-        srcWordimage: "https://www.arbulang.com/filmy/house.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/house.mp4", "Breaking Bad"],
+        srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", ""],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/house.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "they[dej] - oni",
         sentence1: [
@@ -15662,7 +15743,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/290a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/290a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -15697,7 +15778,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/254a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/254a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -15732,7 +15813,7 @@ const fiszki10 = [
                         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/44b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/44b.jpg",
                 alt: "Kraina w starożytności. Wygenerowane przez AI."
             },
             story: {
@@ -15744,7 +15825,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/44a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/44a.jpg",
                 alt: "Kraina w starożytności. Wygenerowane przez AI."
             },
             story: {
@@ -15756,7 +15837,7 @@ const fiszki10 = [
         {
                             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/83c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/83c.jpg",
                 alt: "Dawny geniusz. Wygenerowane przez AI."
             },
             story: {
@@ -15768,7 +15849,7 @@ const fiszki10 = [
                 {
                     id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/80b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/80b.jpg",
                 alt: "Układanka słowna. Wygenerowane przez AI."
             },
             story: {
@@ -15780,7 +15861,7 @@ const fiszki10 = [
                 {
                             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/108d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/108d.jpg",
                 alt: "Diva operowa. Wygenerowane przez AI."
             },
             story: {
@@ -15815,7 +15896,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/293a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/293a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -15851,7 +15932,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/139a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/139a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -15883,7 +15964,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/295a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/295a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -15915,7 +15996,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
                 alt: "Piłki koszykarskie. Wygenerowane przez AI."
             },
             story: {
@@ -15927,7 +16008,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
                 alt: "Deptak dla mieszkańców. Wygenerowane przez AI."
             },
             story: {
@@ -15939,7 +16020,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
                 alt: "Politycy na posiedzeniu. Wygenerowane przez AI."
             },
             story: {
@@ -15951,7 +16032,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
                 alt: "Wystąpienia polityków. Wygenerowane przez AI."
             },
             story: {
@@ -15963,7 +16044,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg",
                 alt: "Zasady w rodzinie. Wygenerowane przez AI."
             },
             story: {
@@ -15976,11 +16057,11 @@ const fiszki10 = [
         translate: "",
         translateb: "[De mówi hes dzast started]",
         translateb2: "[De mówi hes]",
-        srcWord: ["https://www.arbulang.com/filmy/movie.mp4", "Matrix (1999)"],
-        srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", ""],
-        srcWordimage: "https://www.arbulang.com/filmy/movie.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/movie.mp4", "Matrix (1999)"],
+        srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", ""],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/movie.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
         sentence1: [
@@ -16005,7 +16086,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/297a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/297a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -16038,7 +16119,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/2a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg",
                 alt: "Kupowanie biletu, zdjęcie z biletem. Wygenerowane przez AI."
             },
             story: {
@@ -16050,7 +16131,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/2b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/2b.jpg",
                 alt: "Hipopotam podczas przedstawienia cyrkowego. Wygenerowane przez AI."
             },
             story: {
@@ -16062,7 +16143,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/2c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/2c.jpg",
                 alt: "Naukowcy podczas pracy. Wygenerowane przez AI."
             },
             story: {
@@ -16074,7 +16155,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/2d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/2d.jpg",
                 alt: "Życie jako polityk. Scena. Wygenerowane przez AI."
             },
             story: {
@@ -16086,7 +16167,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/2e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/2e.jpg",
                 alt: "Muzycy z klarnetami. Wygenerowane przez AI."
             },
             story: {
@@ -16119,7 +16200,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/299a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/299a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -16151,7 +16232,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/300a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/300a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -16183,7 +16264,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/95aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/95aa.jpg",
                 alt: "Opakowanie suplementów grzyba riszi. Wygenerowane przez AI."
             },
             story: {
@@ -16196,11 +16277,11 @@ const fiszki10 = [
         translate: "",
         translateb: "[She hes rid dis buk tłajs]",
         translateb2: "[De mówi hes]",
-        srcWord: ["https://www.arbulang.com/filmy/booktwice.mp4", "Poradnik pozytywnego myślenia (2012)"],
-        srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", ""],
-        srcWordimage: "https://www.arbulang.com/filmy/booktwice.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/booktwice.mp4", "Poradnik pozytywnego myślenia (2012)"],
+        srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", ""],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/booktwice.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "she[szi] - ona",
         sentence1: [
@@ -16228,7 +16309,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/125a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/125a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -16263,7 +16344,7 @@ const fiszki10 = [
                         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/44b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/44b.jpg",
                 alt: "Kraina w starożytności. Wygenerowane przez AI."
             },
             story: {
@@ -16275,7 +16356,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/44a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/44a.jpg",
                 alt: "Kraina w starożytności. Wygenerowane przez AI."
             },
             story: {
@@ -16287,7 +16368,7 @@ const fiszki10 = [
         {
                             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/83c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/83c.jpg",
                 alt: "Dawny geniusz. Wygenerowane przez AI."
             },
             story: {
@@ -16299,7 +16380,7 @@ const fiszki10 = [
                 {
                     id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/80b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/80b.jpg",
                 alt: "Układanka słowna. Wygenerowane przez AI."
             },
             story: {
@@ -16311,7 +16392,7 @@ const fiszki10 = [
                 {
                             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/108d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/108d.jpg",
                 alt: "Diva operowa. Wygenerowane przez AI."
             },
             story: {
@@ -16346,7 +16427,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/45aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/45aa.jpg",
                 alt: "Książka. Wygenerowane przez AI."
             },
             story: {
@@ -16381,7 +16462,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/309a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/309a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -16416,7 +16497,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/131a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/131a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -16429,11 +16510,11 @@ const fiszki10 = [
         translate: "",
         translateb: "[Łi hew wisitid London meni tajms]",
         translateb2: "[De mówi hes]",
-        srcWord: ["https://www.arbulang.com/filmy/London.mp4", "Sherlock Holmes (2009)"],
-        srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", ""],
-        srcWordimage: "https://www.arbulang.com/filmy/London.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/London.mp4", "Sherlock Holmes (2009)"],
+        srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", ""],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/London.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "we[łi] - my",
         sentence1: [
@@ -16459,7 +16540,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/122a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/122a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -16492,7 +16573,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/313a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/313a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -16526,7 +16607,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/314a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/314a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -16557,7 +16638,7 @@ const fiszki10 = [
                         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa1.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa1.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -16569,7 +16650,7 @@ const fiszki10 = [
                 {
                             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50cc.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50cc.jpg",
                 alt: "Zroszona przez deszcz - roślina. Wygenerowane przez AI."
             },
             story: {
@@ -16581,7 +16662,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa.jpg",
                 alt: "Ogród kwiatowy. Wygenerowane przez AI."
             },
             story: {
@@ -16593,7 +16674,7 @@ const fiszki10 = [
                 {
                     id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50bb4.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50bb4.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -16605,7 +16686,7 @@ const fiszki10 = [
         {
                     id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50bb.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50bb.jpg",
                 alt: "Auto na parkingu. Wygenerowane przez AI."
             },
             story: {
@@ -16617,7 +16698,7 @@ const fiszki10 = [
                         {
                     id: 6,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa6.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa6.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -16629,7 +16710,7 @@ const fiszki10 = [
         {
                             id: 7,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa7.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa7.jpg",
                 alt: "Auto na parkingu. Wygenerowane przez AI."
             },
             story: {
@@ -16642,11 +16723,11 @@ const fiszki10 = [
         translate: "",
         translateb: "[Maj broder plejs futbol on łikedns]",
         translateb2: "[Maj broder plejs futbol]",
-        srcWord: ["https://www.arbulang.com/filmy/football2.mp4", "Miasto Boga (2002)"],
-        srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", ""],
-        srcWordimage: "https://www.arbulang.com/filmy/football2.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/football2.mp4", "Miasto Boga (2002)"],
+        srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", ""],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/football2.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "my[maj] - mój",
         sentence1: [
@@ -16676,7 +16757,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/316a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/316a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -16710,7 +16791,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/317a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/317a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -16745,7 +16826,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/232a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/232a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -16781,7 +16862,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/246a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/246a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -16813,7 +16894,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/320a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/320a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -16845,7 +16926,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/95aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/95aa.jpg",
                 alt: "Opakowanie suplementów grzyba riszi. Wygenerowane przez AI."
             },
             story: {
@@ -16858,11 +16939,11 @@ const fiszki10 = [
         translate: "",
         translateb: "[Szi drinks kofi ewry singel dej]",
         translateb2: "[Maj broder plejs futbol]",
-        srcWord: ["https://www.arbulang.com/filmy/coffe2.mp4", "Serial - Dexter ()"],
-        srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", ""],
-        srcWordimage: "https://www.arbulang.com/filmy/coffe2.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/coffe2.mp4", "Serial - Dexter ()"],
+        srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", ""],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/coffe2.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "she[szi] - ona",
         sentence1: [
@@ -16887,7 +16968,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/322a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/322a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -16920,7 +17001,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/323a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/323a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -16953,7 +17034,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/324a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/324a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -16986,7 +17067,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/325a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/325a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -17019,7 +17100,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/207b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/207b.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -17051,7 +17132,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
                 alt: "Piłki koszykarskie. Wygenerowane przez AI."
             },
             story: {
@@ -17063,7 +17144,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
                 alt: "Deptak dla mieszkańców. Wygenerowane przez AI."
             },
             story: {
@@ -17075,7 +17156,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
                 alt: "Politycy na posiedzeniu. Wygenerowane przez AI."
             },
             story: {
@@ -17087,7 +17168,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
                 alt: "Wystąpienia polityków. Wygenerowane przez AI."
             },
             story: {
@@ -17099,7 +17180,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg",
                 alt: "Zasady w rodzinie. Wygenerowane przez AI."
             },
             story: {
@@ -17112,11 +17193,11 @@ const fiszki10 = [
         translate: "",
         translateb: "[De kat rans fast ewry morning]",
         translateb2: "[De kat rans fast]",
-        srcWord: ["https://www.arbulang.com/filmy/cat2.mp4", "Kot w butach: Ostatnie życzenie (2022)"],
-        srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", ""],
-        srcWordimage: "https://www.arbulang.com/filmy/cat2.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/cat2.mp4", "Kot w butach: Ostatnie życzenie (2022)"],
+        srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", ""],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/cat2.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
         sentence1: [
@@ -17142,7 +17223,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/28aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/28aa.jpg",
                 alt: "Kot na łodzi. Wygenerowane przez AI."
             },
             story: {
@@ -17154,7 +17235,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/28bb.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/28bb.jpg",
                 alt: "Kot na spacerze. Wygenerowane przez AI."
             },
             story: {
@@ -17166,7 +17247,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/28cc.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/28cc.jpg",
                 alt: "Kot w egzotycznym kraju. Wygenerowane przez AI."
             },
             story: {
@@ -17178,7 +17259,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/28dd.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/28dd.jpg",
                 alt: "Kot rozciągający się. Wygenerowane przez AI."
             },
             story: {
@@ -17190,7 +17271,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/28ee.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/28ee.jpg",
                 alt: "Moje zdjęcie z kotem. Wygenerowane przez AI."
             },
             story: {
@@ -17230,7 +17311,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/329a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/329a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -17263,7 +17344,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/79a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/79a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -17297,7 +17378,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/324a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/324a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -17329,7 +17410,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/332a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/332a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -17361,7 +17442,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19a.jpg",
                 alt: "Odzież ochronna dla jazdy rowerem. Wygenerowane przez AI."
             },
             story: {
@@ -17373,7 +17454,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19b.jpg",
                 alt: "Portret kobiety. Wygenerowane przez AI."
             },
             story: {
@@ -17385,7 +17466,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19c.jpg",
                 alt: "Boginii Gaja. Wygenerowane przez AI."
             },
             story: {
@@ -17397,7 +17478,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19d.jpg",
                 alt: "Wesele pary młodej. Wygenerowane przez AI."
             },
             story: {
@@ -17409,7 +17490,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19e.jpg",
                 alt: "Zajmowanie się kurami. Wygenerowane przez AI."
             },
             story: {
@@ -17422,11 +17503,11 @@ const fiszki10 = [
         translate: "",
         translateb: "[Aj nid e nju per of szu]",
         translateb2: "[Aj em szaj]",
-        srcWord: ["https://www.arbulang.com/filmy/shoes-pele.mp4", 'Pelé. Narodziny legendy (2016)'],
-        srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
-        srcWordimage: "https://www.arbulang.com/filmy/shoes-pele.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/shoes-pele.mp4", 'Pelé. Narodziny legendy (2016)'],
+        srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/shoes-pele.png",
         word: [
-            "https://www.arbulang.com/voice/music.mp4"
+            "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         desc: "I[aj] - ja",
         sentence1: [
@@ -17450,7 +17531,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/334a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/334a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -17483,7 +17564,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/226a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/226a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -17516,7 +17597,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/336a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/336a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -17549,7 +17630,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/337a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/337a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -17581,7 +17662,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/207b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/207b.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -17594,11 +17675,11 @@ const fiszki10 = [
         translate: "Oni poszli dzisiaj do sklepu",
         translateb: "[Dej łent tu de stor tudej]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/store2.mp4", 'Sztanga i cash (2013)'],
-        srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
-        srcWordimage: "https://www.arbulang.com/filmy/store2.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/store2.mp4", 'Sztanga i cash (2013)'],
+        srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/store2.png",
         word: [
-            "https://www.arbulang.com/voice/music.mp4"
+            "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         desc: "they[dej] - oni",
         sentence1: [
@@ -17622,7 +17703,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/339a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/339a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -17655,7 +17736,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/340a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/340a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -17687,7 +17768,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/212a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/212a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -17719,7 +17800,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/32aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/32aa.jpg",
                 alt: "Zawodnik na meczu. Wygenerowane przez AI."
             },
             story: {
@@ -17731,7 +17812,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/32bb.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/32bb.jpg",
                 alt: "Ogrodnik w ogrodzie. Wygenerowane przez AI."
             },
             story: {
@@ -17743,7 +17824,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/32cc.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/32cc.jpg",
                 alt: "Sieć wysokiego napięcia. Wygenerowane przez AI."
             },
             story: {
@@ -17755,7 +17836,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/32dd.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/32dd.jpg",
                 alt: "Oko Saurona. Wygenerowane przez AI."
             },
             story: {
@@ -17767,7 +17848,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/32ee.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/32ee.jpg",
                 alt: "Laurka dla mamy. Wygenerowane przez AI."
             },
             story: {
@@ -17780,11 +17861,11 @@ const fiszki10 = [
         translate: "Nasz nauczyciel pomaga nam z pracą domową",
         translateb: "[Aur ticzer helps as wiz hołmłork]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/store2.mp4", 'Dom z papieru (20017-2021)'],
-        srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
-        srcWordimage: "https://www.arbulang.com/filmy/store2.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/store2.mp4", 'Dom z papieru (20017-2021)'],
+        srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/store2.png",
         word: [
-            "https://www.arbulang.com/voice/music.mp4"
+            "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         desc: "our[aur] - nasz, nasze",
         sentence1: [
@@ -17807,7 +17888,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/64aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/64aa.jpg",
                 alt: "Nauczyciel w czerwonej koszuli. Wygenerowane przez AI."
             },
             story: {
@@ -17874,7 +17955,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/68aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/68aa.jpg",
                 alt: "Układ planetarny. Wygenerowane przez AI."
             },
             story: {
@@ -17908,7 +17989,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/16a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/16a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -17920,7 +18001,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/16b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/16b.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -17932,7 +18013,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/16c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/16c.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -17944,7 +18025,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/16d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/16d.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -17956,7 +18037,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/16e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/16e.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -17968,7 +18049,7 @@ const fiszki10 = [
         {
             id: 6,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/190a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/190a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -18002,7 +18083,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/347a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/347a.jpg",
                 alt: "Układ planetarny. Wygenerowane przez AI."
             },
             story: {
@@ -18036,7 +18117,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
                 alt: "Piłki koszykarskie. Wygenerowane przez AI."
             },
             story: {
@@ -18048,7 +18129,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
                 alt: "Deptak dla mieszkańców. Wygenerowane przez AI."
             },
             story: {
@@ -18060,7 +18141,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
                 alt: "Politycy na posiedzeniu. Wygenerowane przez AI."
             },
             story: {
@@ -18072,7 +18153,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
                 alt: "Wystąpienia polityków. Wygenerowane przez AI."
             },
             story: {
@@ -18084,7 +18165,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg",
                 alt: "Zasady w rodzinie. Wygenerowane przez AI."
             },
             story: {
@@ -18097,11 +18178,11 @@ const fiszki10 = [
         translate: "Pies śpi pod dużym drzewem",
         translateb: "[De dog slips ander de big tri]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/dogtree.mp4", 'Komisarz Alex (2011)'],
-        srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", ""],
-        srcWordimage: "https://www.arbulang.com/filmy/dogtree.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/dogtree.mp4", 'Komisarz Alex (2011)'],
+        srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", ""],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/dogtree.png",
         word: [
-            "https://www.arbulang.com/voice/music.mp4"
+            "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
         sentence1: [
@@ -18126,7 +18207,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/58aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/58aa.jpg",
                 alt: "Mały piesek. Wygenerowane przez AI."
             },
             story: {
@@ -18160,7 +18241,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/350a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/350a.jpg",
                 alt: "Mały piesek. Wygenerowane przez AI."
             },
             story: {
@@ -18193,7 +18274,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/351a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/351a.jpg",
                 alt: "Mały piesek. Wygenerowane przez AI."
             },
             story: {
@@ -18205,7 +18286,7 @@ const fiszki10 = [
                 {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/351b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/351b.jpg",
                 alt: "Mały piesek. Wygenerowane przez AI."
             },
             story: {
@@ -18239,7 +18320,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
                 alt: "Piłki koszykarskie. Wygenerowane przez AI."
             },
             story: {
@@ -18251,7 +18332,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
                 alt: "Deptak dla mieszkańców. Wygenerowane przez AI."
             },
             story: {
@@ -18263,7 +18344,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
                 alt: "Politycy na posiedzeniu. Wygenerowane przez AI."
             },
             story: {
@@ -18275,7 +18356,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
                 alt: "Wystąpienia polityków. Wygenerowane przez AI."
             },
             story: {
@@ -18287,7 +18368,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg",
                 alt: "Zasady w rodzinie. Wygenerowane przez AI."
             },
             story: {
@@ -18320,7 +18401,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/55aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/55aa.jpg",
                 alt: "Samolot Mig. Wygenerowane przez AI."
             },
             story: {
@@ -18332,7 +18413,7 @@ const fiszki10 = [
                 {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/170a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/170a.jpg",
                 alt: "Ładna dziewczyna. Wygenerowane przez AI."
             },
             story: {
@@ -18366,7 +18447,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/354a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/354a.jpg",
                 alt: "Mały piesek. Wygenerowane przez AI."
             },
             story: {
@@ -18400,7 +18481,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
                 alt: "Piłki koszykarskie. Wygenerowane przez AI."
             },
             story: {
@@ -18412,7 +18493,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
                 alt: "Deptak dla mieszkańców. Wygenerowane przez AI."
             },
             story: {
@@ -18424,7 +18505,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
                 alt: "Politycy na posiedzeniu. Wygenerowane przez AI."
             },
             story: {
@@ -18436,7 +18517,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
                 alt: "Wystąpienia polityków. Wygenerowane przez AI."
             },
             story: {
@@ -18448,7 +18529,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg",
                 alt: "Zasady w rodzinie. Wygenerowane przez AI."
             },
             story: {
@@ -18461,11 +18542,11 @@ const fiszki10 = [
         translate: "Mężczyzna prowadzi swój samochód szybko",
         translateb: "[De men drajws his kar fast]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/store2.mp4", 'The Matrix Reloaded (2003)'],
-        srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
-        srcWordimage: "https://www.arbulang.com/filmy/store2.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/store2.mp4", 'The Matrix Reloaded (2003)'],
+        srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/store2.png",
         word: [
-            "https://www.arbulang.com/voice/music.mp4"
+            "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
         sentence1: [
@@ -18489,7 +18570,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/356a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/356a.jpg",
                 alt: "Mały piesek. Wygenerowane przez AI."
             },
             story: {
@@ -18523,7 +18604,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/357a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/357a.jpg",
                 alt: "Mały piesek. Wygenerowane przez AI."
             },
             story: {
@@ -18556,7 +18637,7 @@ const fiszki10 = [
                         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/48aa1.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/48aa1.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -18568,7 +18649,7 @@ const fiszki10 = [
                 {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/48aa2.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/48aa2.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -18580,7 +18661,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/48aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/48aa.jpg",
                 alt: "Historia człowieka w muzeum. Wygenerowane przez AI."
             },
             story: {
@@ -18592,7 +18673,7 @@ const fiszki10 = [
                 {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/106b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/106b.jpg",
                 alt: "Wynalazek nowoczesności. Wygenerowane przez AI."
             },
             story: {
@@ -18604,7 +18685,7 @@ const fiszki10 = [
                         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/48aa5.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/48aa5.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -18637,7 +18718,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/359a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/359a.jpg",
                 alt: "Mały piesek. Wygenerowane przez AI."
             },
             story: {
@@ -18649,7 +18730,7 @@ const fiszki10 = [
                 {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/359a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/359a.jpg",
                 alt: "Mały piesek. Wygenerowane przez AI."
             },
             story: {
@@ -18682,7 +18763,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/79a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/79a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -18715,7 +18796,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
                 alt: "Piłki koszykarskie. Wygenerowane przez AI."
             },
             story: {
@@ -18727,7 +18808,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
                 alt: "Deptak dla mieszkańców. Wygenerowane przez AI."
             },
             story: {
@@ -18739,7 +18820,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
                 alt: "Politycy na posiedzeniu. Wygenerowane przez AI."
             },
             story: {
@@ -18751,7 +18832,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
                 alt: "Wystąpienia polityków. Wygenerowane przez AI."
             },
             story: {
@@ -18763,7 +18844,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg",
                 alt: "Zasady w rodzinie. Wygenerowane przez AI."
             },
             story: {
@@ -18776,11 +18857,11 @@ const fiszki10 = [
         translate: "Pies śpi pod dużym drzewem",
         translateb: "[De dog slips ander de big tri]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/store2.mp4", 'Pain and Gain (2013)'],
-        srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", ""],
-        srcWordimage: "https://www.arbulang.com/filmy/store2.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/store2.mp4", 'Pain and Gain (2013)'],
+        srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", ""],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/store2.png",
         word: [
-            "https://www.arbulang.com/voice/music.mp4"
+            "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
         sentence1: [
@@ -18806,7 +18887,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/362a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/362a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -18841,7 +18922,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/363a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/363a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -18875,7 +18956,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/364a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/364a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -18942,7 +19023,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
                 alt: "Piłki koszykarskie. Wygenerowane przez AI."
             },
             story: {
@@ -18954,7 +19035,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
                 alt: "Deptak dla mieszkańców. Wygenerowane przez AI."
             },
             story: {
@@ -18966,7 +19047,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
                 alt: "Politycy na posiedzeniu. Wygenerowane przez AI."
             },
             story: {
@@ -18978,7 +19059,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
                 alt: "Wystąpienia polityków. Wygenerowane przez AI."
             },
             story: {
@@ -18990,7 +19071,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg",
                 alt: "Zasady w rodzinie. Wygenerowane przez AI."
             },
             story: {
@@ -19023,7 +19104,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/33aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/33aa.jpg",
                 alt: "Oglądanie meczu w telewizji. Wygenerowane przez AI."
             },
             story: {
@@ -19035,7 +19116,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/33bb.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/33bb.jpg",
                 alt: "Łabądź w stawie. Wygenerowane przez AI."
             },
             story: {
@@ -19047,7 +19128,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/33cc.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/33cc.jpg",
                 alt: "Remont szkoły. Wygenerowane przez AI."
             },
             story: {
@@ -19059,7 +19140,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/33dd.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/33dd.jpg",
                 alt: "Uczeń w szkole. Wygenerowane przez AI."
             },
             story: {
@@ -19071,7 +19152,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/33ee.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/33ee.jpg",
                 alt: "Zamek na piasku. Wygenerowane przez AI."
             },
             story: {
@@ -19104,7 +19185,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
                 alt: "Piłki koszykarskie. Wygenerowane przez AI."
             },
             story: {
@@ -19116,7 +19197,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
                 alt: "Deptak dla mieszkańców. Wygenerowane przez AI."
             },
             story: {
@@ -19128,7 +19209,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
                 alt: "Politycy na posiedzeniu. Wygenerowane przez AI."
             },
             story: {
@@ -19140,7 +19221,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
                 alt: "Wystąpienia polityków. Wygenerowane przez AI."
             },
             story: {
@@ -19152,7 +19233,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg",
                 alt: "Zasady w rodzinie. Wygenerowane przez AI."
             },
             story: {
@@ -19166,12 +19247,12 @@ const fiszki10 = [
         translate: "Mężczyzna lubi czytać książki",
         translateb: "[De men lajks tu rid buks]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/readbook2.mp4", 'Breaking Bad'],
-        srcWord2: ["https://www.arbulang.com/filmy/readbook2.mp4", "Breaking Bad"],
+        srcWord: ["http://localhost/arbulanguage.com/filmy/readbook2.mp4", 'Breaking Bad'],
+        srcWord2: ["http://localhost/arbulanguage.com/filmy/readbook2.mp4", "Breaking Bad"],
         opis: "Czytanie książki na kiblu",
-        srcWordimage: "https://www.arbulang.com/filmy/children-outside.png",
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/children-outside.png",
         word: [
-            "https://www.arbulang.com/voice/music.mp4"
+            "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         sentence1: [
             "The"
@@ -19234,7 +19315,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/370a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/370a.jpg",
                 alt: ""
             },
             story: {
@@ -19269,7 +19350,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/371a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/371a.jpg",
                 alt: ""
             },
             story: {
@@ -19304,7 +19385,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/45aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/45aa.jpg",
                 alt: "Książka. Wygenerowane przez AI."
             },
             story: {
@@ -19339,7 +19420,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
                 alt: "Gracz Rugby. Wygenerowane przez AI."
             },
             story: {
@@ -19351,7 +19432,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
                 alt: "Hipopotam w wodzie. Wygenerowane przez AI."
             },
             story: {
@@ -19363,7 +19444,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
                 alt: "Loty balonowe. Wygenerowane przez AI."
             },
             story: {
@@ -19375,7 +19456,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -19387,7 +19468,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg",
                 alt: "Smakowanie przysmaków. Wygenerowane przez AI."
             },
             story: {
@@ -19400,11 +19481,11 @@ const fiszki10 = [
         translate: "On codziennie biega w parku",
         translateb: "[Hi rans in de park dejli]",
         translateb2: "[Hi is obidient]",
-        srcWord: ["https://www.arbulang.com/filmy/running2.mp4", "Adrenalina (2009)"],
-        srcWord2: ["https://www.arbulang.com/filmy/running2.mp4", "Breaking Bad"],
-        srcWordimage: "https://www.arbulang.com/filmy/procedure.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/running2.mp4", "Adrenalina (2009)"],
+        srcWord2: ["http://localhost/arbulanguage.com/filmy/running2.mp4", "Breaking Bad"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/procedure.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "he[hi] - on",
         sentence1: [
@@ -19430,7 +19511,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/374a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/374a.jpg",
                 alt: "Książka. Wygenerowane przez AI."
             },
             story: {
@@ -19499,7 +19580,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/376a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/376a.jpg",
                 alt: ""
             },
             story: {
@@ -19533,7 +19614,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
                 alt: "Gracz Rugby. Wygenerowane przez AI."
             },
             story: {
@@ -19545,7 +19626,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
                 alt: "Hipopotam w wodzie. Wygenerowane przez AI."
             },
             story: {
@@ -19557,7 +19638,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
                 alt: "Loty balonowe. Wygenerowane przez AI."
             },
             story: {
@@ -19569,7 +19650,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -19581,7 +19662,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg",
                 alt: "Smakowanie przysmaków. Wygenerowane przez AI."
             },
             story: {
@@ -19594,10 +19675,10 @@ const fiszki10 = [
         translate: "On pięknie śpiewa pod prysznicem",
         translateb: "[Hi sings bjutifuli in de szołer]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/singingshower.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/singingshower.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/singingshower.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/singingshower.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "he[he] - on",
         sentence1: [
@@ -19622,7 +19703,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/378a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/378a.jpg",
                 alt: ""
             },
             story: {
@@ -19652,7 +19733,7 @@ const fiszki10 = [
             60,
             108
         ],
-        img: "https://www.arbulang.com/img/fiszki1/379a.jpg",
+        img: "http://localhost/arbulanguage.com/img/fiszki1/379a.jpg",
         story: "Rozpoczynam biznes w branży <u><b>bjuti</u></b>. <u><b>Pięknie</u></b> mi idzie i mam kilka salonów, można to porównać do posiadania kilku <u><b>f</u></b>antastycznych <u><b>uli</u></b>",
         desc: "beautifully[bjutifuli] - pięknie",
         sentence1: [
@@ -19674,7 +19755,7 @@ const fiszki10 = [
             109
         ],
         img: [
-            "https://www.arbulang.com/img/fiszki1/380a.jpg"
+            "http://localhost/arbulanguage.com/img/fiszki1/380a.jpg"
         ],
         story: [
             "Moja mina <b><u>pod prysznicem</b></u> gdy zatarłem oko i się z<b><u>de</b></u>n<b><u>er</b></u>wowałam wyglądałaby by nie niezłe <b><u>szoł</b></u>"
@@ -19700,7 +19781,7 @@ const fiszki10 = [
                         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa1.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa1.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -19712,7 +19793,7 @@ const fiszki10 = [
                 {
                             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50cc.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50cc.jpg",
                 alt: "Zroszona przez deszcz - roślina. Wygenerowane przez AI."
             },
             story: {
@@ -19724,7 +19805,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa.jpg",
                 alt: "Ogród kwiatowy. Wygenerowane przez AI."
             },
             story: {
@@ -19736,7 +19817,7 @@ const fiszki10 = [
                 {
                     id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50bb4.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50bb4.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -19748,7 +19829,7 @@ const fiszki10 = [
         {
                     id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50bb.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50bb.jpg",
                 alt: "Auto na parkingu. Wygenerowane przez AI."
             },
             story: {
@@ -19760,7 +19841,7 @@ const fiszki10 = [
                         {
                     id: 6,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa6.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa6.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -19772,7 +19853,7 @@ const fiszki10 = [
         {
                             id: 7,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa7.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa7.jpg",
                 alt: "Auto na parkingu. Wygenerowane przez AI."
             },
             story: {
@@ -19782,10 +19863,10 @@ const fiszki10 = [
             category: ["czarny humor 2", "majątek"]
         }
             ],
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "Wimbledon (2004)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "Wimbledon (2004)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
         word: [
-            "https://www.arbulang.com/voice/music.mp4"
+            "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         translate: "",
         translateb: "[Maj kampani is deweloping wery intensiwli]",
@@ -19813,7 +19894,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/62aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/62aa.jpg",
                 alt: "Mężczyzna we fraku. Wygenerowane przez AI."
             },
             story: {
@@ -19825,7 +19906,7 @@ const fiszki10 = [
                         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/382a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/382a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -19858,7 +19939,7 @@ const fiszki10 = [
                         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/383a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/383a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -19891,7 +19972,7 @@ const fiszki10 = [
                         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/384a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/384a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -19923,7 +20004,7 @@ const fiszki10 = [
                         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/385a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/385a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -19955,7 +20036,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/131a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/131a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -19967,8 +20048,8 @@ const fiszki10 = [
             ],
         translate: " Oglądamy teraz film",
         translateb: "[Łi wizit aur grandparents]",
-        srcWord: ["https://www.arbulang.com/filmy/grandparents.mp4", "Logan (2017)"],
-        srcWordimage: "https://www.arbulang.com/filmy/grandparents.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/grandparents.mp4", "Logan (2017)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/grandparents.png",
         desc: "we[łi] - my",
         sentence1: [
             "We"
@@ -19993,7 +20074,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/387a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/387a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -20027,7 +20108,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/32aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/32aa.jpg",
                 alt: "Zawodnik na meczu. Wygenerowane przez AI."
             },
             story: {
@@ -20039,7 +20120,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/32bb.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/32bb.jpg",
                 alt: "Ogrodnik w ogrodzie. Wygenerowane przez AI."
             },
             story: {
@@ -20051,7 +20132,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/32cc.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/32cc.jpg",
                 alt: "Sieć wysokiego napięcia. Wygenerowane przez AI."
             },
             story: {
@@ -20063,7 +20144,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/32dd.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/32dd.jpg",
                 alt: "Oko Saurona. Wygenerowane przez AI."
             },
             story: {
@@ -20075,7 +20156,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/32ee.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/32ee.jpg",
                 alt: "Laurka dla mamy. Wygenerowane przez AI."
             },
             story: {
@@ -20109,7 +20190,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/389a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/389a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -20143,7 +20224,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/324a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/324a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -20175,7 +20256,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/391a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/391a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -20207,7 +20288,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
                 alt: "Piłki koszykarskie. Wygenerowane przez AI."
             },
             story: {
@@ -20219,7 +20300,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
                 alt: "Deptak dla mieszkańców. Wygenerowane przez AI."
             },
             story: {
@@ -20231,7 +20312,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
                 alt: "Politycy na posiedzeniu. Wygenerowane przez AI."
             },
             story: {
@@ -20243,7 +20324,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
                 alt: "Wystąpienia polityków. Wygenerowane przez AI."
             },
             story: {
@@ -20255,7 +20336,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg",
                 alt: "Zasady w rodzinie. Wygenerowane przez AI."
             },
             story: {
@@ -20268,9 +20349,9 @@ const fiszki10 = [
         translate: "",
         translateb: "[]",
         translateb2: "[De kar is parktd nirbaj",
-        srcWord: ["https://www.arbulang.com/filmy/car.mp4", "W pogoni za zemstą (2010)"],
-        srcWordimage: "https://www.arbulang.com/filmy/car.png",
-        word: "https://www.arbulang.com/voice/party.mp4",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/car.mp4", "W pogoni za zemstą (2010)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/car.png",
+        word: "http://localhost/arbulanguage.com/voice/party.mp4",
         desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
         sentence1: [
             "The"
@@ -20296,7 +20377,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/359a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/359a.jpg",
                 alt: "Mały piesek. Wygenerowane przez AI."
             },
             story: {
@@ -20308,7 +20389,7 @@ const fiszki10 = [
                 {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/359b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/359b.jpg",
                 alt: "Mały piesek. Wygenerowane przez AI."
             },
             story: {
@@ -20343,7 +20424,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8a.jpg",
                 alt: "Biegacze w biegu. Wygenerowane przez AI."
             },
             story: {
@@ -20355,7 +20436,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8b.jpg",
                 alt: "Karykatura lisa jako listonosza. Wygenerowane przez AI."
             },
             story: {
@@ -20367,7 +20448,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8c.jpg",
                 alt: "Wystąpienie przed klasą. Wygenerowane przez AI."
             },
             story: {
@@ -20379,7 +20460,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8d.jpg",
                 alt: "Bawiące się ze sobą lisy. Wygenerowane przez AI."
             },
             story: {
@@ -20391,7 +20472,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8e.jpg",
                 alt: "Johny Bravo z kreskówki. Wygenerowane przez AI."
             },
             story: {
@@ -20403,7 +20484,7 @@ const fiszki10 = [
                 {
             id: 6,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8f.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8f.jpg",
                 alt: "Chwalenie się dyplomem uczestnictwa w szkoleniu. Wygenerowane przez AI."
             },
             story: {
@@ -20415,7 +20496,7 @@ const fiszki10 = [
         {
             id: 7,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8g.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8g.jpg",
                 alt: "Widok z brzegu ze statkami. Wygenerowane przez AI."
             },
             story: {
@@ -20426,7 +20507,7 @@ const fiszki10 = [
         }
     ],
         word: [
-            "https://www.arbulang.com/src/is.wav"
+            "http://localhost/arbulanguage.com/src/is.wav"
         ],
         desc: "is[is] - jest",
         sentence1: [
@@ -20453,7 +20534,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/395a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/395a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -20488,7 +20569,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/396a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/396a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -20523,7 +20604,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19a.jpg",
                 alt: "Odzież ochronna dla jazdy rowerem. Wygenerowane przez AI."
             },
             story: {
@@ -20535,7 +20616,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19b.jpg",
                 alt: "Portret kobiety. Wygenerowane przez AI."
             },
             story: {
@@ -20547,7 +20628,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19c.jpg",
                 alt: "Boginii Gaja. Wygenerowane przez AI."
             },
             story: {
@@ -20559,7 +20640,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19d.jpg",
                 alt: "Wesele pary młodej. Wygenerowane przez AI."
             },
             story: {
@@ -20571,7 +20652,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19e.jpg",
                 alt: "Zajmowanie się kurami. Wygenerowane przez AI."
             },
             story: {
@@ -20584,11 +20665,11 @@ const fiszki10 = [
         translate: "",
         translateb: "[Aj hew tu kats at hołm]",
         translateb2: "[Aj em szaj]",
-        srcWord: ["https://www.arbulang.com/filmy/two-cats.mp4", "Matrix Reaktywacja (2003)"],
-        srcWordimage: "https://www.arbulang.com/filmy/two-cats.png",
-        srcWordimage: "https://www.arbulang.com/filmy/shy.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/two-cats.mp4", "Matrix Reaktywacja (2003)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/two-cats.png",
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/shy.png",
         word: [
-            "https://www.arbulang.com/voice/music.mp4"
+            "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         desc: "I[aj] - ja",
         sentence1: [
@@ -20614,7 +20695,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/122a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/122a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -20648,7 +20729,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/399a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/399a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -20682,7 +20763,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/28aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/28aa.jpg",
                 alt: "Kot na łodzi. Wygenerowane przez AI."
             },
             story: {
@@ -20694,7 +20775,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/28bb.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/28bb.jpg",
                 alt: "Kot na spacerze. Wygenerowane przez AI."
             },
             story: {
@@ -20706,7 +20787,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/28cc.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/28cc.jpg",
                 alt: "Kot w egzotycznym kraju. Wygenerowane przez AI."
             },
             story: {
@@ -20718,7 +20799,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/28dd.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/28dd.jpg",
                 alt: "Kot rozciągający się. Wygenerowane przez AI."
             },
             story: {
@@ -20730,7 +20811,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/28ee.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/28ee.jpg",
                 alt: "Moje zdjęcie z kotem. Wygenerowane przez AI."
             },
             story: {
@@ -20764,7 +20845,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/401a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/401a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -20795,7 +20876,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
                 alt: "Piłki koszykarskie. Wygenerowane przez AI."
             },
             story: {
@@ -20807,7 +20888,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
                 alt: "Deptak dla mieszkańców. Wygenerowane przez AI."
             },
             story: {
@@ -20819,7 +20900,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
                 alt: "Politycy na posiedzeniu. Wygenerowane przez AI."
             },
             story: {
@@ -20831,7 +20912,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
                 alt: "Wystąpienia polityków. Wygenerowane przez AI."
             },
             story: {
@@ -20843,7 +20924,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg",
                 alt: "Zasady w rodzinie. Wygenerowane przez AI."
             },
             story: {
@@ -20856,11 +20937,11 @@ const fiszki10 = [
         translate: "",
         translateb: "[Aj hew tu kats at hołm]",
         translateb2: "[Aj em szaj]",
-        srcWord: ["https://www.arbulang.com/filmy/shy.mp4", 'The Matrix Reloaded (2003)'],
-        srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
-        srcWordimage: "https://www.arbulang.com/filmy/shy.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/shy.mp4", 'The Matrix Reloaded (2003)'],
+        srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/shy.png",
         word: [
-            "https://www.arbulang.com/voice/music.mp4"
+            "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
         sentence1: [
@@ -20887,7 +20968,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/403a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/403a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -20922,7 +21003,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/404a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/404a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -20957,7 +21038,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/405a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/405a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -20992,7 +21073,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/406a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/406a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -21027,7 +21108,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/95aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/95aa.jpg",
                 alt: "Opakowanie suplementów grzyba riszi. Wygenerowane przez AI."
             },
             story: {
@@ -21040,11 +21121,11 @@ const fiszki10 = [
         translate: "",
         translateb: "[Szi spiks]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/coffe2.mp4", "Serial - Dexter ()"],
-        srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", ""],
-        srcWordimage: "https://www.arbulang.com/filmy/coffe2.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/coffe2.mp4", "Serial - Dexter ()"],
+        srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", ""],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/coffe2.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "she[szi] - ona",
         sentence1: [
@@ -21072,7 +21153,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/408a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/408a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -21111,7 +21192,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/277a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/277a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -21147,7 +21228,7 @@ const fiszki10 = [
                         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/42aa1.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/42aa1.jpg",
                 alt: " Wygenerowane przez AI."
             },
             story: {
@@ -21159,7 +21240,7 @@ const fiszki10 = [
                 {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/42aa2.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/42aa2.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -21171,7 +21252,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/42aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/42aa.jpg",
                 alt: "Zadowolony petent. Wygenerowane przez AI."
             },
             story: {
@@ -21183,7 +21264,7 @@ const fiszki10 = [
                 {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/42aa4.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/42aa4.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -21195,7 +21276,7 @@ const fiszki10 = [
                         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/42a5.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/42a5.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -21231,7 +21312,7 @@ const fiszki10 = [
                         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/411a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/411a.jpg",
                 alt: " Wygenerowane przez AI."
             },
             story: {
@@ -21267,7 +21348,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/228a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/228a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -21303,7 +21384,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
                 alt: "Piłki koszykarskie. Wygenerowane przez AI."
             },
             story: {
@@ -21315,7 +21396,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
                 alt: "Deptak dla mieszkańców. Wygenerowane przez AI."
             },
             story: {
@@ -21327,7 +21408,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
                 alt: "Politycy na posiedzeniu. Wygenerowane przez AI."
             },
             story: {
@@ -21339,7 +21420,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
                 alt: "Wystąpienia polityków. Wygenerowane przez AI."
             },
             story: {
@@ -21351,7 +21432,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg",
                 alt: "Zasady w rodzinie. Wygenerowane przez AI."
             },
             story: {
@@ -21362,7 +21443,7 @@ const fiszki10 = [
         }
     ],
         word: [
-            "https://www.arbulang.com/src/the.wav"
+            "http://localhost/arbulanguage.com/src/the.wav"
         ],
         desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
         sentence1: [
@@ -21390,7 +21471,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/414a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/414a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -21426,7 +21507,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8a.jpg",
                 alt: "Biegacze w biegu. Wygenerowane przez AI."
             },
             story: {
@@ -21438,7 +21519,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8b.jpg",
                 alt: "Karykatura lisa jako listonosza. Wygenerowane przez AI."
             },
             story: {
@@ -21450,7 +21531,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8c.jpg",
                 alt: "Wystąpienie przed klasą. Wygenerowane przez AI."
             },
             story: {
@@ -21462,7 +21543,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8d.jpg",
                 alt: "Bawiące się ze sobą lisy. Wygenerowane przez AI."
             },
             story: {
@@ -21474,7 +21555,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8e.jpg",
                 alt: "Johny Bravo z kreskówki. Wygenerowane przez AI."
             },
             story: {
@@ -21486,7 +21567,7 @@ const fiszki10 = [
                 {
             id: 6,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8f.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8f.jpg",
                 alt: "Chwalenie się dyplomem uczestnictwa w szkoleniu. Wygenerowane przez AI."
             },
             story: {
@@ -21498,7 +21579,7 @@ const fiszki10 = [
         {
             id: 7,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8g.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8g.jpg",
                 alt: "Widok z brzegu ze statkami. Wygenerowane przez AI."
             },
             story: {
@@ -21509,7 +21590,7 @@ const fiszki10 = [
         }
     ],
         word: [
-            "https://www.arbulang.com/src/is.wav"
+            "http://localhost/arbulanguage.com/src/is.wav"
         ],
         desc: "is[is] - jest",
         sentence1: [
@@ -21537,7 +21618,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/416a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/416a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -21573,7 +21654,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/29aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/29aa.jpg",
                 alt: "Długi trening. Wygenerowane przez AI."
             },
             story: {
@@ -21585,7 +21666,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/29bb.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/29bb.jpg",
                 alt: "Prace ogrodowe. Wygenerowane przez AI."
             },
             story: {
@@ -21597,7 +21678,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/29cc.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/29cc.jpg",
                 alt: "Impreza na wielką skalę. Wygenerowane przez AI."
             },
             story: {
@@ -21609,7 +21690,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/29dd.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/29dd.jpg",
                 alt: "Motor enduro. Wygenerowane przez AI."
             },
             story: {
@@ -21621,7 +21702,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/29ee.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/29ee.jpg",
                 alt: "Zakochana para. Wygenerowane przez AI."
             },
             story: {
@@ -21658,7 +21739,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/418a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/418a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -21694,7 +21775,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
                 alt: "Gracz Rugby. Wygenerowane przez AI."
             },
             story: {
@@ -21706,7 +21787,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
                 alt: "Hipopotam w wodzie. Wygenerowane przez AI."
             },
             story: {
@@ -21718,7 +21799,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
                 alt: "Loty balonowe. Wygenerowane przez AI."
             },
             story: {
@@ -21730,7 +21811,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -21742,7 +21823,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg",
                 alt: "Smakowanie przysmaków. Wygenerowane przez AI."
             },
             story: {
@@ -21755,10 +21836,10 @@ const fiszki10 = [
         translate: "On pięknie śpiewa pod prysznicem",
         translateb: "[Hi sings bjutifuli in de szołer]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/math.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/math.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/math.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/math.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "he[hi] - on",
         sentence1: [
@@ -21783,7 +21864,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/420a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/420a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -21816,7 +21897,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/421a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/421a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -21849,7 +21930,7 @@ const fiszki10 = [
                 {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/422a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/422a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -21861,7 +21942,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/422b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/422b.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -21892,7 +21973,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
                 alt: "Piłki koszykarskie. Wygenerowane przez AI."
             },
             story: {
@@ -21904,7 +21985,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
                 alt: "Deptak dla mieszkańców. Wygenerowane przez AI."
             },
             story: {
@@ -21916,7 +21997,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
                 alt: "Politycy na posiedzeniu. Wygenerowane przez AI."
             },
             story: {
@@ -21928,7 +22009,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
                 alt: "Wystąpienia polityków. Wygenerowane przez AI."
             },
             story: {
@@ -21940,7 +22021,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg",
                 alt: "Zasady w rodzinie. Wygenerowane przez AI."
             },
             story: {
@@ -21951,7 +22032,7 @@ const fiszki10 = [
         }
     ],
         word: [
-            "https://www.arbulang.com/src/the.wav"
+            "http://localhost/arbulanguage.com/src/the.wav"
         ],
         desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
         sentence1: [
@@ -21976,7 +22057,7 @@ const fiszki10 = [
                 {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/424a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/424a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -21988,7 +22069,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/424b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/424b.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -22021,7 +22102,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/425a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/425a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -22054,7 +22135,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/426a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/426a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -22086,7 +22167,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/427a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/427a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -22118,7 +22199,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19a.jpg",
                 alt: "Odzież ochronna dla jazdy rowerem. Wygenerowane przez AI."
             },
             story: {
@@ -22130,7 +22211,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19b.jpg",
                 alt: "Portret kobiety. Wygenerowane przez AI."
             },
             story: {
@@ -22142,7 +22223,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19c.jpg",
                 alt: "Boginii Gaja. Wygenerowane przez AI."
             },
             story: {
@@ -22154,7 +22235,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19d.jpg",
                 alt: "Wesele pary młodej. Wygenerowane przez AI."
             },
             story: {
@@ -22166,7 +22247,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19e.jpg",
                 alt: "Zajmowanie się kurami. Wygenerowane przez AI."
             },
             story: {
@@ -22179,11 +22260,11 @@ const fiszki10 = [
         translate: "Ja jestem nieśmiały, ale czasami bywam odważny",
         translateb: "[Aj em szaj bat samtajms dering]",
         translateb2: "[Aj em szaj]",
-        srcWord: ["https://www.arbulang.com/filmy/shy.mp4", 'The Matrix Reloaded (2003)'],
-        srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
-        srcWordimage: "https://www.arbulang.com/filmy/shy.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/shy.mp4", 'The Matrix Reloaded (2003)'],
+        srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/shy.png",
         word: [
-            "https://www.arbulang.com/voice/music.mp4"
+            "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         desc: "I[aj] - ja",
         sentence1: [
@@ -22208,7 +22289,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/429a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/429a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -22241,7 +22322,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/430a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/430a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -22274,7 +22355,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/430a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/430a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -22307,7 +22388,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19a.jpg",
                 alt: "Odzież ochronna dla jazdy rowerem. Wygenerowane przez AI."
             },
             story: {
@@ -22319,7 +22400,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19b.jpg",
                 alt: "Portret kobiety. Wygenerowane przez AI."
             },
             story: {
@@ -22331,7 +22412,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19c.jpg",
                 alt: "Boginii Gaja. Wygenerowane przez AI."
             },
             story: {
@@ -22343,7 +22424,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19d.jpg",
                 alt: "Wesele pary młodej. Wygenerowane przez AI."
             },
             story: {
@@ -22355,7 +22436,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19e.jpg",
                 alt: "Zajmowanie się kurami. Wygenerowane przez AI."
             },
             story: {
@@ -22388,7 +22469,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/125a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/125a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -22421,7 +22502,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/207b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/207b.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -22438,7 +22519,7 @@ const fiszki10 = [
         srcWord2: ["", ""],
         srcWordimage: "",
         word: [
-            "https://www.arbulang.com/voice/music.mp4"
+            "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         desc: "they[dej] - oni",
         sentence1: [
@@ -22463,7 +22544,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/435a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/435a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -22496,7 +22577,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/436a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/436a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -22529,7 +22610,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/437a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/437a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -22562,7 +22643,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
                 alt: "Piłki koszykarskie. Wygenerowane przez AI."
             },
             story: {
@@ -22574,7 +22655,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
                 alt: "Deptak dla mieszkańców. Wygenerowane przez AI."
             },
             story: {
@@ -22586,7 +22667,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
                 alt: "Politycy na posiedzeniu. Wygenerowane przez AI."
             },
             story: {
@@ -22598,7 +22679,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
                 alt: "Wystąpienia polityków. Wygenerowane przez AI."
             },
             story: {
@@ -22610,7 +22691,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg",
                 alt: "Zasady w rodzinie. Wygenerowane przez AI."
             },
             story: {
@@ -22621,7 +22702,7 @@ const fiszki10 = [
         }
     ],
         word: [
-            "https://www.arbulang.com/src/the.wav"
+            "http://localhost/arbulanguage.com/src/the.wav"
         ],
         desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
         sentence2: [
@@ -22646,7 +22727,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/439a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/439a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -22679,7 +22760,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/207b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/207b.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -22696,7 +22777,7 @@ const fiszki10 = [
         srcWord2: ["", "Breaking Bad"],
         srcWordimage: "",
         word: [
-            "https://www.arbulang.com/voice/music.mp4"
+            "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         desc: "they[dej] - oni",
         sentence1: [
@@ -22722,7 +22803,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/441a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/441a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -22756,7 +22837,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/442a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/442a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -22790,7 +22871,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/443a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/443a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -22824,7 +22905,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/444a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/444a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -22855,7 +22936,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/32aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/32aa.jpg",
                 alt: "Zawodnik na meczu. Wygenerowane przez AI."
             },
             story: {
@@ -22867,7 +22948,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/32bb.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/32bb.jpg",
                 alt: "Ogrodnik w ogrodzie. Wygenerowane przez AI."
             },
             story: {
@@ -22879,7 +22960,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/32cc.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/32cc.jpg",
                 alt: "Sieć wysokiego napięcia. Wygenerowane przez AI."
             },
             story: {
@@ -22891,7 +22972,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/32dd.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/32dd.jpg",
                 alt: "Oko Saurona. Wygenerowane przez AI."
             },
             story: {
@@ -22903,7 +22984,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/32ee.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/32ee.jpg",
                 alt: "Laurka dla mamy. Wygenerowane przez AI."
             },
             story: {
@@ -22916,9 +22997,9 @@ const fiszki10 = [
         translate: "Nasza szkoła organizuje całkiem ciekawe wydarzenia",
         translateb: "[Aur skul organajz kłajt interesting iwents]",
         translateb2: "[Aur skul organajz]",
-        srcWord: ["https://www.arbulang.com/filmy/school.mp4", "American Pie: The Wedding (2003)"],
-        srcWordimage: "https://www.arbulang.com/filmy/school.png",
-        word: "https://www.arbulang.com/voice/party.mp4",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/school.mp4", "American Pie: The Wedding (2003)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/school.png",
+        word: "http://localhost/arbulanguage.com/voice/party.mp4",
         desc: "our[aur] - nasz",
         sentence1: [
             "Our"
@@ -22944,7 +23025,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/446a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/446a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -22979,7 +23060,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/447a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/447a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -23014,7 +23095,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/448a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/448a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -23049,7 +23130,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/449a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/449a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -23084,7 +23165,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/131a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/131a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -23096,8 +23177,8 @@ const fiszki10 = [
             ],
         translate: "",
         translateb: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/future.mp4", "Titanic(1997)", "Romantyczny"],
-        srcWordimage: "https://www.arbulang.com/filmy/future.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/future.mp4", "Titanic(1997)", "Romantyczny"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/future.png",
         desc: "we[łi] - my",
         sentence1: [
             "We"
@@ -23124,7 +23205,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/451a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/451a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -23160,7 +23241,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
                 alt: "Piłki koszykarskie. Wygenerowane przez AI."
             },
             story: {
@@ -23172,7 +23253,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
                 alt: "Deptak dla mieszkańców. Wygenerowane przez AI."
             },
             story: {
@@ -23184,7 +23265,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
                 alt: "Politycy na posiedzeniu. Wygenerowane przez AI."
             },
             story: {
@@ -23196,7 +23277,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
                 alt: "Wystąpienia polityków. Wygenerowane przez AI."
             },
             story: {
@@ -23208,7 +23289,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg",
                 alt: "Zasady w rodzinie. Wygenerowane przez AI."
             },
             story: {
@@ -23219,7 +23300,7 @@ const fiszki10 = [
         }
     ],
         word: [
-            "https://www.arbulang.com/src/the.wav"
+            "http://localhost/arbulanguage.com/src/the.wav"
         ],
         desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
         sentence1: [
@@ -23247,7 +23328,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/453a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/453a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -23283,7 +23364,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/454a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/454a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -23319,7 +23400,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/455a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/455a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -23327,6 +23408,18 @@ const fiszki10 = [
                 alt: ""
             },
             category: [""]
+        },
+        {
+            id: 2,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/455b.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Najt</u></b>rudniejszy moment żeby zasnąć w <u><b>nocy</u></b> to wtedy kiedy jest pełnia księżyca",
+                alt: ""
+            },
+            category: ["", ""]
         }
             ],
         desc: "night[najt] - noc",
@@ -23355,7 +23448,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
                 alt: "Piłki koszykarskie. Wygenerowane przez AI."
             },
             story: {
@@ -23367,7 +23460,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
                 alt: "Deptak dla mieszkańców. Wygenerowane przez AI."
             },
             story: {
@@ -23379,7 +23472,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
                 alt: "Politycy na posiedzeniu. Wygenerowane przez AI."
             },
             story: {
@@ -23391,7 +23484,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
                 alt: "Wystąpienia polityków. Wygenerowane przez AI."
             },
             story: {
@@ -23403,7 +23496,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg",
                 alt: "Zasady w rodzinie. Wygenerowane przez AI."
             },
             story: {
@@ -23414,7 +23507,7 @@ const fiszki10 = [
         }
     ],
         word: [
-            "https://www.arbulang.com/src/the.wav"
+            "http://localhost/arbulanguage.com/src/the.wav"
         ],
         desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
         sentence1: [
@@ -23439,7 +23532,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/457a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/457a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -23472,7 +23565,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/458a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/458a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -23484,7 +23577,7 @@ const fiszki10 = [
                 {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/458a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/458a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -23517,7 +23610,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/254a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/254a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -23551,7 +23644,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
                 alt: "Piłki koszykarskie. Wygenerowane przez AI."
             },
             story: {
@@ -23563,7 +23656,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
                 alt: "Deptak dla mieszkańców. Wygenerowane przez AI."
             },
             story: {
@@ -23575,7 +23668,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
                 alt: "Politycy na posiedzeniu. Wygenerowane przez AI."
             },
             story: {
@@ -23587,7 +23680,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
                 alt: "Wystąpienia polityków. Wygenerowane przez AI."
             },
             story: {
@@ -23599,7 +23692,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg",
                 alt: "Zasady w rodzinie. Wygenerowane przez AI."
             },
             story: {
@@ -23610,7 +23703,7 @@ const fiszki10 = [
         }
     ],
         word: [
-            "https://www.arbulang.com/src/the.wav"
+            "http://localhost/arbulanguage.com/src/the.wav"
         ],
         desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
         sentence2: [
@@ -23636,7 +23729,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/461a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/461a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -23670,7 +23763,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/462a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/462a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -23704,7 +23797,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
                 alt: "Piłki koszykarskie. Wygenerowane przez AI."
             },
             story: {
@@ -23716,7 +23809,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
                 alt: "Deptak dla mieszkańców. Wygenerowane przez AI."
             },
             story: {
@@ -23728,7 +23821,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
                 alt: "Politycy na posiedzeniu. Wygenerowane przez AI."
             },
             story: {
@@ -23740,7 +23833,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
                 alt: "Wystąpienia polityków. Wygenerowane przez AI."
             },
             story: {
@@ -23752,7 +23845,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg",
                 alt: "Zasady w rodzinie. Wygenerowane przez AI."
             },
             story: {
@@ -23763,7 +23856,7 @@ const fiszki10 = [
         }
     ],
         word: [
-            "https://www.arbulang.com/src/the.wav"
+            "http://localhost/arbulanguage.com/src/the.wav"
         ],
         desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
         sentence1: [
@@ -23791,7 +23884,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/464a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/464a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -23827,7 +23920,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/465a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/465a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -23863,7 +23956,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
                 alt: "Piłki koszykarskie. Wygenerowane przez AI."
             },
             story: {
@@ -23875,7 +23968,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
                 alt: "Deptak dla mieszkańców. Wygenerowane przez AI."
             },
             story: {
@@ -23887,7 +23980,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
                 alt: "Politycy na posiedzeniu. Wygenerowane przez AI."
             },
             story: {
@@ -23899,7 +23992,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
                 alt: "Wystąpienia polityków. Wygenerowane przez AI."
             },
             story: {
@@ -23911,7 +24004,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg",
                 alt: "Zasady w rodzinie. Wygenerowane przez AI."
             },
             story: {
@@ -23922,7 +24015,7 @@ const fiszki10 = [
         }
     ],
         word: [
-            "https://www.arbulang.com/src/the.wav"
+            "http://localhost/arbulanguage.com/src/the.wav"
         ],
         desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
         sentence1: [
@@ -23950,7 +24043,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/467a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/467a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -23986,7 +24079,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/468a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/468a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -24022,7 +24115,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/207b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/207b.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -24039,7 +24132,7 @@ const fiszki10 = [
         srcWord2: ["", "Breaking Bad"],
         srcWordimage: "",
         word: [
-            "https://www.arbulang.com/voice/music.mp4"
+            "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         desc: "they[dej] - oni",
         sentence1: [
@@ -24064,7 +24157,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/470a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/470a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -24097,7 +24190,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/471a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/471a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -24130,7 +24223,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/472a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/472a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -24161,7 +24254,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
                 alt: "Gracz Rugby. Wygenerowane przez AI."
             },
             story: {
@@ -24173,7 +24266,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
                 alt: "Hipopotam w wodzie. Wygenerowane przez AI."
             },
             story: {
@@ -24185,7 +24278,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
                 alt: "Loty balonowe. Wygenerowane przez AI."
             },
             story: {
@@ -24197,7 +24290,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -24209,7 +24302,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg",
                 alt: "Smakowanie przysmaków. Wygenerowane przez AI."
             },
             story: {
@@ -24222,10 +24315,10 @@ const fiszki10 = [
         translate: "",
         translateb: "[Hi sings bjutifuli in de szołer]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "he[hi] - niebieski/niebieskie",
         sentence1: [
@@ -24250,7 +24343,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/474a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/474a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -24283,7 +24376,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/475a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/475a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -24316,7 +24409,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/324a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/324a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -24348,7 +24441,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/477a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/477a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -24380,7 +24473,7 @@ const fiszki10 = [
                         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa1.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa1.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -24392,7 +24485,7 @@ const fiszki10 = [
                 {
                             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50cc.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50cc.jpg",
                 alt: "Zroszona przez deszcz - roślina. Wygenerowane przez AI."
             },
             story: {
@@ -24404,7 +24497,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa.jpg",
                 alt: "Ogród kwiatowy. Wygenerowane przez AI."
             },
             story: {
@@ -24416,7 +24509,7 @@ const fiszki10 = [
                 {
                     id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50bb4.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50bb4.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -24428,7 +24521,7 @@ const fiszki10 = [
         {
                     id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50bb.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50bb.jpg",
                 alt: "Auto na parkingu. Wygenerowane przez AI."
             },
             story: {
@@ -24440,7 +24533,7 @@ const fiszki10 = [
                         {
                     id: 6,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa6.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa6.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -24452,7 +24545,7 @@ const fiszki10 = [
         {
                             id: 7,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa7.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa7.jpg",
                 alt: "Auto na parkingu. Wygenerowane przez AI."
             },
             story: {
@@ -24462,10 +24555,10 @@ const fiszki10 = [
             category: ["czarny humor 2", "majątek"]
         }
             ],
-        srcWord: ["https://www.arbulang.com/filmy/company.mp4", "Rampage (2018)"],
-        srcWordimage: "https://www.arbulang.com/filmy/company.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/company.mp4", "Rampage (2018)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/company.png",
         word: [
-            "https://www.arbulang.com/voice/music.mp4"
+            "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         translate: "Moja firma zaczyna rozwijać się bardzo intensywnie",
         translateb: "[Maj kampani is deweloping wery intensiwli]",
@@ -24496,7 +24589,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/479a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/479a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -24532,7 +24625,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/494a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/494a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -24568,7 +24661,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/481a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/481a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -24604,7 +24697,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/89a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/89a.jpg",
                 alt: "Żołnierze w walce. Wygenerowane przez AI."
             },
             story: {
@@ -24616,7 +24709,7 @@ const fiszki10 = [
                 {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/112b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/112b.jpg",
                 alt: "Dezedorant na komary. Wygenerowane przez AI."
             },
             story: {
@@ -24652,7 +24745,7 @@ const fiszki10 = [
                         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/483a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/483a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -24664,7 +24757,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/483b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/483b.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -24700,7 +24793,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/207b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/207b.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -24717,7 +24810,7 @@ const fiszki10 = [
         srcWord2: ["", "Breaking Bad"],
         srcWordimage: "",
         word: [
-            "https://www.arbulang.com/voice/music.mp4"
+            "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         desc: "they[dej] - oni",
         sentence1: [
@@ -24743,7 +24836,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/485b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/485b.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -24755,7 +24848,7 @@ const fiszki10 = [
                 {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/485a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/485a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -24789,7 +24882,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/10a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/10a.jpg",
                 alt: "Spacer po mieście. Wygenerowane przez AI."
             },
             story: {
@@ -24801,7 +24894,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/10b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/10b.jpg",
                 alt: "Wąż. Wygenerowane przez AI."
             },
             story: {
@@ -24813,7 +24906,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/10c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/10c.jpg",
                 alt: "Totem Faraona. Wygenerowane przez AI."
             },
             story: {
@@ -24825,7 +24918,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/10d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/10d.jpg",
                 alt: "Trzymanie kciuków za wyniki sportowe. Wygenerowane przez AI."
             },
             story: {
@@ -24837,7 +24930,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/10e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/10e.jpg",
                 alt: "Prezent okolicznościowy. Wygenerowane przez AI."
             },
             story: {
@@ -24848,9 +24941,9 @@ const fiszki10 = [
         }
     ],
         word: [
-            "https://www.arbulang.com/src/to.wav"
+            "http://localhost/arbulanguage.com/src/to.wav"
         ],
-        srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
+        srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
         translateb2: "[to sajentifik prosidżer]",
         desc: "to[tu] - do, ku",
         sentence1: [
@@ -24876,7 +24969,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/487b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/487b.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -24888,7 +24981,7 @@ const fiszki10 = [
                 {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/487a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/487a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -24922,7 +25015,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/324a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/324a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -24954,7 +25047,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/489a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/489a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -24986,7 +25079,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
                 alt: "Piłki koszykarskie. Wygenerowane przez AI."
             },
             story: {
@@ -24998,7 +25091,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
                 alt: "Deptak dla mieszkańców. Wygenerowane przez AI."
             },
             story: {
@@ -25010,7 +25103,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
                 alt: "Politycy na posiedzeniu. Wygenerowane przez AI."
             },
             story: {
@@ -25022,7 +25115,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
                 alt: "Wystąpienia polityków. Wygenerowane przez AI."
             },
             story: {
@@ -25034,7 +25127,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg",
                 alt: "Zasady w rodzinie. Wygenerowane przez AI."
             },
             story: {
@@ -25047,13 +25140,13 @@ const fiszki10 = [
         translate: "",
         translateb: "[Hi sings bjutifuli in de szołer]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         word: [
-            "https://www.arbulang.com/src/the.wav"
+            "http://localhost/arbulanguage.com/src/the.wav"
         ],
         desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
         sentence1: [
@@ -25079,7 +25172,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/491a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/491a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -25113,7 +25206,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/492a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/492a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -25147,7 +25240,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/492a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/492a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -25181,7 +25274,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/494a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/494a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -25213,7 +25306,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/495a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/495a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -25245,7 +25338,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/207b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/207b.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -25258,10 +25351,10 @@ const fiszki10 = [
         translate: "",
         translateb: "[Hi sings bjutifuli in de szołer]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/fishing.mp4", ""],
-        srcWordimage: "https://www.arbulang.com/filmy/fishing.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/fishing.mp4", ""],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/fishing.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "they[dej] - oni",
         sentence1: [
@@ -25286,7 +25379,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/497a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/497a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -25319,7 +25412,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/498a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/498a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -25352,7 +25445,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/499a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/499a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -25383,7 +25476,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
                 alt: "Piłki koszykarskie. Wygenerowane przez AI."
             },
             story: {
@@ -25395,7 +25488,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
                 alt: "Deptak dla mieszkańców. Wygenerowane przez AI."
             },
             story: {
@@ -25407,7 +25500,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
                 alt: "Politycy na posiedzeniu. Wygenerowane przez AI."
             },
             story: {
@@ -25419,7 +25512,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
                 alt: "Wystąpienia polityków. Wygenerowane przez AI."
             },
             story: {
@@ -25431,7 +25524,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg",
                 alt: "Zasady w rodzinie. Wygenerowane przez AI."
             },
             story: {
@@ -25444,10 +25537,10 @@ const fiszki10 = [
         translate: "",
         translateb: "[Hi sings bjutifuli in de szołer]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
         sentence1: [
@@ -25476,7 +25569,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/501a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/501a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -25513,7 +25606,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8a.jpg",
                 alt: "Biegacze w biegu. Wygenerowane przez AI."
             },
             story: {
@@ -25525,7 +25618,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8b.jpg",
                 alt: "Karykatura lisa jako listonosza. Wygenerowane przez AI."
             },
             story: {
@@ -25537,7 +25630,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8c.jpg",
                 alt: "Wystąpienie przed klasą. Wygenerowane przez AI."
             },
             story: {
@@ -25549,7 +25642,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8d.jpg",
                 alt: "Bawiące się ze sobą lisy. Wygenerowane przez AI."
             },
             story: {
@@ -25561,7 +25654,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8e.jpg",
                 alt: "Johny Bravo z kreskówki. Wygenerowane przez AI."
             },
             story: {
@@ -25573,7 +25666,7 @@ const fiszki10 = [
                 {
             id: 6,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8f.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8f.jpg",
                 alt: "Chwalenie się dyplomem uczestnictwa w szkoleniu. Wygenerowane przez AI."
             },
             story: {
@@ -25585,7 +25678,7 @@ const fiszki10 = [
         {
             id: 7,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8g.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8g.jpg",
                 alt: "Widok z brzegu ze statkami. Wygenerowane przez AI."
             },
             story: {
@@ -25596,7 +25689,7 @@ const fiszki10 = [
         }
     ],
         word: [
-            "https://www.arbulang.com/src/is.wav"
+            "http://localhost/arbulanguage.com/src/is.wav"
         ],
         desc: "is[is] - jest",
         sentence1: [
@@ -25625,7 +25718,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/503a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/503a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -25662,7 +25755,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/29aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/29aa.jpg",
                 alt: "Długi trening. Wygenerowane przez AI."
             },
             story: {
@@ -25674,7 +25767,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/29bb.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/29bb.jpg",
                 alt: "Prace ogrodowe. Wygenerowane przez AI."
             },
             story: {
@@ -25686,7 +25779,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/29cc.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/29cc.jpg",
                 alt: "Impreza na wielką skalę. Wygenerowane przez AI."
             },
             story: {
@@ -25698,7 +25791,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/29dd.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/29dd.jpg",
                 alt: "Motor enduro. Wygenerowane przez AI."
             },
             story: {
@@ -25710,7 +25803,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/29ee.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/29ee.jpg",
                 alt: "Zakochana para. Wygenerowane przez AI."
             },
             story: {
@@ -25748,7 +25841,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/221a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/221a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -25785,7 +25878,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/212a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/212a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -25822,7 +25915,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/207b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/207b.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -25839,7 +25932,7 @@ const fiszki10 = [
         srcWord2: ["", "Breaking Bad"],
         srcWordimage: "",
         word: [
-            "https://www.arbulang.com/voice/music.mp4"
+            "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         desc: "they[dej] - oni",
         sentence1: [
@@ -25864,7 +25957,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/508a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/508a.jpg",
                 alt: "Układ planetarny. Wygenerowane przez AI."
             },
             story: {
@@ -25897,7 +25990,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/272a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/272a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -25930,7 +26023,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/510a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/510a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -25961,7 +26054,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
                 alt: "Gracz Rugby. Wygenerowane przez AI."
             },
             story: {
@@ -25973,7 +26066,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
                 alt: "Hipopotam w wodzie. Wygenerowane przez AI."
             },
             story: {
@@ -25985,7 +26078,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
                 alt: "Loty balonowe. Wygenerowane przez AI."
             },
             story: {
@@ -25997,7 +26090,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -26009,7 +26102,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg",
                 alt: "Smakowanie przysmaków. Wygenerowane przez AI."
             },
             story: {
@@ -26022,10 +26115,10 @@ const fiszki10 = [
         translate: "",
         translateb: "[Hi sings bjutifuli in de szołer]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "he[hi] - on",
         sentence1: [
@@ -26050,7 +26143,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/512a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/512a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -26083,7 +26176,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/513a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/513a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -26116,7 +26209,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/324a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/324a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -26148,7 +26241,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/84a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/84a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -26180,7 +26273,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
                 alt: "Gracz Rugby. Wygenerowane przez AI."
             },
             story: {
@@ -26192,7 +26285,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
                 alt: "Hipopotam w wodzie. Wygenerowane przez AI."
             },
             story: {
@@ -26204,7 +26297,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
                 alt: "Loty balonowe. Wygenerowane przez AI."
             },
             story: {
@@ -26216,7 +26309,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -26228,7 +26321,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg",
                 alt: "Smakowanie przysmaków. Wygenerowane przez AI."
             },
             story: {
@@ -26241,10 +26334,10 @@ const fiszki10 = [
         translate: "",
         translateb: "[Hi sings bjutifuli in de szołer]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/.mp4", ""],
-        srcWordimage: "https://www.arbulang.com/filmy/.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/.mp4", ""],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "he[hi] - on",
         sentence1: [
@@ -26269,7 +26362,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/517a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/517a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -26302,7 +26395,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/518a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/518a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -26335,7 +26428,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/254a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/254a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -26368,7 +26461,7 @@ const fiszki10 = [
                         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/48aa1.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/48aa1.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -26380,7 +26473,7 @@ const fiszki10 = [
                 {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/48aa2.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/48aa2.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -26392,7 +26485,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/48aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/48aa.jpg",
                 alt: "Historia człowieka w muzeum. Wygenerowane przez AI."
             },
             story: {
@@ -26404,7 +26497,7 @@ const fiszki10 = [
                 {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/106b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/106b.jpg",
                 alt: "Wynalazek nowoczesności. Wygenerowane przez AI."
             },
             story: {
@@ -26416,7 +26509,7 @@ const fiszki10 = [
                         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/48aa5.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/48aa5.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -26449,7 +26542,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/521a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/521a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -26482,7 +26575,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/131a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/131a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -26495,10 +26588,10 @@ const fiszki10 = [
         translate: "",
         translateb: "[Hi sings bjutifuli in de szołer]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "we[łi] - my",
         sentence1: [
@@ -26524,7 +26617,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/523a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/523a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -26558,7 +26651,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/226a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/226a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -26592,7 +26685,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/525a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/525a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -26626,7 +26719,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/324a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/324a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -26658,7 +26751,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/527a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/527a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -26690,7 +26783,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/528a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/528a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -26703,10 +26796,10 @@ const fiszki10 = [
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "do[du] - zrobić, robić, wykonać",
         sentence1: [
@@ -26731,7 +26824,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/182a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/182a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -26764,7 +26857,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/530a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/530a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -26797,7 +26890,7 @@ const fiszki10 = [
                         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/44b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/44b.jpg",
                 alt: "Kraina w starożytności. Wygenerowane przez AI."
             },
             story: {
@@ -26809,7 +26902,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/44a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/44a.jpg",
                 alt: "Kraina w starożytności. Wygenerowane przez AI."
             },
             story: {
@@ -26821,7 +26914,7 @@ const fiszki10 = [
         {
                             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/83c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/83c.jpg",
                 alt: "Dawny geniusz. Wygenerowane przez AI."
             },
             story: {
@@ -26833,7 +26926,7 @@ const fiszki10 = [
                 {
                     id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/80b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/80b.jpg",
                 alt: "Układanka słowna. Wygenerowane przez AI."
             },
             story: {
@@ -26845,7 +26938,7 @@ const fiszki10 = [
                 {
                             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/108d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/108d.jpg",
                 alt: "Diva operowa. Wygenerowane przez AI."
             },
             story: {
@@ -26878,7 +26971,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/532a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/532a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -26890,7 +26983,7 @@ const fiszki10 = [
                 {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/532b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/532b.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -26923,7 +27016,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/533a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/533a.jpg",
                 alt: "Mały piesek. Wygenerowane przez AI."
             },
             story: {
@@ -26935,7 +27028,7 @@ const fiszki10 = [
                 {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/533b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/533b.jpg",
                 alt: "Mały piesek. Wygenerowane przez AI."
             },
             story: {
@@ -26968,7 +27061,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/534a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/534a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -26981,10 +27074,10 @@ const fiszki10 = [
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/fatherbook.mp4", "Finding Forrester (2000)"],
-        srcWordimage: "https://www.arbulang.com/filmy/fatherbook.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/fatherbook.mp4", "Finding Forrester (2000)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/fatherbook.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "does[doz, daz] - robi, wykonuje (3. os. l. poj. od 'do') /// tworzy pytania w 3. os. l. poj. (np. 'Does he eat?' - ale nie oznacza if)",
         sentence1: [
@@ -27009,7 +27102,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/17a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/17a.jpg",
                 alt: "Portret majora w wojsu. Wygenerowane przez AI."
             },
             story: {
@@ -27021,7 +27114,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/17b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/17b.jpg",
                 alt: "Zdjęcie Fjordu. Wygenerowane przez AI."
             },
             story: {
@@ -27033,7 +27126,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/17c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/17c.jpg",
                 alt: "Kobieta w Jordanii. Wygenerowane przez AI."
             },
             story: {
@@ -27045,7 +27138,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/17d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/17d.jpg",
                 alt: "Dziecko podczas zabawy w kałuży. Wygenerowane przez AI."
             },
             story: {
@@ -27057,7 +27150,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/17e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/17e.jpg",
                 alt: "Pies - York. Wygenerowane przez AI."
             },
             story: {
@@ -27090,7 +27183,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/536a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/536a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -27123,7 +27216,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/125a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/125a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -27156,7 +27249,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/324a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/324a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -27189,7 +27282,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/539a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/539a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -27222,7 +27315,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/76a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/76a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -27235,10 +27328,10 @@ const fiszki10 = [
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/.mp4", ""],
-        srcWordimage: "https://www.arbulang.com/filmy/.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/.mp4", ""],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "can[ken] - może",
         sentence1: [
@@ -27263,7 +27356,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/17a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/17a.jpg",
                 alt: "Portret majora w wojsu. Wygenerowane przez AI."
             },
             story: {
@@ -27275,7 +27368,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/17b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/17b.jpg",
                 alt: "Zdjęcie Fjordu. Wygenerowane przez AI."
             },
             story: {
@@ -27287,7 +27380,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/17c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/17c.jpg",
                 alt: "Kobieta w Jordanii. Wygenerowane przez AI."
             },
             story: {
@@ -27299,7 +27392,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/17d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/17d.jpg",
                 alt: "Dziecko podczas zabawy w kałuży. Wygenerowane przez AI."
             },
             story: {
@@ -27311,7 +27404,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/17e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/17e.jpg",
                 alt: "Pies - York. Wygenerowane przez AI."
             },
             story: {
@@ -27344,7 +27437,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/62aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/62aa.jpg",
                 alt: "Mężczyzna we fraku. Wygenerowane przez AI."
             },
             story: {
@@ -27356,7 +27449,7 @@ const fiszki10 = [
                         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/382a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/382a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -27389,7 +27482,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/458a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/458a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -27401,7 +27494,7 @@ const fiszki10 = [
                 {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/458a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/458a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -27434,7 +27527,7 @@ const fiszki10 = [
                         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/42aa1.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/42aa1.jpg",
                 alt: " Wygenerowane przez AI."
             },
             story: {
@@ -27446,7 +27539,7 @@ const fiszki10 = [
                 {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/42aa2.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/42aa2.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -27458,7 +27551,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/42aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/42aa.jpg",
                 alt: "Zadowolony petent. Wygenerowane przez AI."
             },
             story: {
@@ -27470,7 +27563,7 @@ const fiszki10 = [
                 {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/42aa4.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/42aa4.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -27482,7 +27575,7 @@ const fiszki10 = [
                         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/42a5.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/42a5.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -27515,7 +27608,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/79a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/79a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -27548,23 +27641,47 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/546a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/52aa.jpg",
+                alt: "Burzliwa rozmowa. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Twoje</b></u> <b><u>ar</b></u>gumenty są bardzo przemawiające",
+                alt: "Dyspóty. Jak argumentować swoje zdanie?"
+            },
+            category: ["przemawianie", "argumenty"]
+        },
+        {
+                    id: 2,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/220a.jpg",
+                alt: "Papuga w klatce. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Papuga <u><b>ar</u></b>a i skowronek <u><b>są</u></b> zaprzyjaźnieni. Mam nadzieję, że ty <u><b>jesteś</u></b> z tego powodu w dobrym nastroju",
+                alt: "Życie zwierząt. Czy poszczególne gatunki zwierząt ze sobą rozmawiają?"
+            },
+            category: ["zwierzęta", "przyjaźń"]
+        },
+        {
+                    id: 3,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/220c.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
                 text: "<b><u>Czy</b></u> <b><u>Ar</b></u>nold i <b><u>Ar</b></u>ek <b><u>są</b></u> gotowi do zawodów",
                 alt: ""
             },
-            category: [""]
-        }
+            category: ["sport", "zawody"]
+        },
             ],
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "are[ar] - czy (2. i 3. osoba l. p. i liczba mnoga)",
         sentence1: [
@@ -27589,7 +27706,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/131a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/131a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -27622,7 +27739,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/548a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/548a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -27655,7 +27772,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/139a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/139a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -27688,7 +27805,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
                 alt: "Piłki koszykarskie. Wygenerowane przez AI."
             },
             story: {
@@ -27700,7 +27817,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
                 alt: "Deptak dla mieszkańców. Wygenerowane przez AI."
             },
             story: {
@@ -27712,7 +27829,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
                 alt: "Politycy na posiedzeniu. Wygenerowane przez AI."
             },
             story: {
@@ -27724,7 +27841,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
                 alt: "Wystąpienia polityków. Wygenerowane przez AI."
             },
             story: {
@@ -27736,7 +27853,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg",
                 alt: "Zasady w rodzinie. Wygenerowane przez AI."
             },
             story: {
@@ -27769,7 +27886,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/551a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/551a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -27802,7 +27919,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/32aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/32aa.jpg",
                 alt: "Zawodnik na meczu. Wygenerowane przez AI."
             },
             story: {
@@ -27814,7 +27931,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/32bb.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/32bb.jpg",
                 alt: "Ogrodnik w ogrodzie. Wygenerowane przez AI."
             },
             story: {
@@ -27826,7 +27943,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/32cc.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/32cc.jpg",
                 alt: "Sieć wysokiego napięcia. Wygenerowane przez AI."
             },
             story: {
@@ -27838,7 +27955,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/32dd.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/32dd.jpg",
                 alt: "Oko Saurona. Wygenerowane przez AI."
             },
             story: {
@@ -27850,7 +27967,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/32ee.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/32ee.jpg",
                 alt: "Laurka dla mamy. Wygenerowane przez AI."
             },
             story: {
@@ -27863,10 +27980,10 @@ const fiszki10 = [
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "our[] - nasz/nasze",
         sentence1: [
@@ -27892,7 +28009,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/553a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/553a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -27926,7 +28043,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/554a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/554a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -27960,7 +28077,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/555a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/555a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -27994,7 +28111,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/139a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/139a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -28027,7 +28144,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
                 alt: "Piłki koszykarskie. Wygenerowane przez AI."
             },
             story: {
@@ -28039,7 +28156,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
                 alt: "Deptak dla mieszkańców. Wygenerowane przez AI."
             },
             story: {
@@ -28051,7 +28168,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
                 alt: "Politycy na posiedzeniu. Wygenerowane przez AI."
             },
             story: {
@@ -28063,7 +28180,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
                 alt: "Wystąpienia polityków. Wygenerowane przez AI."
             },
             story: {
@@ -28075,7 +28192,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg",
                 alt: "Zasady w rodzinie. Wygenerowane przez AI."
             },
             story: {
@@ -28108,7 +28225,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/558a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/558a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -28141,7 +28258,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/207b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/207b.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -28154,10 +28271,10 @@ const fiszki10 = [
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "they[dej] - oni",
         sentence1: [
@@ -28182,7 +28299,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/560a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/560a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -28215,7 +28332,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/561a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/561a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -28248,7 +28365,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
                 alt: "Piłki koszykarskie. Wygenerowane przez AI."
             },
             story: {
@@ -28260,7 +28377,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
                 alt: "Deptak dla mieszkańców. Wygenerowane przez AI."
             },
             story: {
@@ -28272,7 +28389,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
                 alt: "Politycy na posiedzeniu. Wygenerowane przez AI."
             },
             story: {
@@ -28284,7 +28401,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
                 alt: "Wystąpienia polityków. Wygenerowane przez AI."
             },
             story: {
@@ -28296,7 +28413,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg",
                 alt: "Zasady w rodzinie. Wygenerowane przez AI."
             },
             story: {
@@ -28328,7 +28445,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/563a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/563a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -28360,7 +28477,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/564a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/564a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -28393,7 +28510,7 @@ const fiszki10 = [
                         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa1.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa1.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -28405,7 +28522,7 @@ const fiszki10 = [
                 {
                             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50cc.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50cc.jpg",
                 alt: "Zroszona przez deszcz - roślina. Wygenerowane przez AI."
             },
             story: {
@@ -28417,7 +28534,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa.jpg",
                 alt: "Ogród kwiatowy. Wygenerowane przez AI."
             },
             story: {
@@ -28429,7 +28546,7 @@ const fiszki10 = [
                 {
                     id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50bb4.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50bb4.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -28441,7 +28558,7 @@ const fiszki10 = [
         {
                     id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50bb.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50bb.jpg",
                 alt: "Auto na parkingu. Wygenerowane przez AI."
             },
             story: {
@@ -28453,7 +28570,7 @@ const fiszki10 = [
                         {
                     id: 6,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa6.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa6.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -28465,7 +28582,7 @@ const fiszki10 = [
         {
                             id: 7,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa7.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa7.jpg",
                 alt: "Auto na parkingu. Wygenerowane przez AI."
             },
             story: {
@@ -28478,10 +28595,10 @@ const fiszki10 = [
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "my[maj] - moje",
         sentence1: [
@@ -28506,7 +28623,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/566a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/566a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -28539,7 +28656,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8a.jpg",
                 alt: "Biegacze w biegu. Wygenerowane przez AI."
             },
             story: {
@@ -28551,7 +28668,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8b.jpg",
                 alt: "Karykatura lisa jako listonosza. Wygenerowane przez AI."
             },
             story: {
@@ -28563,7 +28680,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8c.jpg",
                 alt: "Wystąpienie przed klasą. Wygenerowane przez AI."
             },
             story: {
@@ -28575,7 +28692,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8d.jpg",
                 alt: "Bawiące się ze sobą lisy. Wygenerowane przez AI."
             },
             story: {
@@ -28587,7 +28704,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8e.jpg",
                 alt: "Johny Bravo z kreskówki. Wygenerowane przez AI."
             },
             story: {
@@ -28599,7 +28716,7 @@ const fiszki10 = [
                 {
             id: 6,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8f.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8f.jpg",
                 alt: "Chwalenie się dyplomem uczestnictwa w szkoleniu. Wygenerowane przez AI."
             },
             story: {
@@ -28611,7 +28728,7 @@ const fiszki10 = [
         {
             id: 7,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8g.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8g.jpg",
                 alt: "Widok z brzegu ze statkami. Wygenerowane przez AI."
             },
             story: {
@@ -28644,7 +28761,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/568a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/568a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -28678,7 +28795,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
                 alt: "Piłki koszykarskie. Wygenerowane przez AI."
             },
             story: {
@@ -28690,7 +28807,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
                 alt: "Deptak dla mieszkańców. Wygenerowane przez AI."
             },
             story: {
@@ -28702,7 +28819,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
                 alt: "Politycy na posiedzeniu. Wygenerowane przez AI."
             },
             story: {
@@ -28714,7 +28831,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
                 alt: "Wystąpienia polityków. Wygenerowane przez AI."
             },
             story: {
@@ -28726,7 +28843,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg",
                 alt: "Zasady w rodzinie. Wygenerowane przez AI."
             },
             story: {
@@ -28759,7 +28876,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/570a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/570a.jpg",
                 alt: "Piłki koszykarskie. Wygenerowane przez AI."
             },
             story: {
@@ -28771,7 +28888,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/570b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/570b.jpg",
                 alt: "Deptak dla mieszkańców. Wygenerowane przez AI."
             },
             story: {
@@ -28783,7 +28900,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/570c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/570c.jpg",
                 alt: "Politycy na posiedzeniu. Wygenerowane przez AI."
             },
             story: {
@@ -28818,7 +28935,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/131a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/131a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -28831,10 +28948,10 @@ const fiszki10 = [
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "we[łi] - my",
         sentence1: [
@@ -28860,7 +28977,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/572a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/572a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -28894,7 +29011,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/572a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/572a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -28928,7 +29045,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/272a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/272a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -28962,7 +29079,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/324a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/324a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -28994,7 +29111,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/332a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/332a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -29026,7 +29143,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
                 alt: "Piłki koszykarskie. Wygenerowane przez AI."
             },
             story: {
@@ -29038,7 +29155,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
                 alt: "Deptak dla mieszkańców. Wygenerowane przez AI."
             },
             story: {
@@ -29050,7 +29167,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
                 alt: "Politycy na posiedzeniu. Wygenerowane przez AI."
             },
             story: {
@@ -29062,7 +29179,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
                 alt: "Wystąpienia polityków. Wygenerowane przez AI."
             },
             story: {
@@ -29074,7 +29191,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg",
                 alt: "Zasady w rodzinie. Wygenerowane przez AI."
             },
             story: {
@@ -29087,10 +29204,10 @@ const fiszki10 = [
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
         sentence1: [
@@ -29115,7 +29232,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/324a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/324a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -29148,7 +29265,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/579a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/579a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -29181,7 +29298,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/580a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/580a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -29213,7 +29330,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
                 alt: "Piłki koszykarskie. Wygenerowane przez AI."
             },
             story: {
@@ -29225,7 +29342,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
                 alt: "Deptak dla mieszkańców. Wygenerowane przez AI."
             },
             story: {
@@ -29237,7 +29354,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
                 alt: "Politycy na posiedzeniu. Wygenerowane przez AI."
             },
             story: {
@@ -29249,7 +29366,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
                 alt: "Wystąpienia polityków. Wygenerowane przez AI."
             },
             story: {
@@ -29261,7 +29378,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg",
                 alt: "Zasady w rodzinie. Wygenerowane przez AI."
             },
             story: {
@@ -29272,7 +29389,7 @@ const fiszki10 = [
         }
     ],
         word: [
-            "https://www.arbulang.com/src/the.wav"
+            "http://localhost/arbulanguage.com/src/the.wav"
         ],
         desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
         sentence2: [
@@ -29297,7 +29414,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/582a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/582a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -29330,7 +29447,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/76a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/76a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -29343,12 +29460,11 @@ const fiszki10 = [
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
-        story: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
         desc: "can[ken] - może",
         sentence1: [
             "Can"
@@ -29372,7 +29488,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
                 alt: "Gracz Rugby. Wygenerowane przez AI."
             },
             story: {
@@ -29384,7 +29500,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
                 alt: "Hipopotam w wodzie. Wygenerowane przez AI."
             },
             story: {
@@ -29396,7 +29512,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
                 alt: "Loty balonowe. Wygenerowane przez AI."
             },
             story: {
@@ -29408,7 +29524,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -29420,7 +29536,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg",
                 alt: "Smakowanie przysmaków. Wygenerowane przez AI."
             },
             story: {
@@ -29453,7 +29569,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/76a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/76a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -29486,7 +29602,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
                 alt: "Piłki koszykarskie. Wygenerowane przez AI."
             },
             story: {
@@ -29498,7 +29614,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
                 alt: "Deptak dla mieszkańców. Wygenerowane przez AI."
             },
             story: {
@@ -29510,7 +29626,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
                 alt: "Politycy na posiedzeniu. Wygenerowane przez AI."
             },
             story: {
@@ -29522,7 +29638,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
                 alt: "Wystąpienia polityków. Wygenerowane przez AI."
             },
             story: {
@@ -29534,7 +29650,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg",
                 alt: "Zasady w rodzinie. Wygenerowane przez AI."
             },
             story: {
@@ -29567,11 +29683,11 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/587a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/587a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
-                text: "Super jest ten mały silnik. Ma moc kilku moli",
+                text: "<b><u>S</b></u>uper jest ten mały silnik. Ma moc kilku <b><u>mol</b></u>i",
                 alt: ""
             },
             category: ["kraje", "klimat"]
@@ -29600,7 +29716,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/570a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/570a.jpg",
                 alt: "Piłki koszykarskie. Wygenerowane przez AI."
             },
             story: {
@@ -29612,7 +29728,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/570b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/570b.jpg",
                 alt: "Deptak dla mieszkańców. Wygenerowane przez AI."
             },
             story: {
@@ -29624,7 +29740,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/570c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/570c.jpg",
                 alt: "Politycy na posiedzeniu. Wygenerowane przez AI."
             },
             story: {
@@ -29659,7 +29775,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/28aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/28aa.jpg",
                 alt: "Kot na łodzi. Wygenerowane przez AI."
             },
             story: {
@@ -29671,7 +29787,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/28bb.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/28bb.jpg",
                 alt: "Kot na spacerze. Wygenerowane przez AI."
             },
             story: {
@@ -29683,7 +29799,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/28cc.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/28cc.jpg",
                 alt: "Kot w egzotycznym kraju. Wygenerowane przez AI."
             },
             story: {
@@ -29695,7 +29811,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/28dd.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/28dd.jpg",
                 alt: "Kot rozciągający się. Wygenerowane przez AI."
             },
             story: {
@@ -29707,7 +29823,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/28ee.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/28ee.jpg",
                 alt: "Moje zdjęcie z kotem. Wygenerowane przez AI."
             },
             story: {
@@ -29720,10 +29836,10 @@ const fiszki10 = [
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "{the) cat[kat] - kot",
         sentence1: [
@@ -29747,7 +29863,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/76a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/76a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -29779,7 +29895,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/591a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/591a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -29811,7 +29927,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/144a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/144a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -29846,7 +29962,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/207b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/207b.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -29859,8 +29975,8 @@ const fiszki10 = [
         translate: "Oni grają w piłkę nożną w tym momencie",
         translateb: "[Dej ar pleing futbol at de moment]",
         translateb2: "[Ewrybody hes fan]",
-        srcWord: ["https://www.arbulang.com/filmy/football.mp4", "Pelé. Narodziny legendy (2016)"],
-        srcWordimage: "https://www.arbulang.com/filmy/football.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/football.mp4", "Pelé. Narodziny legendy (2016)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/football.png",
         desc: "they[dej] - oni",
         sentence1: [
             "They"
@@ -29883,7 +29999,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/594a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/594a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -29915,7 +30031,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/595a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/595a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -29948,7 +30064,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8a.jpg",
                 alt: "Biegacze w biegu. Wygenerowane przez AI."
             },
             story: {
@@ -29960,7 +30076,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8b.jpg",
                 alt: "Karykatura lisa jako listonosza. Wygenerowane przez AI."
             },
             story: {
@@ -29972,7 +30088,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8c.jpg",
                 alt: "Wystąpienie przed klasą. Wygenerowane przez AI."
             },
             story: {
@@ -29984,7 +30100,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8d.jpg",
                 alt: "Bawiące się ze sobą lisy. Wygenerowane przez AI."
             },
             story: {
@@ -29996,7 +30112,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8e.jpg",
                 alt: "Johny Bravo z kreskówki. Wygenerowane przez AI."
             },
             story: {
@@ -30008,7 +30124,7 @@ const fiszki10 = [
                 {
             id: 6,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8f.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8f.jpg",
                 alt: "Chwalenie się dyplomem uczestnictwa w szkoleniu. Wygenerowane przez AI."
             },
             story: {
@@ -30020,7 +30136,7 @@ const fiszki10 = [
         {
             id: 7,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8g.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8g.jpg",
                 alt: "Widok z brzegu ze statkami. Wygenerowane przez AI."
             },
             story: {
@@ -30031,7 +30147,7 @@ const fiszki10 = [
         }
     ],
         word: [
-            "https://www.arbulang.com/src/is.wav"
+            "http://localhost/arbulanguage.com/src/is.wav"
         ],
         desc: "is[is] - jest",
         sentence2: [
@@ -30056,7 +30172,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/597a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/597a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -30089,7 +30205,7 @@ const fiszki10 = [
                         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/44b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/44b.jpg",
                 alt: "Zawodniczka i trener. Wygenerowane przez AI."
             },
             story: {
@@ -30101,7 +30217,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/44a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/44a.jpg",
                 alt: "Kraina w starożytności. Wygenerowane przez AI."
             },
             story: {
@@ -30113,7 +30229,7 @@ const fiszki10 = [
         {
                             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/83c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/83c.jpg",
                 alt: "Dawny geniusz. Wygenerowane przez AI."
             },
             story: {
@@ -30125,7 +30241,7 @@ const fiszki10 = [
                 {
                     id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/80b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/80b.jpg",
                 alt: "Układanka słowna. Wygenerowane przez AI."
             },
             story: {
@@ -30137,7 +30253,7 @@ const fiszki10 = [
                 {
                             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/108d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/108d.jpg",
                 alt: "Diva operowa. Wygenerowane przez AI."
             },
             story: {
@@ -30148,13 +30264,13 @@ const fiszki10 = [
         }
             ],
         word: [
-            "https://www.arbulang.com/voice/music.mp4"
+            "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
         desc: "this[dis] - ta rzecz/osoba",
         sentence1: [
             "This"
@@ -30177,7 +30293,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/599a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/599a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -30212,7 +30328,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/600a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/600a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -30245,7 +30361,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/601a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/601a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -30278,7 +30394,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/365a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/365a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -30311,7 +30427,7 @@ const fiszki10 = [
                         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa1.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa1.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -30323,7 +30439,7 @@ const fiszki10 = [
                 {
                             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50cc.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50cc.jpg",
                 alt: "Zroszona przez deszcz - roślina. Wygenerowane przez AI."
             },
             story: {
@@ -30335,7 +30451,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa.jpg",
                 alt: "Ogród kwiatowy. Wygenerowane przez AI."
             },
             story: {
@@ -30347,7 +30463,7 @@ const fiszki10 = [
                 {
                     id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50bb4.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50bb4.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -30359,7 +30475,7 @@ const fiszki10 = [
         {
                     id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50bb.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50bb.jpg",
                 alt: "Auto na parkingu. Wygenerowane przez AI."
             },
             story: {
@@ -30371,7 +30487,7 @@ const fiszki10 = [
                         {
                     id: 6,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa6.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa6.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -30383,7 +30499,7 @@ const fiszki10 = [
         {
                             id: 7,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa7.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa7.jpg",
                 alt: "Auto na parkingu. Wygenerowane przez AI."
             },
             story: {
@@ -30396,11 +30512,11 @@ const fiszki10 = [
         translate: "",
         translateb: "[Maj broder plejs futbol on łikedns]",
         translateb2: "[Maj broder plejs futbol]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "Miasto Boga (2002)"],
-        srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", ""],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "Miasto Boga (2002)"],
+        srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", ""],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "my[maj] - mój",
         sentence1: [
@@ -30425,7 +30541,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/604a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/604a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -30458,7 +30574,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/605a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/605a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -30491,7 +30607,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/606a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/606a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -30523,7 +30639,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/212a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/212a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -30555,7 +30671,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
                 alt: "Gracz Rugby. Wygenerowane przez AI."
             },
             story: {
@@ -30567,7 +30683,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
                 alt: "Hipopotam w wodzie. Wygenerowane przez AI."
             },
             story: {
@@ -30579,7 +30695,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
                 alt: "Loty balonowe. Wygenerowane przez AI."
             },
             story: {
@@ -30591,7 +30707,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -30603,7 +30719,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg",
                 alt: "Smakowanie przysmaków. Wygenerowane przez AI."
             },
             story: {
@@ -30616,10 +30732,10 @@ const fiszki10 = [
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "he[hi] - on",
         sentence1: [
@@ -30643,7 +30759,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/609a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/609a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -30675,7 +30791,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
                 alt: "Gracz Rugby. Wygenerowane przez AI."
             },
             story: {
@@ -30687,7 +30803,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
                 alt: "Hipopotam w wodzie. Wygenerowane przez AI."
             },
             story: {
@@ -30699,7 +30815,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
                 alt: "Loty balonowe. Wygenerowane przez AI."
             },
             story: {
@@ -30711,7 +30827,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -30723,7 +30839,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg",
                 alt: "Smakowanie przysmaków. Wygenerowane przez AI."
             },
             story: {
@@ -30756,7 +30872,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/160a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/160a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -30789,7 +30905,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/612a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/612a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -30822,7 +30938,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/94aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/94aa.jpg",
                 alt: "Picie herbaty. Wygenerowane przez AI."
             },
             story: {
@@ -30835,10 +30951,10 @@ const fiszki10 = [
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "her[her] - jej",
         sentence1: [
@@ -30863,7 +30979,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/614a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/614a.jpg",
                 alt: "Picie herbaty. Wygenerowane przez AI."
             },
             story: {
@@ -30896,7 +31012,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8a.jpg",
                 alt: "Biegacze w biegu. Wygenerowane przez AI."
             },
             story: {
@@ -30908,7 +31024,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8b.jpg",
                 alt: "Karykatura lisa jako listonosza. Wygenerowane przez AI."
             },
             story: {
@@ -30920,7 +31036,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8c.jpg",
                 alt: "Wystąpienie przed klasą. Wygenerowane przez AI."
             },
             story: {
@@ -30932,7 +31048,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8d.jpg",
                 alt: "Bawiące się ze sobą lisy. Wygenerowane przez AI."
             },
             story: {
@@ -30944,7 +31060,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8e.jpg",
                 alt: "Johny Bravo z kreskówki. Wygenerowane przez AI."
             },
             story: {
@@ -30956,7 +31072,7 @@ const fiszki10 = [
                 {
             id: 6,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8f.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8f.jpg",
                 alt: "Chwalenie się dyplomem uczestnictwa w szkoleniu. Wygenerowane przez AI."
             },
             story: {
@@ -30968,7 +31084,7 @@ const fiszki10 = [
         {
             id: 7,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8g.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8g.jpg",
                 alt: "Widok z brzegu ze statkami. Wygenerowane przez AI."
             },
             story: {
@@ -31001,7 +31117,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/616a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/616a.jpg",
                 alt: "Picie herbaty. Wygenerowane przez AI."
             },
             story: {
@@ -31034,7 +31150,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/29aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/29aa.jpg",
                 alt: "Długi trening. Wygenerowane przez AI."
             },
             story: {
@@ -31046,7 +31162,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/29bb.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/29bb.jpg",
                 alt: "Prace ogrodowe. Wygenerowane przez AI."
             },
             story: {
@@ -31058,7 +31174,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/29cc.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/29cc.jpg",
                 alt: "Impreza na wielką skalę. Wygenerowane przez AI."
             },
             story: {
@@ -31070,7 +31186,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/29dd.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/29dd.jpg",
                 alt: "Motor enduro. Wygenerowane przez AI."
             },
             story: {
@@ -31082,7 +31198,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/29ee.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/29ee.jpg",
                 alt: "Zakochana para. Wygenerowane przez AI."
             },
             story: {
@@ -31115,7 +31231,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/618a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/618a.jpg",
                 alt: "Picie herbaty. Wygenerowane przez AI."
             },
             story: {
@@ -31148,7 +31264,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/464a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/464a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -31161,10 +31277,10 @@ const fiszki10 = [
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "the boy[de boj] - chłopiec",
         sentence1: [
@@ -31189,7 +31305,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/76a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/76a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -31222,7 +31338,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/591a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/591a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -31255,7 +31371,7 @@ const fiszki10 = [
                         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/42aa1.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/42aa1.jpg",
                 alt: " Wygenerowane przez AI."
             },
             story: {
@@ -31267,7 +31383,7 @@ const fiszki10 = [
                 {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/42aa2.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/42aa2.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -31279,7 +31395,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/42aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/42aa.jpg",
                 alt: "Zadowolony petent. Wygenerowane przez AI."
             },
             story: {
@@ -31291,7 +31407,7 @@ const fiszki10 = [
                 {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/42aa4.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/42aa4.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -31303,7 +31419,7 @@ const fiszki10 = [
                         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/42a5.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/42a5.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -31335,7 +31451,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/144a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/144a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -31367,7 +31483,7 @@ const fiszki10 = [
                         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa1.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa1.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -31379,7 +31495,7 @@ const fiszki10 = [
                 {
                             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50cc.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50cc.jpg",
                 alt: "Zroszona przez deszcz - roślina. Wygenerowane przez AI."
             },
             story: {
@@ -31391,7 +31507,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa.jpg",
                 alt: "Ogród kwiatowy. Wygenerowane przez AI."
             },
             story: {
@@ -31403,7 +31519,7 @@ const fiszki10 = [
                 {
                     id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50bb4.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50bb4.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -31415,7 +31531,7 @@ const fiszki10 = [
         {
                     id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50bb.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50bb.jpg",
                 alt: "Auto na parkingu. Wygenerowane przez AI."
             },
             story: {
@@ -31427,7 +31543,7 @@ const fiszki10 = [
                         {
                     id: 6,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa6.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa6.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -31439,7 +31555,7 @@ const fiszki10 = [
         {
                             id: 7,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa7.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa7.jpg",
                 alt: "Auto na parkingu. Wygenerowane przez AI."
             },
             story: {
@@ -31452,10 +31568,10 @@ const fiszki10 = [
         translate: "Moje serce czuje się ciepłe i szczęśliwe",
         translateb: "[Maj hart fils łorm and hapi]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "my[maj] - moje",
         sentence1: [
@@ -31480,7 +31596,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/625a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/625a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -31513,7 +31629,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/626a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/626a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -31546,7 +31662,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/627a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/627a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -31579,7 +31695,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/29aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/29aa.jpg",
                 alt: "Długi trening. Wygenerowane przez AI."
             },
             story: {
@@ -31591,7 +31707,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/29bb.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/29bb.jpg",
                 alt: "Prace ogrodowe. Wygenerowane przez AI."
             },
             story: {
@@ -31603,7 +31719,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/29cc.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/29cc.jpg",
                 alt: "Impreza na wielką skalę. Wygenerowane przez AI."
             },
             story: {
@@ -31615,7 +31731,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/29dd.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/29dd.jpg",
                 alt: "Motor enduro. Wygenerowane przez AI."
             },
             story: {
@@ -31627,7 +31743,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/29ee.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/29ee.jpg",
                 alt: "Zakochana para. Wygenerowane przez AI."
             },
             story: {
@@ -31637,7 +31753,7 @@ const fiszki10 = [
             category: ["związki", "podryw"]
         }
     ],
-        srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
+        srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
         translateb2: "[end hags it]",
         desc: "and, end[end] - i(and)/koniec(end)",
         sentence2: [
@@ -31662,7 +31778,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/629a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/629a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -31695,7 +31811,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/630a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/630a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -31708,10 +31824,10 @@ const fiszki10 = [
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "wolf[łulf] - wilk",
         sentence1: [
@@ -31735,7 +31851,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/631a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/631a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -31746,7 +31862,7 @@ const fiszki10 = [
         }
             ],
         desc: "lives[lajws] - żyje",
-        sentence2: [
+        sentence1: [
             "lives"
         ],
         sentence: [
@@ -31767,7 +31883,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/632a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/632a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -31800,7 +31916,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/254a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/254a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -31833,7 +31949,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/634a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/634a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -31866,7 +31982,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/635a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/635a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -31879,12 +31995,12 @@ const fiszki10 = [
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
-        desc: "take[] - moja, moje",
+        desc: "take[tejk] - moja, moje",
         sentence1: [
             "Take"
         ],
@@ -31906,7 +32022,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/636a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/636a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -31918,7 +32034,7 @@ const fiszki10 = [
                 {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/636b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/636b.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -31929,7 +32045,7 @@ const fiszki10 = [
         }
             ],
         desc: "a towel[tałl/taul] - ręcznik",
-        sentence2: [
+        sentence1: [
             "a towel"
         ],
         sentence: [
@@ -31950,7 +32066,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/637a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/637a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -31983,7 +32099,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/17a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/17a.jpg",
                 alt: "Portret majora w wojsu. Wygenerowane przez AI."
             },
             story: {
@@ -31995,7 +32111,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/17b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/17b.jpg",
                 alt: "Zdjęcie Fjordu. Wygenerowane przez AI."
             },
             story: {
@@ -32007,7 +32123,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/17c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/17c.jpg",
                 alt: "Kobieta w Jordanii. Wygenerowane przez AI."
             },
             story: {
@@ -32019,7 +32135,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/17d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/17d.jpg",
                 alt: "Dziecko podczas zabawy w kałuży. Wygenerowane przez AI."
             },
             story: {
@@ -32031,7 +32147,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/17e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/17e.jpg",
                 alt: "Pies - York. Wygenerowane przez AI."
             },
             story: {
@@ -32064,7 +32180,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/380a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/380a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -32097,7 +32213,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19a.jpg",
                 alt: "Odzież ochronna dla jazdy rowerem. Wygenerowane przez AI."
             },
             story: {
@@ -32109,7 +32225,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19b.jpg",
                 alt: "Portret kobiety. Wygenerowane przez AI."
             },
             story: {
@@ -32121,7 +32237,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19c.jpg",
                 alt: "Boginii Gaja. Wygenerowane przez AI."
             },
             story: {
@@ -32133,7 +32249,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19d.jpg",
                 alt: "Wesele pary młodej. Wygenerowane przez AI."
             },
             story: {
@@ -32145,7 +32261,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19e.jpg",
                 alt: "Zajmowanie się kurami. Wygenerowane przez AI."
             },
             story: {
@@ -32158,11 +32274,11 @@ const fiszki10 = [
         translate: "Ja jestem nieśmiały, ale czasami bywam odważny",
         translateb: "[Aj em szaj bat samtajms dering]",
         translateb2: "[Aj em szaj]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", 'The Matrix Reloaded (2003)'],
-        srcWord2: ["https://www.arbulang.com/filmy/procedure.mp4", "Breaking Bad"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", 'The Matrix Reloaded (2003)'],
+        srcWord2: ["http://localhost/arbulanguage.com/filmy/procedure.mp4", "Breaking Bad"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
         word: [
-            "https://www.arbulang.com/voice/music.mp4"
+            "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         desc: "I[aj] - ja",
         sentence1: [
@@ -32188,7 +32304,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/641a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/641a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -32199,7 +32315,7 @@ const fiszki10 = [
         }
             ],
         desc: "ride[rajd] - jeździć",
-        sentence2: [
+        sentence1: [
             "ride"
         ],
         sentence: [
@@ -32222,7 +32338,7 @@ const fiszki10 = [
                         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa1.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa1.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -32234,7 +32350,7 @@ const fiszki10 = [
                 {
                             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50cc.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50cc.jpg",
                 alt: "Zroszona przez deszcz - roślina. Wygenerowane przez AI."
             },
             story: {
@@ -32246,7 +32362,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa.jpg",
                 alt: "Ogród kwiatowy. Wygenerowane przez AI."
             },
             story: {
@@ -32258,7 +32374,7 @@ const fiszki10 = [
                 {
                     id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50bb4.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50bb4.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -32270,7 +32386,7 @@ const fiszki10 = [
         {
                     id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50bb.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50bb.jpg",
                 alt: "Auto na parkingu. Wygenerowane przez AI."
             },
             story: {
@@ -32282,7 +32398,7 @@ const fiszki10 = [
                         {
                     id: 6,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa6.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa6.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -32294,7 +32410,7 @@ const fiszki10 = [
         {
                             id: 7,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa7.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa7.jpg",
                 alt: "Auto na parkingu. Wygenerowane przez AI."
             },
             story: {
@@ -32305,7 +32421,7 @@ const fiszki10 = [
         }
             ],
         desc: "my[maj] - moje",
-        sentence2: [
+        sentence1: [
             "my"
         ],
         sentence: [
@@ -32328,7 +32444,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/643a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/643a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -32339,7 +32455,7 @@ const fiszki10 = [
         }
             ],
         desc: "bike[bajk] - rower",
-        sentence2: [
+        sentence1: [
             "bike"
         ],
         sentence: [
@@ -32362,7 +32478,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/10a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/10a.jpg",
                 alt: "Spacer po mieście. Wygenerowane przez AI."
             },
             story: {
@@ -32374,7 +32490,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/10b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/10b.jpg",
                 alt: "Wąż. Wygenerowane przez AI."
             },
             story: {
@@ -32386,7 +32502,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/10c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/10c.jpg",
                 alt: "Totem Faraona. Wygenerowane przez AI."
             },
             story: {
@@ -32398,7 +32514,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/10d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/10d.jpg",
                 alt: "Trzymanie kciuków za wyniki sportowe. Wygenerowane przez AI."
             },
             story: {
@@ -32410,7 +32526,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/10e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/10e.jpg",
                 alt: "Prezent okolicznościowy. Wygenerowane przez AI."
             },
             story: {
@@ -32442,7 +32558,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/33aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/33aa.jpg",
                 alt: "Oglądanie meczu w telewizji. Wygenerowane przez AI."
             },
             story: {
@@ -32454,7 +32570,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/33bb.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/33bb.jpg",
                 alt: "Łabądź w stawie. Wygenerowane przez AI."
             },
             story: {
@@ -32466,7 +32582,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/33cc.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/33cc.jpg",
                 alt: "Remont szkoły. Wygenerowane przez AI."
             },
             story: {
@@ -32478,7 +32594,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/33dd.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/33dd.jpg",
                 alt: "Uczeń w szkole. Wygenerowane przez AI."
             },
             story: {
@@ -32490,7 +32606,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/33ee.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/33ee.jpg",
                 alt: "Zamek na piasku. Wygenerowane przez AI."
             },
             story: {
@@ -32522,7 +32638,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/95aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/95aa.jpg",
                 alt: "Opakowanie suplementów grzyba riszi. Wygenerowane przez AI."
             },
             story: {
@@ -32535,10 +32651,10 @@ const fiszki10 = [
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "she[szi] - ona",
         sentence1: [
@@ -32563,7 +32679,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/647a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/647a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -32574,7 +32690,7 @@ const fiszki10 = [
         }
             ],
         desc: "wears[łers] - nosi",
-        sentence2: [
+        sentence1: [
             "wears"
         ],
         sentence: [
@@ -32596,7 +32712,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/648a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/648a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -32606,8 +32722,8 @@ const fiszki10 = [
             category: [""]
         }
             ],
-        desc: "gold[] -",
-        sentence2: [
+        desc: "gold[gold] - złoto",
+        sentence1: [
             "gold"
         ],
         sentence: [
@@ -32629,7 +32745,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/649a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/649a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -32662,7 +32778,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/94aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/94aa.jpg",
                 alt: "Picie herbaty. Wygenerowane przez AI."
             },
             story: {
@@ -32695,7 +32811,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/94aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/94aa.jpg",
                 alt: "Picie herbaty. Wygenerowane przez AI."
             },
             story: {
@@ -32728,7 +32844,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/652a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/652a.jpg",
                 alt: "Picie herbaty. Wygenerowane przez AI."
             },
             story: {
@@ -32741,12 +32857,12 @@ const fiszki10 = [
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
-        desc: "don't[] - moja, moje",
+        desc: "don't[dont] - ja,/ty nie... (zaprzeczenie)",
         sentence1: [
             "Don't"
         ],
@@ -32769,7 +32885,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/652a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/653a.jpg",
                 alt: "Picie herbaty. Wygenerowane przez AI."
             },
             story: {
@@ -32780,7 +32896,7 @@ const fiszki10 = [
         }
             ],
         desc: "break[brejk] - złamać",
-        sentence2: [
+        sentence1: [
             "break"
         ],
         sentence: [
@@ -32802,7 +32918,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/654a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/654a.jpg",
                 alt: "Picie herbaty. Wygenerowane przez AI."
             },
             story: {
@@ -32813,7 +32929,7 @@ const fiszki10 = [
         }
             ],
         desc: "glass[glas] - szkło",
-        sentence2: [
+        sentence1: [
             "The glass"
         ],
         sentence: [
@@ -32835,7 +32951,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/13a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/13a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -32847,7 +32963,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/13b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/13b.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -32859,7 +32975,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/13c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/13c.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -32871,7 +32987,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/13d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/13d.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -32883,7 +32999,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/13e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/13e.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -32915,11 +33031,11 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/656a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/656a.jpg",
                 alt: "Picie herbaty. Wygenerowane przez AI."
             },
             story: {
-                text: "W sklepie Prakti<u><b>ker</u></b> <u><b>ostrożnie</u></b> wybieraliśmy produkty. Mieliśmy ustalny jaki jest <u><b>full</u></b> budżet",
+                text: "W sklepie Prakti<u><b>ker</u></b> <u><b>ostrożnie</u></b> wybieraliśmy produkty. Mieliśmy ustalany jaki jest <u><b>full</u></b> budżet",
                 alt: ""
             },
             category: [""]
@@ -32947,7 +33063,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/656a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/656a.jpg",
                 alt: "Picie herbaty. Wygenerowane przez AI."
             },
             story: {
@@ -32960,10 +33076,10 @@ const fiszki10 = [
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "put[put] - moja, moje",
         sentence1: [
@@ -32987,7 +33103,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/658a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/658a.jpg",
                 alt: "Picie herbaty. Wygenerowane przez AI."
             },
             story: {
@@ -32997,8 +33113,8 @@ const fiszki10 = [
             category: [""]
         }
             ],
-        desc: "chair[czer] - krzesło",
-        sentence2: [
+        desc: "the chair[czer] - krzesło",
+        sentence1: [
             "the chair"
         ],
         sentence: [
@@ -33019,7 +33135,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/659a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/659a.jpg",
                 alt: "Picie herbaty. Wygenerowane przez AI."
             },
             story: {
@@ -33051,7 +33167,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/660a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/660a.jpg",
                 alt: "Picie herbaty. Wygenerowane przez AI."
             },
             story: {
@@ -33083,7 +33199,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/131a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/131a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -33096,10 +33212,10 @@ const fiszki10 = [
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "we[łi] - my",
         sentence1: [
@@ -33124,7 +33240,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/660a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/660a.jpg",
                 alt: "Picie herbaty. Wygenerowane przez AI."
             },
             story: {
@@ -33157,7 +33273,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/573a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/573a.jpg",
                 alt: "Picie herbaty. Wygenerowane przez AI."
             },
             story: {
@@ -33190,7 +33306,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/16a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/16a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -33202,7 +33318,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/16b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/16b.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -33214,7 +33330,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/16c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/16c.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -33226,7 +33342,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/16d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/16d.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -33238,7 +33354,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/16e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/16e.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -33250,7 +33366,7 @@ const fiszki10 = [
         {
             id: 6,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/190a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/190a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -33283,7 +33399,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/32aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/32aa.jpg",
                 alt: "Zawodnik na meczu. Wygenerowane przez AI."
             },
             story: {
@@ -33295,7 +33411,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/32bb.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/32bb.jpg",
                 alt: "Ogrodnik w ogrodzie. Wygenerowane przez AI."
             },
             story: {
@@ -33307,7 +33423,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/32cc.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/32cc.jpg",
                 alt: "Sieć wysokiego napięcia. Wygenerowane przez AI."
             },
             story: {
@@ -33319,7 +33435,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/32dd.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/32dd.jpg",
                 alt: "Oko Saurona. Wygenerowane przez AI."
             },
             story: {
@@ -33331,7 +33447,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/32ee.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/32ee.jpg",
                 alt: "Laurka dla mamy. Wygenerowane przez AI."
             },
             story: {
@@ -33341,7 +33457,7 @@ const fiszki10 = [
             category: ["związki", "okazje"]
         }
     ],
-        desc: "our[] - nasz/nasze",
+        desc: "our[aur] - nasz/nasze",
         sentence2: [
             "our"
         ],
@@ -33364,7 +33480,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/62aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/62aa.jpg",
                 alt: "Mężczyzna we fraku. Wygenerowane przez AI."
             },
             story: {
@@ -33376,7 +33492,7 @@ const fiszki10 = [
                         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/382a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/382a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -33410,7 +33526,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/667a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/667a.jpg",
                 alt: "Picie herbaty. Wygenerowane przez AI."
             },
             story: {
@@ -33423,10 +33539,10 @@ const fiszki10 = [
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "farmers[farmers] - rolnicy",
         sentence1: [
@@ -33451,7 +33567,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/668a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/668a.jpg",
                 alt: "Picie herbaty. Wygenerowane przez AI."
             },
             story: {
@@ -33484,7 +33600,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/669a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/669a.jpg",
                 alt: "Picie herbaty. Wygenerowane przez AI."
             },
             story: {
@@ -33517,7 +33633,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/254a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/254a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -33549,7 +33665,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/489a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/489a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -33581,7 +33697,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/55aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/55aa.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -33594,8 +33710,8 @@ const fiszki10 = [
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
         desc: "house[hałs] - dom",
         sentence1: [
             "The house"
@@ -33621,7 +33737,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8a.jpg",
                 alt: "Biegacze w biegu. Wygenerowane przez AI."
             },
             story: {
@@ -33633,7 +33749,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8b.jpg",
                 alt: "Karykatura lisa jako listonosza. Wygenerowane przez AI."
             },
             story: {
@@ -33645,7 +33761,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8c.jpg",
                 alt: "Wystąpienie przed klasą. Wygenerowane przez AI."
             },
             story: {
@@ -33657,7 +33773,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8d.jpg",
                 alt: "Bawiące się ze sobą lisy. Wygenerowane przez AI."
             },
             story: {
@@ -33669,7 +33785,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8e.jpg",
                 alt: "Johny Bravo z kreskówki. Wygenerowane przez AI."
             },
             story: {
@@ -33681,7 +33797,7 @@ const fiszki10 = [
                 {
             id: 6,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8f.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8f.jpg",
                 alt: "Chwalenie się dyplomem uczestnictwa w szkoleniu. Wygenerowane przez AI."
             },
             story: {
@@ -33693,7 +33809,7 @@ const fiszki10 = [
         {
             id: 7,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/8g.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/8g.jpg",
                 alt: "Widok z brzegu ze statkami. Wygenerowane przez AI."
             },
             story: {
@@ -33728,7 +33844,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/674a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/674a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -33763,7 +33879,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/89a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/89a.jpg",
                 alt: "Żołnierze w walce. Wygenerowane przez AI."
             },
             story: {
@@ -33775,7 +33891,7 @@ const fiszki10 = [
                 {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/112b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/112b.jpg",
                 alt: "Dezedorant na komary. Wygenerowane przez AI."
             },
             story: {
@@ -33810,7 +33926,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/676a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/676a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -33820,7 +33936,7 @@ const fiszki10 = [
             category: [""]
         }
             ],
-        desc: "wood[] -",
+        desc: "wood[łud] - drewno",
         sentence1: [
             "wood"
         ],
@@ -33845,7 +33961,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -33858,10 +33974,10 @@ const fiszki10 = [
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
-        srcWordimage: "https://www.arbulang.com/filmy/tennis.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/tennis.mp4", "V for Vendetta (2005)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/tennis.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "she[szi] - ona",
         sentence1: [
@@ -33885,7 +34001,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/678a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/678a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -33917,7 +34033,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/532a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/532a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -33929,7 +34045,7 @@ const fiszki10 = [
                 {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/532b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/532b.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -33939,7 +34055,7 @@ const fiszki10 = [
             category: ["hobby", "kolekcjonerstwo"]
         }
             ],
-        desc: "red[red] - czerowny",
+        desc: "a red[red] - czerowny",
         sentence2: [
             "a red"
         ],
@@ -33962,7 +34078,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/671a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/671a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -33972,7 +34088,7 @@ const fiszki10 = [
             category: ["", ""]
         }
             ],
-        desc: "summer[de same] - lato",
+        desc: "summer[same] - lato",
         sentence2: [
             "summer"
         ],
@@ -33995,7 +34111,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/614a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/614a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -34028,7 +34144,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
                 alt: "Gracz Rugby. Wygenerowane przez AI."
             },
             story: {
@@ -34040,7 +34156,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
                 alt: "Hipopotam w wodzie. Wygenerowane przez AI."
             },
             story: {
@@ -34052,7 +34168,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
                 alt: "Loty balonowe. Wygenerowane przez AI."
             },
             story: {
@@ -34064,7 +34180,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -34076,7 +34192,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg",
                 alt: "Smakowanie przysmaków. Wygenerowane przez AI."
             },
             story: {
@@ -34090,10 +34206,10 @@ const fiszki10 = [
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
-        srcWordimage: "https://www.arbulang.com/filmy/newspaper.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/newspaper.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         sentence1: [
             "He"
@@ -34117,7 +34233,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/683a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/683a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -34150,7 +34266,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/684a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/684a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -34183,7 +34299,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/4a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/4a.jpg",
                 alt: "Wysportowana sylwetka. Wygenerowane przez AI."
             },
             story: {
@@ -34195,7 +34311,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/4b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/4b.jpg",
                 alt: "Aktor w lesie. Wygenerowane przez AI."
             },
             story: {
@@ -34207,7 +34323,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/4c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/4c.jpg",
                 alt: "Pióro na biurku. Wygenerowane przez AI."
             },
             story: {
@@ -34219,7 +34335,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/4d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/4d.jpg",
                 alt: "Atrapa Królowej. Wygenerowane przez AI."
             },
             story: {
@@ -34231,7 +34347,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/4e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/4e.jpg",
                 alt: "Złodziej podczas rabunku. Wygenerowane przez AI."
             },
             story: {
@@ -34264,7 +34380,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/324a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/324a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -34297,7 +34413,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/84a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/84a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -34330,7 +34446,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19a.jpg",
                 alt: "Odzież ochronna dla jazdy rowerem. Wygenerowane przez AI."
             },
             story: {
@@ -34342,7 +34458,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19b.jpg",
                 alt: "Portret kobiety. Wygenerowane przez AI."
             },
             story: {
@@ -34354,7 +34470,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19c.jpg",
                 alt: "Boginii Gaja. Wygenerowane przez AI."
             },
             story: {
@@ -34366,7 +34482,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19d.jpg",
                 alt: "Wesele pary młodej. Wygenerowane przez AI."
             },
             story: {
@@ -34378,7 +34494,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19e.jpg",
                 alt: "Zajmowanie się kurami. Wygenerowane przez AI."
             },
             story: {
@@ -34390,10 +34506,10 @@ const fiszki10 = [
     ],
         translate: "Pracuję dziś nad dużym projektem",
         translateb: "[Aj em łorking on e big prodźekt tudej]",
-        srcWord: ["https://www.arbulang.com/filmy/project.mp4", "Matrix(1999)"],
-        srcWordimage: "https://www.arbulang.com/filmy/project.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/project.mp4", "Matrix(1999)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/project.png",
         word: [
-            "https://www.arbulang.com/voice/music.mp4"
+            "http://localhost/arbulanguage.com/voice/music.mp4"
         ],
         desc: "i[aj] - ja",
         sentence1: [
@@ -34418,7 +34534,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/689a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/689a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -34451,7 +34567,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/182a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/182a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -34484,7 +34600,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/10a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/10a.jpg",
                 alt: "Spacer po mieście. Wygenerowane przez AI."
             },
             story: {
@@ -34496,7 +34612,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/10b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/10b.jpg",
                 alt: "Wąż. Wygenerowane przez AI."
             },
             story: {
@@ -34508,7 +34624,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/10c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/10c.jpg",
                 alt: "Totem Faraona. Wygenerowane przez AI."
             },
             story: {
@@ -34520,7 +34636,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/10d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/10d.jpg",
                 alt: "Trzymanie kciuków za wyniki sportowe. Wygenerowane przez AI."
             },
             story: {
@@ -34532,7 +34648,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/10e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/10e.jpg",
                 alt: "Prezent okolicznościowy. Wygenerowane przez AI."
             },
             story: {
@@ -34565,7 +34681,7 @@ const fiszki10 = [
                         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa1.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa1.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -34577,7 +34693,7 @@ const fiszki10 = [
                 {
                             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50cc.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50cc.jpg",
                 alt: "Zroszona przez deszcz - roślina. Wygenerowane przez AI."
             },
             story: {
@@ -34589,7 +34705,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa.jpg",
                 alt: "Ogród kwiatowy. Wygenerowane przez AI."
             },
             story: {
@@ -34601,7 +34717,7 @@ const fiszki10 = [
                 {
                     id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50bb4.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50bb4.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -34613,7 +34729,7 @@ const fiszki10 = [
         {
                     id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50bb.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50bb.jpg",
                 alt: "Auto na parkingu. Wygenerowane przez AI."
             },
             story: {
@@ -34625,7 +34741,7 @@ const fiszki10 = [
                         {
                     id: 6,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa6.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa6.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -34637,7 +34753,7 @@ const fiszki10 = [
         {
                             id: 7,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa7.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa7.jpg",
                 alt: "Auto na parkingu. Wygenerowane przez AI."
             },
             story: {
@@ -34670,7 +34786,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/693a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/693a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -34703,7 +34819,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/694a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/694a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -34716,10 +34832,10 @@ const fiszki10 = [
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
-        srcWordimage: "https://www.arbulang.com/filmy/newspaper.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/newspaper.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "shark[szark] - rekin",
         sentence1: [
@@ -34744,7 +34860,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/458a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/458a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -34756,7 +34872,7 @@ const fiszki10 = [
                 {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/458a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/458a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -34789,7 +34905,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/79a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/79a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -34822,7 +34938,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/254a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/254a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -34854,7 +34970,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/698a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/698a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -34886,7 +35002,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/563a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/563a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -34899,10 +35015,10 @@ const fiszki10 = [
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
-        srcWordimage: "https://www.arbulang.com/filmy/newspaper.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/newspaper.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "baby[bejbi/beibi] - dziecko",
         sentence1: [
@@ -34926,7 +35042,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/700a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/700a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -34958,7 +35074,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/254a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/254a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -34990,7 +35106,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/702a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/702a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -35022,7 +35138,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19a.jpg",
                 alt: "Odzież ochronna dla jazdy rowerem. Wygenerowane przez AI."
             },
             story: {
@@ -35034,7 +35150,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19b.jpg",
                 alt: "Portret kobiety. Wygenerowane przez AI."
             },
             story: {
@@ -35046,7 +35162,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19c.jpg",
                 alt: "Boginii Gaja. Wygenerowane przez AI."
             },
             story: {
@@ -35058,7 +35174,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19d.jpg",
                 alt: "Wesele pary młodej. Wygenerowane przez AI."
             },
             story: {
@@ -35070,7 +35186,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19e.jpg",
                 alt: "Zajmowanie się kurami. Wygenerowane przez AI."
             },
             story: {
@@ -35083,10 +35199,10 @@ const fiszki10 = [
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
-        srcWordimage: "https://www.arbulang.com/filmy/newspaper.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/newspaper.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "I[aj] - ja",
         sentence1: [
@@ -35111,7 +35227,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/678a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/678a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -35144,7 +35260,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/705a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/705a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -35177,7 +35293,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/4a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/4a.jpg",
                 alt: "Wysportowana sylwetka. Wygenerowane przez AI."
             },
             story: {
@@ -35189,7 +35305,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/4b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/4b.jpg",
                 alt: "Aktor w lesie. Wygenerowane przez AI."
             },
             story: {
@@ -35201,7 +35317,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/4c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/4c.jpg",
                 alt: "Pióro na biurku. Wygenerowane przez AI."
             },
             story: {
@@ -35213,7 +35329,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/4d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/4d.jpg",
                 alt: "Atrapa Królowej. Wygenerowane przez AI."
             },
             story: {
@@ -35225,7 +35341,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/4e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/4e.jpg",
                 alt: "Złodziej podczas rabunku. Wygenerowane przez AI."
             },
             story: {
@@ -35257,7 +35373,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/707a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/707a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -35289,7 +35405,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
                 alt: "Gracz Rugby. Wygenerowane przez AI."
             },
             story: {
@@ -35301,7 +35417,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
                 alt: "Hipopotam w wodzie. Wygenerowane przez AI."
             },
             story: {
@@ -35313,7 +35429,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
                 alt: "Loty balonowe. Wygenerowane przez AI."
             },
             story: {
@@ -35325,7 +35441,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -35337,7 +35453,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg",
                 alt: "Smakowanie przysmaków. Wygenerowane przez AI."
             },
             story: {
@@ -35350,10 +35466,10 @@ const fiszki10 = [
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/openwindow.mp4", "Dwunastu gniewnych ludzi (1957)"],
-        srcWordimage: "https://www.arbulang.com/filmy/openwindow.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/openwindow.mp4", "Dwunastu gniewnych ludzi (1957)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/openwindow.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "he[hi] - on",
         sentence1: [
@@ -35378,7 +35494,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/709a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/709a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -35411,7 +35527,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/570a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/570a.jpg",
                 alt: "Piłki koszykarskie. Wygenerowane przez AI."
             },
             story: {
@@ -35423,7 +35539,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/570b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/570b.jpg",
                 alt: "Deptak dla mieszkańców. Wygenerowane przez AI."
             },
             story: {
@@ -35435,7 +35551,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/570c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/570c.jpg",
                 alt: "Politycy na posiedzeniu. Wygenerowane przez AI."
             },
             story: {
@@ -35445,7 +35561,7 @@ const fiszki10 = [
            category: [""]
         }
     ],
-        desc: "window[] - okno",
+        desc: "window[łindoł] - okno",
         liczbamnoga: "windows",
         podobne: ["quin", "winter", "win", "wind"],
         sentence1: [
@@ -35470,7 +35586,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/324a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/324a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -35502,7 +35618,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/332a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/332a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -35534,7 +35650,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/499a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/499a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -35547,10 +35663,10 @@ const fiszki10 = [
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
-        srcWordimage: "https://www.arbulang.com/filmy/newspaper.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/newspaper.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "river[riwer] - rzeka",
         sentence1: [
@@ -35574,7 +35690,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/714a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/714a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -35606,7 +35722,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/568a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/568a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -35638,7 +35754,7 @@ const fiszki10 = [
                         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa1.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa1.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -35650,7 +35766,7 @@ const fiszki10 = [
                 {
                             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50cc.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50cc.jpg",
                 alt: "Zroszona przez deszcz - roślina. Wygenerowane przez AI."
             },
             story: {
@@ -35662,7 +35778,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa.jpg",
                 alt: "Ogród kwiatowy. Wygenerowane przez AI."
             },
             story: {
@@ -35674,7 +35790,7 @@ const fiszki10 = [
                 {
                     id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50bb4.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50bb4.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -35686,7 +35802,7 @@ const fiszki10 = [
         {
                     id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50bb.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50bb.jpg",
                 alt: "Auto na parkingu. Wygenerowane przez AI."
             },
             story: {
@@ -35698,7 +35814,7 @@ const fiszki10 = [
                         {
                     id: 6,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa6.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa6.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -35710,7 +35826,7 @@ const fiszki10 = [
         {
                             id: 7,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa7.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa7.jpg",
                 alt: "Auto na parkingu. Wygenerowane przez AI."
             },
             story: {
@@ -35743,7 +35859,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/56aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/56aa.jpg",
                 alt: "Pies w gospodarstwie. Wygenerowane przez AI."
             },
             story: {
@@ -35776,7 +35892,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/131a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/131a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -35789,10 +35905,10 @@ const fiszki10 = [
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
-        srcWordimage: "https://www.arbulang.com/filmy/newspaper.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/newspaper.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "we[łi] - my",
         sentence1: [
@@ -35817,7 +35933,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/564a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/564a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -35850,7 +35966,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/720a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/720a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -35883,7 +35999,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/721a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/721a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -35915,7 +36031,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/722a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/722a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -35947,7 +36063,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
                 alt: "Gracz Rugby. Wygenerowane przez AI."
             },
             story: {
@@ -35959,7 +36075,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
                 alt: "Hipopotam w wodzie. Wygenerowane przez AI."
             },
             story: {
@@ -35971,7 +36087,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
                 alt: "Loty balonowe. Wygenerowane przez AI."
             },
             story: {
@@ -35983,7 +36099,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -35995,7 +36111,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg",
                 alt: "Smakowanie przysmaków. Wygenerowane przez AI."
             },
             story: {
@@ -36008,10 +36124,10 @@ const fiszki10 = [
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
-        srcWordimage: "https://www.arbulang.com/filmy/newspaper.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/newspaper.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "he[hi] - on",
         sentence1: [
@@ -36032,13 +36148,21 @@ const fiszki10 = [
             124,
             227
         ],
-        img: [
-            "https://www.arbulang.com/img/fiszki1/364a.jpg"
-        ],
-        story: [
-            "KOGNATY PARK (PL) - PARK (ENG)"
-        ],
-        desc: "drinks[] - park",
+                    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/717a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "KOGNATY DRINKS (ENG - DRINKS) - DRINKOWAĆ (PL)",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+            ],
+        desc: "drinks[drinks] - pije",
         sentence1: [
             "drinks"
         ],
@@ -36061,7 +36185,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/698.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/698a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -36094,7 +36218,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/637a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/637a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -36127,7 +36251,7 @@ const fiszki10 = [
                         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/48aa1.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/48aa1.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -36139,7 +36263,7 @@ const fiszki10 = [
                 {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/48aa2.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/48aa2.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -36151,7 +36275,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/48aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/48aa.jpg",
                 alt: "Historia człowieka w muzeum. Wygenerowane przez AI."
             },
             story: {
@@ -36163,7 +36287,7 @@ const fiszki10 = [
                 {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/106b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/106b.jpg",
                 alt: "Wynalazek nowoczesności. Wygenerowane przez AI."
             },
             story: {
@@ -36175,7 +36299,7 @@ const fiszki10 = [
                         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/48aa5.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/48aa5.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -36208,7 +36332,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/728a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/728a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -36241,7 +36365,7 @@ const fiszki10 = [
                         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa1.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa1.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -36253,7 +36377,7 @@ const fiszki10 = [
                 {
                             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50cc.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50cc.jpg",
                 alt: "Zroszona przez deszcz - roślina. Wygenerowane przez AI."
             },
             story: {
@@ -36265,7 +36389,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa.jpg",
                 alt: "Ogród kwiatowy. Wygenerowane przez AI."
             },
             story: {
@@ -36277,7 +36401,7 @@ const fiszki10 = [
                 {
                     id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50bb4.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50bb4.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -36289,7 +36413,7 @@ const fiszki10 = [
         {
                     id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50bb.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50bb.jpg",
                 alt: "Auto na parkingu. Wygenerowane przez AI."
             },
             story: {
@@ -36301,7 +36425,7 @@ const fiszki10 = [
                         {
                     id: 6,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa6.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa6.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -36313,7 +36437,7 @@ const fiszki10 = [
         {
                             id: 7,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/50aa7.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa7.jpg",
                 alt: "Auto na parkingu. Wygenerowane przez AI."
             },
             story: {
@@ -36326,10 +36450,10 @@ const fiszki10 = [
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
-        srcWordimage: "https://www.arbulang.com/filmy/newspaper.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/newspaper.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "my[maj] - moja, moje",
         sentence1: [
@@ -36354,7 +36478,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/730a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/730a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -36365,7 +36489,7 @@ const fiszki10 = [
         }
             ],
         desc: "aunt[ant] - ciotka",
-        sentence2: [
+        sentence1: [
             "aunt"
         ],
         sentence: [
@@ -36387,7 +36511,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/731a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/731a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -36398,7 +36522,7 @@ const fiszki10 = [
         }
             ],
         desc: "cooks[kuks] - gotuje",
-        sentence2: [
+        sentence1: [
             "cooks"
         ],
         sentence: [
@@ -36420,7 +36544,7 @@ const fiszki10 = [
                         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/42aa1.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/42aa1.jpg",
                 alt: " Wygenerowane przez AI."
             },
             story: {
@@ -36432,7 +36556,7 @@ const fiszki10 = [
                 {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/42aa2.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/42aa2.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -36444,7 +36568,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/42aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/42aa.jpg",
                 alt: "Zadowolony petent. Wygenerowane przez AI."
             },
             story: {
@@ -36456,7 +36580,7 @@ const fiszki10 = [
                 {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/42aa4.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/42aa4.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -36468,7 +36592,7 @@ const fiszki10 = [
                         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/42a5.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/42a5.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -36501,11 +36625,11 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/733a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/733a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
-                text: "b><u>Tej</b></u> ziomewej wieczornej <b><u>sty</b></u>czniowej pory jem bardzo <b><u>smaczną</b></u> kolację",
+                text: "b><u>Tej</b></u> zimowej wieczornej <b><u>sty</b></u>czniowej pory jem bardzo <b><u>smaczną</b></u> kolację",
                 alt: ""
             },
             category: ["zawody", "kucharz"]
@@ -36534,7 +36658,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/555a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/555a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -36567,7 +36691,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/28aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/28aa.jpg",
                 alt: "Kot na łodzi. Wygenerowane przez AI."
             },
             story: {
@@ -36579,7 +36703,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/28bb.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/28bb.jpg",
                 alt: "Kot na spacerze. Wygenerowane przez AI."
             },
             story: {
@@ -36591,7 +36715,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/28cc.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/28cc.jpg",
                 alt: "Kot w egzotycznym kraju. Wygenerowane przez AI."
             },
             story: {
@@ -36603,7 +36727,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/28dd.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/28dd.jpg",
                 alt: "Kot rozciągający się. Wygenerowane przez AI."
             },
             story: {
@@ -36615,7 +36739,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/28ee.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/28ee.jpg",
                 alt: "Moje zdjęcie z kotem. Wygenerowane przez AI."
             },
             story: {
@@ -36628,10 +36752,10 @@ const fiszki10 = [
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
-        srcWordimage: "https://www.arbulang.com/filmy/newspaper.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/newspaper.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "cat[kat] - kot",
         sentence1: [
@@ -36655,7 +36779,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/736a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/736a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -36666,7 +36790,7 @@ const fiszki10 = [
         }
             ],
         desc: "hides[hajds] - ukrywać",
-        sentence2: [
+        sentence1: [
             "hides"
         ],
         sentence: [
@@ -36687,7 +36811,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/351a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/351a.jpg",
                 alt: "Mały piesek. Wygenerowane przez AI."
             },
             story: {
@@ -36699,7 +36823,7 @@ const fiszki10 = [
                 {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/351b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/351b.jpg",
                 alt: "Mały piesek. Wygenerowane przez AI."
             },
             story: {
@@ -36731,7 +36855,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/660a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/660a.jpg",
                 alt: "Picie herbaty. Wygenerowane przez AI."
             },
             story: {
@@ -36763,7 +36887,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19a.jpg",
                 alt: "Odzież ochronna dla jazdy rowerem. Wygenerowane przez AI."
             },
             story: {
@@ -36775,7 +36899,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19b.jpg",
                 alt: "Portret kobiety. Wygenerowane przez AI."
             },
             story: {
@@ -36787,7 +36911,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19c.jpg",
                 alt: "Boginii Gaja. Wygenerowane przez AI."
             },
             story: {
@@ -36799,7 +36923,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19d.jpg",
                 alt: "Wesele pary młodej. Wygenerowane przez AI."
             },
             story: {
@@ -36811,7 +36935,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19e.jpg",
                 alt: "Zajmowanie się kurami. Wygenerowane przez AI."
             },
             story: {
@@ -36824,10 +36948,10 @@ const fiszki10 = [
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
-        srcWordimage: "https://www.arbulang.com/filmy/newspaper.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/newspaper.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "I[aj] - ja",
         sentence1: [
@@ -36852,7 +36976,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/740a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/740a.jpg",
                 alt: "Picie herbaty. Wygenerowane przez AI."
             },
             story: {
@@ -36885,7 +37009,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/741a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/741a.jpg",
                 alt: "Picie herbaty. Wygenerowane przez AI."
             },
             story: {
@@ -36918,7 +37042,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/742a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/742a.jpg",
                 alt: "Picie herbaty. Wygenerowane przez AI."
             },
             story: {
@@ -36950,7 +37074,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/743a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/743a.jpg",
                 alt: "Picie herbaty. Wygenerowane przez AI."
             },
             story: {
@@ -36982,7 +37106,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/207b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/207b.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -36995,10 +37119,10 @@ const fiszki10 = [
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
-        srcWordimage: "https://www.arbulang.com/filmy/newspaper.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/newspaper.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "they[dej] - oni",
         sentence1: [
@@ -37023,7 +37147,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/745a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/745a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -37056,7 +37180,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/214a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/214a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -37089,7 +37213,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/254a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/254a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -37121,7 +37245,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/521a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/521a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -37153,7 +37277,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/749a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/749a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -37166,10 +37290,10 @@ const fiszki10 = [
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
-        srcWordimage: "https://www.arbulang.com/filmy/newspaper.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/newspaper.mp4", "Kevin sam w domu (1990)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/newspaper.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "clock[klok] - zegar",
         sentence1: [
@@ -37196,7 +37320,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/750a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/750a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -37231,7 +37355,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/751a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/751a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -37266,7 +37390,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/745aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/745aa.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -37301,7 +37425,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/228a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/228a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -37336,7 +37460,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19a.jpg",
                 alt: "Odzież ochronna dla jazdy rowerem. Wygenerowane przez AI."
             },
             story: {
@@ -37348,7 +37472,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19b.jpg",
                 alt: "Portret kobiety. Wygenerowane przez AI."
             },
             story: {
@@ -37360,7 +37484,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19c.jpg",
                 alt: "Boginii Gaja. Wygenerowane przez AI."
             },
             story: {
@@ -37372,7 +37496,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19d.jpg",
                 alt: "Wesele pary młodej. Wygenerowane przez AI."
             },
             story: {
@@ -37384,7 +37508,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/19e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19e.jpg",
                 alt: "Zajmowanie się kurami. Wygenerowane przez AI."
             },
             story: {
@@ -37397,10 +37521,10 @@ const fiszki10 = [
         translate: "Rysuję zwierzęta na papierze",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/lekcja44/drawing.mp4", "Kevin sam w domu (1990)"],
-        srcWordimage: "https://www.arbulang.com/filmy/lekcja44/drawing.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja44/drawing.mp4", "Kevin sam w domu (1990)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja44/drawing.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "I[aj] - ja",
         sentence1: [
@@ -37425,7 +37549,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/748aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/748aa.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -37437,7 +37561,7 @@ const fiszki10 = [
                 {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/748bb.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/748bb.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -37448,7 +37572,7 @@ const fiszki10 = [
         }
             ],
         desc: "draw[dru] - rysować",
-        sentence2: [
+        sentence1: [
             "draw"
         ],
         sentence: [
@@ -37470,7 +37594,7 @@ const fiszki10 = [
                         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/483a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/483a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -37482,7 +37606,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/483b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/483b.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -37493,7 +37617,7 @@ const fiszki10 = [
         }
             ],
         desc: "animals[animyls] - zwierzęta",
-        sentence2: [
+        sentence1: [
             "animals"
         ],
         sentence: [
@@ -37515,7 +37639,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/246a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/246a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -37547,7 +37671,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/751aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/751aa.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -37579,7 +37703,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
                 alt: "Gracz Rugby. Wygenerowane przez AI."
             },
             story: {
@@ -37591,7 +37715,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
                 alt: "Hipopotam w wodzie. Wygenerowane przez AI."
             },
             story: {
@@ -37603,7 +37727,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
                 alt: "Loty balonowe. Wygenerowane przez AI."
             },
             story: {
@@ -37615,7 +37739,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -37627,7 +37751,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg",
                 alt: "Smakowanie przysmaków. Wygenerowane przez AI."
             },
             story: {
@@ -37640,8 +37764,8 @@ const fiszki10 = [
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/lekcja44/drawing.mp4", "Kevin sam w domu (1990)"],
-        srcWordimage: "https://www.arbulang.com/filmy/lekcja44/drawing.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja44/drawing.mp4", "Kevin sam w domu (1990)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja44/drawing.png",
         desc: "he[hi] - on",
         sentence1: [
             "He"
@@ -37665,18 +37789,18 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/753a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/753a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
-                text: "",
+                text: "<u><b>Kla</u></b>ra gra w S<u><b>ims</u></b>y na komputerze i <u><b>wspina się</u></b> z rodziną na wysoką górę",
                 alt: ""
             },
             category: ["", ""]
         }
             ],
         desc: "climbs[klajms] - wspina się",
-        sentence2: [
+        sentence1: [
             "climbs"
         ],
         sentence: [
@@ -37698,11 +37822,11 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/754a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/754a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
-                text: "",
+                text: "Wal<u><b>de</u></b>k zastosował <u><b>tri</u></b>k i ochłodził się pod cieniem drzewa",
                 alt: ""
             },
             category: ["wakacje", "odpoczynek"]
@@ -37731,7 +37855,7 @@ const fiszki10 = [
                         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/42aa1.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/42aa1.jpg",
                 alt: " Wygenerowane przez AI."
             },
             story: {
@@ -37743,7 +37867,7 @@ const fiszki10 = [
                 {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/42aa2.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/42aa2.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -37755,7 +37879,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/42aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/42aa.jpg",
                 alt: "Zadowolony petent. Wygenerowane przez AI."
             },
             story: {
@@ -37767,7 +37891,7 @@ const fiszki10 = [
                 {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/42aa4.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/42aa4.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -37779,7 +37903,7 @@ const fiszki10 = [
                         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/42a5.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/42a5.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -37811,7 +37935,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/79a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/79a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -37843,7 +37967,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/131a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/131a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -37856,10 +37980,10 @@ const fiszki10 = [
         translate: "Rysuję zwierzęta na papierze",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/lekcja44/drawing.mp4", "Kevin sam w domu (1990)"],
-        srcWordimage: "https://www.arbulang.com/filmy/lekcja44/drawing.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja44/drawing.mp4", "Kevin sam w domu (1990)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja44/drawing.png",
         word: [
-            "https://www.arbulang.com/voice/bike.mp4"
+            "http://localhost/arbulanguage.com/voice/bike.mp4"
         ],
         desc: "we[łi] - my",
         sentence1: [
@@ -37884,7 +38008,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/758a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/758a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -37895,7 +38019,7 @@ const fiszki10 = [
         }
             ],
         desc: "eat[it] - jeść",
-        sentence2: [
+        sentence1: [
             "eat"
         ],
         sentence: [
@@ -37917,7 +38041,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/759a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/759a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -37928,7 +38052,7 @@ const fiszki10 = [
         }
             ],
         desc: "pizza[pica] - pizza",
-        sentence2: [
+        sentence1: [
             "pizza"
         ],
         sentence: [
@@ -37950,7 +38074,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/16a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/16a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -37962,7 +38086,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/16b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/16b.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -37974,7 +38098,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/16c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/16c.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -37986,7 +38110,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/16d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/16d.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -37998,7 +38122,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/16e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/16e.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -38010,7 +38134,7 @@ const fiszki10 = [
         {
             id: 6,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/190a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/190a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -38043,7 +38167,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/32aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/32aa.jpg",
                 alt: "Zawodnik na meczu. Wygenerowane przez AI."
             },
             story: {
@@ -38055,7 +38179,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/32bb.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/32bb.jpg",
                 alt: "Ogrodnik w ogrodzie. Wygenerowane przez AI."
             },
             story: {
@@ -38067,7 +38191,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/32cc.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/32cc.jpg",
                 alt: "Sieć wysokiego napięcia. Wygenerowane przez AI."
             },
             story: {
@@ -38079,7 +38203,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/32dd.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/32dd.jpg",
                 alt: "Oko Saurona. Wygenerowane przez AI."
             },
             story: {
@@ -38091,7 +38215,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/32ee.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/32ee.jpg",
                 alt: "Laurka dla mamy. Wygenerowane przez AI."
             },
             story: {
@@ -38120,17 +38244,11 @@ const fiszki10 = [
             132,
             242
         ],
-                                    {
-        id: [
-            659,
-            112,
-            205
-        ],
             entries: [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/62aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/62aa.jpg",
                 alt: "Mężczyzna we fraku. Wygenerowane przez AI."
             },
             story: {
@@ -38142,7 +38260,7 @@ const fiszki10 = [
                         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/382a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/382a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -38175,7 +38293,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/763a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/763a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -38188,8 +38306,8 @@ const fiszki10 = [
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/lekcja44/drawing.mp4", ""],
-        srcWordimage: "https://www.arbulang.com/filmy/lekcja44/drawing.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja44/drawing.mp4", ""],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja44/drawing.png",
         desc: "the phone[de fon] - telefon",
         sentence1: [
             "The phone"
@@ -38212,7 +38330,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/764a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/764a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -38223,7 +38341,7 @@ const fiszki10 = [
         }
             ],
         desc: "rings[rings] - dzwoni",
-        sentence2: [
+        sentence1: [
             "rings"
         ],
         sentence: [
@@ -38244,7 +38362,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/254a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/254a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -38276,7 +38394,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/766a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/766a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -38308,7 +38426,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
                 alt: "Gracz Rugby. Wygenerowane przez AI."
             },
             story: {
@@ -38320,7 +38438,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
                 alt: "Hipopotam w wodzie. Wygenerowane przez AI."
             },
             story: {
@@ -38332,7 +38450,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
                 alt: "Loty balonowe. Wygenerowane przez AI."
             },
             story: {
@@ -38344,7 +38462,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -38356,7 +38474,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg",
                 alt: "Smakowanie przysmaków. Wygenerowane przez AI."
             },
             story: {
@@ -38369,8 +38487,8 @@ const fiszki10 = [
         translate: "",
         translateb: "[]",
         translateb2: "[]",
-        srcWord: ["https://www.arbulang.com/filmy/lekcja44/drawing.mp4", "Kevin sam w domu (1990)"],
-        srcWordimage: "https://www.arbulang.com/filmy/lekcja44/drawing.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja44/drawing.mp4", "Kevin sam w domu (1990)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja44/drawing.png",
         desc: "he[hi] - on",
         sentence1: [
             "He"
@@ -38394,7 +38512,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/768a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/768a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -38402,10 +38520,22 @@ const fiszki10 = [
                 alt: ""
             },
             category: ["wakacje", "odpoczynek"]
+        },
+                {
+            id: 2,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/768b.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Aktorzy grają sztukę teatralną w <u><b>ins</u></b>cenizacji której <u><b>czyszczą</u></b> podłogę w takiej <u><b>kli</u></b>tce",
+                alt: ""
+            },
+            category: ["wakacje", "odpoczynek"]
         }
             ],
         desc: "cleans[klins] - czyści",
-        sentence2: [
+        sentence1: [
             "cleans"
         ],
         sentence: [
@@ -38427,7 +38557,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/769a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/769a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -38438,7 +38568,7 @@ const fiszki10 = [
         }
             ],
         desc: "the floor[de flo(r)] - podłoga",
-        sentence2: [
+        sentence1: [
             "the floor"
         ],
         sentence: [
@@ -38460,7 +38590,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/324a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/324a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -38492,7 +38622,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/207b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/207b.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -38524,7 +38654,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/95aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/95aa.jpg",
                 alt: "Opakowanie suplementów grzyba riszi. Wygenerowane przez AI."
             },
             story: {
@@ -38570,7 +38700,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/773a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/773a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -38611,7 +38741,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/774.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/774a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -38653,7 +38783,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/775a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/775a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -38666,7 +38796,7 @@ const fiszki10 = [
                                                                         word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja135/would.mp3"
         ],
-        desc: "would[łud] - zrobiłbym/zrobiłabym",
+        desc: "would[łud] - mogłoby/mógłby/mogłaby",
         sentence2: [
             "would"
         ],
@@ -38695,7 +38825,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/776a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/776a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -38737,7 +38867,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/777a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/777a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -38784,7 +38914,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/778a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/778a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -38796,9 +38926,6 @@ const fiszki10 = [
             ],
                                                                                         word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja136/stayed.mp3"
-        ],
-        story: [
-            "KOGNATY PARK (PL) - PARK (ENG)"
         ],
         desc: "stayed[stejd] - pozostał",
         sentence1: [
@@ -38829,7 +38956,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/779a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/779a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -38871,7 +38998,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/218a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/218a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -38912,7 +39039,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/781a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/781a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -38953,7 +39080,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
                 alt: "Gracz Rugby. Wygenerowane przez AI."
             },
             story: {
@@ -38965,7 +39092,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
                 alt: "Hipopotam w wodzie. Wygenerowane przez AI."
             },
             story: {
@@ -38977,7 +39104,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
                 alt: "Loty balonowe. Wygenerowane przez AI."
             },
             story: {
@@ -38989,7 +39116,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -39001,7 +39128,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg",
                 alt: "Smakowanie przysmaków. Wygenerowane przez AI."
             },
             story: {
@@ -39047,7 +39174,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/783a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/783a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -39088,7 +39215,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/784a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/784a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -39129,7 +39256,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/109a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/109a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -39170,11 +39297,11 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/786a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/786a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
-                text: "Czeski miłośnik czasu kiedy pada <b><u>deszcz</b></u> - And<b><u>rej</b></u>... wypatruje <b><u>in</b></u>foramcji o deszczu",
+                text: "Czeski miłośnik czasu - kiedy pada <b><u>deszcz</b></u> - And<b><u>rej</b></u>... wypatruje <b><u>in</b></u>formacji o deszczu",
                 alt: ""
             },
             category: ["", ""]
@@ -39217,7 +39344,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/787a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/787a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -39259,7 +39386,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/788a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/788a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -39301,7 +39428,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
                 alt: "Piłki koszykarskie. Wygenerowane przez AI."
             },
             story: {
@@ -39313,7 +39440,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
                 alt: "Deptak dla mieszkańców. Wygenerowane przez AI."
             },
             story: {
@@ -39325,7 +39452,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
                 alt: "Politycy na posiedzeniu. Wygenerowane przez AI."
             },
             story: {
@@ -39337,7 +39464,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
                 alt: "Wystąpienia polityków. Wygenerowane przez AI."
             },
             story: {
@@ -39349,7 +39476,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg",
                 alt: "Zasady w rodzinie. Wygenerowane przez AI."
             },
             story: {
@@ -39391,7 +39518,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/790a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/784a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -39433,7 +39560,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/791a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/791a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -39475,7 +39602,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/207b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/207b.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -39524,11 +39651,11 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/793a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/793a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
-                text: "Wszyscy <u><b>wiedzieli</u></b> o Zofii <u><b>Noł</u></b>akowskiej, wspaniałem pisarce",
+                text: "Wszyscy <u><b>wiedzieli</u></b> o Zofii <u><b>Noł</u></b>akowskiej, wspaniałej pisarce",
                 alt: ""
             },
             category: ["sezon", "prace ogrodowe"]
@@ -39567,7 +39694,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/794a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/794a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -39608,7 +39735,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/795a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/795a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -39652,7 +39779,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
                 alt: "Gracz Rugby. Wygenerowane przez AI."
             },
             story: {
@@ -39664,7 +39791,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
                 alt: "Hipopotam w wodzie. Wygenerowane przez AI."
             },
             story: {
@@ -39676,7 +39803,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
                 alt: "Loty balonowe. Wygenerowane przez AI."
             },
             story: {
@@ -39688,7 +39815,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -39700,7 +39827,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg",
                 alt: "Smakowanie przysmaków. Wygenerowane przez AI."
             },
             story: {
@@ -39749,7 +39876,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/797a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/797a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -39763,7 +39890,7 @@ const fiszki10 = [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja140/opened.mp3"
         ],
         desc: "opened[ołpend] - otworzył",
-        sentence2: [
+        sentence1: [
             "opened"
         ],
                                     sentence1b: [
@@ -39793,7 +39920,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
                 alt: "Piłki koszykarskie. Wygenerowane przez AI."
             },
             story: {
@@ -39805,7 +39932,7 @@ const fiszki10 = [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
                 alt: "Deptak dla mieszkańców. Wygenerowane przez AI."
             },
             story: {
@@ -39817,7 +39944,7 @@ const fiszki10 = [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
                 alt: "Politycy na posiedzeniu. Wygenerowane przez AI."
             },
             story: {
@@ -39829,7 +39956,7 @@ const fiszki10 = [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
                 alt: "Wystąpienia polityków. Wygenerowane przez AI."
             },
             story: {
@@ -39841,7 +39968,7 @@ const fiszki10 = [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/5e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg",
                 alt: "Zasady w rodzinie. Wygenerowane przez AI."
             },
             story: {
@@ -39855,7 +39982,7 @@ const fiszki10 = [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja140/the.mp3"
         ],
         desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
-        sentence2: [
+        sentence1: [
             "the"
         ],
                                             sentence1b: [
@@ -39885,7 +40012,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/799a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/799a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -39899,7 +40026,7 @@ const fiszki10 = [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja140/letter.mp3"
         ],
         desc: "letter[leter] - list",
-        sentence2: [
+        sentence1: [
             "letter"
         ],
                                                     sentence1b: [
@@ -39929,7 +40056,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/800a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/800a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -39943,7 +40070,7 @@ const fiszki10 = [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja140/slowly.mp3"
         ],
         desc: "slowly[slołli] - powoli",
-        sentence2: [
+        sentence1: [
             "slowly"
         ],
                                                             sentence1b: [
@@ -39973,7 +40100,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/801a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/76a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -40021,7 +40148,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/182a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/182a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -40064,7 +40191,7 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/803a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/803a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -40076,7 +40203,7 @@ const fiszki10 = [
                 {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/803b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/803b.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -40089,7 +40216,7 @@ const fiszki10 = [
                                                             word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja141/show.mp3"
         ],
-        desc: "show[ju] - pokazać",
+        desc: "show[szoł] - pokazać",
         sentence1: [
             "show"
         ],
@@ -40119,7 +40246,19 @@ const fiszki10 = [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/182a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/174a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Mi</b></u>zianie po stopach jest dla <b><u>mnie</b></u> przyjemne",
+                alt: ""
+            },
+            category: ["relaks", "masaż"]
+        },
+                {
+            id: 2,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/804a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -40162,7 +40301,7 @@ entries: [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/17a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/17a.jpg",
                 alt: "Portret majora w wojsu. Wygenerowane przez AI."
             },
             story: {
@@ -40174,7 +40313,7 @@ entries: [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/17b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/17b.jpg",
                 alt: "Zdjęcie Fjordu. Wygenerowane przez AI."
             },
             story: {
@@ -40186,7 +40325,7 @@ entries: [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/17c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/17c.jpg",
                 alt: "Kobieta w Jordanii. Wygenerowane przez AI."
             },
             story: {
@@ -40198,7 +40337,7 @@ entries: [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/17d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/17d.jpg",
                 alt: "Dziecko podczas zabawy w kałuży. Wygenerowane przez AI."
             },
             story: {
@@ -40210,7 +40349,7 @@ entries: [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/17e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/17e.jpg",
                 alt: "Pies - York. Wygenerowane przez AI."
             },
             story: {
@@ -40252,14 +40391,14 @@ entries: [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/182a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/226a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
                 text: "He<u><b>nju</u></b> ma <u><b>nowy</u></b> telefon",
                 alt: ""
             },
-            category: ["", ""]
+            category: ["media", "telefon"]
         }
             ],
                                                                 word: [
@@ -40294,7 +40433,7 @@ entries: [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/182a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/807a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -40336,7 +40475,7 @@ entries: [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
                 alt: "Gracz Rugby. Wygenerowane przez AI."
             },
             story: {
@@ -40348,7 +40487,7 @@ entries: [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
                 alt: "Hipopotam w wodzie. Wygenerowane przez AI."
             },
             story: {
@@ -40360,7 +40499,7 @@ entries: [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
                 alt: "Loty balonowe. Wygenerowane przez AI."
             },
             story: {
@@ -40372,7 +40511,7 @@ entries: [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -40384,7 +40523,7 @@ entries: [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg",
                 alt: "Smakowanie przysmaków. Wygenerowane przez AI."
             },
             story: {
@@ -40430,7 +40569,7 @@ entries: [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/809a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/809a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -40471,7 +40610,7 @@ entries: [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/810a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/810a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -40513,7 +40652,7 @@ entries: [
                         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/48aa1.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/48aa1.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -40525,7 +40664,7 @@ entries: [
                 {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/48aa2.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/48aa2.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -40537,7 +40676,7 @@ entries: [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/48aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/48aa.jpg",
                 alt: "Historia człowieka w muzeum. Wygenerowane przez AI."
             },
             story: {
@@ -40549,7 +40688,7 @@ entries: [
                 {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/106b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/106b.jpg",
                 alt: "Wynalazek nowoczesności. Wygenerowane przez AI."
             },
             story: {
@@ -40561,7 +40700,7 @@ entries: [
                         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/48aa5.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/48aa5.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -40603,7 +40742,7 @@ entries: [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/812a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/812a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -40645,7 +40784,7 @@ entries: [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/95aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/95aa.jpg",
                 alt: "Opakowanie suplementów grzyba riszi. Wygenerowane przez AI."
             },
             story: {
@@ -40661,8 +40800,8 @@ entries: [
             translate: "Ona mówi po angielsku bardzo płynnie teraz",
             translateb: "[Szi spiks inglisz wery fluentli nał]",
             translateb3: "She speaks English very fluently now",
-            srcWord: ["https://www.arbulang.com/filmy/lekcja22/learning-english.mp4", "Klik: I robisz, co chcesz (2006)"],
-            srcWordimage: "https://www.arbulang.com/filmy/lekcja22/learning-english.png",
+            srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja22/learning-english.mp4", "Klik: I robisz, co chcesz (2006)"],
+            srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja22/learning-english.png",
             opis: "",
             desc: "she[szi] - ona",
         sentence1: [
@@ -40695,11 +40834,11 @@ entries: [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/814a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/814a.jpg",
                 alt: "Opakowanie suplementów grzyba riszi. Wygenerowane przez AI."
             },
             story: {
-                text: "Unikam wiercienia wiertaką w l<u><b>ewo</u></b> <u><b>i</u></b> zwłaszcza z wiertłem D<u><b>DS</u></b>",
+                text: "Unikam wiercenia wiertarką w l<u><b>ewo</u></b> <u><b>i</u></b> zwłaszcza z wiertłem D<u><b>DS</u></b>",
                 alt: ""
             },
             category: ["", ""]
@@ -40739,7 +40878,7 @@ entries: [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/815a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/815a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -40783,7 +40922,7 @@ entries: [
                 {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/196b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/196b.jpg",
                 alt: "Wesele. Wygenerowane przez AI."
             },
             story: {
@@ -40827,11 +40966,11 @@ entries: [
                 {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/817a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/817a.jpg",
                 alt: "Wesele. Wygenerowane przez AI."
             },
             story: {
-                text: "Za dobre <b><u>pieniądze</b></u> Jessica zrobiła sobie <b><u>mani</b></u>curet</b></u>ury",
+                text: "Za dobre <b><u>pieniądze</b></u> Jessica zrobiła sobie <b><u>mani</b></u>kjur",
                 alt: ""
             },
             category: ["sport", "pływanie"]
@@ -40840,7 +40979,7 @@ entries: [
                                                                                                                                 word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja143/money.mp3"
         ],
-        desc: "money[mani] - pieniadze",
+        desc: "money[mani] - pieniądze",
         sentence1: [
             "money"
         ],
@@ -40871,7 +41010,7 @@ entries: [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/131a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/131a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -40887,8 +41026,8 @@ entries: [
         translate: "",
         translateb: "",
         translateb3: "",
-        srcWord: ["https://www.arbulang.com/filmy/lekcja8/.mp4", ""],
-        srcWordimage: "https://www.arbulang.com/filmy/lekcja8/.png",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja8/.mp4", ""],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja8/.png",
                                 opis: "Zapowiedź filmu",
         desc: "we[łi] - my",
         sentence1: [
@@ -40919,7 +41058,7 @@ entries: [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/131a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/819a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -40961,14 +41100,14 @@ entries: [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/131a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/820a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
                 text: "To <b><u>mit</b></u> - że w internecie najlepiej się kogoś <b><u>poznaje</b></u>",
                 alt: ""
             },
-            category: ["show-biznes", "aktor"]
+            category: ["", ""]
         }
             ],
                                                                                     word: [
@@ -41003,7 +41142,7 @@ entries: [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/821a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/821a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -41044,7 +41183,7 @@ entries: [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/508a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/508a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -41085,7 +41224,7 @@ entries: [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
                 alt: "Gracz Rugby. Wygenerowane przez AI."
             },
             story: {
@@ -41097,7 +41236,7 @@ entries: [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
                 alt: "Hipopotam w wodzie. Wygenerowane przez AI."
             },
             story: {
@@ -41109,7 +41248,7 @@ entries: [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
                 alt: "Loty balonowe. Wygenerowane przez AI."
             },
             story: {
@@ -41121,7 +41260,7 @@ entries: [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -41133,7 +41272,7 @@ entries: [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/7e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg",
                 alt: "Smakowanie przysmaków. Wygenerowane przez AI."
             },
             story: {
@@ -41180,7 +41319,7 @@ entries: [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/824a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/824a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -41194,7 +41333,7 @@ entries: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja145/refused.mp3"
         ],
         desc: "refused[rifjuzd] - odrzucony",
-        sentence2: [
+        sentence1: [
             "refused"
         ],
                                                                 sentence1b: [
@@ -41222,7 +41361,7 @@ entries: [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/825a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/825a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -41236,7 +41375,7 @@ entries: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja145/toaccept.mp3"
         ],
         desc: "to accept[tu aksept] - akceptować",
-        sentence2: [
+        sentence1: [
             "to_accept"
         ],
                                                                 sentence1b: [
@@ -41264,7 +41403,7 @@ entries: [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/54aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/54aa.jpg",
                 alt: "Heblarka automatyczna. Wygenerowane przez AI."
             },
             story: {
@@ -41305,12 +41444,12 @@ entries: [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/827a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/827a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
                 text: "Dar<b><u>ek</b></u> wyjaśnia dlaczego urządził taki <b><u>splen</b></u>dor... czyli profesjonalne studio do nagrywania swoj<b><u>ej</b></u> muzyki. Jest po wypadku samochodowym (ma w nodze <b><u>szyn</b></u>y) i dlatego ma zajęcie na siedząco",
-                alt: "Postęp prac. Czy praca wykonana szybko jest tak samo efektywna jak wolno?"
+                alt: ""
             },
             category: ["", ""]
         }
@@ -41342,13 +41481,68 @@ entries: [
             146,
             260
         ],
-        img: [
-            "http://localhost/arbulanguage.com/img/fiszki1/19a.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/19b.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/19c.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/19d.jpg",
-            "http://localhost/arbulanguage.com/img/fiszki1/19e.jpg"
-        ],
+        entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19a.jpg",
+                alt: "Odzież ochronna dla jazdy rowerem. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Ja</u></b> jestem Piotrek, mam okulary ochronne, gdy jechałem rowerem wleciała mi mucha do <u><b>oka</u></b>, krzyczałem <u><b>ajjj</u></b> - dlaczego to <u><b>mi</u></b> wleciała mucha do <u><b>oka</u></b>, <u><b>ajjj</u></b>",
+                alt: "Bezpieczna jazda rowerem. Czy do jazdy rowerem potrzebne jest przygotowanie?"
+            },
+            category: ["sport", "rowery"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19b.jpg",
+                alt: "Portret kobiety. Wygenerowane przez AI."
+            },
+            story: {
+                text: "M<u><b>aj</u></b>a ma zezowate <u><b>oko</u></b> i mówi, no <u><b>JA</u></b> widzę ciebie podwójnie",
+               alt: "Świadomość wady wzroku. Czy wadę wzroku można wyleczyć?"
+            },
+            category: ["natura", "zdrowie"]
+        },
+        {
+            id: 3,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19c.jpg",
+                alt: "Boginii Gaja. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Nauka o mitach, takich jak królowa G</u></b>aj</u></b>a to ten temat, gdzie <u><b>ja</u></b> mam największą wiedze",
+                alt: "Mitologia Boginii Gai. Kto to jest Boginii Gaja?"
+            },
+           category: ["nauka", "mitologia"]
+        },
+        {
+            id: 4,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19d.jpg",
+                alt: "Wesele pary młodej. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Teraz <u><b>ja</u></b> występuję na weselu jako wodzirej i śpiewam <u><b>Aj</u></b>-ja-jaj tak słodko jest tu z wami być..",
+                alt: "Przyjecie weselne. Kto może zostać wodzirejem?"
+            },
+            category: ["czarny humor", "muzyka"]
+        },
+        {
+            id: 5,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19e.jpg",
+                alt: "Zajmowanie się kurami. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Mo<u><b>ja</u></b> babcia idzie do kurnika po jaja, a <u><b>ja</u></b> będę za chwilę jadł jajecznice",
+               alt: "Gospodarstwo domowe ze zwierzętami. Czy hodowla zwierząt jest trudna?"
+            },
+            category: ["związki", "rodzina"]
+        }
+    ],
                                                 word: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja146/I.mp3"
         ],
@@ -41357,13 +41551,6 @@ entries: [
         translateb2: "[]",
         srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja/.mp4", ""],
         srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja/.png",
-        story: [
-            "<u><b>Ja</u></b> jestem Piotrek, mam okulary ochronne, gdy jechałem rowerem wleciała mi mucha do <u><b>oka</u></b>, krzyczałem <u><b>ajjj</u></b> - dlaczego to <u><b>mi</u></b> wleciała mucha do <u><b>oka</u></b>, <u><b>ajjj</u></b>",
-            "M<u><b>aj</u></b>a ma zezowate <u><b>oko</u></b> i mówi, no <u><b>JA</u></b> widzę ciebie podwójnie",
-            "Nauka o mitach, takich jak królowa G</u></b>aj</u></b>a to ten temat, gdzie <u><b>ja</u></b> mam największą wiedze",
-            "Teraz <u><b>ja</u></b> występuję na weselu jako wodzirej i śpiewam <u><b>Aj</u></b>-ja-jaj tak słodko jest tu z wami być..",
-            "Mo<u><b>ja</u></b> babcia idzie do kurnika po jaja, a <u><b>ja</u></b> będę za chwilę jadł jajecznice"
-        ],
         desc: "I[aj] - ja",
         sentence1: [
             "I"
@@ -41393,7 +41580,7 @@ entries: [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/827a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/829a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -41407,7 +41594,7 @@ entries: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja146/completely.mp3"
         ],
         desc: "completely[komplitli] - całkowicie",
-        sentence2: [
+        sentence1: [
             "completely"
         ],
                                                                 sentence1b: [
@@ -41435,7 +41622,7 @@ entries: [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/827a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/830a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -41449,7 +41636,7 @@ entries: [
             "http://localhost/arbulanguage.com/voice/angielski/lekcja146/misuderstood.mp3"
         ],
         desc: "misuderstood[misanderstud] - źle zrozumieć",
-        sentence2: [
+        sentence1: [
             "misunderstood"
         ],
                                                                 sentence1b: [
@@ -41477,7 +41664,7 @@ entries: [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/827a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/831a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -41519,7 +41706,7 @@ entries: [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/95aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/95aa.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -41561,7 +41748,7 @@ entries: [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/833a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/833a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -41603,7 +41790,7 @@ entries: [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/95aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/95aa.jpg",
                 alt: "Opakowanie suplementów grzyba riszi. Wygenerowane przez AI."
             },
             story: {
@@ -41647,7 +41834,7 @@ entries: [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/835a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/835a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -41658,7 +41845,7 @@ entries: [
         }
             ],
         desc: "strongly[strongli] - silnie",
-        sentence2: [
+        sentence1: [
             "strongly"
         ],
                                                                 sentence1b: [
@@ -41686,7 +41873,7 @@ entries: [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/836a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/836a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -41697,7 +41884,7 @@ entries: [
         }
             ],
         desc: "disagreed[disagri] - nie zgadzał się",
-        sentence2: [
+        sentence1: [
             "disagreed"
         ],
                                                                 sentence1b: [
@@ -41725,7 +41912,7 @@ entries: [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/16a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/16a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -41737,7 +41924,7 @@ entries: [
         {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/16b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/16b.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -41749,7 +41936,7 @@ entries: [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/16c.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/16c.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -41761,7 +41948,7 @@ entries: [
         {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/16d.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/16d.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -41773,7 +41960,7 @@ entries: [
         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/16e.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/16e.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -41785,7 +41972,7 @@ entries: [
         {
             id: 6,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/190a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/190a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -41827,7 +42014,7 @@ entries: [
                         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/48aa1.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/48aa1.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -41839,7 +42026,7 @@ entries: [
                 {
             id: 2,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/48aa2.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/48aa2.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -41851,7 +42038,7 @@ entries: [
         {
             id: 3,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/48aa.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/48aa.jpg",
                 alt: "Historia człowieka w muzeum. Wygenerowane przez AI."
             },
             story: {
@@ -41863,7 +42050,7 @@ entries: [
                 {
             id: 4,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/106b.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/106b.jpg",
                 alt: "Wynalazek nowoczesności. Wygenerowane przez AI."
             },
             story: {
@@ -41875,7 +42062,7 @@ entries: [
                         {
             id: 5,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/48aa5.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/48aa5.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -41917,7 +42104,7 @@ entries: [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/839a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/839a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -41956,7 +42143,7 @@ entries: [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/131a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/131a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -42000,7 +42187,7 @@ entries: [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/841a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/841a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -42011,7 +42198,7 @@ entries: [
         }
             ],
         desc: "cannot[kenot] - nie mogę",
-        sentence2: [
+        sentence1: [
             "cannot"
         ],
                                                                 sentence1b: [
@@ -42039,7 +42226,7 @@ entries: [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/842a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/842a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -42050,7 +42237,7 @@ entries: [
         }
             ],
         desc: "ignore[igno(r)] - ignorować",
-        sentence2: [
+        sentence1: [
             "ignore"
         ],
                                                                 sentence1b: [
@@ -42078,7 +42265,7 @@ entries: [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/843a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/843a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -42117,7 +42304,7 @@ entries: [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/844a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/844a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -42156,7 +42343,7 @@ entries: [
         {
             id: 1,
             img: {
-                src: "https://www.arbulang.com/img/fiszki1/844a.jpg",
+                src: "http://localhost/arbulanguage.com/img/fiszki1/844a.jpg",
                 alt: "Wygenerowane przez AI."
             },
             story: {
@@ -42185,6 +42372,4082 @@ entries: [
         category1: "nauka",
         category2: ["kuchnia", "jedzenie"]
     },
+    {
+        id: [
+            846,
+            149,
+            260
+        ],
+        entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/95aa.jpg",
+                alt: "Opakowanie suplementów grzyba riszi. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
+                alt: "Suplementacja grzybami. Jakie parametry zdrowotne poprawiają grzyby riszi?"
+            },
+            category: ["suplementy", "riszi"]
+        }
+            ],
+                                                        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja149/she.mp3"
+        ],
+        translate: "",
+        translateb: "[Ona ma tendencję do unikania trudnych rozmów]",
+        translateb2: "[]",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja46/.mp4", ""],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja46/.png",
+        desc: "she[szi] - ona",
+        sentence1: [
+            "She"
+        ],
+                                                                sentence1b: [
+            "Ona"
+        ],
+                            sentence1c: [
+            "szi"
+        ],
+        sentence: [
+            "She",
+            "tends to",
+            "avoid"
+        ],
+        key: "she",
+        category2: ["osoby"],
+        category3: ["PastPerfect"]
+    },
+                                                                                                {
+        id: [
+            847,
+            149,
+            252
+        ],
+              entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/847a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Moja żona <u><b>ma dendencje</u></b> do pre<u><b>tens</u></b>ji i <u><b>tu</u></b> jest cały problem",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+            ],
+                                                        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja149/tendsto.mp3"
+        ],
+        desc: "tends to[ten(d)s tu] - ma tendencję do",
+        sentence1: [
+            "tends_to"
+        ],
+                                                                sentence1b: [
+            "ma_tendencję_do"
+        ],
+                            sentence1c: [
+            "ten(d)s tu"
+        ],
+        sentence: [
+            "She",
+            "tends to",
+            "avoid"
+        ],
+        key: "tends to",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                {
+        id: [
+            848,
+            149,
+            252
+        ],
+        entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/848a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Tr<u><b>ewo</u></b>r <u><b>unika</u></b> L<u><b>id</u></b>ki - bo się nie lubią",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+            ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja149/avoid.mp3"
+        ],
+        desc: "avoid[ewoid] - unikać",
+        sentence1: [
+            "avoid"
+        ],
+                                                                sentence1b: [
+            "unikania"
+        ],
+                            sentence1c: [
+            "ewoid"
+        ],
+        sentence: [
+            "She",
+            "tends to",
+            "avoid"
+        ],
+        key: "avoid",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                {
+        id: [
+            849,
+            149,
+            252
+        ],
+        entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/848a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Wal<u><b>di</u></b> ma w domu wi<u><b>fi</u></b> i słucha sobie <u><b>trudnych</u></b> acz wybitnych piosenek zespołu 'Kult'",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+            ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja149/difficult.mp3"
+        ],
+        desc: "difficult[difikult] - trudny",
+        sentence2: [
+            "difficult"
+        ],
+                                                                sentence1b: [
+            "trudnych"
+        ],
+                            sentence1c: [
+            "difikult"
+        ],
+        sentence: [
+            "difficult",
+            "conversations"
+        ],
+        key: "difficult",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                {
+        id: [
+            850,
+            149,
+            252
+        ],
+        
+        entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/850a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "KOGNATY CONVERSATIONS (KONWERSEJSZYNS) - KONWERSACJE",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+            ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja149/conversations.mp3"
+        ],
+        desc: "conversations[konwersejszyns] - kowersacje",
+        sentence2: [
+            "conversations"
+        ],
+                                                                sentence1b: [
+            "konwersacji"
+        ],
+                            sentence1c: [
+            "konwersejszyns"
+        ],
+        sentence: [
+            "difficult",
+            "conversations"
+        ],
+        key: "conversations",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                         {
+        id: [
+            851,
+            150,
+            260
+        ],
+        entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/95aa.jpg",
+                alt: "Opakowanie suplementów grzyba riszi. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
+                alt: "Suplementacja grzybami. Jakie parametry zdrowotne poprawiają grzyby riszi?"
+            },
+            category: ["suplementy", "riszi"]
+        }
+            ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja150/she.mp3"
+        ],
+        translate: "",
+        translateb: "[Ona ostatnio zmieniła swoje nastawienie]",
+        translateb2: "[]",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja46/.mp4", ""],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja46/.png",
+        desc: "she[szi] - ona",
+        sentence1: [
+            "She"
+        ],
+                                                                sentence1b: [
+            "Ona"
+        ],
+                            sentence1c: [
+            "szi"
+        ],
+        sentence: [
+            "She",
+            "has",
+            "recently"
+        ],
+        key: "she",
+        category2: ["osoby"],
+        category3: ["PastPerfect"]
+    },
+                                                                                                    {
+        id: [
+            852,
+            150,
+            252
+        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/2a.jpg",
+                alt: "Kupowanie biletu, zdjęcie z biletem. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'W niemieckim mieście <span class="adannotation" data-annotation="1"><u><b>Hess</u></b></span>en Jurek <u><b>ma</u></b> bilet na mecze jego drużyny',
+                alt: "Przygotowanie do widowiska sportowego"
+            },
+            category: ["sport", "kibic"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/2b.jpg",
+                alt: "Hipopotam podczas przedstawienia cyrkowego. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<span class="adannotation" data-annotation="1"><u><b>H</u></b></span>ipopotam występuje w cyrku na <span class="adannotation" data-annotation="2"><u><b>es</u></b></span>tradzie, <u><b>ma</u></b> duże umiejętności',
+                alt: "Pokazy cyrkowe. Żart o cyrku"
+            },
+            category: ["natura", "rozrywka"]
+        },
+        {
+            id: 3,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/2c.jpg",
+                alt: "Naukowcy podczas pracy. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Naukowiec nagle się zapomniał i zapytał: <span class="adannotation" data-annotation="1"><u><b>he</u></b></span>?, a wtedy jego kolega <u><b>ma</u></b> niezłą zabawę, <span class="adannotation" data-annotation="2"><u><b>s</u></b></span>prawa oczywista..',
+                alt: "Obyczaje naukowca. Żart o naukowcu"
+            },
+            category: ["nauka", "humor"]
+        },
+        {
+            id: 4,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/2d.jpg",
+                alt: "Życie jako polityk. Scena. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<span class="adannotation" data-annotation="1"><u><b>He</u></b></span>gemonia konsumpcjonizmu doprowadziła do tego, że "ON"-dyrektor ma problemy, bo nikt nie chce chodzić na <span class="adannotation" data-annotation="2"><u><b>s</u></b></span>pektakle teatralne',
+                alt: "Życie współczesne i kultura. Żart o teatrze"
+            },
+            category: ["czarny humor", "trendy"]
+        },
+        {
+            id: 5,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/2e.jpg",
+                alt: "Muzycy z klarnetami. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Moja koleżanka <u><b>ma</u></b> nowy klarnet z drzewa <span class="adannotation" data-annotation="1"><u><b>he</u></b></span>banowego. <span class="adannotation" data-annotation="2"><u><b>S</u></b></span>....uper sprawa',
+                alt: "Wychowanie dzieci"
+            },
+            category: ["związki", "muzyka"]
+        }
+    ],
+        desc: "has[hes]/have[hew] - mieć(on/ona/oni)/mieć(ja/ty)",
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja1/has.mp3"
+        ],
+        desc: "has[hes]/have[hew] - mieć(on/ona/oni)/mieć(ja/ty)",
+        sentence1: [
+            "has"
+        ],
+                                                                sentence1b: [
+            "element_konstrukcji_Present_Perfect"
+        ],
+                            sentence1c: [
+            "hes"
+        ],
+        sentence: [
+            "She",
+            "has",
+            "recently"
+        ],
+        key: "has",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                        {
+        id: [
+            853,
+            150,
+            252
+        ],
+        entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/853a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "K<u><b>ris</u></b> ma <u><b>ostatnio</u></b> m<u><b>entli</u></b>k w głowie",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+            ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja150/recently.mp3"
+        ],
+        desc: "recently[risentli] - ostatnio",
+        sentence1: [
+            "recently"
+        ],
+                                                                sentence1b: [
+            "ostatnio"
+        ],
+                            sentence1c: [
+            "risentli"
+        ],
+        sentence: [
+            "She",
+            "has",
+            "recently"
+        ],
+        key: "recently",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                            {
+        id: [
+            854,
+            150,
+            252
+        ],
+
+        entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/854a.jpg",
+                alt: ""
+            },
+            story: {
+                text: "<u><b>Cze</u></b>kam aż on zmieni swoją decyzję, <u><b>in</u></b>aczej pozostajemy w sporze. Na<u><b>d</u></b>al <u><b>dź</u></b>wigam ciężar przekonania tej osoby",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+            ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja150/changed.mp3"
+        ],
+        desc: "changed[czeindźd] - zmieniła/zmienił",
+        sentence2: [
+            "changed"
+        ],
+                                                                sentence1b: [
+            "zmieniła"
+        ],
+                            sentence1c: [
+            "czeindźd"
+        ],
+        sentence: [
+            "changed",
+            "her",
+            "attitude"
+        ],
+        key: "changed",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                            {
+        id: [
+            855,
+            150,
+            252
+        ],
+        entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/94aa.jpg",
+                alt: "Picie herbaty. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Jej</b></u> <b><u>her</b></u>bata jest słodka",
+                alt: "Smakowanie herbaty. Czy parzenie herbaty może być rytuałem?"
+            },
+            category: ["zachowania", "picie herbaty"]
+        }
+            ],
+                                                                                word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja109/her.mp3"
+        ],
+        story: [
+            "<b><u>Jej</b></u> <b><u>her</b></u>bata jest słodka"
+        ],
+        desc: "her[her] - swojego",
+        sentence2: [
+            "her"
+        ],
+                                                                sentence1b: [
+            "swoje"
+        ],
+                            sentence1c: [
+            "her"
+        ],
+        sentence: [
+            "changed",
+            "her",
+            "attitude"
+        ],
+        key: "her",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                            {
+        id: [
+            856,
+            150,
+            252
+        ],
+        entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/856a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "M<b><u>ati</b></u> czyli Ma<b><u>tju</b></u> ma ostatnio <b><u>d</b></u>obrą postawę",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+            ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja150/attitude.mp3"
+        ],
+        desc: "attitude[atitjud] - postawa",
+        sentence2: [
+            "attitude"
+        ],
+                                                                sentence1b: [
+            "nastawienie"
+        ],
+                            sentence1c: [
+            "atitjud"
+        ],
+        sentence: [
+            "changed",
+            "her",
+            "attitude"
+        ],
+        key: "attitude",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                             {
+        id: [
+            857,
+            151,
+            260
+        ],
+        entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/95aa.jpg",
+                alt: "Opakowanie suplementów grzyba riszi. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
+                alt: "Suplementacja grzybami. Jakie parametry zdrowotne poprawiają grzyby riszi?"
+            },
+            category: ["suplementy", "riszi"]
+        }
+            ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja151/she.mp3"
+        ],
+        translate: "",
+        translateb: "[]",
+        translateb2: "[]",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja46/.mp4", ""],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja46/.png",
+        desc: "she[szi] - ona",
+        sentence1: [
+            "She"
+        ],
+                                                                sentence1b: [
+            "Ona"
+        ],
+                            sentence1c: [
+            "szi"
+        ],
+        sentence: [
+            "She",
+            "always",
+            "remembers"
+        ],
+        key: "she",
+        category2: ["osoby"],
+        category3: ["PastPerfect"]
+    },
+                                                                                                                {
+        id: [
+            858,
+            151,
+            252
+        ],
+                entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/858a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Kiedy Sła<u><b>we</u></b>k odwiedza k<u><b>ol</u></b>egę - ten <u><b>zawsze</u></b> robi mu na<u><b>js</u></b>maczniejszą kawę",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+            ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja151/always.mp3"
+        ],
+        desc: "always[olwejs] - zawsze",
+        sentence1: [
+            "always"
+        ],
+                                                                sentence1b: [
+            "zawsze"
+        ],
+                            sentence1c: [
+            "olwejs"
+        ],
+        sentence: [
+            "She",
+            "always",
+            "remembers"
+        ],
+        key: "always",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                                    {
+        id: [
+            859,
+            151,
+            252
+        ],
+        entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/859a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "P<u><b>rim</u></b>abalerina pamięta cały taniec i t<u><b>em</u></b>po tańca, później tańczy <u><b>Ber</u></b>ka czyli inny <u><b>s</u></b>tyl",
+                alt: ""
+            },
+            category: ["", ""]
+        },
+        {
+                    id: 2,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/859b.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "To jest towar P<u><b>rim</u></b>a Sort i ma <u><b>emb</u></b>lemat, każdy pamięta jego nazwę i układają w<u><b>ers</u></b>y wierszy",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+            ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja151/remembers.mp3"
+        ],
+        desc: "remembers[rimembers] - pamięta",
+        sentence1: [
+            "remembers"
+        ],
+                                                                sentence1b: [
+            "pamięta"
+        ],
+                            sentence1c: [
+            "atitjud"
+        ],
+        sentence: [
+            "She",
+            "always",
+            "remembers"
+        ],
+        key: "remembers",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                                        {
+        id: [
+            860,
+            151,
+            252
+        ],
+        entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/180a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Import</u></b> antyków z zagranicy to <u><b>ważne</u></b> zadanie dla kolekcjonera",
+                alt: ""
+            },
+            category: ["hobby", "kolekcjonerstwo"]
+        }
+            ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja151/important.mp3"
+        ],
+        desc: "important[important] - ważne",
+        sentence2: [
+            "important"
+        ],
+                                                                sentence1b: [
+            "ważne"
+        ],
+                            sentence1c: [
+            "important"
+        ],
+        sentence: [
+            "important",
+            "dates",
+            "and",
+            "birthdays"
+        ],
+        key: "important",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                                            {
+        id: [
+            861,
+            151,
+            252
+        ],
+        entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/861a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>De</u></b>montaż instalacji grzewczej <u><b>j</u></b>est przewidziany według <u><b>daty</u></b>. Nowa instalacja musi być odporna na <u><b>Ts</u></b>unami",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+            ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja151/dates.mp3"
+        ],
+        desc: "dates[dejts] - daty",
+        sentence2: [
+            "dates"
+        ],
+                                                                sentence1b: [
+            "daty"
+        ],
+                            sentence1c: [
+            ""
+        ],
+        sentence: [
+            "important",
+            "dates",
+            "and",
+            "birthdays"
+        ],
+        key: "important",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                                            {
+        id: [
+            862,
+            151,
+            252
+        ],
+entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/29aa.jpg",
+                alt: "Długi trening. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>End</u></b>riu wydziela <u><b>end</u></b>orfiny i ćwiczy: to <u><b>i</u></b> to, <u><b>i</u></b> to, aby było więcej endorfin i wyczekuje <u><b>końca</u></b> treningu",
+                alt: ""
+            },
+            category: ["sport", "trening"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/29bb.jpg",
+                alt: "Prace ogrodowe. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>End</u></b>riu w końcu jest na <u><b>końcu</u></b> prac w ogrodzie. Zrobił to <u><b>i</u></b> to <u><b>i</u></b> to..",
+                alt: "Organizacja hobby. Czy hobby może być wyczerpujące?"
+            },
+             category: ["natura", "ogród"]
+        },
+        {
+            id: 3,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/29cc.jpg",
+                alt: "Impreza na wielką skalę. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Muzyka tego bandu(b<u><b>end</u></b>u) wprowadza mózg w specyficzne fale mózgowe, muzyka nie ma <u><b>końca</u></b> <u><b>i</u></b> jeszcze refren, a na koniec werble",
+                alt: ""
+            },
+           category: ["nauka", "fale mózgowe"]
+        },
+        {
+            id: 4,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/29dd.jpg",
+                alt: "Motor enduro. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>End</u></b>riu jeździ motorem enduro <u><b>i</u></b> miał wypadek, to <u><b>koniec</u></b> jego kariery. Pyta: <u><b>i</u></b> co dalej?",
+                alt: ""
+            },
+            category: ["czarny humor", "kariera"]
+        },
+        {
+            id: 5,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/29ee.jpg",
+                alt: "Zakochana para. Wygenerowane przez AI."
+            },
+            story: {
+                text: "W końcu zapędy <u><b>End</u></b>riu do pewnej dziewczyny na <u><b>koniec</u></b> stały się sukcesem <u><b>i</u></b> para jest szczęśliwa",
+                alt: ""
+            },
+            category: ["związki", "podryw"]
+        }
+    ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja151/and.mp3"
+        ],
+        desc: "and[end] - i",
+        sentence2: [
+            "and"
+        ],
+                                                                sentence1b: [
+            "i"
+        ],
+                            sentence1c: [
+            ""
+        ],
+        sentence: [
+            "important",
+            "dates",
+            "and",
+            "birthdays"
+        ],
+        key: "and",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                                            {
+        id: [
+            863,
+            151,
+            252
+        ],
+        entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/863a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "W urodziny dostałem <u><b>ber</u></b>et, <u><b>zdej</u></b>muję go w Kościele i <u><b>s</u></b>łucham kazania",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+            ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja151/birthdays.mp3"
+        ],
+        desc: "birthdays[ber-zdejs] - urodziny",
+        sentence2: [
+            "birthdays"
+        ],
+                                                                sentence1b: [
+            "daty_urodzenia"
+        ],
+                            sentence1c: [
+            "ber-zdejs"
+        ],
+        sentence: [
+            "important",
+            "dates",
+            "and",
+            "birthdays"
+        ],
+        key: "birthdays",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                 {
+        id: [
+            864,
+            152,
+            260
+        ],
+ entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/131a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Wi</b></u>ll Smith oznajmił, że <b><u>my</b></u> jako ludzkość mamy się dobrze",
+                alt: ""
+            },
+            category: ["show-biznes", "aktor"]
+        }
+            ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja152/we.mp3"
+        ],
+        translate: "",
+        translateb: "[Ona ostatnio zmieniła swoje nastawienie]",
+        translateb2: "[]",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja46/.mp4", ""],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja46/.png",
+        desc: "she[szi] - ona",
+        sentence1: [
+            "We"
+        ],
+                                                                sentence1b: [
+            "My"
+        ],
+                            sentence1c: [
+            "łi"
+        ],
+        sentence: [
+            "We",
+            "haven't",
+            "seen",
+            "each other",
+            "for months"
+        ],
+        key: "we",
+        category2: ["osoby"],
+        category3: ["PresentPerfect"]
+    },
+                                                                                                                                {
+        id: [
+            865,
+            152,
+            252
+        ],
+        entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/865a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>He</u></b>, <u><b>nie widzieliśmy się</u></b> długo bo tylko przy <u><b>went</u></b>ylacji (klimatyzacji) powietrza da się wytrzymać. Nawet nie ma <u><b>sin</u></b>usoidy czyli ochłodzenia co jakiś czas",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+            ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja152/haventseen.mp3"
+        ],
+        desc: "haven't seen[hewent sin] - nie widzieliśmy się",
+        sentence1: [
+            "haven't_seen"
+        ],
+                                                                sentence1b: [
+            "nie_widzieliśmy_się"
+        ],
+                            sentence1c: [
+            "hewent_sin"
+        ],
+        sentence: [
+            "We",
+            "haven't seen",
+            "seen",
+            "each other",
+            "for months"
+        ],
+        key: "haven't",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                                                    {
+        id: [
+            866,
+            152,
+            252
+        ],
+        entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/866a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Nie widzieliśmy <u><b>siebie nawzajem</u></b> długo. L<u><b>icz</u></b>ę dni od kiedy się nie widzieliśmy i n<u><b>ader</u></b> bardzo mi przykro",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+            ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja152/eachother.mp3"
+        ],
+        desc: "each other[icz ader] - nawzajem",
+        sentence2: [
+            "each_other"
+        ],
+                                                                sentence1b: [
+            "nawazjem"
+        ],
+                            sentence1c: [
+            "icz_oder"
+        ],
+        sentence: [
+            "We",
+            "haven't",
+            "seen",
+            "each other",
+            "for months"
+        ],
+        key: "each other",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                                                    {
+        id: [
+            867,
+            152,
+            252
+        ],
+                entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/867a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Gram w grę Need <u><b>For</u></b> Speed już przez <u><b>miesiące</u></b> i <u><b>m</u></b>am f<u><b>ant</u></b>astyczne <u><b>s</u></b>portowe wyniki",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+            ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja152/formonths.mp3"
+        ],
+        desc: "for months[for mant(h)s] - przez miesiące",
+        sentence2: [
+            "for_months"
+        ],
+                                                                sentence1b: [
+            "przez_miesiące"
+        ],
+                            sentence1c: [
+            "for mant(h)s"
+        ],
+        sentence: [
+            "We",
+            "haven't",
+            "seen",
+            "each other",
+            "for months"
+        ],
+        key: "months",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                              {
+        id: [
+            868,
+            153,
+            260
+        ],
+        entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
+                alt: "Gracz Rugby. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego',
+                alt: "Niesamowite wydarzenie w SuperLidze. Jak się plasuje nasza drużyna w tabeli?"
+            },
+            category: ["sport", "piłka nożna"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
+                alt: "Hipopotam w wodzie. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Samiec czyli <u><b>on</u></b> - <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>popotam',
+               alt: "Życie hipopotamów. Czy samiec hipopotama jest groźniejszy czy samica?"
+            },
+             category: ["natura", "zoologia"]
+        },
+        {
+            id: 3,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
+                alt: "Loty balonowe. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<u><b>On</u></b> - <span class="adannotation" data-annotation="1"><u><b>Hi</u></b></span>eronim odleciał balonem',
+                alt: "Loty balonowe. Jak daleko można podróżować balonem?"
+            },
+           category: ["nauka", "czas wolny"]
+        },
+        {
+            id: 4,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Ma<span class="adannotation" data-annotation="1"><u><b>chi</u></b></span>nę do tortur wymyślił <u><b>on</u></b> - jest <span class="adannotation" data-annotation="1"><u><b>Hi</u></b></span>ndusem',
+                alt: "Starodawne metody przesłuchań. Gdzie wymyślono tortury?"
+            },
+            category: ["czarny humor", "historia"]
+        },
+        {
+            id: 5,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg",
+                alt: "Smakowanie przysmaków. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<u><b>On</u></b> je ciastka <span class="adannotation" data-annotation="1"><u><b>hi</u></b></span>ty',
+               alt: "Kulinaria i przysmaki. Jakie są najlepsze ciastka?"
+            },
+            category: ["związki", "kulinaria"]
+        }
+    ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja153/he.mp3"
+        ],
+        translate: "",
+        translateb: "[]",
+        translateb2: "[]",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja46/.mp4", ""],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja46/.png",
+        desc: "he[hi] - on",
+        sentence1: [
+            "He"
+        ],
+                                                                sentence1b: [
+            "On"
+        ],
+                            sentence1c: [
+            "hi"
+        ],
+        sentence: [
+            "He",
+            "always",
+            "checks",
+            "the weather"
+        ],
+        key: "we",
+        category2: ["osoby"],
+        category3: ["PresentSimple"]
+    },
+                                                                                                                                        {
+        id: [
+            869,
+            153,
+            252
+        ],
+        entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/869a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Kiedy Sła<u><b>we</u></b>k odwiedza k<u><b>ol</u></b>egę - ten <u><b>zawsze</u></b> robi mu na<u><b>js</u></b>maczniejszą kawę",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+            ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja153/always.mp3"
+        ],
+        desc: "always[olwejs] - zawsze",
+        sentence2: [
+            "always"
+        ],
+                                                                sentence1b: [
+            "zawsze"
+        ],
+                            sentence1c: [
+            "olłejs"
+        ],
+        sentence: [
+            "He",
+            "always",
+            "checks",
+            "the weather"
+        ],
+        key: "always",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                                                            {
+        id: [
+            870,
+            153,
+            252
+        ],
+        entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/870a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Czek</u></b>am na potwierdzenie mojej transakcji. Produkt jest <u><b>s</u></b>uper i zaraz go <u><b>sprawdzę</u></b>",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+            ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja153/checks.mp3"
+        ],
+        desc: "checks[czeks] - sprawdza",
+        sentence2: [
+            "checks"
+        ],
+                                                                sentence1b: [
+            "sprawdza"
+        ],
+                            sentence1c: [
+            "czeks"
+        ],
+        sentence: [
+            "He",
+            "always",
+            "checks",
+            "the weather"
+        ],
+        key: "checks",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                                                            {
+        id: [
+            871,
+            153,
+            252
+        ],
+                entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/871a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Mamy słoneczne i na<u><b>der</u></b> ciep<u><b>łe</u></b> dni - czyli <u><b>pogoda</u></b> dopisuje",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+            ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja153/theweather.mp3"
+        ],
+        desc: "the weather[łeder] - pogoda",
+        sentence2: [
+            "the_weather"
+        ],
+                                                                sentence1b: [
+            "pogodę"
+        ],
+                            sentence1c: [
+            "de_łeder"
+        ],
+        sentence: [
+            "He",
+            "always",
+            "checks",
+            "the weather"
+        ],
+        key: "weather",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                                                                {
+        id: [
+            872,
+            153,
+            252
+        ],
+        entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/872a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Zanim</u></b> sieć elektryczna uszkodzi się i zro<u><b>bi</u></b> się niebezpiecznie - bezpieczniki zaczynają działać - są takim <u><b>bufor</u></b>em bezpieczeństwa",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+            ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja153/before.mp3"
+        ],
+        story: [
+            ""
+        ],
+        desc: "before[bifor] - zanim",
+        sentence2: [
+            "before"
+        ],
+                                                                sentence2b: [
+            "przed"
+        ],
+                            sentence2c: [
+            "bifor"
+        ],
+        sentence: [
+            "before",
+            "leaving"
+        ],
+        key: "before",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                                                                    {
+        id: [
+            873,
+            153,
+            252
+        ],
+        entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/873a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Szkod<b><u>liwi</b></u> nauczyciele nie chcą <b><u>opuścić</b></u> naszej szkoły w Mo<b><u>ng</b></u>olii",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+            ],
+          word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja153/leaving.mp3"
+        ],
+        story: "",
+        desc: "leaving[liwing] - opuścić",
+        sentence2: [
+            "leaving"
+        ],
+                                                                sentence2b: [
+            "wyjściem"
+        ],
+                            sentence2c: [
+            "liwing"
+        ],
+        sentence: [
+            "before",
+            "leaving"
+        ],
+        key: "leaving",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                            {
+        id: [
+            874,
+            154,
+            260
+        ],
+entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/95aa.jpg",
+                alt: "Opakowanie suplementów grzyba riszi. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Ona</u></b> - Patrycja ma ri<u><b>szi</u></b> to naturalny antyoksydant",
+                alt: "Suplementacja grzybami. Jakie parametry zdrowotne poprawiają grzyby riszi?"
+            },
+            category: ["suplementy", "riszi"]
+        }
+            ],
+            word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja154/she.mp3"
+        ],
+        translate: "",
+        translateb: "[Ona ostatnio zmieniła swoje nastawienie]",
+        translateb2: "[]",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja46/.mp4", ""],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja46/.png",
+        desc: "she[szi] - ona",
+        sentence1: [
+            "She"
+        ],
+                                                                sentence1b: [
+            "Ona"
+        ],
+                            sentence1c: [
+            "szi"
+        ],
+        sentence: [
+            "She",
+            "decided"
+        ],
+        key: "we",
+        category2: ["osoby"],
+        category3: ["PastSimple"]
+    },
+                                                                                                                                                        {
+        id: [
+            875,
+            154,
+            252
+        ],
+        entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/875a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Robimy <u><b>sajd</u></b>ing i umieszczamy świecące <u><b>di</u></b>ody l<u><b>ed</u></b> w nim - tak <u><b>zdecydował</u></b> szef",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+            ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja154/decided.mp3"
+        ],
+        desc: "decided[disajded] - zdecydował",
+        sentence1: [
+            "decided"
+        ],
+                                                                sentence1b: [
+            "zdecydowała_się"
+        ],
+                            sentence1c: [
+            "disajded"
+        ],
+        sentence: [
+            "She",
+            "decided"
+        ],
+        key: "decided",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                                                                            {
+        id: [
+            876,
+            154,
+            252
+        ],
+        entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/876a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Tu</u></b>, w tym <u><b>kan</u></b>torze wymieniam pieniądze aby kupić <u><b>sel</u></b>er. <u><b>Odwołałem</u></b> spotkanie z przyjacielem, żeby zrobić samemu obiad w domu",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+            ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja154/tocancel.mp3"
+        ],
+        desc: "to cancel[tu kansel] - odwołać",
+        sentence2: [
+            "to_cancel"
+        ],
+                                                                sentence1b: [
+            "odwołać"
+        ],
+                            sentence1c: [
+            "tu_kansel"
+        ],
+        sentence: [
+            "to cancel",
+            "the",
+            "meeeting"
+        ],
+        key: "cancel",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                                                                                {
+        id: [
+            877,
+            154,
+            252
+        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
+                alt: "Piłki koszykarskie. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Piłki do gry w kosza są twar<span class="adannotation" data-annotation="1"><u><b>de</u></b></span>. Sam ten sport <u><b>to</u></b> twarda gra',
+                alt: "Sport i przedmioty do sportu. Czy piłka do koszykówki jest twarda?"
+            },
+            category: ["sport", "koszykówka"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
+                alt: "Deptak dla mieszkańców. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Na tym <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>ptaku jest sporo drzewek, <u><b>to</u></b> urocze miejsce',
+                alt: "Miejsce do spacerowania. Czy na deptaku zazwyczaj rosną drzewka?"
+            },
+             category: ["natura", "czas wolny"]
+        },
+        {
+            id: 3,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
+                alt: "Politycy na posiedzeniu. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<u><b>To</u></b> ten <span class="adannotation" data-annotation="1"><u><b>De</u></b></span>partament Stanu prowadzi badania nad społecznym problemem',
+                alt: "Insytucje rządowe w służbie ludziom. Czy państwo pomaga w rozwiązywaniu problemów społecznych?"
+            },
+           category: ["nauka", "rząd"]
+        },
+        {
+            id: 4,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
+                alt: "Wystąpienia polityków. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Czasami politycy stosują <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>magogię. Czyli co stosują? <u><b>Tę</u></b> <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>magogię',
+                alt: "Polityka i sztuka rozmawiania. Czy politycy przekonują etycznie?"
+            },
+            category: ["czarny humor", "polityka"]
+        },
+        {
+            id: 5,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg",
+                alt: "Zasady w rodzinie. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<u><b>To</u></b> co w naszej rodzinie istnieje to <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>mokracja',
+                alt: "Życie rodzinne i więź rodzinna. Czy w rodzinie może istnieć demokracja?"
+            },
+            category: ["związki", "rodzina"]
+        }
+    ],
+                                                                                                                                        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja138/the.mp3"
+        ],
+        desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
+        sentence2: [
+            "the"
+        ],
+                                                                sentence1b: [
+            "(te)"
+        ],
+                            sentence1c: [
+            "the"
+        ],
+        sentence: [
+            "to cancel",
+            "the",
+            "meeeting"
+        ],
+        key: "the",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                                                                                {
+        id: [
+            878,
+            154,
+            252
+        ],
+        entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/878a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Uczesniczymy w <u><b>spotkaniu</u></b> historycznym o <u><b>mit</u></b>ycznej Mezopotami bo nas to interesuje. Market<u><b>ing</u></b> organizacji spotkania był wspaniały",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+            ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja154/meeting.mp3"
+        ],
+        desc: "meeting[mitin(g)] - spotkanie",
+        sentence2: [
+            "meeting"
+        ],
+                                                                sentence1b: [
+            "spotkanie"
+        ],
+                            sentence1c: [
+            "mitin(g)"
+        ],
+        sentence: [
+            "to cancel",
+            "the",
+            "meeeting"
+        ],
+        key: "meeting",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                {
+        id: [
+            879,
+            155,
+            260
+        ],
+        entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19a.jpg",
+                alt: "Odzież ochronna dla jazdy rowerem. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Ja</u></b> jestem Piotrek, mam okulary ochronne, gdy jechałem rowerem wleciała mi mucha do <u><b>oka</u></b>, krzyczałem <u><b>ajjj</u></b> - dlaczego to <u><b>mi</u></b> wleciała mucha do <u><b>oka</u></b>, <u><b>ajjj</u></b>",
+                alt: "Bezpieczna jazda rowerem. Czy do jazdy rowerem potrzebne jest przygotowanie?"
+            },
+            category: ["sport", "rowery"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19b.jpg",
+                alt: "Portret kobiety. Wygenerowane przez AI."
+            },
+            story: {
+                text: "M<u><b>aj</u></b>a ma zezowate <u><b>oko</u></b> i mówi, no <u><b>JA</u></b> widzę ciebie podwójnie",
+               alt: "Świadomość wady wzroku. Czy wadę wzroku można wyleczyć?"
+            },
+            category: ["natura", "zdrowie"]
+        },
+        {
+            id: 3,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19c.jpg",
+                alt: "Boginii Gaja. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Nauka o mitach, takich jak królowa G</u></b>aj</u></b>a to ten temat, gdzie <u><b>ja</u></b> mam największą wiedze",
+                alt: "Mitologia Boginii Gai. Kto to jest Boginii Gaja?"
+            },
+           category: ["nauka", "mitologia"]
+        },
+        {
+            id: 4,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19d.jpg",
+                alt: "Wesele pary młodej. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Teraz <u><b>ja</u></b> występuję na weselu jako wodzirej i śpiewam <u><b>Aj</u></b>-ja-jaj tak słodko jest tu z wami być..",
+                alt: "Przyjecie weselne. Kto może zostać wodzirejem?"
+            },
+            category: ["czarny humor", "muzyka"]
+        },
+        {
+            id: 5,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19e.jpg",
+                alt: "Zajmowanie się kurami. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Mo<u><b>ja</u></b> babcia idzie do kurnika po jaja, a <u><b>ja</u></b> będę za chwilę jadł jajecznice",
+               alt: "Gospodarstwo domowe ze zwierzętami. Czy hodowla zwierząt jest trudna?"
+            },
+            category: ["związki", "rodzina"]
+        }
+    ],
+                                                word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja127/I.mp3"
+        ],
+        translate: "",
+        translateb: "[]",
+        translateb2: "[]",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja/.mp4", ""],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja/.png",
+        desc: "I[aj] - ja",
+        sentence1: [
+            "I"
+        ],
+                                                                sentence1b: [
+            "Ja"
+        ],
+                            sentence1c: [
+            "aj"
+        ],
+        sentence: [
+            "I",
+            "could"
+        ],
+        key: "I",
+        category2: ["osoby"],
+        category3: ["PastPerfect"]
+    },
+                                                                                                                                                                    {
+        id: [
+            880,
+            155,
+            252
+        ],
+        entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/880a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Możesz</u></b> poprawić tą fryzurę? <u><b>Kud</u></b>ły Ci wszędzie odstają",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+            ],
+        desc: "could[kud] - mógłbyś/mogłabyś",
+        sentence1: [
+            "could"
+        ],
+                                                                sentence1b: [
+            "mógłbym"
+        ],
+                            sentence1c: [
+            "kud"
+        ],
+        sentence: [
+            "I",
+            "could"
+        ],
+        key: "could",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                                                                                        {
+        id: [
+            881,
+            155,
+            252
+        ],
+        entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/881a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Gaz - <b><u>hel</b></u>, <b><u>p</b></u>omaga zmieniać ton głosu",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+            ],
+        desc: "help[help] - pomagać",
+        sentence2: [
+            "help"
+        ],
+                                                                sentence1b: [
+            "pomóc"
+        ],
+                            sentence1c: [
+            "help"
+        ],
+        sentence: [
+            "help",
+            "you",
+            "with",
+            "that"
+        ],
+        key: "to help",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                                                                                            {
+        id: [
+            882,
+            155,
+            252
+        ],
+        entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/882a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Ju</u></b>tro <u><b>ty</u></b> masz wolny dzień od pracy",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+            ],
+        desc: "you[ju] - ty, tobie",
+        sentence2: [
+            "you"
+        ],
+                                                                sentence1b: [
+            "Tobie"
+        ],
+                            sentence1c: [
+            "ju"
+        ],
+        sentence: [
+            "help",
+            "you",
+            "with",
+            "that"
+        ],
+        key: "you",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                                                                                                {
+        id: [
+            883,
+            155,
+            252
+        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/16a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Z</u></b> w<u><b>iz</u></b>ualizacją wygranej sportowcy są dok<u><b>ł</u></b>adnie przygotowani",
+                alt: "Przygotowanie sportowca do zawodów. Jakie działania mentalne pomagają sportowcom osiągać wyniki?"
+            },
+            category: ["sport", "trening mentalny"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/16b.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "W<u><b>iz</u></b>ja <u><b>ł</u></b>otrów - wiewiórek, które jedzą <u><b>z</u></b> wiadomo, którego wiaderka(mojego) jest słuszna",
+               alt: "Wesołe życie wiewiórek. Jak wiewiórki zdobywają pokarm?"
+            },
+            category: ["natura", "zwierzęta"]
+        },
+        {
+            id: 3,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/16c.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "W<u><b>iz</u></b>ytacja naukowców <u><b>z</u></b> Japonii jest znakomitą okazją do rewizji popełnionych b<u><b>ł</u></b>ędów",
+                alt: "Praca naukowców. Jak naukowcy sporządzają raporty?"
+            },
+           category: ["nauka", "rzetelność badań"]
+        },
+        {
+            id: 4,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/16d.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Cz<u><b>ł</u></b>owiek bez w<u><b>iz</u></b>y nie wjedzie, a <u><b>z</u></b> wizą to oczywiście",
+                alt: "Przelot przez granice państwa. Czy zdobycie wizy jest trudne?"
+            },
+            category: ["czarny humor", "wizy"]
+        },
+        {
+            id: 5,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/16e.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Z w<u><b>iz</u></b>ażem czyli makijażem - królowa robi jeszcze lepsze wrażenie w królestwie. Wraz <u><b>z</u></b> królową jest jej wizażysta i rozdaje wizytówki. <u><b>Z</u></b> wizytóką cena ma<u><b>ł</u></b>a",
+               alt: "Moda i lifestyle. Jak prowadzić firmę kosmetyczną?"
+            },
+            category: ["związki", "wizerunek"]
+        },
+        {
+            id: 6,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/190a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Każdy żołnierz chodzi na polu walki z che<u><b>ł</u></b>mem i kam<u><b>iz</u></b>elką kuloodporną",
+                alt: ""
+            },
+            category: ["wojsko", "pole walki"]
+        }
+            ],
+                                                                                                                                                word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja112/with.mp3"
+        ],
+        desc: "with[łiz] - z",
+        sentence2: [
+            "with"
+        ],
+                                                                sentence1b: [
+            "z"
+        ],
+                            sentence1c: [
+            "wiz"
+        ],
+        sentence: [
+            "help",
+            "you",
+            "with",
+            "that"
+        ],
+        key: "with",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                                                                                                {
+        id: [
+            884,
+            155,
+            252
+        ],
+        entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/884a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Dat</b></u>a tego przyszłego wydarzenia wskazuje, <b><u>że</b></u> niektórym się spieszy, aby się odbyło <b><u>to</b></u> wydarzenie",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+            ],
+        desc: "that[dat] - że/(to)",
+        sentence2: [
+            "that"
+        ],
+                                                                sentence1b: [
+            "tym"
+        ],
+                            sentence1c: [
+            "dat"
+        ],
+        sentence: [
+            "help",
+            "you",
+            "with",
+            "that"
+        ],
+        key: "that",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                    {
+        id: [
+            885,
+            156,
+            260
+        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/131a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Wi</b></u>ll Smith oznajmił, że <b><u>my</b></u> jako ludzkość mamy się dobrze",
+                alt: ""
+            },
+            category: ["show-biznes", "aktor"]
+        }
+            ],
+                                                                                                        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja123/we.mp3"
+        ],
+        translate: "Idziemy powoli przez park",
+        translateb: "[Łi łok]",
+        translateb2: "[]",
+        translateb3: "We walk slowly",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja/.mp4", ""],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja/.png",
+        desc: "we[łi] - my",
+        sentence1: [
+            "We"
+        ],
+                                                                sentence1b: [
+            "My"
+        ],
+                            sentence1c: [
+            "łi"
+        ],
+        sentence: [
+            "We",
+            "have been waiting"
+        ],
+        key: "we",
+        category2: ["osoby"],
+        category3: ["PastPerfect"]
+    },
+                                                                                                                                                                                    {
+        id: [
+            886,
+            156,
+            252
+        ],
+        entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/886a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Mar<b><u>tin</b></u> i ja - czekaliśmy aby kupić mar<b><u>chew</b></u> w sklepie i kupić dra<b><u>bin</b></u>ę do pracy przy dachu. Niestety mam tylko troszkę farby na dach nie mam ca<b><u>łej</b></u> puszki",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+            ],
+        desc: "have been waiting[hew bin łejtin(g)] - czekaliśmy",
+        sentence1: [
+            "have_been_waiting"
+        ],
+                                                                sentence1b: [
+            "czekaliśmy"
+        ],
+                            sentence1c: [
+            "hew_bin_łejtin(g)"
+        ],
+        sentence: [
+            "We",
+            "have been waiting"
+        ],
+        key: "waiting",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                                                                                                        {
+        id: [
+            887,
+            156,
+            252
+        ],
+                    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/887a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Od</u></b> teraz, czyli od południa zaczynm odpoczywać po pracy, czasami wchodzę na <u><b>s</u></b>wój <u><b>ins</u></b>tagram",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+            ],
+        desc: "since[sins] - od",
+        sentence2: [
+            "since"
+        ],
+                                                                sentence1b: [
+            ""
+        ],
+                            sentence1c: [
+            ""
+        ],
+        sentence: [
+            "since",
+            "noon"
+        ],
+        key: "since",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                                                                                                        {
+        id: [
+            888,
+            156,
+            252
+        ],
+                    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/888a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Nie mam żadnego pla<u><b>nu</u></b> na <u><b>południe</u></b>",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+            ],
+        desc: "noon[nu] - południe",
+        sentence2: [
+            "noon"
+        ],
+                                                                sentence1b: [
+            ""
+        ],
+                            sentence1c: [
+            ""
+        ],
+        sentence: [
+            "since",
+            "noon"
+        ],
+        key: "noon",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                        {
+        id: [
+            889,
+            157,
+            260
+        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
+                alt: "Gracz Rugby. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego',
+                alt: "Niesamowite wydarzenie w SuperLidze. Jak się plasuje nasza drużyna w tabeli?"
+            },
+            category: ["sport", "piłka nożna"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
+                alt: "Hipopotam w wodzie. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Samiec czyli <u><b>on</u></b> - <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>popotam',
+               alt: "Życie hipopotamów. Czy samiec hipopotama jest groźniejszy czy samica?"
+            },
+             category: ["natura", "zoologia"]
+        },
+        {
+            id: 3,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
+                alt: "Loty balonowe. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<u><b>On</u></b> - <span class="adannotation" data-annotation="1"><u><b>Hi</u></b></span>eronim odleciał balonem',
+                alt: "Loty balonowe. Jak daleko można podróżować balonem?"
+            },
+           category: ["nauka", "czas wolny"]
+        },
+        {
+            id: 4,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Ma<span class="adannotation" data-annotation="1"><u><b>chi</u></b></span>nę do tortur wymyślił <u><b>on</u></b> - jest <span class="adannotation" data-annotation="1"><u><b>Hi</u></b></span>ndusem',
+                alt: "Starodawne metody przesłuchań. Gdzie wymyślono tortury?"
+            },
+            category: ["czarny humor", "historia"]
+        },
+        {
+            id: 5,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg",
+                alt: "Smakowanie przysmaków. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<u><b>On</u></b> je ciastka <span class="adannotation" data-annotation="1"><u><b>hi</u></b></span>ty',
+               alt: "Kulinaria i przysmaki. Jakie są najlepsze ciastka?"
+            },
+            category: ["związki", "kulinaria"]
+        }
+    ],
+        translate: "",
+        translateb: "[Ona ostatnio zmieniła swoje nastawienie]",
+        translateb2: "[]",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja46/.mp4", ""],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja46/.png",
+        desc: "he[hi] - on",
+        sentence1: [
+            "He"
+        ],
+                                                                sentence1b: [
+            "On"
+        ],
+                            sentence1c: [
+            "hi"
+        ],
+        sentence: [
+            "He",
+            "wants to"
+        ],
+        key: "he",
+        category2: ["osoby"],
+        category3: ["PresentSimple"]
+    },
+                                                                                                                                                                                            {
+        id: [
+            890,
+            157,
+            252
+        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/890a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Ten samochód <u><b>Ła</u></b>da jest już <u><b>ant</u></b>yczny. <u><b>Chcę</u></b> mieć teraz <u><b>s</u></b>amochód europejskiej produkcji",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+            ],
+        desc: "wants to[łants tu] - chce",
+        sentence1: [
+            "wants_to"
+        ],
+                                                                sentence1b: [
+            "chce"
+        ],
+                            sentence1c: [
+            "łans_tu"
+        ],
+        sentence: [
+            "He",
+            "wants to"
+        ],
+        key: "want",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                                                                                                                {
+        id: [
+            891,
+            157,
+            252
+        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/891a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Im</u></b> to <u><b>pr</u></b>osto idzie <u><b>rozwijanie</u></b> <u><b>ów</u></b> firmy",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+            ],
+        desc: "improve[impruw] - rozwijać",
+        sentence2: [
+            "improve"
+        ],
+                                                                sentence1b: [
+            "poprawić"
+        ],
+                            sentence1c: [
+            "impruw"
+        ],
+        sentence: [
+            "improve",
+            "his",
+            "pronunciation"
+        ],
+        key: "improve",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                                                                                                                    {
+        id: [
+            892,
+            157,
+            252
+        ],
+            entries: [
+                        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/48aa1.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Pre<b><u>his</b></u>toryczny dinozaur z <b><u>jego</b></u> sprawnością mógłby spokojnie pokonać niedźwiedzia",
+                alt: ""
+            },
+            category: ["sport", "zwierzęta"]
+        },
+                {
+            id: 2,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/48aa2.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Lew nie wpada w <b><u>his</b></u>terię - polegają na instynkcie. Za to <b><u>jego</b></u> natura jest bardzo niebezpieczna dla czowieka",
+                alt: ""
+            },
+            category: ["natura", "sawanaa"]
+        },
+        {
+            id: 3,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/48aa.jpg",
+                alt: "Historia człowieka w muzeum. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Jego</b></u> <b><u>his</b></u>toria jest bardzo atrakcyjna i bujna",
+                alt: "Opowieść o dawnych czasach. Jak opowiadać historię?"
+            },
+            category: ["nauka", "autoprezentacja"]
+        },
+                {
+            id: 4,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/106b.jpg",
+                alt: "Wynalazek nowoczesności. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Jego ma<b><u>chi</b></u>na jest bardzo <b><u>s</b></u>prawna",
+                alt: "Projektowanie urządzenia. Jak projektuje się maszyny?"
+            },
+            category: ["czarny humor", "technologia"]
+        },
+                        {
+            id: 5,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/48aa5.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Jego</b></u> dziewczyna wpadła w <b><u>his</b></u>terię",
+                alt: ""
+            },
+            category: ["związki", "emocje"]
+        }
+            ],
+        desc: "his[his] -jego",
+        sentence2: [
+            "his"
+        ],
+                                                                sentence1b: [
+            "swoją"
+        ],
+                            sentence1c: [
+            "his"
+        ],
+        sentence: [
+            "improve",
+            "his",
+            "pronunciation"
+        ],
+        key: "his",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                                                                                                                    {
+        id: [
+            893,
+            157,
+            252
+        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/893a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Zajęcia z wymowy prowadzi <b><u>Nansi</b></u> (Nancy) i jej zadaniem jest nauczyć poprawn<b><u>ej</b></u> wymowy <b><u>szyn</b></u>szyl",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+            ],
+        desc: "pronunciation[pronansjejszyn] - wymowa",
+        sentence2: [
+            "pronunciation"
+        ],
+                                                                sentence1b: [
+            "wymowę"
+        ],
+                            sentence1c: [
+            "pronansjejszyn"
+        ],
+        sentence: [
+            "improve",
+            "his",
+            "pronunciation"
+        ],
+        key: "pronunciation",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                            {
+        id: [
+            894,
+            158,
+            260
+        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/131a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Wi</b></u>ll Smith oznajmił, że <b><u>my</b></u> jako ludzkość mamy się dobrze",
+                alt: ""
+            },
+            category: ["show-biznes", "aktor"]
+        }
+            ],
+        translate: "",
+        translateb: "[Ona ostatnio zmieniła swoje nastawienie]",
+        translateb2: "[]",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja46/.mp4", ""],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja46/.png",
+        desc: "we[łi] - my",
+        sentence1: [
+            "We"
+        ],
+                                                                sentence1b: [
+            "My"
+        ],
+                            sentence1c: [
+            "łi"
+        ],
+        sentence: [
+            "We",
+            "decided"
+        ],
+        key: "he",
+        category2: ["osoby"],
+        category3: ["PastSimple"]
+    },
+                                                                                                                                                                                                        {
+        id: [
+            895,
+            158,
+            252
+        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/895a.jpg",
+                alt: "Zawodnik na meczu. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<Robimy <u><b>sajd</u></b>ing i umieszczamy świecące <u><b>di</u></b>ody l<u><b>ed</u></b> w nim - tak <u><b>zdecydował</u></b> szef",
+                alt: ""
+            },
+            category: ["", ""]
+        },
+    ],
+        desc: "decided[disajded] - zdecydował",
+        sentence1: [
+            "decided"
+        ],
+                                                                sentence1b: [
+            "zdecydowaliśmy_się"
+        ],
+                            sentence1c: [
+            "disajded"
+        ],
+        sentence: [
+            "We",
+            "decided"
+        ],
+        key: "decided",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                                                                                                                            {
+        id: [
+            896,
+            158,
+            252
+        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/896a.jpg",
+                alt: "Zawodnik na meczu. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Poł</u></b>owa <u><b>odwlekanego</u></b> terminu była przez całą <u><b>spo</u></b>łeczność i <u><b>n</u></b>iefrasobliwość przewodniczącego",
+                alt: ""
+            },
+            category: ["", ""]
+        },
+    ],
+        desc: "to postpone[tu połspon] - odroczyć/odwlekać",
+        sentence2: [
+            "to_postpone"
+        ],
+                                                                sentence1b: [
+            "przełożyć"
+        ],
+                            sentence1c: [
+            "tu_połspon"
+        ],
+        sentence: [
+            "to postpone",
+            "our",
+            "trip"
+        ],
+        key: "postpone",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                                                                                                                                {
+        id: [
+            897,
+            158,
+            252
+        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/32aa.jpg",
+                alt: "Zawodnik na meczu. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Aur</u></b>a zawodnika z <u><b>naszego</u></b> zespołu jest niesamowita",
+                alt: "Wizerunek sportowca. Czy sportowiec może mieć niesamwitą aurę?"
+            },
+            category: ["sport", "mindeset"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/32bb.jpg",
+                alt: "Ogrodnik w ogrodzie. Wygenerowane przez AI."
+            },
+            story: {
+                text: "M<u><b>aur</u></b>ycy to jest <u><b>nasz</u></b> ogrodnik",
+                alt: "Zawody. Czy ogrodnictwo może być fajnym zawodem?"
+            },
+             category: ["natura", "zawód"]
+        },
+        {
+            id: 3,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/32cc.jpg",
+                alt: "Sieć wysokiego napięcia. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Nasz</u></b> dostawca prądu to <u><b>Taur</u></b>on",
+                alt: "Płacenie rachunków. Czy zapłacenie rachunku na czas daje satysfakcję?"
+            },
+           category: ["nauka", "energetyka"]
+        },
+        {
+            id: 4,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/32dd.jpg",
+                alt: "Oko Saurona. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Władcy pierścieni.. najniebezpieczniejsze dla <u><b>naszego</u></b> bezpieczeństwa było oko S<u><b>aur</u></b>ona",
+                alt: "Powieść fantastyczna. Co było najgroźniejsze dla Drużyny Pierścienia?"
+            },
+            category: ["czarny humor", "filmy"]
+        },
+        {
+            id: 5,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/32ee.jpg",
+                alt: "Laurka dla mamy. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Nasza</u></b> mama dostała l<u><b>aur</u></b>kę na dzień mamy",
+                alt: "Imprezy okolicznościowe. Jaki prezent jest najlepszy na dzień mamy?"
+            },
+            category: ["związki", "okazje"]
+        }
+    ],
+            desc: "our[aur] - nasze/nasi",
+        sentence2: [
+            "our"
+        ],
+                                                                sentence1b: [
+            "naszą"
+        ],
+                            sentence1c: [
+            "aur"
+        ],
+        sentence: [
+            "to postpone",
+            "our",
+            "trip"
+        ],
+        key: "our",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+                                                                                                                                                                                                                {
+        id: [
+            898,
+            158,
+            252
+        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/898a.jpg",
+                alt: "Gracz Rugby. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<u><b>P</u></b>odróżujemy do Rosji i kupujemy Ma<u><b>tri</u></b>oszkę. Fajna wycieczka',
+                alt: ""
+            },
+            category: ["", ""]
+        },
+            ],
+        desc: "trip[trip] - wycieczka",
+        sentence2: [
+            "trip"
+        ],
+                                                                sentence1b: [
+            "podróż"
+        ],
+                            sentence1c: [
+            "trip"
+        ],
+        sentence: [
+            "to postpone",
+            "our",
+            "trip"
+        ],
+        key: "trip",
+        category1: "nauka",
+        category2: ["kuchnia", "jedzenie"]
+    },
+    {
+        id: [
+            899,
+            159,
+            260
+        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7a.jpg",
+                alt: "Gracz Rugby. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'To właśnie <u><b>on</u></b> jest <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>tem tego sezonu piłkarskiego',
+                alt: "Niesamowite wydarzenie w SuperLidze. Jak się plasuje nasza drużyna w tabeli?"
+            },
+            category: ["sport", "piłka nożna"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7b.jpg",
+                alt: "Hipopotam w wodzie. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Samiec czyli <u><b>on</u></b> - <span class="adannotation" data-annotation="1"><b><u>hi</b></u></span>popotam',
+               alt: "Życie hipopotamów. Czy samiec hipopotama jest groźniejszy czy samica?"
+            },
+             category: ["natura", "zoologia"]
+        },
+        {
+            id: 3,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7c.jpg",
+                alt: "Loty balonowe. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<u><b>On</u></b> - <span class="adannotation" data-annotation="1"><u><b>Hi</u></b></span>eronim odleciał balonem',
+                alt: "Loty balonowe. Jak daleko można podróżować balonem?"
+            },
+           category: ["nauka", "czas wolny"]
+        },
+        {
+            id: 4,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7d.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Ma<span class="adannotation" data-annotation="1"><u><b>chi</u></b></span>nę do tortur wymyślił <u><b>on</u></b> - jest <span class="adannotation" data-annotation="1"><u><b>Hi</u></b></span>ndusem',
+                alt: "Starodawne metody przesłuchań. Gdzie wymyślono tortury?"
+            },
+            category: ["czarny humor", "historia"]
+        },
+        {
+            id: 5,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/7e.jpg",
+                alt: "Smakowanie przysmaków. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<u><b>On</u></b> je ciastka <span class="adannotation" data-annotation="1"><u><b>hi</u></b></span>ty',
+               alt: "Kulinaria i przysmaki. Jakie są najlepsze ciastka?"
+            },
+            category: ["związki", "kulinaria"]
+        }
+    ],
+                                                                                        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja121/he.mp3"
+        ],
+        translate: "",
+        translateb: "[]",
+        translateb2: "[]",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja/.mp4", ""],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja/.png",
+        desc: "he[hi] - on",
+        sentence1: [
+            "He"
+        ],
+                                                                sentence1b: [
+            "On"
+        ],
+                            sentence1c: [
+            "hi"
+        ],
+        sentence: [
+            "He",
+            "accidentally"
+        ],
+        key: "he",
+        category2: ["osoby"],
+        category3: ["PastPerfect"]
+    },
+    {
+        id: [
+            900,
+            159,
+            252
+        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/900a.jpg",
+                alt: "Gracz Rugby. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Przypadkowo naukowcy zmienili <u><b>aks</u></b>jomat (czyli dane wejściowe) <u><b>i</u></b> odkryli nowy środek antybakteryjny dla <u><b>dent</u></b>ystów i już <u><b>li</u></b>czą zyski',
+                alt: ""
+            },
+            category: ["", ""]
+        },
+            ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja159/accidentally.mp3"
+        ],
+        desc: "accidentally[aksidentli] - przypadkowo",
+        sentence1: [
+            "accidentally"
+        ],
+                                                                sentence1b: [
+            "przypadkowo"
+        ],
+                            sentence1c: [
+            "aksidentli"
+        ],
+        sentence: [
+            "He",
+            "accidentally"
+        ],
+        key: "accidentally",
+        category1: "nauka",
+        category2: ["przymiotnik"]
+    },
+                                                                                                                                                                                                                        {
+        id: [
+            901,
+            159,
+            252
+        ],
+                    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/901a.jpg",
+                alt: "Gracz Rugby. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Pułkownik z <u><b>bro</u></b>dą tak długo zawieszał czapkę na k<u><b>ołk</u></b>u aż zepsuł wieszak',
+                alt: ""
+            },
+            category: ["", ""]
+        },
+            ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja159/broke.mp3"
+        ],
+        desc: "broke[brołk] - zepsuł",
+        sentence2: [
+            "broke"
+        ],
+                                                                sentence1b: [
+            "zepsuł"
+        ],
+                            sentence1c: [
+            "brołk"
+        ],
+        sentence: [
+            "broke",
+            "the",
+            "coffe",
+            "machine"
+        ],
+        key: "broke",
+        category1: "nauka",
+        category2: ["czasownik"]
+    },
+                                                                                                                                                                                                                        {
+        id: [
+            902,
+            159,
+            252
+        ],
+        entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5a.jpg",
+                alt: "Piłki koszykarskie. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Piłki do gry w kosza są twar<span class="adannotation" data-annotation="1"><u><b>de</u></b></span>. Sam ten sport <u><b>to</u></b> twarda gra',
+                alt: "Sport i przedmioty do sportu. Czy piłka do koszykówki jest twarda?"
+            },
+            category: ["sport", "koszykówka"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5b.jpg",
+                alt: "Deptak dla mieszkańców. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Na tym <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>ptaku jest sporo drzewek, <u><b>to</u></b> urocze miejsce',
+                alt: "Miejsce do spacerowania. Czy na deptaku zazwyczaj rosną drzewka?"
+            },
+             category: ["natura", "czas wolny"]
+        },
+        {
+            id: 3,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5c.jpg",
+                alt: "Politycy na posiedzeniu. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<u><b>To</u></b> ten <span class="adannotation" data-annotation="1"><u><b>De</u></b></span>partament Stanu prowadzi badania nad społecznym problemem',
+                alt: "Insytucje rządowe w służbie ludziom. Czy państwo pomaga w rozwiązywaniu problemów społecznych?"
+            },
+           category: ["nauka", "rząd"]
+        },
+        {
+            id: 4,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5d.jpg",
+                alt: "Wystąpienia polityków. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Czasami politycy stosują <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>magogię. Czyli co stosują? <u><b>Tę</u></b> <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>magogię',
+                alt: "Polityka i sztuka rozmawiania. Czy politycy przekonują etycznie?"
+            },
+            category: ["czarny humor", "polityka"]
+        },
+        {
+            id: 5,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/5e.jpg",
+                alt: "Zasady w rodzinie. Wygenerowane przez AI."
+            },
+            story: {
+                text: '<u><b>To</u></b> co w naszej rodzinie istnieje to <span class="adannotation" data-annotation="1"><u><b>de</u></b></span>mokracja',
+                alt: "Życie rodzinne i więź rodzinna. Czy w rodzinie może istnieć demokracja?"
+            },
+            category: ["związki", "rodzina"]
+        }
+    ],
+                                                                                                                                        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja138/the.mp3"
+        ],
+        desc: "TRUDNOŚĆ JĘZYKOWA: the[de]-33%, [ze]-33%, [d-ze]-33% - ta",
+        sentence2: [
+            "the"
+        ],
+                                                                sentence1b: [
+            "(tą)"
+        ],
+                            sentence1c: [
+            "de"
+        ],
+        sentence: [
+            "broke",
+            "the",
+            "coffe",
+            "machine"
+        ],
+        key: "the",
+        category1: "nauka",
+        category2: [""]
+    },
+                                                                                                                                                                                                                        {
+        id: [
+            903,
+            159,
+            252
+        ],
+                    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/903a.jpg",
+                alt: "Gracz Rugby. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'KOGNATY - COFFE (ENG - KOFI) - KAWA (PL)',
+                alt: ""
+            },
+            category: ["", ""]
+        },
+            ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja159/coffe.mp3"
+        ],
+        desc: "coffe[kofi] - kawa",
+        sentence2: [
+            "coffe"
+        ],
+                                                                sentence1b: [
+            "kawową"
+        ],
+                            sentence1c: [
+            "kofi"
+        ],
+        sentence: [
+            "broke",
+            "the",
+            "coffe",
+            "machine"
+        ],
+        key: "coffe",
+        category1: "nauka",
+        category2: ["kuchnia", "kognaty"]
+    },
+                                                                                                                                                                                                                            {
+        id: [
+            904,
+            159,
+            252
+        ],
+              entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/904a.jpg",
+                alt: "Gracz Rugby. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'KOGNATY - MACHINE (MASZIN) - MASZYNA',
+                alt: ""
+            },
+            category: ["", ""]
+        },
+            ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja159/machine.mp3"
+        ],
+        desc: "machine[maszin] - maszyna",
+        sentence2: [
+            "machine"
+        ],
+                                                                sentence1b: [
+            "maszynę"
+        ],
+                            sentence1c: [
+            "maszin"
+        ],
+        sentence: [
+            "broke",
+            "the",
+            "coffe",
+            "machine"
+        ],
+        key: "machine",
+        category1: "nauka",
+        category2: ["rzecz", "kognaty"]
+    },
+    {
+        id: [
+            905,
+            160,
+            260
+        ],
+        entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19a.jpg",
+                alt: "Odzież ochronna dla jazdy rowerem. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Ja</u></b> jestem Piotrek, mam okulary ochronne, gdy jechałem rowerem wleciała mi mucha do <u><b>oka</u></b>, krzyczałem <u><b>ajjj</u></b> - dlaczego to <u><b>mi</u></b> wleciała mucha do <u><b>oka</u></b>, <u><b>ajjj</u></b>",
+                alt: "Bezpieczna jazda rowerem. Czy do jazdy rowerem potrzebne jest przygotowanie?"
+            },
+            category: ["sport", "rowery"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19b.jpg",
+                alt: "Portret kobiety. Wygenerowane przez AI."
+            },
+            story: {
+                text: "M<u><b>aj</u></b>a ma zezowate <u><b>oko</u></b> i mówi, no <u><b>JA</u></b> widzę ciebie podwójnie",
+               alt: "Świadomość wady wzroku. Czy wadę wzroku można wyleczyć?"
+            },
+            category: ["natura", "zdrowie"]
+        },
+        {
+            id: 3,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19c.jpg",
+                alt: "Boginii Gaja. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Nauka o mitach, takich jak królowa G</u></b>aj</u></b>a to ten temat, gdzie <u><b>ja</u></b> mam największą wiedze",
+                alt: "Mitologia Boginii Gai. Kto to jest Boginii Gaja?"
+            },
+           category: ["nauka", "mitologia"]
+        },
+        {
+            id: 4,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19d.jpg",
+                alt: "Wesele pary młodej. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Teraz <u><b>ja</u></b> występuję na weselu jako wodzirej i śpiewam <u><b>Aj</u></b>-ja-jaj tak słodko jest tu z wami być..",
+                alt: "Przyjecie weselne. Kto może zostać wodzirejem?"
+            },
+            category: ["czarny humor", "muzyka"]
+        },
+        {
+            id: 5,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19e.jpg",
+                alt: "Zajmowanie się kurami. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Mo<u><b>ja</u></b> babcia idzie do kurnika po jaja, a <u><b>ja</u></b> będę za chwilę jadł jajecznice",
+               alt: "Gospodarstwo domowe ze zwierzętami. Czy hodowla zwierząt jest trudna?"
+            },
+            category: ["związki", "rodzina"]
+        }
+    ],
+                                                                                        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja121/he.mp3"
+        ],
+        translate: "",
+        translateb: "[]",
+        translateb2: "[]",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja54/laptop.mp4", "Jestem Bogiem (2011)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja54/laptop.png",
+        desc: "I[aj] - ja",
+        sentence1: [
+            "I"
+        ],
+                                                                sentence1b: [
+            "Ja"
+        ],
+                            sentence1c: [
+            "aj"
+        ],
+        sentence: [
+            "I",
+            "forgot"
+        ],
+        key: "I",
+        category2: ["osoby"],
+        category3: ["PastPerfect"]
+    },
+                                                                                                                                                                                                                                {
+        id: [
+            906,
+            160,
+            252
+        ],
+                    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/906a.jpg",
+                alt: "Gracz Rugby. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Dałem mu <u><b>for</u></b>y na treningu ale zapomniałem mu wyjaśnić skąd tak wielka moja <u><b>got</u></b>owość do wysiłku',
+                alt: ""
+            },
+            category: ["", ""]
+        },
+            ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja160/forgot.mp3"
+        ],
+        desc: "forgot[forgot] - zapomniałem/zapomniała",
+        sentence1: [
+            "forgot"
+        ],
+                                                                sentence1b: [
+            "zapomniałem"
+        ],
+                            sentence1c: [
+            "forgot"
+        ],
+        sentence: [
+            "I",
+            "forgot"
+        ],
+        key: "forgot",
+        category1: "nauka",
+        category2: ["czasownik"]
+    },
+                                                                                                                                                                                                                                    {
+        id: [
+            907,
+            160,
+            252
+        ],
+                            entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/907a.jpg",
+                alt: "Gracz Rugby. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'Ładuje telefon i nie mogę naładować. Wtedy <u><b>tu<u><b> <u><b>czar</u></b>uje bo jestem elektrykiem i mam urządzenie które mierzy napięcie w <u><b>dż</u></b>ulach',
+                alt: ""
+            },
+            category: ["", ""]
+        },
+            ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja160/tocharge.mp3"
+        ],
+        desc: "to charge[tu czardź] - ładować/naładować",
+        sentence2: [
+            "to_charge"
+        ],
+                                                                sentence1b: [
+            "naładować"
+        ],
+                            sentence1c: [
+            "tu_czardź"
+        ],
+        sentence: [
+            "to charge",
+            "my",
+            "laptop"
+        ],
+        key: "charge",
+        category1: "nauka",
+        category2: ["czasownik"]
+    },
+                                                                                                                                                                                                                                    {
+        id: [
+            908,
+            160,
+            252
+        ],
+        entries: [
+                        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa1.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Maj</b></u>kut mówi: <b><u>mój</b></u> wynik był najlepszy w tym wyścigu",
+                alt: "Bieganie. Czy dominująca półkula mózgu ma wpływ na wyniki sportowe?"
+            },
+            category: ["sport", "bieganie"]
+        },
+                {
+                            id: 2,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50cc.jpg",
+                alt: "Zroszona przez deszcz - roślina. Wygenerowane przez AI."
+            },
+            story: {
+                text: "W <b><u>maj</b></u>u na <b><u>moje</b></u> rośliny w ogrodzie pada deszcz",
+                alt: "Pory roku, wiosna i jej uroki. Czy majowy deszcz jest przyjemny?"
+            },
+            category: ["nauka", "pory roku"]
+        },
+        {
+            id: 3,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa.jpg",
+                alt: "Ogród kwiatowy. Wygenerowane przez AI."
+            },
+            story: {
+                text: "W <b><u>maj</b></u>u kwitną <b><u>moje</b></u> ulubione kwiaty",
+                alt: "Wiosna i jej piękno. Czy wiosna powoduje radosny klimat?"
+            },
+            category: ["natura", "florystyka"]
+        },
+                {
+                    id: 4,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50bb4.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Weekend <b><u>maj</b></u>owy to doskanły czas, aby odpocząć od <b><u>mojej</b></u> pracy",
+                alt: "Praca. Kiedy najlepiej odpoczywać w Polsce?"
+            },
+            category: ["czarny humor", "wypoczynek"]
+        },
+        {
+                    id: 5,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50bb.jpg",
+                alt: "Auto na parkingu. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Przetrzy<b><u>maj</b></u> mi na pare dni <b><u>moje</b></u> auto na placu",
+                alt: "Zaufanie a przyjaźń. Czy trudno jest zbudować zaufanie?"
+            },
+            category: ["związki", "przyjaźń"]
+        },
+                        {
+                    id: 6,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa6.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Jestem <b><u>maj</b></u>kutem. <b><u>Moje</b></u> serwy tenisowe są wyśmienite",
+                alt: ""
+            },
+            category: ["sport 2", "tenis ziemny"]
+        },
+        {
+                            id: 7,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/50aa7.jpg",
+                alt: "Auto na parkingu. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Moje</b></u> auto to <b><u>Maj</b></u>bach - muszę płacić wysoką składkę ubezpieczeniową",
+                alt: ""
+            },
+            category: ["czarny humor 2", "majątek"]
+        }
+            ],
+                                                                                                        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja122/my.mp3"
+        ],
+        desc: "my[maj] - mój/moja/moje",
+        sentence2: [
+            "my"
+        ],
+                                                                sentence1b: [
+            "mój"
+        ],
+                            sentence1c: [
+            "maj"
+        ],
+        sentence: [
+            "to charge",
+            "my",
+            "laptop"
+        ],
+        key: "my",
+        category1: "nauka",
+        category2: ["zaimkiosobowe"]
+    },
+                                                                                                                                                                                                                                    {
+        id: [
+            909,
+            160,
+            252
+        ],
+                            entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/909a.jpg",
+                alt: "Gracz Rugby. Wygenerowane przez AI."
+            },
+            story: {
+                text: 'KOGNATY - LAPTOP (ENG - LAPTOP) - LAPTOP (PL)',
+                alt: ""
+            },
+            category: ["", ""]
+        },
+            ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja160/laptop.mp3"
+        ],
+        desc: "laptop[laptop] - laptop",
+        sentence2: [
+            "laptop"
+        ],
+                                                                sentence1b: [
+            "laptop"
+        ],
+                            sentence1c: [
+            "laptop"
+        ],
+        sentence: [
+            "to charge",
+            "my",
+            "laptop"
+        ],
+        key: "laptop",
+        category1: "nauka",
+        category2: ["rzecz", "kognaty"]
+    },
+        {
+        id: [
+            910,
+            161,
+            260
+        ],
+        entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/131a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Wi</b></u>ll Smith oznajmił, że <b><u>my</b></u> jako ludzkość mamy się dobrze",
+                alt: ""
+            },
+            category: ["show-biznes", "aktor"]
+        }
+            ],
+                                                                                                                                        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja112/we.mp3"
+        ],
+        translate: "Dzielimy się jedzeniem z naszymi przyjaciółmi",
+        translateb: "[Łi szer fud wiz aur friends]",
+        translateb2: "[]",
+        srcWord: ["https://www.arbulang.com/filmy/lekcja38/eats.mp4", "Szybcy i Wściekli 6 (2013)"],
+        srcWordimage: "https://www.arbulang.com/filmy/lekcja38/eats.png",
+        desc: "we[łi] - my",
+        sentence1: [
+            "We"
+        ],
+                                                                sentence1b: [
+            "My"
+        ],
+                            sentence1c: [
+            "łi"
+        ],
+        sentence: [
+            "We",
+            "usually",
+            "order",
+            "dinner",
+            "on",
+            "Fridays"
+        ],
+        key: "we",
+        category2: ["osoby"],
+        category3: ["PastPerfect"]
+    },
+{
+        id: [
+            912,
+            161,
+            252
+        ],
+entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/912a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<b><u>Już</b></u> <b><u>zazwyczaj</b></u> nie widzę <b><u>Eli</b></u> gdy chodzę do sklepu",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+            ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja161/usually.mp3"
+        ],
+        desc: "usually[jużeli] - zazwyczaj",
+        sentence1: [
+            "usually"
+        ],
+                                                                sentence1b: [
+            "zwykle"
+        ],
+                            sentence1c: [
+            "jużueli"
+        ],
+        sentence: [
+            "We",
+            "usually",
+            "order",
+            "dinner",
+            "on",
+            "Fridays"
+        ],
+        key: "usually",
+        category1: "nauka",
+        category2: ["rzecz", "kognaty"]
+    },
+                                                                                                                                                                                                                                            {
+        id: [
+            913,
+            161,
+            252
+        ],
+        entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/913a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Żeby uprawiać ten sp<b><u>or</b></u>t (tenis) trzeba <b><u>zamówić</b></u> na<b><u>der</b></u> dobre rakiety tenisowe",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+            ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja161/order.mp3"
+        ],
+        desc: "order[o|u-rder] - zamówić",
+        sentence1: [
+            "order"
+        ],
+                                                                sentence1b: [
+            "zamawiamy"
+        ],
+                            sentence1c: [
+            "o|u-rder"
+        ],
+        sentence: [
+            "We",
+            "usually",
+            "order",
+            "dinner",
+            "on",
+            "Fridays"
+        ],
+        key: "order",
+        category1: "nauka",
+        category2: ["rzecz", "kognaty"]
+    },
+                                                                                                                                                                                                                                                {
+        id: [
+            914,
+            161,
+            252
+        ],
+        entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/914a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Wal<u><b>di</u></b> je <u><b>kolacje</u></b>, która pomaga mu uzdrowić <u><b>ner</u></b>kę",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+            ],
+                                                                                        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja36/dinner.mp3"
+        ],
+        desc: "dinner[diner] - kolacja",
+        sentence1: [
+            "dinner"
+        ],
+                                                                sentence1b: [
+            "kolację"
+        ],
+                            sentence1c: [
+            "diner"
+        ],
+        sentence: [
+            "We",
+            "usually",
+            "order",
+            "dinner",
+            "on",
+            "Fridays"
+        ],
+        key: "dinner",
+        category1: "nauka",
+        category2: ["rzecz", "kognaty"]
+    },
+                                                                                                                                                                                                                                                {
+        id: [
+            915,
+            161,
+            252
+        ],
+        entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/246a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>On</u></b> jest <u><b>na</u></b> wakacjach. Nie odbiera telefonu",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+            ],
+                                                                                        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja37/on.mp3"
+        ],
+        desc: "on[on] - na",
+        sentence1: [
+            "on"
+        ],
+                                                                sentence1b: [
+            "w"
+        ],
+                            sentence1c: [
+            "on"
+        ],
+        sentence: [
+            "We",
+            "usually",
+            "order",
+            "dinner",
+            "on",
+            "Fridays"
+        ],
+        key: "on",
+        category1: "nauka",
+        category2: ["rzecz", "kognaty"]
+    },
+{
+        id: [
+            916,
+            161,
+            252
+        ],
+        entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/916a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Ale to <u><b>fraj</u></b>da w piątki odpoczywać po ciężkim tygodniu bo z<u><b>de</u></b>nerwowania - dużo i hajsu mało",
+                alt: ""
+            },
+            category: ["", ""]
+        }
+            ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja161/Fridays.mp3"
+        ],
+        desc: "Fridays[frajdejs] - piątek - liczba mnoga (piątki)",
+        sentence1: [
+            "Fridays"
+        ],
+                                                                sentence1b: [
+            "piątek"
+        ],
+                            sentence1c: [
+            "frajdejs"
+        ],
+        sentence: [
+            "We",
+            "usually",
+            "order",
+            "dinner",
+            "on",
+            "Fridays"
+        ],
+        key: "fridays",
+        category1: "nauka",
+        category2: ["rzecz", "kognaty"]
+    },
+            {
+        id: [
+            917,
+            162,
+            260
+        ],
+entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/207b.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Oni</u></b> z<u><b>dej</u></b>mują jabłka z jabłoni",
+                alt: ""
+            },
+            category: ["sezon", "prace ogrodowe"]
+        }
+            ],
+                                                                word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja128/they.mp3"
+        ],
+        translate: "Oni sadzą kwiaty w ogrodzie",
+        translateb: "[]",
+        translateb2: "[]",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja/.mp4", "Greenfingers (2000)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja/.png",
+        desc: "they[dej] - oni",
+        sentence1: [
+            "They"
+        ],
+                                                                sentence1b: [
+            "Oni"
+        ],
+                            sentence1c: [
+            "dej"
+        ],
+        sentence: [
+            "They",
+            "were waiting"
+        ],
+        key: "we",
+        category2: ["osoby"],
+        category3: ["Past Continuous"]
+    },
+    {
+        id: [
+            918,
+            162,
+            252
+        ],
+        entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/918a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Ale mam pa<u><b>łer</u></b> bo już kończy się kolejka w czekaniu na koncert wspania<u><b>łej</u></b> gwiazdy S<u><b>ting</u></b>a",
+                alt: ""
+            },
+            category: ["sezon", "prace ogrodowe"]
+        }
+            ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja162/werewaiting.mp3"
+        ],
+        desc: "were waiting[łer łejting] - czekali (w przeszłości)",
+        sentence1: [
+            "were_waiting"
+        ],
+                                                                sentence1b: [
+            "czekali"
+        ],
+                            sentence1c: [
+            "łer_łejting"
+        ],
+        sentence: [
+            "They",
+            "were waiting"
+        ],
+        key: "waiting",
+        category1: "nauka",
+        category2: ["rzecz", "kognaty"]
+    },
+        {
+        id: [
+            919,
+            162,
+            252
+        ],
+        entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/919a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Piłka wyleciała na zewnątrz boiska czyli na <u><b>aut</u></b>. <u><b>S</u></b>portowiec szybko zn<u><b>ajd</u></b>uje piłkę",
+                alt: ""
+            },
+            category: ["sezon", "prace ogrodowe"]
+        }
+            ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja162/outside.mp3"
+        ],
+        desc: "outisde[autsajd] - na zewnątrz",
+        sentence2: [
+            "outside"
+        ],
+                                                                sentence1b: [
+            "przed_(na zewnątrz)"
+        ],
+                            sentence1c: [
+            "autsajd"
+        ],
+        sentence: [
+            "outside",
+            "the restaurant"
+        ],
+        key: "outside",
+        category1: "nauka",
+        category2: ["rzecz", "kognaty"]
+    },
+            {
+        id: [
+            920,
+            162,
+            252
+        ],
+                entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/920a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "KOGNATY - RESTAURANT (ENG: RESTRANT) - RESTAURACJA (PL)",
+                alt: ""
+            },
+            category: ["sezon", "prace ogrodowe"]
+        }
+            ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja162/therestaurant.mp3"
+        ],
+        desc: "the restaurant[restrant] - restauracja",
+        sentence2: [
+            "the_restaurant"
+        ],
+                                                                sentence1b: [
+            "restauracji"
+        ],
+                            sentence1c: [
+            "restrant"
+        ],
+        sentence: [
+            "outside",
+            "the restaurant"
+        ],
+        key: "restaurant",
+        category1: "nauka",
+        category2: ["rzecz", "kognaty"]
+    },
+                {
+        id: [
+            921,
+            163,
+            260
+        ],
+    entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19a.jpg",
+                alt: "Odzież ochronna dla jazdy rowerem. Wygenerowane przez AI."
+            },
+            story: {
+                text: "<u><b>Ja</u></b> jestem Piotrek, mam okulary ochronne, gdy jechałem rowerem wleciała mi mucha do <u><b>oka</u></b>, krzyczałem <u><b>ajjj</u></b> - dlaczego to <u><b>mi</u></b> wleciała mucha do <u><b>oka</u></b>, <u><b>ajjj</u></b>",
+                alt: "Bezpieczna jazda rowerem. Czy do jazdy rowerem potrzebne jest przygotowanie?"
+            },
+            category: ["sport", "rowery"]
+        },
+        {
+            id: 2,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19b.jpg",
+                alt: "Portret kobiety. Wygenerowane przez AI."
+            },
+            story: {
+                text: "M<u><b>aj</u></b>a ma zezowate <u><b>oko</u></b> i mówi, no <u><b>JA</u></b> widzę ciebie podwójnie",
+               alt: "Świadomość wady wzroku. Czy wadę wzroku można wyleczyć?"
+            },
+            category: ["natura", "zdrowie"]
+        },
+        {
+            id: 3,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19c.jpg",
+                alt: "Boginii Gaja. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Nauka o mitach, takich jak królowa G</u></b>aj</u></b>a to ten temat, gdzie <u><b>ja</u></b> mam największą wiedze",
+                alt: "Mitologia Boginii Gai. Kto to jest Boginii Gaja?"
+            },
+           category: ["nauka", "mitologia"]
+        },
+        {
+            id: 4,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19d.jpg",
+                alt: "Wesele pary młodej. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Teraz <u><b>ja</u></b> występuję na weselu jako wodzirej i śpiewam <u><b>Aj</u></b>-ja-jaj tak słodko jest tu z wami być..",
+                alt: "Przyjecie weselne. Kto może zostać wodzirejem?"
+            },
+            category: ["czarny humor", "muzyka"]
+        },
+        {
+            id: 5,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/19e.jpg",
+                alt: "Zajmowanie się kurami. Wygenerowane przez AI."
+            },
+            story: {
+                text: "Mo<u><b>ja</u></b> babcia idzie do kurnika po jaja, a <u><b>ja</u></b> będę za chwilę jadł jajecznice",
+               alt: "Gospodarstwo domowe ze zwierzętami. Czy hodowla zwierząt jest trudna?"
+            },
+            category: ["związki", "rodzina"]
+        }
+    ],
+                                                                                                                    word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja117/I.mp3"
+        ],
+        translate: "Zapraszam cię na moje urodziny",
+        translateb: "[]",
+        translateb2: "[]",
+        srcWord: ["http://localhost/arbulanguage.com/filmy/lekcja39/invite.mp4", "Matrix Reaktywacja (2003)"],
+        srcWordimage: "http://localhost/arbulanguage.com/filmy/lekcja39/invite.png",
+        desc: "I[aj] - ja",
+        sentence1: [
+            "I"
+        ],
+                                                                sentence1b: [
+            "Ja"
+        ],
+                            sentence1c: [
+            "aj"
+        ],
+        sentence: [
+            "I",
+            "need",
+            "to replace",
+            "these",
+            "batteries"
+        ],
+        key: "I",
+        category2: ["osoby"],
+        category3: ["PresentPefect"]
+    },
+                {
+        id: [
+            922,
+            163,
+            252
+        ],
+            entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/334a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Ta g<u><b>nid</u></b>a nie daje mi spokoju, ciągle coś <u><b>potrzebuje</u></b>",
+                alt: ""
+            },
+            category: ["wychowanie", "praca"]
+        }
+            ],
+        desc: "need[nid] - potrzebuję",
+        sentence2: [
+            "need"
+        ],
+                                                                sentence1b: [
+            ""
+        ],
+                            sentence1c: [
+            ""
+        ],
+        sentence: [
+            "I",
+            "need",
+            "to replace",
+            "these",
+            "batteries"
+        ],
+        key: "need",
+        category1: "nauka",
+        category2: ["rzecz", "kognaty"]
+    },
+                {
+        id: [
+            923,
+            163,
+            252
+        ],
+        entries: [
+        {
+            id: 1,
+            img: {
+                src: "http://localhost/arbulanguage.com/img/fiszki1/923a.jpg",
+                alt: "Wygenerowane przez AI."
+            },
+            story: {
+                text: "Twarda <u><b>rip</u></b>osta jest jak k<u><b>lej</u></b>not, ale <u><b>zastąpiłem</u></b> ją też czymś <u><b>s</u></b>upe",
+                alt: ""
+            },
+            category: ["wychowanie", "praca"]
+        }
+            ],
+        word: [
+            "http://localhost/arbulanguage.com/voice/angielski/lekcja163/toreplace.mp3"
+        ],
+        desc: "to replace - zastąpić",
+        sentence2: [
+            "to_replace"
+        ],
+                                                                sentence1b: [
+            ""
+        ],
+                            sentence1c: [
+            ""
+        ],
+        sentence: [
+            "I",
+            "need",
+            "to replace",
+            "these",
+            "batteries"
+        ],
+        key: "replace",
+        category1: "nauka",
+        category2: ["rzecz", "kognaty"]
+    },
+                {
+        id: [
+            924,
+            163,
+            252
+        ],
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/819a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "these[] - ",
+        sentence2: [
+            "these"
+        ],
+                                                                sentence1b: [
+            ""
+        ],
+                            sentence1c: [
+            ""
+        ],
+        sentence: [
+            "I",
+            "need",
+            "to replace",
+            "these",
+            "batteries"
+        ],
+        key: "these",
+        category1: "nauka",
+        category2: ["rzecz", "kognaty"]
+    },
+                    {
+        id: [
+            925,
+            163,
+            252
+        ],
+        img: [
+            "http://localhost/arbulanguage.com/img/fiszki1/819a.jpg"
+        ],
+        story: [
+            ""
+        ],
+        desc: "batteries[] - ",
+        sentence2: [
+            "batteries"
+        ],
+                                                                sentence1b: [
+            ""
+        ],
+                            sentence1c: [
+            ""
+        ],
+        sentence: [
+            "I",
+            "need",
+            "to replace",
+            "these",
+            "batteries"
+        ],
+        key: "batteries",
+        category1: "nauka",
+        category2: ["rzecz", "kognaty"]
+    }
 ];
 console.log('✅ createSentenceMatrix loaded');
 
@@ -43899,7 +48162,7 @@ function showNotification(fiszka) {
 
   const notification = new Notification(title, {
     body: body,
-    icon: 'https://www.arbulang.com/img/fiszki1/1a.jpg', // Opcjonalnie, jeśli masz ikonę
+    icon: 'http://localhost/arbulanguage.com/img/fiszki1/1a.jpg', // Opcjonalnie, jeśli masz ikonę
   });
 
   notification.onclose = function () {
@@ -45568,7 +49831,7 @@ function showNotification(fiszka) {
 
   const notification = new Notification(title, {
     body: body,
-    icon: 'https://www.arbulang.com/img/fiszki1/1a.jpg', // Opcjonalnie, jeśli masz ikonę
+    icon: 'http://localhost/arbulanguage.com/img/fiszki1/1a.jpg', // Opcjonalnie, jeśli masz ikonę
   });
 }
 // Załóżmy, że wybrana fiszka jest w zmiennej `selectedFiszka`

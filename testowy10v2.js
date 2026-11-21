@@ -1142,9 +1142,11 @@ id: [
         ],
         sentence: [
                 "Mantener",
-                "la paz",
+                "la armonia",
                 "y",
-                "armonia"
+                "la paz",
+                "en",
+                "la casa"
         ],
         //  slowo do nauki
         key: "mantener",
@@ -1167,28 +1169,30 @@ id: [
         ],
         // historia
         story: [
-            "P<u><b>la</u></b>n jest całkowity <u><b>pokój</u></b> na świecie. Większości to <u><b>pas</u></b>uje"
+            "KOGNATY: HARMONIA - ARMONIA (HA NIEME)"
         ],
         // opis
-        desc: "la paz[la pas(Meksyk, Kolumbia)] - pokój",
+        desc: "armonia[armonia] - harmonia",
         //zdanie
         sentence1: [
-                "la_paz"
+                "la_armonia"
         ],
                         sentence1b: [
-            "pokój"
+            "harmonię"
         ],
                 sentence1c: [
-            "la_pas"
+            "la_armonia"
         ],
-        sentence: [
+                sentence: [
                 "Mantener",
-                "la paz",
+                "la armonia",
                 "y",
-                "armonia"
+                "la paz",
+                "en",
+                "la casa"
         ],
         //  slowo do nauki
-        key: "paz",
+        key: "armonia",
         category1: [
         ],
         category2: ["osoby", "osoby+czas"],
@@ -1222,11 +1226,13 @@ id: [
                 sentence1c: [
             "i"
         ],
-        sentence: [
+                sentence: [
                 "Mantener",
-                "la paz",
+                "la armonia",
                 "y",
-                "armonia"
+                "la paz",
+                "en",
+                "la casa"
         ],
         //  slowo do nauki
         key: "y",
@@ -1244,33 +1250,35 @@ id: [
         img: [
                 "https://www.arbulang.com/img/fiszkiespanol/130a.jpg"
         ],
-        word: [
+                word: [
                 "https://www.arbulang.com/voice/music.mp4"
         ],
         // historia
         story: [
-            "KOGNATY: HARMONIA - ARMONIA (HA NIEME)"
+            "P<u><b>la</u></b>n jest całkowity <u><b>pokój</u></b> na świecie. Większości to <u><b>pas</u></b>uje"
         ],
         // opis
-        desc: "armonia[armonia] - harmonia",
+        desc: "la paz[la pas(Meksyk, Kolumbia)] - pokój",
         //zdanie
         sentence1: [
-                "armonia"
+                "la_paz"
         ],
                                         sentence1b: [
-            "harmonię"
+            "pokój"
         ],
                 sentence1c: [
-            "armonia"
+            "la_pas"
         ],
-        sentence: [
+                sentence: [
                 "Mantener",
-                "la paz",
+                "la armonia",
                 "y",
-                "armonia"
+                "la paz",
+                "en",
+                "la casa"
         ],
         //  slowo do nauki
-        key: "armonia",
+        key: "paz",
         category1: [
         ],
         category2: ["osoby", "osoby+czas"],
@@ -1279,6 +1287,84 @@ id: [
 {
 id: [
         131,
+        26
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/3a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+                "W <u><b>en</u></b>cykopedi jest podstawowa wiedza"
+        ],
+        // opis
+        desc: "en[en] - w",
+        //zdanie
+        sentence1: [
+                "en"
+        ],
+                                                                sentence2b: [
+            "w"
+        ],
+                sentence2c: [
+            "en"
+        ],
+        sentence: [
+                "en",
+                "un coche",
+                "bonito"
+        ],
+        //  slowo do nauki
+        key: "en",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        132,
+        26
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/fiszkiespanol/8a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+                "P<u><b>la</u></b>ton miał piękny <u><b>dom</u></b>, bo była na to <u><b>kasa</u></b>"
+        ],
+        // opis
+        desc: "la casa[la kasa] - dom",
+        //zdanie
+        sentence2: [
+                "la_casa"
+        ],
+                                                        sentence2b: [
+            "domu"
+        ],
+                sentence2c: [
+            "la_kasa"
+        ],
+        sentence: [
+                "dentro de",
+                "la casa"
+        ],
+        //  slowo do nauki
+        key: "casa",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"]
+},
+{
+id: [
+        133,
         27
 ],
         // obrazek
@@ -1321,7 +1407,7 @@ id: [
 },
 {
 id: [
-        132,
+        134,
         27
 ],
         // obrazek
@@ -1360,7 +1446,7 @@ id: [
 },
 {
 id: [
-        133,
+        135,
         27
 ],
         // obrazek
@@ -1400,7 +1486,7 @@ id: [
 },
 {
 id: [
-        134,
+        136,
         27
 ],
         // obrazek
@@ -1440,7 +1526,7 @@ id: [
 },
 {
 id: [
-        135,
+        137,
         27
 ],
         // obrazek
@@ -1480,7 +1566,7 @@ id: [
 },
 {
 id: [
-        136,
+        138,
         28
 ],
         // obrazek
@@ -1524,7 +1610,7 @@ id: [
 },
 {
 id: [
-        137,
+        139,
         28
 ],
         // obrazek
@@ -1564,7 +1650,7 @@ id: [
 },
 {
 id: [
-        138,
+        140,
         28
 ],
         // obrazek
@@ -1604,7 +1690,7 @@ id: [
 },
 {
 id: [
-        139,
+        141,
         28
 ],
         // obrazek
@@ -1644,7 +1730,7 @@ id: [
 },
 {
 id: [
-        140,
+        142,
         28
 ],
         // obrazek
@@ -1684,7 +1770,7 @@ id: [
 },
 {
 id: [
-        141,
+        143,
         28
 ],
         // obrazek
@@ -1724,7 +1810,7 @@ id: [
 },
 {
 id: [
-        142,
+        144,
         29
 ],
         // obrazek
@@ -1767,7 +1853,7 @@ id: [
 },
 {
 id: [
-        143,
+        145,
         29
 ],
         // obrazek
@@ -1806,7 +1892,7 @@ id: [
 },
 {
 id: [
-        144,
+        146,
         29
 ],
         // obrazek
@@ -1852,7 +1938,7 @@ id: [
 },
 {
 id: [
-        145,
+        147,
         29
 ],
         // obrazek
@@ -1892,7 +1978,7 @@ id: [
 },
 {
 id: [
-        146,
+        148,
         29
 ],
         img: [
@@ -1931,7 +2017,7 @@ id: [
 },
 {
 id: [
-        147,
+        149,
         30
 ],
         // obrazek
@@ -1974,7 +2060,7 @@ id: [
 },
 {
 id: [
-        148,
+        150,
         30
 ],
         img: [
@@ -2012,7 +2098,7 @@ id: [
 },
 {
 id: [
-        149,
+        151,
         30
 ],
         // obrazek
@@ -2058,7 +2144,7 @@ id: [
 },
 {
 id: [
-        150,
+        152,
         30
 ],
         img: [
@@ -2097,7 +2183,7 @@ id: [
 },
 {
 id: [
-        151,
+        153,
         30
 ],
         img: [
@@ -2136,7 +2222,7 @@ id: [
 },
 {
 id: [
-        152,
+        154,
         31
 ],
         // obrazek
@@ -2179,7 +2265,7 @@ id: [
 },
 {
 id: [
-        153,
+        155,
         31
 ],
         img: [
@@ -2217,7 +2303,7 @@ id: [
 },
 {
 id: [
-        154,
+        156,
         31
 ],
         // obrazek
@@ -2258,7 +2344,7 @@ id: [
 },
 {
 id: [
-        155,
+        157,
         31
 ],
         img: [
@@ -2298,7 +2384,7 @@ id: [
 },
 {
 id: [
-        156,
+        158,
         31
 ],
         img: [
@@ -2338,7 +2424,7 @@ id: [
 },
 {
 id: [
-        157,
+        159,
         31
 ],
         img: [
@@ -2378,7 +2464,7 @@ id: [
 },
 {
 id: [
-        158,
+        160,
         32
 ],
         // obrazek
@@ -2421,7 +2507,7 @@ id: [
 },
 {
 id: [
-        159,
+        161,
         32
 ],
         img: [
@@ -2459,7 +2545,7 @@ id: [
 },
 {
 id: [
-        160,
+        162,
         32
 ],
         // obrazek
@@ -2505,7 +2591,7 @@ id: [
 },
 {
 id: [
-        161,
+        163,
         32
 ],
         img: [
@@ -2544,7 +2630,7 @@ id: [
 },
 {
 id: [
-        162,
+        164,
         32
 ],
         img: [
@@ -2583,7 +2669,7 @@ id: [
 },
 {
 id: [
-        163,
+        165,
         33
 ],
         // obrazek
@@ -2627,7 +2713,7 @@ id: [
 },
 {
 id: [
-        164,
+        166,
         33
 ],
         img: [
@@ -2666,7 +2752,7 @@ id: [
 },
 {
 id: [
-        165,
+        167,
         33
 ],
         img: [
@@ -2705,7 +2791,7 @@ id: [
 },
 {
 id: [
-        166,
+        168,
         33
 ],
         // obrazek
@@ -2751,7 +2837,7 @@ id: [
 },
 {
 id: [
-        167,
+        169,
         33
 ],
         img: [
@@ -2790,7 +2876,7 @@ id: [
 },
 {
 id: [
-        168,
+        170,
         33
 ],
         img: [
@@ -2829,7 +2915,7 @@ id: [
 },
 {
 id: [
-        169,
+        171,
         34
 ],
         // obrazek
@@ -2873,7 +2959,7 @@ id: [
 },
 {
 id: [
-        170,
+        172,
         34
 ],
         img: [
@@ -2912,7 +2998,7 @@ id: [
 },
 {
 id: [
-        171,
+        173,
         34
 ],
         img: [
@@ -2951,7 +3037,7 @@ id: [
 },
 {
 id: [
-        172,
+        174,
         34
 ],
         // obrazek
@@ -2991,7 +3077,7 @@ id: [
 },
 {
 id: [
-        173,
+        175,
         34
 ],
         img: [
@@ -3030,7 +3116,7 @@ id: [
 },
 {
 id: [
-        174,
+        176,
         34
 ],
         img: [
@@ -3069,7 +3155,7 @@ id: [
 },
 {
 id: [
-        175,
+        177,
         35
 ],
         // obrazek
@@ -3112,7 +3198,7 @@ id: [
 },
 {
 id: [
-        176,
+        178,
         35
 ],
         img: [
@@ -3150,7 +3236,7 @@ id: [
 },
 {
 id: [
-        177,
+        179,
         35
 ],
         // obrazek
@@ -3190,7 +3276,7 @@ id: [
 },
 {
 id: [
-        178,
+        180,
         35
 ],
         // obrazek
@@ -3230,7 +3316,7 @@ id: [
 },
 {
 id: [
-        179,
+        181,
         35
 ],
         img: [
@@ -3269,7 +3355,7 @@ id: [
 },
 {
 id: [
-        180,
+        182,
         36
 ],
         // obrazek
@@ -3312,7 +3398,7 @@ id: [
 },
 {
 id: [
-        181,
+        183,
         36
 ],
         img: [
@@ -3350,7 +3436,7 @@ id: [
 },
 {
 id: [
-        182,
+        184,
         36
 ],
         // obrazek
@@ -3396,7 +3482,7 @@ id: [
 },
 {
 id: [
-        183,
+        185,
         36
 ],
         img: [
@@ -3435,7 +3521,7 @@ id: [
 },
 {
 id: [
-        184,
+        186,
         36
 ],
         img: [
@@ -3474,7 +3560,7 @@ id: [
 },
 {
 id: [
-        185,
+        187,
         37
 ],
         // obrazek
@@ -3517,7 +3603,7 @@ id: [
 },
 {
 id: [
-        186,
+        188,
         37
 ],
         img: [
@@ -3555,7 +3641,7 @@ id: [
 },
 {
 id: [
-        187,
+        189,
         37
 ],
         // obrazek
@@ -3601,7 +3687,7 @@ id: [
 },
 {
 id: [
-        188,
+        190,
         37
 ],
         img: [
@@ -3640,7 +3726,7 @@ id: [
 },
 {
 id: [
-        189,
+        191,
         37
 ],
         img: [
@@ -3679,7 +3765,7 @@ id: [
 },
 {
 id: [
-        190,
+        192,
         38
 ],
         // obrazek
@@ -3722,7 +3808,7 @@ id: [
 },
 {
 id: [
-        191,
+        193,
         38
 ],
         img: [
@@ -3760,7 +3846,7 @@ id: [
 },
 {
 id: [
-        192,
+        194,
         38
 ],
         // obrazek
@@ -3800,7 +3886,7 @@ id: [
 },
 {
 id: [
-        193,
+        195,
         38
 ],
         // obrazek
@@ -3840,7 +3926,7 @@ id: [
 },
 {
 id: [
-        194,
+        196,
         38
 ],
         img: [
@@ -3878,7 +3964,7 @@ id: [
 },
 {
 id: [
-        195,
+        197,
         39
 ],
         // obrazek
@@ -3921,7 +4007,7 @@ id: [
 },
 {
 id: [
-        196,
+        198,
         39
 ],
         img: [
@@ -3959,7 +4045,7 @@ id: [
 },
 {
 id: [
-        197,
+        199,
         39
 ],
         // obrazek
@@ -4003,82 +4089,4 @@ id: [
         category2: ["osoby", "osoby+czas"],
                 category3: ["Infinitive"]
 },
-{
-id: [
-        198,
-        39
-],
-        img: [
-                "https://www.arbulang.com/img/fiszkiespanol/198a.jpg"
-        ],
-        word: [
-                "https://www.arbulang.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "Ta specjalistyczna <u><b>pens</u></b>eta służy do obrabiania k<u><b>amien</u></b>ia i często ją stosuję i mam bardzo kreatywne <u><b>myśli</u></b> podczas pracy z nią"
-        ],
-        // opis
-        desc: "pensamientos[pensamientos] - myśli",
-        //zdanie
-        sentence1: [
-                "pensamientos"
-        ],
-                                    sentence2b: [
-            "myślami"
-        ],
-                sentence2c: [
-            "pensamientos"
-        ],
-        sentence: [
-                "con",
-                "pensamientos",
-                "positivos"
-        ],
-        //  slowo do nauki
-        key: "pensamientos",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-},
-{
-id: [
-        199,
-        39
-],
-        img: [
-                "https://www.arbulang.com/img/fiszkiespanol/199a.jpg"
-        ],
-        word: [
-                "https://www.arbulang.com/voice/music.mp4"
-        ],
-        // historia
-        story: [
-            "KOGNATY - POSITYWNY - POSITIVOS"
-        ],
-        // opis
-        desc: "positivos[positiwos] - pozytywne/pozytywny",
-        //zdanie
-        sentence1: [
-                "positivos"
-        ],
-                                            sentence2b: [
-            "pozytywnymi"
-        ],
-                sentence2c: [
-            "positiwos"
-        ],
-        sentence: [
-                "con",
-                "pensamientos",
-                "positivos"
-        ],
-        //  slowo do nauki
-        key: "positivos",
-        category1: [
-        ],
-        category2: ["osoby", "osoby+czas"],
-                category3: ["Infinitive"]
-}
 );

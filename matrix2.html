@@ -1174,6 +1174,34 @@ span.highlight {
 }
             }
             @media (max-width: 999px) {
+                    html, body {
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 100% !important;
+        min-height: 100% !important;
+        overflow: hidden !important;
+    }
+
+    body::after {
+        content: "Na razie tylko na komputerze";
+        position: fixed !important;
+        top: 0 !important;
+        left: 0 !important;
+        width: 100vw !important;
+        height: 100vh !important;
+        height: 100dvh !important;
+        background-color: #007bff !important;
+        color: white !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+        text-align: center !important;
+        font-size: 24px !important;
+        font-weight: bold !important;
+        padding: 20px !important;
+        box-sizing: border-box !important;
+        z-index: 2147483647 !important;
+    }
 .word-fiszka-wrapper {
     left: 10px;
     top: -200px;
@@ -2455,7 +2483,7 @@ function showUniqueWordsUpToLesson73() {
 
   // 🔥 od początku do 73
   const filtered = fiszki10.filter(f => 
-    f.id && f.id[0] <= 294
+    f.id && f.id[0] <= 1000
   );
 
   const uniqueWords = getUniqueWordArray(filtered);

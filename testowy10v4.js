@@ -1,7 +1,43 @@
 fiszki10.push(
-{
+        {
 id: [
         300,
+        62
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "la empresa[] - ",
+        //zdanie
+        sentence1: [
+                "la empresa"
+        ],
+        sentence: [
+                "El acuerdo",
+                "beneficiará",
+                "a",
+                "la empresa"
+        ],
+        //  slowo do nauki
+        key: "empresa",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+
+{
+id: [
+        301,
         63
 ],
         // obrazek
@@ -39,7 +75,7 @@ id: [
 },
 {
 id: [
-        301,
+        302,
         63
 ],
         // obrazek
@@ -73,7 +109,7 @@ id: [
 },
 {
 id: [
-        302,
+        303,
         63
 ],
         // obrazek
@@ -107,7 +143,7 @@ id: [
 },
 {
 id: [
-        303,
+        304,
         63
 ],
         // obrazek
@@ -140,7 +176,7 @@ id: [
 },
 {
 id: [
-        304,
+        305,
         63
 ],
         // obrazek
@@ -173,7 +209,7 @@ id: [
 },
 {
 id: [
-        305,
+        306,
         64
 ],
         // obrazek
@@ -210,7 +246,7 @@ id: [
 },
 {
 id: [
-        306,
+        307,
         64
 ],
         // obrazek
@@ -243,7 +279,7 @@ id: [
 },
 {
 id: [
-        307,
+        308,
         64
 ],
         // obrazek
@@ -277,7 +313,7 @@ id: [
 },
 {
 id: [
-        308,
+        309,
         64
 ],
         // obrazek
@@ -311,7 +347,7 @@ id: [
 },
 {
 id: [
-        309,
+        310,
         64
 ],
         // obrazek
@@ -345,7 +381,7 @@ id: [
 },
 {
 id: [
-        310,
+        311,
         65
 ],
         // obrazek
@@ -383,7 +419,7 @@ id: [
 },
 {
 id: [
-        311,
+        312,
         65
 ],
         // obrazek
@@ -417,7 +453,7 @@ id: [
 },
 {
 id: [
-        312,
+        313,
         65
 ],
         // obrazek
@@ -451,7 +487,7 @@ id: [
 },
 {
 id: [
-        313,
+        314,
         66
 ],
         // obrazek
@@ -489,7 +525,7 @@ id: [
 },
 {
 id: [
-        314,
+        315,
         66
 ],
         // obrazek
@@ -523,7 +559,7 @@ id: [
 },
 {
 id: [
-        315,
+        316,
         66
 ],
         // obrazek
@@ -557,7 +593,7 @@ id: [
 },
 {
 id: [
-        316,
+        317,
         67
 ],
         // obrazek
@@ -594,7 +630,7 @@ id: [
 },
 {
 id: [
-        317,
+        318,
         67
 ],
         // obrazek
@@ -627,7 +663,7 @@ id: [
 },
 {
 id: [
-        318,
+        319,
         67
 ],
         // obrazek
@@ -660,7 +696,7 @@ id: [
 },
 {
 id: [
-        319,
+        320,
         67
 ],
         // obrazek
@@ -693,7 +729,7 @@ id: [
 },
 {
 id: [
-        320,
+        321,
         68
 ],
         // obrazek
@@ -730,7 +766,7 @@ id: [
 },
 {
 id: [
-        321,
+        322,
         68
 ],
         // obrazek
@@ -763,7 +799,7 @@ id: [
 },
 {
 id: [
-        322,
+        323,
         68
 ],
         // obrazek
@@ -798,7 +834,7 @@ id: [
 },
 {
 id: [
-        323,
+        324,
         68
 ],
         // obrazek
@@ -833,7 +869,7 @@ id: [
 },
 {
 id: [
-        324,
+        325,
         68
 ],
         // obrazek
@@ -868,7 +904,7 @@ id: [
 },
 {
 id: [
-        325,
+        326,
         68
 ],
         // obrazek
@@ -903,7 +939,7 @@ id: [
 },
 {
 id: [
-        326,
+        327,
         69
 ],
         // obrazek
@@ -940,7 +976,7 @@ id: [
 },
 {
 id: [
-        327,
+        328,
         69
 ],
         // obrazek
@@ -973,7 +1009,7 @@ id: [
 },
 {
 id: [
-        328,
+        329,
         69
 ],
         // obrazek
@@ -1006,7 +1042,7 @@ id: [
 },
 {
 id: [
-        329,
+        330,
         69
 ],
         // obrazek
@@ -1039,7 +1075,7 @@ id: [
 },
 {
 id: [
-        330,
+        331,
         70
 ],
         // obrazek
@@ -1076,7 +1112,7 @@ id: [
 },
 {
 id: [
-        331,
+        332,
         70
 ],
         // obrazek
@@ -1110,7 +1146,7 @@ id: [
 },
 {
 id: [
-        332,
+        333,
         70
 ],
         // obrazek
@@ -1144,7 +1180,7 @@ id: [
 },
 {
 id: [
-        333,
+        334,
         70
 ],
         // obrazek
@@ -1178,7 +1214,7 @@ id: [
 },
 {
 id: [
-        334,
+        335,
         70
 ],
         // obrazek
@@ -1212,7 +1248,7 @@ id: [
 },
 {
 id: [
-        335,
+        336,
         71
 ],
         // obrazek
@@ -1249,7 +1285,7 @@ id: [
 },
 {
 id: [
-        336,
+        337,
         71
 ],
         // obrazek
@@ -1282,7 +1318,7 @@ id: [
 },
 {
 id: [
-        337,
+        338,
         71
 ],
         // obrazek
@@ -1317,7 +1353,7 @@ id: [
 },
 {
 id: [
-        338,
+        339,
         71
 ],
         // obrazek
@@ -1352,7 +1388,7 @@ id: [
 },
 {
 id: [
-        339,
+        340,
         71
 ],
         // obrazek
@@ -1387,7 +1423,7 @@ id: [
 },
 {
 id: [
-        340,
+        341,
         71
 ],
         // obrazek
@@ -1422,7 +1458,7 @@ id: [
 },
 {
 id: [
-        341,
+        342,
         72
 ],
         // obrazek
@@ -1460,7 +1496,7 @@ id: [
 },
 {
 id: [
-        342,
+        343,
         72
 ],
         // obrazek
@@ -1494,7 +1530,7 @@ id: [
 },
 {
 id: [
-        343,
+        344,
         72
 ],
         // obrazek
@@ -1528,7 +1564,7 @@ id: [
 },
 {
 id: [
-        344,
+        345,
         72
 ],
         // obrazek
@@ -1564,7 +1600,7 @@ id: [
 },
 {
 id: [
-        345,
+        346,
         72
 ],
         // obrazek
@@ -1600,7 +1636,7 @@ id: [
 },
 {
 id: [
-        346,
+        347,
         72
 ],
         // obrazek
@@ -1636,7 +1672,7 @@ id: [
 },
 {
 id: [
-        347,
+        348,
         72
 ],
         // obrazek
@@ -1672,7 +1708,7 @@ id: [
 },
 {
 id: [
-        348,
+        349,
         72
 ],
         // obrazek
@@ -1708,7 +1744,7 @@ id: [
 },
 {
 id: [
-        349,
+        350,
         73
 ],
         // obrazek
@@ -1746,7 +1782,7 @@ id: [
 },
 {
 id: [
-        350,
+        351,
         73
 ],
         // obrazek
@@ -1780,7 +1816,7 @@ id: [
 },
 {
 id: [
-        351,
+        352,
         73
 ],
         // obrazek
@@ -1814,7 +1850,7 @@ id: [
 },
 {
 id: [
-        352,
+        353,
         73
 ],
         // obrazek
@@ -1849,7 +1885,7 @@ id: [
 },
 {
 id: [
-        353,
+        354,
         73
 ],
         // obrazek
@@ -1884,7 +1920,7 @@ id: [
 },
 {
 id: [
-        354,
+        355,
         73
 ],
         // obrazek
@@ -1919,7 +1955,7 @@ id: [
 },
 {
 id: [
-        355,
+        356,
         73
 ],
         // obrazek
@@ -1954,7 +1990,7 @@ id: [
 },
 {
 id: [
-        356,
+        357,
         74
 ],
         // obrazek
@@ -1993,7 +2029,7 @@ id: [
 },
 {
 id: [
-        357,
+        358,
         74
 ],
         // obrazek
@@ -2028,7 +2064,7 @@ id: [
 },
 {
 id: [
-        358,
+        359,
         74
 ],
         // obrazek
@@ -2063,7 +2099,7 @@ id: [
 },
 {
 id: [
-        359,
+        360,
         74
 ],
         // obrazek
@@ -2098,7 +2134,7 @@ id: [
 },
 {
 id: [
-        360,
+        361,
         74
 ],
         // obrazek
@@ -2134,7 +2170,7 @@ id: [
 },
 {
 id: [
-        361,
+        362,
         74
 ],
         // obrazek
@@ -2170,7 +2206,7 @@ id: [
 },
 {
 id: [
-        362,
+        363,
         74
 ],
         // obrazek
@@ -2182,10 +2218,10 @@ id: [
         ],
         // historia
         story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
+            ""
         ],
         // opis
-        desc: "se[] - ",
+        desc: "se[se] - nawzajem",
         //zdanie
         sentence1: [
                 "se"
@@ -2206,7 +2242,7 @@ id: [
 },
 {
 id: [
-        363,
+        364,
         74
 ],
         // obrazek
@@ -2218,10 +2254,10 @@ id: [
         ],
         // historia
         story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
+            "Koalę można poznać dopiero w Australii i zobaczyć jego koalowy nosek"
         ],
         // opis
-        desc: "conoce[] - ",
+        desc: "conoce[konose] - poznać",
         //zdanie
         sentence1: [
                 "conoce"
@@ -2242,7 +2278,7 @@ id: [
 },
 {
 id: [
-        364,
+        365,
         74
 ],
         // obrazek
@@ -2254,7 +2290,7 @@ id: [
         ],
         // historia
         story: [
-            "<u><b>To</u></b> <u><b>wszystko</u></b> <u><b>dos</u></b>taniecie w naszym sklepie"
+            ""
         ],
         // opis
         desc: "bien[] - ",
@@ -2271,6 +2307,497 @@ id: [
         ],
         //  slowo do nauki
         key: "bien",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        366,
+        75
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+        ],
+        translate: "Mieszkam w małym mieście, gdzie dobrze zna się ludzi",
+        translateb: "[]",
+        srcWord: ["https://www.arbulang.com/filmy/esp/.mp4", ''],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/.png",
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "<u><b>Kier</u></b>ownik <u><b>chce</u></b> od pracowników dobrej pracy - z<u><b>er</u></b>o wymówek"
+        ],
+        // opis
+        desc: "quiero[] - ",
+        //zdanie
+        sentence1: [
+                "Quiero"
+        ],
+        sentence: [
+                "Quiero",
+                "comprender",
+                "el mundo"
+        ],
+        //  slowo do nauki
+        key: "quiero",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Presente del Indicativo"]
+},
+{
+id: [
+        367,
+        75
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "comprender[] - ",
+        //zdanie
+        sentence1: [
+                "comprender"
+        ],
+        sentence: [
+                "Quiero",
+                "comprender",
+                "el mundo"
+        ],
+        //  slowo do nauki
+        key: "comprender",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        368,
+        75
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "el mundo[] - ",
+        //zdanie
+        sentence1: [
+                "el_mundo"
+        ],
+        sentence: [
+                "Quiero",
+                "comprender",
+                "el mundo"
+        ],
+        //  slowo do nauki
+        key: "mundo",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        369,
+        75
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "mediante[] - ",
+        //zdanie
+        sentence1: [
+                "mediante"
+        ],
+        sentence: [
+                "mediante",
+                "nuevas",
+                "experiencias"
+        ],
+        //  slowo do nauki
+        key: "mediante",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        370,
+        75
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "nuevas[] - ",
+        //zdanie
+        sentence1: [
+                "nuevas"
+        ],
+        sentence: [
+                "mediante",
+                "nuevas",
+                "experiencias"
+        ],
+        //  slowo do nauki
+        key: "nuevas",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        371,
+        75
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "experiencias[] - ",
+        //zdanie
+        sentence1: [
+                "experiencias"
+        ],
+        sentence: [
+                "mediante",
+                "nuevas",
+                "experiencias"
+        ],
+        //  slowo do nauki
+        key: "experiencias",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        366,
+        75
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/131a.jpg"
+        ],
+        translate: "Mieszkam w małym mieście, gdzie dobrze zna się ludzi",
+        translateb: "[]",
+        srcWord: ["https://www.arbulang.com/filmy/esp/.mp4", ''],
+        srcWordimage: "https://www.arbulang.com/filmy/esp/.png",
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            "<u><b>Kier</u></b>ownik <u><b>chce</u></b> od pracowników dobrej pracy - z<u><b>er</u></b>o wymówek"
+        ],
+        // opis
+        desc: "podemos[] - ",
+        //zdanie
+        sentence1: [
+                "Podemos"
+        ],
+        sentence: [
+                "Podemos",
+                "obrar",
+                "con",
+                "justicia"
+        ],
+        //  slowo do nauki
+        key: "podemos",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Presente del Indicativo"]
+},
+{
+id: [
+        367,
+        75
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "obrar[] - ",
+        //zdanie
+        sentence1: [
+                "obrar"
+        ],
+        sentence: [
+                "Podemos",
+                "obrar",
+                "con",
+                "justicia"
+        ],
+        //  slowo do nauki
+        key: "obrar",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        367,
+        75
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "con[] - ",
+        //zdanie
+        sentence1: [
+                "con"
+        ],
+        sentence: [
+                "Podemos",
+                "obrar",
+                "con",
+                "justicia"
+        ],
+        //  slowo do nauki
+        key: "con",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        367,
+        75
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "justicia[] - ",
+        //zdanie
+        sentence1: [
+                "justicia"
+        ],
+        sentence: [
+                "Podemos",
+                "obrar",
+                "con",
+                "justicia"
+        ],
+        //  slowo do nauki
+        key: "justicia",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        367,
+        75
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "incluso[] - ",
+        //zdanie
+        sentence1: [
+                "incluso"
+        ],
+        sentence: [
+                "incluso",
+                "en",
+                "situaciones",
+                "dificiles"
+        ],
+        //  slowo do nauki
+        key: "incluso",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        367,
+        75
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "en[] - ",
+        //zdanie
+        sentence1: [
+                "en"
+        ],
+        sentence: [
+                "incluso",
+                "en",
+                "situaciones",
+                "dificiles"
+        ],
+        //  slowo do nauki
+        key: "en",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},{
+id: [
+        367,
+        75
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "situaciones[] - ",
+        //zdanie
+        sentence1: [
+                "incluso"
+        ],
+        sentence: [
+                "incluso",
+                "en",
+                "situaciones",
+                "dificiles"
+        ],
+        //  slowo do nauki
+        key: "situaciones",
+        category1: [
+        ],
+        category2: ["osoby", "osoby+czas"],
+                category3: ["Infinitive"]
+},
+{
+id: [
+        367,
+        75
+],
+        // obrazek
+        img: [
+                "https://www.arbulang.com/img/fiszkiespanol/126a.jpg"
+        ],
+        word: [
+                "https://www.arbulang.com/voice/music.mp4"
+        ],
+        // historia
+        story: [
+            ""
+        ],
+        // opis
+        desc: "dificil[] - ",
+        //zdanie
+        sentence1: [
+                "dificil"
+        ],
+        sentence: [
+                "incluso",
+                "en",
+                "situaciones",
+                "dificiles"
+        ],
+        //  slowo do nauki
+        key: "dificil",
         category1: [
         ],
         category2: ["osoby", "osoby+czas"],
